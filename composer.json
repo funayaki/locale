@@ -18,9 +18,28 @@
             "name": "Kyle Robinson Young",
             "email": "kyle@dontkry.com",
             "homepage": "http://dontkry.com"
+        },
+        {
+            "name": "tsmsogn",
+            "email": "tsmsogn@gmail.com",
+            "homepage": "https://github.com/tsmsogn"
         }
     ],
     "require": {
-        "croogo/croogo": "^3.0.1"
+        "cakephp/cakephp": "^3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Locale\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Locale\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
     }
 }
