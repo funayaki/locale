@@ -1,14 +1,18 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2017-11-27 12:15+0000\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: Yusuke Ando <yandod@gmail.com>\n"
 "Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: /Acl/config/admin_menu.php:8
 #: /Acl/src/Controller/Component/RowLevelAclComponent.php:74
@@ -23,9 +27,7 @@ msgid "Access Control"
 msgstr ""
 
 #: /Acl/src/Auth/AclCachedAuthorize.php:219
-msgid ""
-"_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
-"\"%2$s\""
+msgid "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller \"%2$s\""
 msgstr ""
 
 #: /Acl/src/Auth/TokenAuthenticate.php:69
@@ -57,8 +59,7 @@ msgid "Parent Role"
 msgstr ""
 
 #: /Acl/src/Controller/Component/FilterComponent.php:103
-msgid ""
-"\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
+msgid "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
 msgstr ""
 
 #: /Acl/src/Model/Table/AcosTable.php:158
@@ -117,11 +118,11 @@ msgstr "アクション"
 #: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:20
 #: /Users/src/Template/Admin/Roles/form.ctp:12
 msgid "Add"
-msgstr ""
+msgstr "追加"
 
 #: /Acl/src/Template/Admin/Actions/form.ctp:20
 msgid "Action"
-msgstr ""
+msgstr "アクション"
 
 #: /Acl/src/Template/Admin/Actions/form.ctp:28
 #: /Menus/src/Template/Admin/Links/form.ctp:57
@@ -444,12 +445,8 @@ msgid "Visibility Paths"
 msgstr ""
 
 #: /Blocks/src/Template/Admin/Blocks/form.ctp:52
-msgid ""
-"Enter one URL per line. Leave blank if you want this Block to appear in all "
-"pages."
-msgstr ""
-"1行に1つのURLを入力してください。ブロックを全てのページに表示する時は空白のま"
-"まにしてください。"
+msgid "Enter one URL per line. Leave blank if you want this Block to appear in all pages."
+msgstr "1行に1つのURLを入力してください。ブロックを全てのページに表示する時は空白のままにしてください。"
 
 #: /Blocks/src/Template/Admin/Blocks/form.ctp:65
 #: /Comments/src/Template/Admin/Comments/form.ctp:26
@@ -512,7 +509,6 @@ msgstr "ステータス"
 #: /Blocks/src/Template/Admin/Blocks/index.ctp:49
 #: /Menus/src/Template/Admin/Links/index.ctp:63
 #: /Nodes/src/Template/Admin/Nodes/index.ctp:112
-#, fuzzy
 msgid "Create a copy"
 msgstr "ディレクトリを作成"
 
@@ -592,7 +588,8 @@ msgstr "コメント"
 
 #: /Comments/config/admin_menu.php:17
 #: /Comments/src/Template/Admin/Comments/index.ctp:12;29
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:83 /Core/src/Status.php:46
+#: /Contacts/src/Template/Admin/Contacts/form.ctp:83
+#: /Core/src/Status.php:46
 #: /Nodes/src/Template/Element/admin/nodes_search.ctp:29
 msgid "Published"
 msgstr "公開済み"
@@ -653,7 +650,6 @@ msgstr ""
 #: /Comments/src/Template/Cell/Comments/node.ctp:2
 #: /Nodes/src/Template/Element/node_more_info.ctp:31
 #: /Settings/config/admin_menu.php:68
-#, fuzzy
 msgid "Comment"
 msgid_plural "Comments"
 msgstr[0] "コメント"
@@ -705,7 +701,8 @@ msgstr ""
 #: /Comments/src/Template/Admin/Comments/index.ctp:7
 #: /Extensions/src/Template/Admin/Locales/edit.ctp:20;26
 #: /FileManager/src/Template/Admin/FileManager/create_file.ctp:29
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:7 /Nodes/config/admin_menu.php:9
+#: /Nodes/View/Nodes/admin_hierarchy.ctp:7
+#: /Nodes/config/admin_menu.php:9
 #: /Nodes/src/Template/Admin/Nodes/create.ctp:7
 #: /Nodes/src/Template/Admin/Nodes/form.ctp:10
 #: /Nodes/src/Template/Admin/Nodes/index.ctp:13
@@ -832,7 +829,6 @@ msgid "[%s] %s"
 msgstr ""
 
 #: /Contacts/src/Controller/Admin/MessagesController.php:46
-#, fuzzy
 msgid "Messages deleted"
 msgstr "複数のメッセージを削除しました"
 
@@ -1039,7 +1035,8 @@ msgstr ""
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr ""
 
-#: /Core/src/Plugin.php:922 /Extensions/src/ExtensionsInstaller.php:113
+#: /Core/src/Plugin.php:922
+#: /Extensions/src/ExtensionsInstaller.php:113
 #: /Extensions/src/Controller/Admin/PluginsController.php:94;123;163;185;212
 msgid "Invalid plugin"
 msgstr "不正なプラグイン"
@@ -1115,7 +1112,6 @@ msgid "Site down for maintenance"
 msgstr "サイトはメンテナンス中です"
 
 #: /Core/src/Controller/Component/BulkProcessComponent.php:109
-#, fuzzy
 msgid "No item selected"
 msgstr "アイテムが選択されていません"
 
@@ -1157,7 +1153,6 @@ msgid "No target to process action upon"
 msgstr ""
 
 #: /Core/src/Model/Behavior/BulkProcessBehavior.php:77
-#, fuzzy
 msgid "Action %s is disabled"
 msgstr "アクションを削除しました"
 
@@ -1189,7 +1184,8 @@ msgstr ""
 msgid "Method to perform"
 msgstr ""
 
-#: /Core/src/Shell/ExtShell.php:144 /Core/src/Shell/InstallShell.php:144
+#: /Core/src/Shell/ExtShell.php:144
+#: /Core/src/Shell/InstallShell.php:144
 msgid "Extension type"
 msgstr ""
 
@@ -1246,7 +1242,8 @@ msgstr "プラグイン"
 msgid "Author"
 msgstr ""
 
-#: /Core/src/Shell/ExtShell.php:274 /Settings/config/admin_menu.php:32
+#: /Core/src/Shell/ExtShell.php:274
+#: /Settings/config/admin_menu.php:32
 msgid "Theme"
 msgstr ""
 
@@ -1299,13 +1296,7 @@ msgid "Upgrade ACL database for core controllers."
 msgstr ""
 
 #: /Core/src/Shell/Task/UpgradeTask.php:72
-msgid ""
-"Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
-"in normal CakePHP applications. The primary difference is plugin controllers "
-"now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
-"table before upgrading.</warning>"
+msgid "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior in normal CakePHP applications. The primary difference is plugin controllers now are stored underneath its own Plugin ACO record, whereas previous version assumes all Controllers belongs to the root 'controllers' node.%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos table before upgrading.</warning>"
 msgstr ""
 
 #: /Core/src/Shell/Task/UpgradeTask.php:86
@@ -1337,8 +1328,7 @@ msgid "<warning>config/settings.json already exist</warning>"
 msgstr ""
 
 #: /Core/src/Shell/Task/UpgradeTask.php:153
-msgid ""
-"<success>Config/settings.yml created based on `settings` table</success>"
+msgid "<success>Config/settings.yml created based on `settings` table</success>"
 msgstr ""
 
 #: /Core/src/Shell/Task/UpgradeTask.php:196
@@ -1387,7 +1377,7 @@ msgstr ""
 #: /Extensions/src/Template/Admin/Locales/edit.ctp:37
 #: /Translate/src/Template/Admin/Translate/edit.ctp:76
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: /Core/src/Template/Element/admin/buttons.ctp:28
 #: /Extensions/src/Template/Admin/Locales/add.ctp:37
@@ -1396,7 +1386,7 @@ msgstr ""
 #: /Extensions/src/Template/Admin/Themes/add.ctp:35
 #: /Translate/src/Template/Admin/Translate/edit.ctp:79
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: /Core/src/Template/Element/admin/footer.ctp:8
 msgid "Croogo %s"
@@ -1408,12 +1398,10 @@ msgstr ""
 
 #: /Core/src/Template/Element/admin/modal.ctp:35
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #: /Core/src/Template/Element/admin/pagination.ctp:5
-msgid ""
-"Page {{page}} of {{pages}}, showing {{current}} records out of {{count}} "
-"total"
+msgid "Page {{page}} of {{pages}}, showing {{current}} records out of {{count}} total"
 msgstr ""
 
 #: /Core/src/Template/Element/admin/pagination.ctp:11
@@ -2266,7 +2254,8 @@ msgstr "Croogo"
 msgid "Install Croogo"
 msgstr "Croogoをインストール"
 
-#: /Menus/config/admin_menu.php:9;19 /Menus/src/Template/Admin/Links/form.ctp:8
+#: /Menus/config/admin_menu.php:9;19
+#: /Menus/src/Template/Admin/Links/form.ctp:8
 #: /Menus/src/Template/Admin/Links/index.ctp:10
 #: /Menus/src/Template/Admin/Menus/form.ctp:7
 #: /Menus/src/Template/Admin/Menus/index.ctp:7
@@ -2286,7 +2275,6 @@ msgid "Invalid id for Link"
 msgstr "不正なリンクID"
 
 #: /Menus/src/Controller/Admin/LinksController.php:182
-#, fuzzy
 msgid "Links deleted"
 msgstr "複数のリンクを削除しました"
 
@@ -2355,7 +2343,8 @@ msgstr ""
 msgid "View links"
 msgstr "リンクを見る"
 
-#: /Meta/config/admin_menu.php:8 /Meta/src/Template/Admin/Meta/form.ctp:8
+#: /Meta/config/admin_menu.php:8
+#: /Meta/src/Template/Admin/Meta/form.ctp:8
 #: /Meta/src/Template/Admin/Meta/index.ctp:8
 msgid "Meta"
 msgstr "メタ"
@@ -2365,7 +2354,8 @@ msgid "Custom Fields"
 msgstr ""
 
 #: /Meta/src/Template/Admin/Meta/form.ctp:7
-#: /Meta/src/Template/Admin/Meta/index.ctp:7 /Settings/config/admin_menu.php:9
+#: /Meta/src/Template/Admin/Meta/index.ctp:7
+#: /Settings/config/admin_menu.php:9
 #: /Settings/src/Template/Admin/Caches/index.ctp:13
 #: /Settings/src/Template/Admin/Languages/form.ctp:5
 #: /Settings/src/Template/Admin/Languages/index.ctp:5
@@ -2438,11 +2428,13 @@ msgstr "昇格"
 msgid "Unpromote"
 msgstr "降格"
 
-#: /Nodes/config/admin_menu.php:19 /Taxonomy/config/admin_menu.php:29
+#: /Nodes/config/admin_menu.php:19
+#: /Taxonomy/config/admin_menu.php:29
 msgid "List"
 msgstr "リスト"
 
-#: /Nodes/config/admin_menu.php:29 /Nodes/src/Template/Admin/Nodes/create.ctp:8
+#: /Nodes/config/admin_menu.php:29
+#: /Nodes/src/Template/Admin/Nodes/create.ctp:8
 #: /Nodes/src/Template/Admin/Nodes/form.ctp:15
 msgid "Create"
 msgstr ""
@@ -2456,9 +2448,7 @@ msgid "Paths updated."
 msgstr "パスを更新しました"
 
 #: /Nodes/src/Controller/Admin/NodesController.php:80
-msgid ""
-"Something went wrong while updating paths.\n"
-"Please try again"
+msgid "Something went wrong while updating paths.\nPlease try again"
 msgstr ""
 
 #: /Nodes/src/Controller/Admin/NodesController.php:138
@@ -2482,7 +2472,6 @@ msgid "Nodes unpromoted"
 msgstr "ノードを降格しました"
 
 #: /Nodes/src/Controller/Admin/NodesController.php:143
-#, fuzzy
 msgid "Nodes copied"
 msgstr "ノードを公開しました"
 
@@ -2805,7 +2794,6 @@ msgid "New Setting"
 msgstr "新しい設定"
 
 #: /Taxonomy/config/admin_menu.php:8
-#, fuzzy
 msgid "Content Types"
 msgstr "コンテントタイプ"
 
@@ -3075,12 +3063,14 @@ msgstr ""
 msgid "Original"
 msgstr ""
 
-#: /Users/config/admin_menu.php:29 /Users/src/Template/Admin/Roles/form.ctp:5
+#: /Users/config/admin_menu.php:29
+#: /Users/src/Template/Admin/Roles/form.ctp:5
 #: /Users/src/Template/Admin/Roles/index.ctp:6
 msgid "Roles"
 msgstr "ロール"
 
-#: /Users/config/bootstrap.php:32 /Users/src/Template/Admin/Users/form.ctp:21
+#: /Users/config/bootstrap.php:32
+#: /Users/src/Template/Admin/Users/form.ctp:21
 msgid "Reset password"
 msgstr "パスワードをリセット"
 
@@ -3091,9 +3081,7 @@ msgstr "ユーザーを保存できませんでした。もう一度試してみ
 
 #: /Users/src/Controller/UsersController.php:68
 #: /Users/src/Controller/Admin/UsersController.php:379
-msgid ""
-"You have successfully registered an account. An email has been sent with "
-"further instructions."
+msgid "You have successfully registered an account. An email has been sent with further instructions."
 msgstr "あなたのアカウントを登録しました。説明のメールを送信しました。"
 
 #: /Users/src/Controller/UsersController.php:92
@@ -3147,11 +3135,8 @@ msgid "Invalid User."
 msgstr "不正なユーザー"
 
 #: /Users/src/Controller/Admin/UsersController.php:133
-msgid ""
-"You have reached maximum limit for failed login attempts. Please try again "
-"after a few minutes."
-msgstr ""
-"ログイン試行回数が制限に達しました。数分後にもう一度試してみてください。"
+msgid "You have reached maximum limit for failed login attempts. Please try again after a few minutes."
+msgstr "ログイン試行回数が制限に達しました。数分後にもう一度試してみてください。"
 
 #: /Users/src/Controller/Admin/UsersController.php:204
 msgid "Password has been reset."
@@ -3327,618 +3312,17 @@ msgstr "アカウントを有効にするには下記のリンクを訪問して
 msgid "You are currently logged in as:"
 msgstr "現在、下記のユーザでログイン中:"
 
-#~ msgid "Add Action"
-#~ msgstr "アクションの追加"
+#: Template/Element/breadcrumb.ctp:8
+msgid "Home"
+msgstr "ホーム"
+
+#: Template/Element/header.ctp:69
+#: Template/Element/header_top_nav.ctp:66
+msgid "Profile"
+msgstr "プロフィール"
+
+#: Template/Element/header.ctp:80
+#: Template/Element/header_top_nav.ctp:78
+msgid "Sign out"
+msgstr "サインアウト"
 
-#~ msgid "Edit Action"
-#~ msgstr "アクションの編集"
-
-#~ msgid "Invalid Action"
-#~ msgstr "不正なアクション"
-
-#~ msgid "The Action has been saved"
-#~ msgstr "アクションを保存しました"
-
-#~ msgid "The Action could not be saved. Please, try again."
-#~ msgstr "アクションを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Invalid id for Action"
-#~ msgstr "不正なアクションID"
-
-#~ msgid "Choose none if the Aco is a controller."
-#~ msgstr "Acoがコントローラーの場合は無しを選択してください"
-
-#~ msgid "Add Block"
-#~ msgstr "ブロックを追加"
-
-#~ msgid "The Block has been saved"
-#~ msgstr "ブロックは保存されました"
-
-#~ msgid "The Block could not be saved. Please, try again."
-#~ msgstr "ブロックが保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Edit Block"
-#~ msgstr "ブロックの変更"
-
-#~ msgid "Invalid Block"
-#~ msgstr "不正なブロック"
-
-#~ msgid "Invalid id for Block"
-#~ msgstr "不正なブロックID"
-
-#~ msgid "Block deleted"
-#~ msgstr "ブロックは削除されました"
-
-#~ msgid "Blocks published"
-#~ msgstr "ブロックを公開しました"
-
-#~ msgid "Blocks unpublished"
-#~ msgstr "ブロックを非公開にしました"
-
-#, fuzzy
-#~ msgid "Blocks copied"
-#~ msgstr "ブロックを公開しました"
-
-#~ msgid "Add Region"
-#~ msgstr "リージョンの追加"
-
-#~ msgid "The Region has been saved"
-#~ msgstr "リージョンを保存しました"
-
-#~ msgid "The Region could not be saved. Please, try again."
-#~ msgstr "リージョンを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Edit Region"
-#~ msgstr "リージョンの編集"
-
-#~ msgid "Invalid Region"
-#~ msgstr "不正なリージョン"
-
-#~ msgid "Invalid id for Region"
-#~ msgstr "不正なリージョンID"
-
-#~ msgid "Region deleted"
-#~ msgstr "リージョンを削除しました"
-
-#~ msgid "Access"
-#~ msgstr "アクセス"
-
-#, fuzzy
-#~ msgid "Publish Start"
-#~ msgstr "公開"
-
-#, fuzzy
-#~ msgid "Publish End"
-#~ msgstr "公開済み"
-
-#~ msgid "Edit Comment"
-#~ msgstr "コメントの編集"
-
-#~ msgid "Invalid Comment"
-#~ msgstr "不正なコメント"
-
-#~ msgid "The Comment has been saved"
-#~ msgstr "コメントは保存されました"
-
-#~ msgid "The Comment could not be saved. Please, try again."
-#~ msgstr "コメントを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Invalid id for Comment"
-#~ msgstr "不正なコメントID"
-
-#~ msgid "Comment deleted"
-#~ msgstr "コメントを削除しました"
-
-#~ msgid "New comment posted under"
-#~ msgstr "新しいコメントが追加されました"
-
-#~ msgid "Comments: Approval"
-#~ msgstr "コメント: 承認"
-
-#~ msgid "Go back to original post"
-#~ msgstr "元の投稿へ戻る"
-
-#~ msgid "A new comment has been posted under: %s"
-#~ msgstr "新しいをコメントを追加しました: %s"
-
-#~ msgid "Add Contact"
-#~ msgstr "コンタクトの追加"
-
-#~ msgid "The Contact has been saved"
-#~ msgstr "コンタクトは保存されました"
-
-#~ msgid "The Contact could not be saved. Please, try again."
-#~ msgstr "コンタクトを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Edit Contact"
-#~ msgstr "コンタクトの編集"
-
-#~ msgid "Invalid Contact"
-#~ msgstr "不正なコンタクト"
-
-#~ msgid "Invalid id for Contact"
-#~ msgstr "不正なコンタクトID"
-
-#~ msgid "Contact deleted"
-#~ msgstr "コンタクトを削除しました"
-
-#~ msgid "Invalid Message"
-#~ msgstr "不正なメッセージ"
-
-#~ msgid "The Message has been saved"
-#~ msgstr "メッセージを保存しました"
-
-#~ msgid "The Message could not be saved. Please, try again."
-#~ msgstr "メッセージを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Invalid id for Message"
-#~ msgstr "不正なメッセージID"
-
-#~ msgid "Message deleted"
-#~ msgstr "メッセージを削除しました"
-
-#~ msgid "Send"
-#~ msgstr "送信"
-
-#~ msgid "Page not found"
-#~ msgstr "ページが見つかりません"
-
-#~ msgid "Error"
-#~ msgstr "エラー"
-
-#~ msgid "The requested address was not found on this server."
-#~ msgstr "要求されたアドレスは存在しません。"
-
-#~ msgid "Security Error"
-#~ msgstr "セキュリティエラー"
-
-#~ msgid "The Attachment has been saved"
-#~ msgstr "添付ファイルは保存されました"
-
-#~ msgid "The Attachment could not be saved. Please, try again."
-#~ msgstr "添付ファイルは保存されませんでした。もう一度試してみてください。"
-
-#~ msgid "Invalid Attachment"
-#~ msgstr "不正な添付ファイル"
-
-#~ msgid "Invalid id for Attachment"
-#~ msgstr "不正な添付ファイルID"
-
-#~ msgid "Attachment deleted"
-#~ msgstr "添付ファイルは削除されました"
-
-#~ msgid "New Attachment"
-#~ msgstr "新しい添付ファイル"
-
-#~ msgid "Insert"
-#~ msgstr "挿入"
-
-#~ msgid "Installation: Welcome"
-#~ msgstr "インストール: ようこそ"
-
-#~ msgid "Step 1: Database"
-#~ msgstr "ステップ1: データベース"
-
-#~ msgid "Could not write database.php file."
-#~ msgstr "database.php に書き込みできません。"
-
-#~ msgid "Add Link"
-#~ msgstr "リンクの追加"
-
-#~ msgid "The Link has been saved"
-#~ msgstr "リンクを保存しました"
-
-#~ msgid "The Link could not be saved. Please, try again."
-#~ msgstr "リンクを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Edit Link"
-#~ msgstr "リンクの編集"
-
-#~ msgid "Invalid Link"
-#~ msgstr "不正なリンク"
-
-#~ msgid "The Menu has been saved"
-#~ msgstr "メニューを保存しました"
-
-#~ msgid "The Menu could not be saved. Please, try again."
-#~ msgstr "メニューを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Invalid Menu"
-#~ msgstr "不正なメニュー"
-
-#~ msgid "Invalid id for Menu"
-#~ msgstr "不正なメニューID"
-
-#~ msgid "Menu deleted"
-#~ msgstr "メニューを削除しました"
-
-#~ msgid "Content type does not exist."
-#~ msgstr "コンテントタイプがありません"
-
-#~ msgid "%s has been saved"
-#~ msgstr "%s を保存しました"
-
-#~ msgid "%s could not be saved. Please, try again."
-#~ msgstr "%s を保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Invalid id for Node"
-#~ msgstr "不正なノードID"
-
-#~ msgid "Node deleted"
-#~ msgstr "ノードを削除しました"
-
-#~ msgid "Invalid Term."
-#~ msgstr "不正な期間"
-
-#~ msgid "Add Language"
-#~ msgstr "言語の追加"
-
-#~ msgid "The Language has been saved"
-#~ msgstr "言語を保存しました"
-
-#~ msgid "The Language could not be saved. Please, try again."
-#~ msgstr "言語を保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Edit Language"
-#~ msgstr "言語の編集"
-
-#~ msgid "Invalid id for Language"
-#~ msgstr "不正な言語ID"
-
-#~ msgid "Language deleted"
-#~ msgstr "言語を削除しました"
-
-#~ msgid "Invalid Setting."
-#~ msgstr "不正な設定"
-
-#~ msgid "Add Setting"
-#~ msgstr "設定の追加"
-
-#~ msgid "The Setting has been saved"
-#~ msgstr "設定を保存しました"
-
-#~ msgid "The Setting could not be saved. Please, try again."
-#~ msgstr "設定を保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Invalid Setting"
-#~ msgstr "不正な設定"
-
-#~ msgid "Invalid id for Setting"
-#~ msgstr "不正な設定ID"
-
-#~ msgid "Settings: %s"
-#~ msgstr "設定: %s"
-
-#~ msgid "Could not add a new language."
-#~ msgstr "新しい言語を追加できません。"
-
-#~ msgid "New Language"
-#~ msgstr "新しい言語"
-
-#~ msgid "Add Type"
-#~ msgstr "タイプの追加"
-
-#~ msgid "The Type has been saved"
-#~ msgstr "タイプを保存しました"
-
-#~ msgid "The Type could not be saved. Please, try again."
-#~ msgstr "タイプを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Invalid Type"
-#~ msgstr "不正なタイプ"
-
-#~ msgid "Invalid id for Type"
-#~ msgstr "不正なタイプID"
-
-#~ msgid "Type deleted"
-#~ msgstr "タイプを削除しました"
-
-#~ msgid "The Vocabulary has been saved"
-#~ msgstr "ボキャブラリを保存しました"
-
-#~ msgid "The Vocabulary could not be saved. Please, try again."
-#~ msgstr "ボキャブラリを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Invalid Vocabulary"
-#~ msgstr "不正なボキャブラリ"
-
-#~ msgid "Invalid id for Vocabulary"
-#~ msgstr "不正なボキャブラリID"
-
-#~ msgid "Vocabulary deleted"
-#~ msgstr "ボキャブラリを削除しました"
-
-#~ msgid "New Term"
-#~ msgstr "新しい用語"
-
-#~ msgid ""
-#~ "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
-#~ msgstr ""
-#~ "CroogoTranslateBehavior のデータソース %s が モデル %s と接続されていませ"
-#~ "ん"
-
-#~ msgid "Add Role"
-#~ msgstr "ロールの追加"
-
-#~ msgid "The Role has been saved"
-#~ msgstr "ロールを保存しました"
-
-#~ msgid "The Role could not be saved. Please, try again."
-#~ msgstr "ロールを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Edit Role"
-#~ msgstr "ロールの編集"
-
-#~ msgid "Invalid Role"
-#~ msgstr "不正なロール"
-
-#~ msgid "Invalid id for Role"
-#~ msgstr "不正なロールID"
-
-#~ msgid "Role deleted"
-#~ msgstr "ロールを削除しました"
-
-#~ msgid "The User has been saved"
-#~ msgstr "ユーザーを保存しました"
-
-#~ msgid "Invalid User"
-#~ msgstr "不正なユーザー"
-
-#~ msgid "Invalid id for User"
-#~ msgstr "不正なユーザーID"
-
-#~ msgid "User deleted"
-#~ msgstr "ユーザーを削除しました"
-
-#~ msgid "Admin Login"
-#~ msgstr "管理者ログイン"
-
-#~ msgid "Log in"
-#~ msgstr "ログイン"
-
-#~ msgid ""
-#~ "Page %page% of %pages%, showing %current% records out of %count% total, "
-#~ "starting on record %start%, ending on %end%"
-#~ msgstr "%pages%中、%page% %count%中の %start%から%end%を表示中"
-
-#~ msgid "Invalid Node"
-#~ msgstr "不正なノード"
-
-#~ msgid "Link to a Node"
-#~ msgstr "ノードへのリンク"
-
-#~ msgid "Nodes"
-#~ msgstr "ノード"
-
-#~ msgid "Term with same slug already exists in the vocabulary."
-#~ msgstr "このボキャブラリには同じスラグが存在しています。"
-
-#~ msgid "Term could not be saved. Please try again."
-#~ msgstr "用語を保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Invalid id for Term"
-#~ msgstr "不正な用語ID"
-
-#~ msgid "Blocks deleted."
-#~ msgstr "ブロックを削除しました"
-
-#~ msgid "Comments deleted."
-#~ msgstr "複数のコメントを削除しました"
-
-#~ msgid "New Directory"
-#~ msgstr "新しいディレクトリ"
-
-#~ msgid "New File"
-#~ msgstr "新しいファイル"
-
-#~ msgid "Edit content: %s"
-#~ msgstr "コンテンツの編集: %s"
-
-#~ msgid "Nodes deleted."
-#~ msgstr "複数のノードを削除しました"
-
-#~ msgid "Current password did not match. Please, try again."
-#~ msgstr "現在のパスワードが一致しません。もう一度試してみてください。"
-
-#~ msgid "["
-#~ msgstr "["
-
-#~ msgid "Acos"
-#~ msgstr "Acos"
-
-#~ msgid "Add Aco"
-#~ msgstr "Acoの追加"
-
-#~ msgid "The Aco has been saved"
-#~ msgstr "Acoは保存されました"
-
-#~ msgid "The Aco could not be saved. Please, try again."
-#~ msgstr "Acoを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Edit Aco"
-#~ msgstr "Acoの編集"
-
-#~ msgid "Invalid Aco"
-#~ msgstr "不正なAco"
-
-#~ msgid "Invalid id for Aco"
-#~ msgstr "不正なAcoID"
-
-#~ msgid "Aco deleted"
-#~ msgstr "Acoを削除しました"
-
-#~ msgid "The "
-#~ msgstr "The"
-
-#~ msgid "Aros"
-#~ msgstr "Aros"
-
-#~ msgid "Add Aro"
-#~ msgstr "Aroの追加"
-
-#~ msgid "The Aro has been saved"
-#~ msgstr "Aroを保存しました"
-
-#~ msgid "The Aro could not be saved. Please, try again."
-#~ msgstr "Aroを保存できませんでした。もう一度試してみてください。"
-
-#~ msgid "Edit Aro"
-#~ msgstr "Aroの編集"
-
-#~ msgid "Invalid Aro"
-#~ msgstr "不正なAro"
-
-#~ msgid "Invalid id for Aro"
-#~ msgstr "不正なAroID"
-
-#~ msgid "Aro deleted"
-#~ msgstr "Aroを削除しました"
-
-#~ msgid "New Aco"
-#~ msgstr "Acoの追加"
-
-#~ msgid "New Action"
-#~ msgstr "新しいアクション"
-
-#~ msgid "Generate Actions"
-#~ msgstr "アクションを生成"
-
-#~ msgid "New Aro"
-#~ msgstr "新しいAro"
-
-#~ msgid "Example"
-#~ msgstr "例"
-
-#~ msgid "Example 1"
-#~ msgstr "例１"
-
-#~ msgid "Example 2"
-#~ msgstr "例２"
-
-#~ msgid "Hooks"
-#~ msgstr "フック"
-
-#~ msgid "%s activated successfully."
-#~ msgstr "%s を有効にしました。"
-
-#~ msgid ""
-#~ "%s could not be activated. Plugin depends on other plugins that are not "
-#~ "available."
-#~ msgstr "%s を有効に出来ませんでした。もう一度試してみてください。"
-
-#~ msgid "%s deactivated successfully."
-#~ msgstr "%s を無効にしました。"
-
-#~ msgid "Could not edit croogo_bootstrap.php file."
-#~ msgstr "croogo_bootstrap.php ファイルを編集できません。"
-
-#~ msgid "The file default.po does not exist."
-#~ msgstr "default.poファイルが存在しません。"
-
-#~ msgid "Invalid plugin."
-#~ msgstr "不正なプラグイン"
-
-#~ msgid "Plugin already exists."
-#~ msgstr "プラグインが既に存在します。"
-
-#~ msgid "Plugin deleted successfully."
-#~ msgstr "プラグインを削除しました。"
-
-#~ msgid "Invalid YML file"
-#~ msgstr "不正なYMLファイル"
-
-#~ msgid "Directory with theme alias already exists."
-#~ msgstr "テーマのエイリアスのディレクトリが既に存在します。"
-
-#~ msgid "Hook"
-#~ msgstr "フック"
-
-#~ msgid "Hook type"
-#~ msgstr "フックタイプ"
-
-#~ msgid "Hooks Active"
-#~ msgstr "有効なフック"
-
-#~ msgid "Editor"
-#~ msgstr "エディタ"
-
-#~ msgid "Installation completed successfully"
-#~ msgstr "インストールは成功しました"
-
-#~ msgid "Installation files deleted successfully."
-#~ msgstr "インストール用ファイルを削除しました。"
-
-#~ msgid "Could not delete installation files."
-#~ msgstr "インストール用ファイルを削除できませんでした。"
-
-#~ msgid "Click here to delete installation files"
-#~ msgstr "クリックでインストール用ファイルを削除"
-
-#~ msgid "PHP version %s > 5"
-#~ msgstr "PHPバージョン %s 5以上"
-
-#~ msgid "PHP version %s < 5"
-#~ msgstr "PHPバージョン %s 5以下"
-
-#~ msgid "Record"
-#~ msgstr "レコード"
-
-#~ msgid "Info"
-#~ msgstr "情報"
-
-#~ msgid "New Block"
-#~ msgstr "新しいブロック"
-
-#~ msgid "Contact Info"
-#~ msgstr "連絡先情報"
-
-#~ msgid "New Contact"
-#~ msgstr "新しい連絡先"
-
-#~ msgid "Admin Panel"
-#~ msgstr "管理パネル"
-
-#~ msgid "You are logged in as "
-#~ msgstr "ログイン中"
-
-#~ msgid "Log Out"
-#~ msgstr "ログアウト"
-
-#~ msgid "You are here:"
-#~ msgstr "現在地:"
-
-#~ msgid "New Link"
-#~ msgstr "新しいリンク"
-
-#~ msgid "New Menu"
-#~ msgstr "新しいメニュー"
-
-#~ msgid "Custom fields"
-#~ msgstr "カスタムフィールド"
-
-#~ msgid "New Region"
-#~ msgstr "新しいリージョン"
-
-#~ msgid "New Role"
-#~ msgstr "新しいロール"
-
-#~ msgid "Format"
-#~ msgstr "フォーマット"
-
-#~ msgid "New Type"
-#~ msgstr "新しいタイプ"
-
-#~ msgid "Add User"
-#~ msgstr "ユーザの追加"
-
-#~ msgid "New User"
-#~ msgstr "新しいユーザー"
-
-#~ msgid "Current Password"
-#~ msgstr "現在のパスワード"
-
-#~ msgid "New Vocabulary"
-#~ msgstr "新しいボキャブラリ"
-
-#~ msgid "Debug setting does not allow access to this url."
-#~ msgstr "デバッグ設定でこのURLへアクセスすることは禁止されています。"

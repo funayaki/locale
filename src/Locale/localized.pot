@@ -3312,3 +3312,17 @@ msgstr ""
 msgid "You are currently logged in as:"
 msgstr ""
 
+#: Template/Element/breadcrumb.ctp:8
+msgid "Home"
+msgstr ""
+
+#: Template/Element/header.ctp:69
+#: Template/Element/header_top_nav.ctp:66
+msgid "Profile"
+msgstr ""
+
+#: Template/Element/header.ctp:80
+#: Template/Element/header_top_nav.ctp:78
+msgid "Sign out"
+msgstr ""
+
