@@ -1,7 +1,7 @@
 {
-    "name": "funayaki/locale",
-    "description": "Croogo - Translations",
-    "homepage": "http://github.com/funayaki/locale",
+    "name": "funayaki/localized",
+    "description": "I18n and L10n related CakePHP code",
+    "homepage": "http://github.com/funayaki/localized",
     "license": "MIT",
     "authors": [
         {
