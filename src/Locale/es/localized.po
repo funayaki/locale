@@ -17,19 +17,12 @@ msgstr ""
 "X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: /Acl/config/admin_menu.php:8
-#: /Acl/src/Controller/Component/RowLevelAclComponent.php:74
-#: /Acl/src/Template/Admin/Actions/form.ctp:6
-#: /Acl/src/Template/Admin/Actions/index.ctp:11
-#: /Acl/src/Template/Admin/Permissions/index.ctp:9
 msgid "Permissions"
 msgstr "Permisos"
 
-#: /Acl/config/admin_menu.php:19
 msgid "Access Control"
 msgstr "Control de Acceso"
 
-#: /Acl/src/Auth/AclCachedAuthorize.php:219
 msgid ""
 "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
 "\"%2$s\""
@@ -37,424 +30,162 @@ msgstr ""
 "_authorizeByContent() - Acceso de la accion fuera del mapa \"%1$s\" en "
 "controlador \"%2$s\""
 
-#: /Acl/src/Auth/TokenAuthenticate.php:69
 msgid "You need to specify token parameter and/or header"
 msgstr ""
 
-#: /Acl/src/Controller/Admin/ActionsController.php:76;106
 msgid "The {0} has been saved."
 msgstr "El {0} ha sido guardado"
 
-#: /Acl/src/Controller/Admin/ActionsController.php:79;113
 msgid "The {0} could not be saved. Please, try again."
 msgstr "El {0} no pudo ser guardado. Por favor intente de nuevo."
 
-#: /Acl/src/Controller/Admin/ActionsController.php:131
 msgid "Action deleted"
 msgstr "Acción borrada"
 
-#: /Acl/src/Controller/Admin/ActionsController.php:149
 msgid "Action moved up"
 msgstr "Acción movida arriba"
 
-#: /Acl/src/Controller/Admin/ActionsController.php:154
 msgid "Action moved down"
 msgstr "Acción movida abajo"
 
-#: /Acl/src/Controller/Component/AccessComponent.php:58
 msgid "Parent Role"
 msgstr "Rol padre"
 
-#: /Acl/src/Controller/Component/FilterComponent.php:103
 msgid ""
 "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
 msgstr ""
 "\"AutoLogin\" (Recordar) inhabilitado ya que mcrypt_encrypt no esta "
 "disponible"
 
-#: /Acl/src/Model/Table/AcosTable.php:158
 msgid "API"
 msgstr ""
 
-#: /Acl/src/Template/Admin/Actions/form.ctp:5
-#: /Acl/src/Template/Admin/Actions/index.ctp:10
-#: /Acl/src/Template/Admin/Permissions/index.ctp:7
-#: /Users/config/admin_menu.php:9;19
-#: /Users/src/Controller/UsersController.php:42
-#: /Users/src/Template/Admin/Roles/form.ctp:4
-#: /Users/src/Template/Admin/Roles/index.ctp:5
-#: /Users/src/Template/Admin/Users/form.ctp:8
-#: /Users/src/Template/Admin/Users/index.ctp:5
-#: /Users/src/Template/Admin/Users/reset_password.ctp:6
-#: /Users/src/Template/Admin/Users/view.ctp:6
 msgid "Users"
 msgstr "Usuarios"
 
-#: /Acl/src/Template/Admin/Actions/form.ctp:7
-#: /Acl/src/Template/Admin/Actions/index.ctp:14;73
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:25
-#: /Contacts/src/Template/Admin/Messages/index.ctp:56
-#: /Core/src/Template/Common/admin_index.ctp:48
-#: /Dashboards/src/Template/Admin/Dashboards/index.ctp:20
-#: /Extensions/src/Template/Admin/Locales/edit.ctp:36
-#: /Extensions/src/Template/Admin/Locales/index.ctp:22
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:22
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:33
-#: /FileManager/src/Template/Admin/FileManager/browse.ctp:31
-#: /Menus/src/Template/Admin/Links/index.ctp:30
-#: /Menus/src/Template/Admin/Menus/index.ctp:15
-#: /Nodes/src/Template/Admin/Nodes/translations.ctp:27
-#: /Settings/src/Template/Admin/Caches/index.ctp:33
-#: /Settings/src/Template/Admin/Languages/index.ctp:14
-#: /Settings/src/Template/Admin/Settings/index.ctp:21
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:26
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:14
-#: /Translate/src/Template/Admin/Translate/index.ctp:91
 msgid "Actions"
 msgstr "Acciones"
 
-#: /Acl/src/Template/Admin/Actions/form.ctp:14
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:13
-#: /Blocks/src/Template/Admin/Regions/form.ctp:19
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:12
-#: /Core/src/Template/Common/admin_edit.ctp:18
-#: /Menus/src/Template/Admin/Links/form.ctp:15
-#: /Menus/src/Template/Admin/Menus/form.ctp:16
-#: /Meta/src/Template/Admin/Meta/form.ctp:17
-#: /Settings/src/Template/Admin/Languages/form.ctp:15
-#: /Settings/src/Template/Admin/Settings/form.ctp:16
-#: /Taxonomy/src/Template/Admin/Terms/form.ctp:21
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:16
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:20
-#: /Users/src/Template/Admin/Roles/form.ctp:12
 msgid "Add"
 msgstr "Adicionar"
 
-#: /Acl/src/Template/Admin/Actions/form.ctp:20
 msgid "Action"
 msgstr "Accion"
 
-#: /Acl/src/Template/Admin/Actions/form.ctp:28
-#: /Menus/src/Template/Admin/Links/form.ctp:57
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:99
-#: /Taxonomy/src/Template/Admin/Terms/form.ctp:54
 msgid "Parent"
 msgstr "Padre"
 
-#: /Acl/src/Template/Admin/Actions/form.ctp:34
-#: /Acl/src/Template/Admin/Actions/index.ctp:72
-#: /Acl/src/Template/Admin/Permissions/acl_permissions_table.ctp:8
-#: /Acl/src/Template/Element/admin/permissions_table.ctp:10
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:32
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:21
-#: /Blocks/src/Template/Admin/Regions/form.ctp:34
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:29
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:18
-#: /Menus/src/Template/Admin/Menus/form.ctp:35
-#: /Menus/src/Template/Admin/Menus/index.ctp:12
-#: /Settings/src/Template/Admin/Languages/form.ctp:36
-#: /Settings/src/Template/Admin/Languages/index.ctp:12
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:36
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:38
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:12
-#: /Users/src/Template/Admin/Roles/form.ctp:28
 msgid "Alias"
 msgstr "Alias"
 
-#: /Acl/src/Template/Admin/Actions/index.ctp:18
-#: /Acl/src/Template/Admin/Permissions/index.ctp:12
 msgid "Tools"
 msgstr "Herramientas"
 
-#: /Acl/src/Template/Admin/Actions/index.ctp:34
-#: /Acl/src/Template/Admin/Permissions/index.ctp:25
 msgid "Generate"
 msgstr "Generar"
 
-#: /Acl/src/Template/Admin/Actions/index.ctp:42
-#: /Acl/src/Template/Admin/Permissions/index.ctp:31
 msgid "Create new actions (no removal)"
 msgstr "Crear nuevas acciones (sin remover)"
 
-#: /Acl/src/Template/Admin/Actions/index.ctp:47
-#: /Acl/src/Template/Admin/Permissions/index.ctp:35
 msgid "Synchronize"
 msgstr "Sincronizar"
 
-#: /Acl/src/Template/Admin/Actions/index.ctp:55
-#: /Acl/src/Template/Admin/Permissions/index.ctp:41
 msgid "Create new & remove orphaned actions"
 msgstr "Crear y remover aciones huerfanas"
 
-#: /Acl/src/Template/Admin/Actions/index.ctp:71
-#: /Acl/src/Template/Admin/Permissions/acl_permissions_table.ctp:7
-#: /Acl/src/Template/Element/admin/permissions_table.ctp:9
-#: /Contacts/src/Template/Admin/Messages/view.ctp:55
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:29
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:35
-#: /Nodes/src/Template/Admin/Nodes/chooser.ctp:5
-#: /Settings/src/Template/Admin/Settings/index.ctp:17
-#: /Settings/src/Template/Admin/Settings/view.ctp:4
-#: /Taxonomy/src/Template/Admin/Terms/chooser.ctp:5
 msgid "Id"
 msgstr "Id"
 
-#: /Acl/src/Template/Admin/Actions/index.ctp:105
-#: /Acl/src/Template/Admin/Permissions/json/index.ctp:9
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:36
-#: /Dashboards/src/Template/Admin/Dashboards/index.ctp:56
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:51
-#: /Menus/src/Template/Admin/Links/index.ctp:44
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:94
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:97
-#: /Settings/src/Template/Admin/Languages/index.ctp:23
-#: /Settings/src/Template/Admin/Settings/index.ctp:32
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:38
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:27
 msgid "Move up"
 msgstr "Mover arriba"
 
-#: /Acl/src/Template/Admin/Actions/index.ctp:109
-#: /Acl/src/Template/Admin/Permissions/json/index.ctp:13
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:41
-#: /Dashboards/src/Template/Admin/Dashboards/index.ctp:63
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:56
-#: /Menus/src/Template/Admin/Links/index.ctp:51
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:98
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:102
-#: /Settings/src/Template/Admin/Languages/index.ctp:25
-#: /Settings/src/Template/Admin/Settings/index.ctp:36
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:40
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:29
 msgid "Move down"
 msgstr "Mover abajo"
 
-#: /Acl/src/Template/Admin/Actions/index.ctp:114
-#: /Acl/src/Template/Admin/Permissions/json/index.ctp:17
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:46
-#: /Contacts/src/Template/Admin/Messages/index.ctp:70
-#: /Core/src/Template/Common/admin_index.ctp:69
-#: /Extensions/src/Template/Admin/Locales/index.ctp:38
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:44
-#: /Menus/src/Template/Admin/Links/index.ctp:59
-#: /Menus/src/Template/Admin/Menus/index.ctp:29
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:102
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:108
-#: /Settings/src/Template/Admin/Languages/index.ctp:27
-#: /Settings/src/Template/Admin/Settings/index.ctp:40
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:42
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:32
-#: /Translate/src/Template/Admin/Translate/index.ctp:109
 msgid "Edit this item"
 msgstr "Editar este elemento"
 
-#: /Acl/src/Template/Admin/Actions/index.ctp:120
-#: /Acl/src/Template/Admin/Permissions/json/index.ctp:21
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:55
-#: /Contacts/src/Template/Admin/Messages/index.ctp:74
-#: /Core/src/Template/Common/admin_index.ctp:76
-#: /Extensions/src/Template/Admin/Locales/index.ctp:42
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:49
-#: /Menus/src/Template/Admin/Menus/index.ctp:31
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:109
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:118
-#: /Settings/src/Template/Admin/Languages/index.ctp:29
-#: /Settings/src/Template/Admin/Settings/index.ctp:45
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:44
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:34
-#: /Translate/src/Template/Admin/Translate/index.ctp:118
 msgid "Remove this item"
 msgstr "Remover este elemento"
 
-#: /Acl/src/Template/Admin/Actions/index.ctp:124
-#: /Acl/src/Template/Admin/Permissions/json/index.ctp:22
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:57
-#: /Contacts/src/Template/Admin/Messages/index.ctp:76
-#: /Core/src/Template/Common/admin_index.ctp:77
-#: /Extensions/src/Template/Admin/Locales/index.ctp:43
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:43;52;58;65
-#: /Extensions/src/Template/Admin/Themes/index.ctp:113
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:52
-#: /FileManager/src/View/Helper/FileManagerHelper.php:164
-#: /Menus/src/Template/Admin/Links/index.ctp:71
-#: /Menus/src/Template/Admin/Menus/index.ctp:32
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:112
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:120
-#: /Nodes/src/Template/Admin/Nodes/translations.ctp:34
-#: /Settings/src/Template/Admin/Languages/index.ctp:30
-#: /Settings/src/Template/Admin/Settings/index.ctp:46
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:45
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:35
-#: /Translate/src/Template/Admin/Translate/index.ctp:120
 msgid "Are you sure?"
 msgstr "¿Está seguro?"
 
-#: /Acl/src/Template/Admin/Permissions/index.ctp:49
 msgid "Edit Actions"
 msgstr "Editar acciones"
 
-#: /Acl/src/Template/Admin/Permissions/toggle.ctp:21
 msgid "error"
 msgstr "error"
 
-#: /Acl/src/Template/Element/admin/parent_role.ctp:3
 msgid "When set, permissions from parent role are inherited"
 msgstr "Cuando se active, los permisos del rol padre son heredados"
 
-#: /Acl/src/Template/Element/admin/row_acl.ctp:4
 msgid "Edit Permissions"
 msgstr "Editar Permisos"
 
-#: /Blocks/config/admin_menu.php:9;19
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:7
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:9
-#: /Blocks/src/Template/Admin/Regions/form.ctp:5
-#: /Blocks/src/Template/Admin/Regions/index.ctp:3
 msgid "Blocks"
 msgstr "Bloques"
 
-#: /Blocks/config/admin_menu.php:28
-#: /Blocks/src/Template/Admin/Regions/form.ctp:9
-#: /Blocks/src/Template/Admin/Regions/index.ctp:4
 msgid "Regions"
 msgstr "Regiones"
 
-#: /Blocks/src/Controller/Admin/BlocksController.php:63
 msgid "Successfully deleted blocks"
 msgstr ""
 
-#: /Blocks/src/Controller/Admin/BlocksController.php:64
 msgid "Successfully published blocks"
 msgstr ""
 
-#: /Blocks/src/Controller/Admin/BlocksController.php:65
 msgid "Successfully unpublished blocks"
 msgstr ""
 
-#: /Blocks/src/Controller/Admin/BlocksController.php:66
 msgid "Successfully copied blocks"
 msgstr ""
 
-#: /Blocks/src/Model/Table/BlocksTable.php:36
-#: /Blocks/src/Model/Table/RegionsTable.php:44
-#: /Contacts/src/Model/Table/ContactsTable.php:25
-#: /Menus/src/Model/Table/LinksTable.php:27
-#: /Menus/src/Model/Table/MenusTable.php:28
-#: /Settings/src/Model/Table/LanguagesTable.php:42
-#: /Taxonomy/src/Model/Table/TypesTable.php:70
 msgid "Title cannot be empty."
 msgstr "El título no puede ser vacio."
 
-#: /Blocks/src/Model/Table/BlocksTable.php:37
-#: /Blocks/src/Model/Table/RegionsTable.php:45
-#: /Contacts/src/Model/Table/ContactsTable.php:26
-#: /Menus/src/Model/Table/MenusTable.php:29
-#: /Settings/src/Model/Table/LanguagesTable.php:44
-#: /Taxonomy/src/Model/Table/TypesTable.php:71
 msgid "Alias cannot be empty."
 msgstr "El álias no puede estar vacio."
 
-#: /Blocks/src/Model/Table/BlocksTable.php:45
-#: /Blocks/src/Model/Table/RegionsTable.php:53
-#: /Contacts/src/Model/Table/ContactsTable.php:35
-#: /Menus/src/Model/Table/MenusTable.php:37
-#: /Settings/src/Model/Table/LanguagesTable.php:56
-#: /Taxonomy/src/Model/Table/TermsTable.php:73
-#: /Taxonomy/src/Model/Table/VocabulariesTable.php:63
 msgid "That alias is already taken"
 msgstr ""
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:21
 msgid "Block"
 msgstr "Bloque"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:22
 msgid "Visibilities"
 msgstr "Visibilidades"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:23;58
-#: /Menus/src/Template/Admin/Links/form.ctp:114
-#: /Menus/src/Template/Admin/Menus/form.ctp:46
-#: /Settings/src/Template/Admin/Settings/form.ctp:46
-#: /Settings/src/Template/Admin/Settings/view.ctp:34
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:25;91
 msgid "Params"
 msgstr "Parámetros"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:29
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:20
-#: /Blocks/src/Template/Admin/Regions/form.ctp:31
-#: /Comments/src/Template/Admin/Comments/form.ctp:18
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:26
-#: /Contacts/src/Template/Admin/Messages/form.ctp:27
-#: /Contacts/src/Template/Admin/Messages/index.ctp:54
-#: /Contacts/src/Template/Admin/Messages/view.ctp:31
-#: /FileManager/src/Template/Admin/Attachments/chooser.ctp:6
-#: /FileManager/src/Template/Admin/Attachments/edit.ctp:19
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:31
-#: /Menus/src/Template/Admin/Links/form.ctp:63
-#: /Menus/src/Template/Admin/Links/index.ctp:28
-#: /Menus/src/Template/Admin/Menus/form.ctp:31
-#: /Menus/src/Template/Admin/Menus/index.ctp:11
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:36
-#: /Nodes/src/Template/Admin/Nodes/chooser.ctp:6
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:29
-#: /Nodes/src/Template/Admin/Nodes/translations.ctp:25
-#: /Settings/src/Template/Admin/Languages/form.ctp:27
-#: /Settings/src/Template/Admin/Languages/index.ctp:10
-#: /Settings/src/Template/Admin/Settings/form.ctp:37
-#: /Taxonomy/src/Template/Admin/Terms/chooser.ctp:6
-#: /Taxonomy/src/Template/Admin/Terms/form.ctp:43
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:24
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:32
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:34
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:11
-#: /Translate/src/Template/Admin/Translate/index.ctp:89
-#: /Users/src/Template/Admin/Roles/form.ctp:24
 msgid "Title"
 msgstr "Título"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:33
 msgid "unique name for your block"
 msgstr "Nombre único para su bloque"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:35
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:22
-#: /Blocks/src/Template/Admin/Regions/form.ctp:25
 msgid "Region"
 msgstr "Región"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:36
 msgid "if you are not sure, choose 'none'"
 msgstr "si no está seguro, escoja 'ninguno'"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:39
-#: /Comments/src/Template/Admin/Comments/form.ctp:20
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:33
-#: /Contacts/src/Template/Admin/Messages/form.ctp:29
-#: /Contacts/src/Template/Admin/Messages/view.ctp:73
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:55
 msgid "Body"
 msgstr "Cuerpo"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:41
-#: /Menus/src/Template/Admin/Links/form.ctp:105
 msgid "Class"
 msgstr "Clase"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:43
 msgid "Element"
 msgstr "Elemento"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:45
 msgid "Cell"
 msgstr ""
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:51
 msgid "Visibility Paths"
 msgstr "Rutas de visibilidad"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:52
 msgid ""
 "Enter one URL per line. Leave blank if you want this Block to appear in all "
 "pages."
@@ -462,854 +193,519 @@ msgstr ""
 "Introduzca una URL por línea. Déjelo en blanco si quiere que este bloque "
 "aparezca en todas las páginas."
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:65
-#: /Comments/src/Template/Admin/Comments/form.ctp:26
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:80
-#: /Core/src/Template/Common/admin_edit.ctp:96
-#: /Extensions/src/Template/Admin/Locales/add.ctp:33
-#: /Extensions/src/Template/Admin/Plugins/add.ctp:32
-#: /Extensions/src/Template/Admin/Themes/add.ctp:33
-#: /FileManager/src/Template/Admin/Attachments/add.ctp:29
-#: /FileManager/src/Template/Admin/Attachments/edit.ctp:40
-#: /FileManager/src/Template/Admin/FileManager/create_directory.ctp:32
-#: /FileManager/src/Template/Admin/FileManager/create_file.ctp:35
-#: /FileManager/src/Template/Admin/FileManager/edit_file.ctp:33
-#: /FileManager/src/Template/Admin/FileManager/rename.ctp:30
-#: /FileManager/src/Template/Admin/FileManager/upload.ctp:33
-#: /Menus/src/Template/Admin/Links/form.ctp:121
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:68
-#: /Settings/src/Template/Admin/Languages/form.ctp:43
-#: /Settings/src/Template/Admin/Settings/prefix.ctp:38
-#: /Taxonomy/src/Template/Admin/Terms/form.ctp:69
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:99
-#: /Translate/src/Template/Admin/Translate/edit.ctp:69
-#: /Users/src/Template/Admin/Users/form.ctp:67
 msgid "Publishing"
 msgstr "Publicando"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:69
 msgid "Show title ?"
 msgstr "Mostrar titulo?"
 
-#: /Blocks/src/Template/Admin/Blocks/form.ctp:73
-#: /Menus/src/Template/Admin/Links/form.ctp:126
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:120
 msgid "Access control"
 msgstr ""
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:23
-#: /Contacts/src/Template/Admin/Messages/view.ctp:59
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:32
-#: /Users/src/Template/Admin/Users/view.ctp:50
 msgid "Updated"
 msgstr ""
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:24
-#: /Contacts/src/Template/Admin/Messages/view.ctp:67
-#: /Core/src/Shell/ExtShell.php:247;274
-#: /Core/src/Template/Element/admin/publishable.ctp:8
-#: /Menus/src/Template/Admin/Links/index.ctp:29
-#: /Menus/src/Template/Admin/Menus/index.ctp:14
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:39
-#: /Nodes/src/Template/Admin/Nodes/chooser.ctp:60
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:33
-#: /Nodes/src/Template/Element/admin/nodes_search.ctp:32
-#: /Settings/src/Template/Admin/Languages/form.ctp:46
-#: /Settings/src/Template/Admin/Languages/index.ctp:13
-#: /Users/src/Template/Admin/Users/view.ctp:58
 msgid "Status"
 msgstr "Estado"
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:49
-#: /Menus/src/Template/Admin/Links/index.ctp:63
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:112
 #, fuzzy
 msgid "Create a copy"
 msgstr "Se creo directorio"
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:51
 msgid "Create a copy of this Block?"
 msgstr ""
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:62
-#: /Core/src/Template/Common/admin_index.ctp:62
 msgid "Choose"
 msgstr "Seleccione"
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:83
-#: /Menus/src/Template/Admin/Links/index.ctp:74
-#: /Menus/src/Template/Admin/Menus/index.ctp:43
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:70
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:61
 msgid "preview"
 msgstr ""
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:108;116
-#: /Contacts/src/Template/Admin/Messages/index.ctp:104;111
 msgid "Bulk action"
 msgstr ""
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:111
-#: /Menus/src/Template/Admin/Links/index.ctp:97
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:128
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:134
 msgid "Publish"
 msgstr "Publicar"
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:112
-#: /Menus/src/Template/Admin/Links/index.ctp:98
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:129
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:135
 msgid "Unpublish"
 msgstr "Despublicar"
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:113
-#: /Contacts/src/Template/Admin/Messages/index.ctp:109
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:42
-#: /Extensions/src/Template/Admin/Themes/index.ctp:105
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:96
-#: /FileManager/src/Template/Admin/FileManager/browse.ctp:45;86
-#: /Menus/src/Template/Admin/Links/index.ctp:99
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:132
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:138
-#: /Nodes/src/Template/Admin/Nodes/translations.ctp:34
 msgid "Delete"
 msgstr "Borrar"
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:114
-#: /Menus/src/Template/Admin/Links/index.ctp:102
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:135
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:141
 msgid "Copy"
 msgstr ""
 
-#: /Blocks/src/Template/Admin/Blocks/index.ctp:118
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:143
-#: /Users/src/Template/Admin/Users/forgot.ctp:21
-#: /Users/src/Template/Users/forgot.ctp:15
 msgid "Submit"
 msgstr "Enviar"
 
-#: /Comments/config/admin_menu.php:8
-#: /Comments/src/Controller/CommentsController.php:50
-#: /Comments/src/Template/Admin/Comments/form.ctp:6
-#: /Comments/src/Template/Admin/Comments/index.ctp:10;19
-#: /Comments/src/Template/Comments/rss/index.ctp:7
-#: /Comments/src/View/Helper/CommentsHelper.php:41
-#: /Nodes/src/Template/Element/node_more_info.ctp:33
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:24
 msgid "Comments"
 msgstr "Comentarios"
 
-#: /Comments/config/admin_menu.php:17
-#: /Comments/src/Template/Admin/Comments/index.ctp:12;29
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:83 /Core/src/Status.php:46
-#: /Nodes/src/Template/Element/admin/nodes_search.ctp:29
 msgid "Published"
 msgstr "Publicado"
 
-#: /Comments/config/admin_menu.php:29
 msgid "Approval"
 msgstr "Aprobación"
 
-#: /Comments/src/Controller/CommentsController.php:84
 msgid "Invalid id"
 msgstr ""
 
-#: /Comments/src/Controller/CommentsController.php:110
 msgid "Maximum level reached. You cannot reply to that comment."
 msgstr "Nivel máximo alcanzado. No puede contestar a ese comentario."
 
-#: /Comments/src/Controller/CommentsController.php:124
 msgid "Comments are not allowed."
 msgstr "Comentarios no se autorizados."
 
-#: /Comments/src/Controller/CommentsController.php:150
 msgid "Your comment has been added successfully."
 msgstr "Su comentario ha sido añadido con éxito."
 
-#: /Comments/src/Controller/CommentsController.php:152
 msgid "Your comment will appear after moderation."
 msgstr "Su comentario aparecerá tras ser moderado."
 
-#: /Comments/src/Controller/CommentsController.php:184
 msgid "Sorry, the comment appears to be spam."
 msgstr "Lo sentimos, este comentario parece ser spam."
 
-#: /Comments/src/Controller/CommentsController.php:207
 msgid "Sorry, the comment did not pass the security challenge"
 msgstr ""
 
-#: /Comments/src/Controller/Admin/CommentsController.php:40
 msgid "Comments deleted"
 msgstr "Comentarios eliminados"
 
-#: /Comments/src/Controller/Admin/CommentsController.php:41
 msgid "Comments published"
 msgstr "Comentarios publicados"
 
-#: /Comments/src/Controller/Admin/CommentsController.php:42
 msgid "Comments unpublished"
 msgstr "Comentarios no publicados"
 
-#: /Comments/src/Mailer/CommentMailer.php:35
 msgid "New comment posted"
 msgstr ""
 
-#: /Comments/src/Model/Table/CommentsTable.php:191
 msgid "Invalid Comment id"
 msgstr "Id de comentario invalido"
 
-#: /Comments/src/Template/Admin/Comments/form.ctp:11
-#: /Comments/src/Template/Cell/Comments/node.ctp:2
-#: /Nodes/src/Template/Element/node_more_info.ctp:31
-#: /Settings/config/admin_menu.php:68
 #, fuzzy
 msgid "Comment"
 msgid_plural "Comments"
 msgstr[0] "Comentario"
 msgstr[1] "Comentario"
 
-#: /Comments/src/Template/Admin/Comments/form.ctp:30
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:18
-#: /Contacts/src/Template/Admin/Messages/index.ctp:51
-#: /Contacts/src/Template/Admin/Messages/view.ctp:19
 msgid "Contact"
 msgstr "Contacto"
 
-#: /Comments/src/Template/Admin/Comments/form.ctp:31
-#: /Comments/src/Template/Cell/Comments/comment_form_node.ctp:13
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:38
-#: /Contacts/src/Template/Admin/Messages/form.ctp:23
-#: /Contacts/src/Template/Admin/Messages/index.ctp:52
-#: /Contacts/src/Template/Admin/Messages/view.ctp:23
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:19
-#: /Install/src/Template/Install/database.ctp:65;68
-#: /Users/src/Template/Admin/Users/form.ctp:43
-#: /Users/src/Template/Admin/Users/view.ctp:26
 msgid "Name"
 msgstr "Nombre"
 
-#: /Comments/src/Template/Admin/Comments/form.ctp:32
-#: /Comments/src/Template/Cell/Comments/comment_form_node.ctp:14
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:31
-#: /Contacts/src/Template/Admin/Messages/form.ctp:25
-#: /Contacts/src/Template/Admin/Messages/index.ctp:53
-#: /Contacts/src/Template/Admin/Messages/view.ctp:27
-#: /Users/src/Template/Admin/Users/form.ctp:46
-#: /Users/src/Template/Admin/Users/view.ctp:30
 msgid "Email"
 msgstr "Email"
 
-#: /Comments/src/Template/Admin/Comments/form.ctp:33
-#: /Comments/src/Template/Cell/Comments/comment_form_node.ctp:15
-#: /Contacts/src/Template/Admin/Messages/view.ctp:35
-#: /Users/src/Template/Admin/Users/form.ctp:49
-#: /Users/src/Template/Admin/Users/view.ctp:34
 msgid "Website"
 msgstr "Sitio web"
 
-#: /Comments/src/Template/Admin/Comments/form.ctp:36
 msgid "Ip"
 msgstr "Ip"
 
-#: /Comments/src/Template/Admin/Comments/index.ctp:7
-#: /Extensions/src/Template/Admin/Locales/edit.ctp:20;26
-#: /FileManager/src/Template/Admin/FileManager/create_file.ctp:29
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:7 /Nodes/config/admin_menu.php:9
-#: /Nodes/src/Template/Admin/Nodes/create.ctp:7
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:10
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:13
-#: /Taxonomy/src/Template/Admin/Terms/form.ctp:6
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:7
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:6
-#: /Taxonomy/src/Template/Admin/Types/index.ctp:2
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:6
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:5
 msgid "Content"
 msgstr "Contenido"
 
-#: /Comments/src/Template/Admin/Comments/index.ctp:13;16
 msgid "Comments: Published"
 msgstr "Comentarios publicados"
 
-#: /Comments/src/Template/Admin/Comments/index.ctp:15;34
 msgid "Awaiting approval"
 msgstr ""
 
-#: /Comments/src/Template/Admin/Element/comments_tab.ctp:5
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:61
 msgid "Disabled"
 msgstr "Desactivado"
 
-#: /Comments/src/Template/Admin/Element/comments_tab.ctp:6
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:62
 msgid "Read only"
 msgstr "Sólo lectura"
 
-#: /Comments/src/Template/Admin/Element/comments_tab.ctp:7
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:63
 msgid "Read/Write"
 msgstr "Lectura/escritura"
 
-#: /Comments/src/Template/Cell/Comments/comment_form_node.ctp:5
 msgid "Add new comment"
 msgstr "Añadir un nuevo comentario"
 
-#: /Comments/src/Template/Cell/Comments/comment_form_node.ctp:8
 msgid "Go back to original post: {0}"
 msgstr ""
 
-#: /Comments/src/Template/Cell/Comments/comment_form_node.ctp:21
 msgid "Post comment"
 msgstr "Publicar comentario"
 
-#: /Comments/src/Template/Comments/rss/index.ctp:19
 msgid "Comment on"
 msgstr "Comentar"
 
-#: /Comments/src/Template/Comments/rss/index.ctp:19
-#: /Extensions/src/Template/Admin/Themes/index.ctp:44;92
-#: /Nodes/src/Template/Element/node_info.ctp:9
 msgid "by"
 msgstr "por"
 
-#: /Comments/src/Template/Element/comment.ctp:14
 msgid "said on {0}"
 msgstr "dijo el {0}"
 
-#: /Comments/src/Template/Element/comment.ctp:19
 msgid "Reply"
 msgstr "Responder"
 
-#: /Comments/src/Template/Email/text/comment.ctp:1
 msgid "A new comment has been posted"
 msgstr ""
 
-#: /Comments/src/Template/Email/text/comment.ctp:3
-#: /Contacts/src/Template/Email/text/contact.ctp:8
 msgid "Name: {0}"
 msgstr "Nombre: {0}"
 
-#: /Comments/src/Template/Email/text/comment.ctp:4
-#: /Contacts/src/Template/Email/text/contact.ctp:9
 msgid "Email: {0}"
 msgstr "Email: {0}"
 
-#: /Comments/src/Template/Email/text/comment.ctp:5
 msgid "Website: {0}"
 msgstr "Sitio web: {0}"
 
-#: /Comments/src/Template/Email/text/comment.ctp:6
-#: /Contacts/src/Template/Email/text/contact.ctp:11
-#: /Users/src/Template/Email/html/forgot_password.ctp:23
-#: /Users/src/Template/Email/text/forgot_password.ctp:21
 msgid "IP Address: {0}"
 msgstr "Dirección IP: {0}"
 
-#: /Comments/src/Template/Email/text/comment.ctp:7
 msgid "Comment: {0}"
 msgstr "Comentario: {0}"
 
-#: /Contacts/config/admin_menu.php:9;19
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:5
-#: /Contacts/src/Template/Admin/Contacts/index.ctp:3
-#: /Contacts/src/Template/Admin/Messages/form.ctp:5
-#: /Contacts/src/Template/Admin/Messages/index.ctp:7
 msgid "Contacts"
 msgstr "Contactos"
 
-#: /Contacts/config/admin_menu.php:28
-#: /Contacts/src/Template/Admin/Messages/form.ctp:7
-#: /Contacts/src/Template/Admin/Messages/index.ctp:12;21
-#: /Contacts/src/Template/Admin/Messages/view.ctp:6
 msgid "Messages"
 msgstr "Mensajes"
 
-#: /Contacts/src/Controller/ContactsController.php:63
 msgid "Your message has been received..."
 msgstr "Su mensaje ha sido recibido..."
 
-#: /Contacts/src/Controller/ContactsController.php:115
 msgid "Sorry, the message appears to be spam."
 msgstr "Lo sentimos, este mensaje parece ser spam."
 
-#: /Contacts/src/Controller/ContactsController.php:137
 msgid "Invalid captcha entry"
 msgstr "Captcha no válido"
 
-#: /Contacts/src/Controller/ContactsController.php:163
 msgid "[{0}] {1}"
 msgstr "[{0}] {1}"
 
-#: /Contacts/src/Controller/Admin/MessagesController.php:46
 #, fuzzy
 msgid "Messages deleted"
 msgstr "Mensajes borrados."
 
-#: /Contacts/src/Controller/Admin/MessagesController.php:47
 msgid "Messages marked as read"
 msgstr "Mensajes marcados como leídos"
 
-#: /Contacts/src/Controller/Admin/MessagesController.php:48
 msgid "Messages marked as unread"
 msgstr "Mensajes marcados como no leídos"
 
-#: /Contacts/src/Model/Table/ContactsTable.php:27
 msgid "Not a valid email address."
 msgstr ""
 
-#: /Contacts/src/Model/Table/MessagesTable.php:70
 msgid "This field cannot be left blank."
 msgstr "Este campo no puede dejarse en blanco"
 
-#: /Contacts/src/Model/Table/MessagesTable.php:72
 msgid "Please provide a valid email address."
 msgstr "Por favor provea una dirección de email válida."
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:19
 msgid "Details"
 msgstr "Detalles"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:20
-#: /Contacts/src/Template/Admin/Messages/form.ctp:17
-#: /Contacts/src/Template/Contacts/view.ctp:14
 msgid "Message"
 msgstr "Mensaje"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:40
 msgid "Position"
 msgstr "Posicion"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:42
-#: /Contacts/src/Template/Admin/Messages/form.ctp:33
-#: /Contacts/src/Template/Admin/Messages/view.ctp:79
 msgid "Address"
 msgstr "Direccion"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:44
 msgid "Address2"
 msgstr "Direccion2"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:46
 msgid "State"
 msgstr "Estado"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:48
 msgid "Country"
 msgstr "Pais"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:50
 msgid "Post Code"
 msgstr "Codigo Postal"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:52
-#: /Contacts/src/Template/Admin/Messages/form.ctp:31
-#: /Contacts/src/Template/Admin/Messages/view.ctp:39
 msgid "Phone"
 msgstr "Telefono"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:54
 msgid "Fax"
 msgstr "Fax"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:59
 msgid "Let users leave a message"
 msgstr "Permitir a los usuarios dejar un mensaje"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:61
 msgid "Save messages in database"
 msgstr "Guardar mensajes en la base de datos"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:63
 msgid "Notify by email instantly"
 msgstr "Notificar por email instantáneamente"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:65
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:73
 msgid "Spam protection (requires Akismet API key)"
 msgstr "Protección anti-spam (requiere una clave de API Akismet)"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:67
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:77
 msgid "Use captcha? (requires Recaptcha API key)"
 msgstr "¿Utilizar captcha? (Requiere una clave de API Recaptcha)"
 
-#: /Contacts/src/Template/Admin/Contacts/form.ctp:70
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:80
 msgid "You can manage your API keys here."
 msgstr "Puede gestionar sus claves API aquí."
 
-#: /Contacts/src/Template/Admin/Messages/form.ctp:2
 msgid "Edit Message"
 msgstr "Editar mensaje"
 
-#: /Contacts/src/Template/Admin/Messages/index.ctp:14;35
 msgid "Read"
 msgstr "Leído"
 
-#: /Contacts/src/Template/Admin/Messages/index.ctp:15
 msgid "Messages: Read"
 msgstr "Mensajes: Leídos"
 
-#: /Contacts/src/Template/Admin/Messages/index.ctp:17;29
 msgid "Unread"
 msgstr "No leído"
 
-#: /Contacts/src/Template/Admin/Messages/index.ctp:18
 msgid "Messages: Unread"
 msgstr "Mensajes: No leído"
 
-#: /Contacts/src/Template/Admin/Messages/index.ctp:55
-#: /Contacts/src/Template/Admin/Messages/view.ctp:63
-#: /FileManager/src/Template/Admin/Attachments/chooser.ctp:7
-#: /Nodes/src/Template/Admin/Nodes/chooser.ctp:7;61
-#: /Users/src/Template/Admin/Users/view.ctp:54
 msgid "Created"
 msgstr "Creado"
 
-#: /Contacts/src/Template/Admin/Messages/index.ctp:68
 msgid "View this item"
 msgstr ""
 
-#: /Contacts/src/Template/Admin/Messages/index.ctp:107
 msgid "Mark as read"
 msgstr "Marcar como leído"
 
-#: /Contacts/src/Template/Admin/Messages/index.ctp:108
 msgid "Mark as unread"
 msgstr "Marcar como no leído"
 
-#: /Contacts/src/Template/Admin/Messages/index.ctp:113
-#: /Core/src/Template/Element/admin/buttons.ctp:8
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:102
-#: /Menus/src/Template/Admin/Links/index.ctp:109
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:149
-#: /Translate/src/Template/Admin/Translate/edit.ctp:72
 msgid "Apply"
 msgstr "Aplicar"
 
-#: /Contacts/src/Template/Admin/Messages/view.ctp:11
 msgid "List Messages"
 msgstr ""
 
-#: /Contacts/src/Template/Admin/Messages/view.ctp:43
 msgid "Message Type"
 msgstr ""
 
-#: /Contacts/src/Template/Admin/Messages/view.ctp:47
 msgid "Trackable Updater"
 msgstr ""
 
-#: /Contacts/src/Template/Admin/Messages/view.ctp:51
 msgid "Trackable Creator"
 msgstr ""
 
-#: /Contacts/src/Template/Admin/Messages/view.ctp:68
-#: /Nodes/src/Template/Element/admin/nodes_search.ctp:39
-#: /Users/src/Template/Admin/Users/view.ctp:59
 msgid "Yes"
 msgstr "Sí"
 
-#: /Contacts/src/Template/Admin/Messages/view.ctp:68
-#: /Nodes/src/Template/Element/admin/nodes_search.ctp:40
-#: /Users/src/Template/Admin/Users/view.ctp:59
 msgid "No"
 msgstr "No"
 
-#: /Contacts/src/Template/Contacts/view.ctp:11
 msgid "Your name"
 msgstr "Su nombre"
 
-#: /Contacts/src/Template/Contacts/view.ctp:12
 msgid "Your email"
 msgstr "Su email"
 
-#: /Contacts/src/Template/Contacts/view.ctp:13
 msgid "Subject"
 msgstr "Asunto"
 
-#: /Contacts/src/Template/Email/text/contact.ctp:7
 msgid "You have received a new message at: {0}"
 msgstr "Ha recibido un nuevo mensaje en: {0}"
 
-#: /Contacts/src/Template/Email/text/contact.ctp:10
 msgid "Subject: {0}"
 msgstr "Asunto: {0}"
 
-#: /Contacts/src/Template/Email/text/contact.ctp:12
 msgid "Message: {0}"
 msgstr "Mensaje: {0}"
 
-#: /Core/src/Plugin.php:801
 msgid "Plugin \"{0}\" is not active."
 msgstr "Plugin \"{0}\" no está activo."
 
-#: /Core/src/Plugin.php:820
-#: /Extensions/src/Controller/Admin/PluginsController.php:139
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr "El plugin no pudo ser desactivado. Por favor intente de nuevo."
 
-#: /Core/src/Plugin.php:922 /Extensions/src/ExtensionsInstaller.php:113
-#: /Extensions/src/Controller/Admin/PluginsController.php:94;123;163;185;212
 msgid "Invalid plugin"
 msgstr "Plugin no válido"
 
-#: /Core/src/Plugin.php:954
 msgid "{0} is already at the first position"
 msgstr "{0} ya esta en la primera posicion"
 
-#: /Core/src/Plugin.php:960;972
 msgid "Plugin {0} depends on {1}"
 msgstr "Plugin {0} depende de {1}"
 
-#: /Core/src/Plugin.php:965
 msgid "{0} is already at the last position"
 msgstr "{0} ya esta en la ultima posicion"
 
-#: /Core/src/Plugin.php:976
 msgid "Invalid direction"
 msgstr "Direccion invalida"
 
-#: /Core/src/Plugin.php:981
 msgid "Plugin {0} cannot be reordered"
 msgstr "Plugin {0} no puede ser reordenado"
 
-#: /Core/src/Plugin.php:745
 msgid "Plugin \"%2$s\" requires the \"%3$s\" plugin to be installed."
 msgid_plural "Plugin \"%2$s\" requires the %3$s plugins to be installed."
 msgstr[0] ""
 msgstr[1] ""
 
-#: /Core/src/Router.php:164
 msgid "Unable to get routeable content types: {0}"
 msgstr "No se pudieron obtener tipos de contenidos enrutables: {0}"
 
-#: /Core/src/Status.php:45
-#: /Nodes/src/Template/Element/admin/nodes_search.ctp:30
 msgid "Unpublished"
 msgstr "No publicado"
 
-#: /Core/src/Status.php:47
-#: /FileManager/src/Template/Admin/Attachments/edit.ctp:56
 msgid "Preview"
 msgstr ""
 
-#: /Core/src/Status.php:50
 msgid "Approved"
 msgstr ""
 
-#: /Core/src/Status.php:51
 msgid "Pending"
 msgstr ""
 
-#: /Core/src/Action/Admin/ToggleAction.php:26
-#: /Core/src/Controller/Component/CroogoComponent.php:310
 msgid "Invalid content"
 msgstr "Contenido no válido"
 
-#: /Core/src/Action/Admin/ToggleAction.php:37
-#: /Core/src/Controller/Component/CroogoComponent.php:322
 msgid "Failed toggling field {0} to {1}"
 msgstr "Fallo el cambio de campo {0} a {1}"
 
-#: /Core/src/Configure/CroogoJsonReader.php:48
 msgid "Cannot load configuration files with ../ in them."
 msgstr "No se puede cargar archivos de configuracion con ../ en ellos"
 
-#: /Core/src/Configure/CroogoJsonReader.php:63
 msgid "Could not load configuration files: {0) or {1}"
 msgstr ""
 
-#: /Core/src/Controller/AppController.php:177
 msgid "Site down for maintenance"
 msgstr "Página en mantenimiento"
 
-#: /Core/src/Controller/Component/BulkProcessComponent.php:109
 #, fuzzy
 msgid "No item selected"
 msgstr "No se han seleccionado elementos."
 
-#: /Core/src/Controller/Component/BulkProcessComponent.php:110
 msgid "Please choose only one item for this operation"
 msgstr ""
 
-#: /Core/src/Controller/Component/BulkProcessComponent.php:147
 msgid "{0} processed"
 msgstr ""
 
-#: /Core/src/Controller/Component/BulkProcessComponent.php:152
-#: /FileManager/src/Controller/Admin/FileManagerController.php:255;290;392;426
 msgid "An error occured"
 msgstr "Ha ocurrido un error"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:136
 msgid "Visit website"
 msgstr "Visitar sitio web"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:153
 msgid "Profile"
 msgstr ""
 
-#: /Core/src/Controller/Component/CroogoComponent.php:168
 msgid "Logout"
 msgstr ""
 
-#: /Core/src/Event/EventManager.php:88
 msgid "EventHandler {0} not found in plugin {1}"
 msgstr "EventHandler {0} no encontrado en el plugin {1}"
 
-#: /Core/src/Model/Behavior/BulkProcessBehavior.php:67
 msgid "Invalid action to perform"
 msgstr "Acion a realizar invalida"
 
-#: /Core/src/Model/Behavior/BulkProcessBehavior.php:71
 msgid "No target to process action upon"
 msgstr "No existe objetivo para procesar accion"
 
-#: /Core/src/Model/Behavior/BulkProcessBehavior.php:77
 #, fuzzy
 msgid "Action {0} is disabled"
 msgstr "Acción borrada"
 
-#: /Core/src/Shell/CroogoShell.php:34
 msgid "Croogo Utilities"
 msgstr "Utilidades de Croogo"
 
-#: /Core/src/Shell/CroogoShell.php:36
 msgid "Upgrade Croogo"
 msgstr "Actualizar Croogo"
 
-#: /Core/src/Shell/ExtShell.php:110
 msgid "Theme cannot be deactivated, instead activate another theme."
 msgstr "La plantilla no puede ser desactivada, intenta desactivar otra."
 
-#: /Core/src/Shell/ExtShell.php:114
 msgid "{0} \"{1}\" not found."
 msgstr "{0} \"{1}\" no encontrad"
 
-#: /Core/src/Shell/ExtShell.php:123
 msgid "{0} name must be provided."
 msgstr "nombre {0} debe ser provisto"
 
-#: /Core/src/Shell/ExtShell.php:136
 msgid "Activate Plugins & Themes"
 msgstr "Activar Plugins & Temas"
 
-#: /Core/src/Shell/ExtShell.php:139
 msgid "Method to perform"
 msgstr "Métido a ejecutar"
 
-#: /Core/src/Shell/ExtShell.php:144 /Core/src/Shell/InstallShell.php:144
 msgid "Extension type"
 msgstr "Tipo de extensión"
 
-#: /Core/src/Shell/ExtShell.php:149
 msgid "Name of extension"
 msgstr "Nombre de la extensión"
 
-#: /Core/src/Shell/ExtShell.php:174
-#: /Extensions/src/Controller/Admin/PluginsController.php:144
 msgid "Plugin \"{0}\" activated successfully."
 msgstr "Plugin \"{0}\" desactivado exitosamente."
 
-#: /Core/src/Shell/ExtShell.php:179
 msgid "Plugin \"{0}\" could not be activated. Please, try again."
 msgstr "El plugin \"{0}\" no pudo ser activado. Por favor intente de nuevo."
 
-#: /Core/src/Shell/ExtShell.php:196
 msgid "Plugin \"{0}\" could not be deactivated. Please, try again."
 msgstr "El plugin \"{0}\" no pudo ser desactivado. Por favor intente de nuevo."
 
-#: /Core/src/Shell/ExtShell.php:204
-#: /Extensions/src/Controller/Admin/PluginsController.php:130
 msgid "Plugin \"{0}\" could not be deactivated since \"{1}\" depends on it."
 msgstr ""
 
-#: /Core/src/Shell/ExtShell.php:215
-#: /Extensions/src/Controller/Admin/PluginsController.php:135
 msgid "Plugin \"{0}\" deactivated successfully."
 msgstr "Plugin \"{0}\" desactivado exitosamente"
 
-#: /Core/src/Shell/ExtShell.php:230
 msgid "Theme \"{0}\" activated successfully."
 msgstr "Tema \"{0}\" activado con éxito."
 
-#: /Core/src/Shell/ExtShell.php:232
 msgid "Theme \"{0}\" activation failed."
 msgstr "Activación del tema \"{0}\" falló."
 
-#: /Core/src/Shell/ExtShell.php:246
 msgid "Plugins:"
 msgstr "Plugins:"
 
-#: /Core/src/Shell/ExtShell.php:247;259;274;284
 msgid "{0}{1}{2}"
 msgstr "{0}{1}{2}"
 
-#: /Core/src/Shell/ExtShell.php:247
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:13
 msgid "Plugin"
 msgstr "Plugin"
 
-#: /Core/src/Shell/ExtShell.php:247;274
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:80
 msgid "Author"
 msgstr "Autor"
 
-#: /Core/src/Shell/ExtShell.php:274 /Settings/config/admin_menu.php:32
 msgid "Theme"
 msgstr "Plantilla"
 
-#: /Core/src/Shell/InstallShell.php:88
 msgid "Installing with Composer..."
 msgstr "Instalando con Composer..."
 
-#: /Core/src/Shell/InstallShell.php:96
 msgid "Unexpected composerInstall return value"
 msgstr "Valor regresado por composerInstall desconocido"
 
-#: /Core/src/Shell/InstallShell.php:109
 msgid "Package installed and activated."
 msgstr "Paquete instalado y activado"
 
-#: /Core/src/Shell/InstallShell.php:111
 msgid "Package installed but not activated."
 msgstr "Paquete instalado pero no activado."
 
-#: /Core/src/Shell/InstallShell.php:128
 msgid "Extension installed and activated."
 msgstr "Extensión instalada y activada."
 
-#: /Core/src/Shell/InstallShell.php:141
 msgid "Download, Install & Activate Plugins & Themes"
 msgstr "Descarga, Instalación & Activación de Plugins & Temas"
 
-#: /Core/src/Shell/InstallShell.php:149
 msgid "URL to zip file OR github user name"
 msgstr "URL a archivo zip O nombre de usuario de github"
 
-#: /Core/src/Shell/InstallShell.php:153
 msgid "Github repo name"
 msgstr "Nombre de repo de Github"
 
-#: /Core/src/Shell/InstallShell.php:186
 msgid "Installing extension..."
 msgstr "Instalndo extensión..."
 
-#: /Core/src/Shell/InstallShell.php:206
 msgid "Please specify a URL to a zipball extension"
 msgstr "Por favor especifique una URL a una extensión zipball"
 
-#: /Core/src/Shell/InstallShell.php:211
 msgid "Downloading extension to {0}..."
 msgstr "Descargando extensión a {0}..."
 
-#: /Core/src/Shell/Task/UpgradeTask.php:70
 msgid "Upgrade ACL database for core controllers."
 msgstr "Actualizar base de datos ACL para los controladores del nucleo"
 
-#: /Core/src/Shell/Task/UpgradeTask.php:72
 msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
@@ -1326,1157 +722,766 @@ msgstr ""
 "que tienes un Respaldo de tus tablas aros, acos y aros_acos antes de "
 "actualizar.</warning>"
 
-#: /Core/src/Shell/Task/UpgradeTask.php:86
 msgid "Create settings.json from database"
 msgstr "Crear un archivo settings.json de la base de datos"
 
-#: /Core/src/Shell/Task/UpgradeTask.php:89
 msgid "Update Hook.bootstrap settings"
 msgstr "Actualizar opciones deHook.bootstrap"
 
-#: /Core/src/Shell/Task/UpgradeTask.php:92
 msgid "Update Links in database"
 msgstr "Actualizar links en base de datos"
 
-#: /Core/src/Shell/Task/UpgradeTask.php:95
 msgid "Create first migration records"
 msgstr "Crear registros de primera migracion"
 
-#: /Core/src/Shell/Task/UpgradeTask.php:98
 msgid "Run all pending migrations for core plugins"
 msgstr ""
 
-#: /Core/src/Shell/Task/UpgradeTask.php:101
 msgid "Run all upgrade tasks"
 msgstr "Correr todas las tareas de actualizacion"
 
-#: /Core/src/Shell/Task/UpgradeTask.php:112
 msgid "<warning>config/settings.json already exist</warning>"
 msgstr ""
 
-#: /Core/src/Shell/Task/UpgradeTask.php:153
 msgid ""
 "<success>Config/settings.yml created based on `settings` table</success>"
 msgstr ""
 "<success>Config/settings.yml se creo en base a la tabla `settings`</success>"
 
-#: /Core/src/Shell/Task/UpgradeTask.php:196
 msgid "Updating Link {0}"
 msgstr "Actualizando Link {0}"
 
-#: /Core/src/Shell/Task/UpgradeTask.php:197
-#: /Settings/src/Shell/SettingsShell.php:170
 msgid "- {0}"
 msgstr ""
 
-#: /Core/src/Shell/Task/UpgradeTask.php:198
-#: /Settings/src/Shell/SettingsShell.php:173
 msgid "+ {0}"
 msgstr ""
 
-#: /Core/src/Shell/Task/UpgradeTask.php:203
 msgid "Links updated: %d rows"
 msgstr "Links actualizados: %d filas"
 
-#: /Core/src/Shell/Task/UpgradeTask.php:220
 msgid "Hook.bootstraps updated"
 msgstr "Hook.bootstraps actualizados"
 
-#: /Core/src/Shell/Task/UpgradeTask.php:350
 msgid "Upgrade \"{0}\""
 msgstr "Actualizar \"{0}\""
 
-#: /Core/src/Shell/Task/UpgradeTask.php:365
 msgid "Command not recognized"
 msgstr "Comando no reconocido"
 
-#: /Core/src/Template/Common/admin_edit.ctp:18
-#: /FileManager/src/Template/Admin/FileManager/browse.ctp:79
-#: /FileManager/src/Template/Admin/FileManager/edit_file.ctp:20
-#: /Nodes/src/Template/Admin/Nodes/translations.ctp:33
 msgid "Edit"
 msgstr "Editar"
 
-#: /Core/src/Template/Common/admin_index.ctp:34
-#: /Core/src/Template/Common/admin_view.ctp:42;43
 msgid "New {0}"
 msgstr "Nuevo {0}"
 
-#: /Core/src/Template/Element/admin/buttons.ctp:7
-#: /Extensions/src/Template/Admin/Locales/edit.ctp:37
-#: /Translate/src/Template/Admin/Translate/edit.ctp:76
 msgid "Save"
 msgstr "Guardar"
 
-#: /Core/src/Template/Element/admin/buttons.ctp:28
-#: /Extensions/src/Template/Admin/Locales/add.ctp:37
-#: /Extensions/src/Template/Admin/Locales/edit.ctp:38
-#: /Extensions/src/Template/Admin/Plugins/add.ctp:36
-#: /Extensions/src/Template/Admin/Themes/add.ctp:35
-#: /Translate/src/Template/Admin/Translate/edit.ctp:79
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: /Core/src/Template/Element/admin/footer.ctp:8
 msgid "Croogo {0}"
 msgstr "Croogo {0}"
 
-#: /Core/src/Template/Element/admin/footer.ctp:11
 msgid "Powered by {0}"
 msgstr ""
 
-#: /Core/src/Template/Element/admin/modal.ctp:35
 msgid "Close"
 msgstr "Cerrar"
 
-#: /Core/src/Template/Element/admin/pagination.ctp:5
 msgid ""
 "Page {{page}} of {{pages}}, showing {{current}} records out of {{count}} "
 "total"
 msgstr ""
 
-#: /Core/src/Template/Element/admin/pagination.ctp:11
 msgid "first"
 msgstr "primero"
 
-#: /Core/src/Template/Element/admin/pagination.ctp:12
 msgid "prev"
 msgstr "anterior"
 
-#: /Core/src/Template/Element/admin/pagination.ctp:14
 msgid "next"
 msgstr "siguiente"
 
-#: /Core/src/Template/Element/admin/pagination.ctp:15
 msgid "last"
 msgstr "última"
 
-#: /Core/src/Template/Element/admin/publishable.ctp:15
 msgid "Publish on"
 msgstr ""
 
-#: /Core/src/Template/Element/admin/publishable.ctp:18
 msgid "Un-publish on"
 msgstr ""
 
-#: /Core/src/Template/Element/admin/search.ctp:48
-#: /FileManager/src/Template/Element/admin/attachments_search.ctp:45
-#: /Nodes/src/Template/Element/admin/nodes_search.ctp:49
 msgid "Filter"
 msgstr "Filtro"
 
-#: /Core/src/Template/Layout/admin_login.ctp:24
 msgid "Back to"
 msgstr "Volver a"
 
-#: /Core/src/Template/Layout/maintenance.ctp:15
 msgid "Site down for maintenance."
 msgstr "Sitio desactivado por mantenimiento."
 
-#: /Dashboards/config/admin_dashboard.php:7
 msgid "Croogo News"
 msgstr ""
 
-#: /Dashboards/config/admin_menu.php:7;13
-#: /Dashboards/src/Template/Admin/Dashboards/dashboard.ctp:6
-#: /Settings/src/Template/Admin/Settings/dashboard.ctp:4
 msgid "Dashboard"
 msgstr "Panel"
 
-#: /Dashboards/src/Controller/Admin/DashboardsController.php:120
 msgid "Invalid id for Dashboard"
 msgstr ""
 
-#: /Dashboards/src/Controller/Admin/DashboardsController.php:125
 msgid "Dashboard deleted"
 msgstr ""
 
-#: /Dashboards/src/Controller/Admin/DashboardsController.php:154
-#: /Menus/src/Controller/Admin/LinksController.php:110
-#: /Settings/src/Controller/Admin/SettingsController.php:125
 msgid "Moved up successfully"
 msgstr "Movido arriba con éxito"
 
-#: /Dashboards/src/Controller/Admin/DashboardsController.php:156
-#: /Menus/src/Controller/Admin/LinksController.php:112
-#: /Settings/src/Controller/Admin/SettingsController.php:127
 msgid "Could not move up"
 msgstr "No se ha podido mover arriba"
 
-#: /Dashboards/src/Controller/Admin/DashboardsController.php:173
-#: /Menus/src/Controller/Admin/LinksController.php:147
-#: /Settings/src/Controller/Admin/SettingsController.php:152
 msgid "Moved down successfully"
 msgstr "Movido abajo con éxito"
 
-#: /Dashboards/src/Controller/Admin/DashboardsController.php:175
-#: /Menus/src/Controller/Admin/LinksController.php:149
-#: /Settings/src/Controller/Admin/SettingsController.php:154
 msgid "Could not move down"
 msgstr "No se ha podido mover abajo"
 
-#: /Dashboards/src/Template/Admin/Dashboards/dashboard.ctp:1
-#: /Dashboards/src/Template/Admin/Dashboards/index.ctp:2;7
 msgid "Dashboards"
 msgstr ""
 
-#: /Dashboards/src/Template/Admin/Dashboards/index.ctp:73
-#: /Settings/src/Template/Admin/Settings/view.ctp:44
 msgid "Are you sure you want to delete # {0}?"
 msgstr "¿Está seguro de que quiere borrar # {0}?"
 
-#: /Dashboards/src/View/Helper/DashboardsHelper.php:158
 msgid "Left"
 msgstr ""
 
-#: /Dashboards/src/View/Helper/DashboardsHelper.php:161
 msgid "Right"
 msgstr ""
 
-#: /Dashboards/src/View/Helper/DashboardsHelper.php:164
 msgid "Full"
 msgstr ""
 
-#: /Example/config/admin_dashboard.php:5
-#: /Install/src/Template/Install/index.ctp:2
 msgid "Welcome"
 msgstr ""
 
-#: /Example/src/Template/Example/index.ctp:3
 msgid "content here"
 msgstr "contenido aquí"
 
-#: /Extensions/config/admin_menu.php:9
-#: /Extensions/src/Template/Admin/Locales/add.ctp:5
-#: /Extensions/src/Template/Admin/Locales/edit.ctp:6
-#: /Extensions/src/Template/Admin/Locales/index.ctp:8
-#: /Extensions/src/Template/Admin/Plugins/add.ctp:5
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:7
-#: /Extensions/src/Template/Admin/Themes/add.ctp:5
-#: /Extensions/src/Template/Admin/Themes/index.ctp:9
 msgid "Extensions"
 msgstr "Extensiones"
 
-#: /Extensions/config/admin_menu.php:19
-#: /Extensions/src/Controller/Admin/ThemesController.php:45
-#: /Extensions/src/Template/Admin/Themes/add.ctp:7
-#: /Extensions/src/Template/Admin/Themes/index.ctp:7;11
 msgid "Themes"
 msgstr "Temas"
 
-#: /Extensions/config/admin_menu.php:29
-#: /Extensions/src/Controller/Admin/LocalesController.php:40
-#: /Extensions/src/Template/Admin/Locales/add.ctp:7
-#: /Extensions/src/Template/Admin/Locales/edit.ctp:7
-#: /Extensions/src/Template/Admin/Locales/index.ctp:5;9
 msgid "Locales"
 msgstr "Locales"
 
-#: /Extensions/config/admin_menu.php:39
-#: /Extensions/src/Controller/Admin/PluginsController.php:53
-#: /Extensions/src/Template/Admin/Plugins/add.ctp:6
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:5;8
 msgid "Plugins"
 msgstr "Plugins"
 
-#: /Extensions/src/CroogoTheme.php:245
-#: /Extensions/src/ExtensionsInstaller.php:196
 msgid "Invalid theme"
 msgstr "Tema inválido"
 
-#: /Extensions/src/CroogoTheme.php:266
 msgid "Theme {0} not found"
 msgstr "Plantilla {0} no encontrada"
 
-#: /Extensions/src/ExtensionsInstaller.php:70
 msgid "Invalid plugin path"
 msgstr "Ruta al plugin inválida"
 
-#: /Extensions/src/ExtensionsInstaller.php:80;118;201
 msgid "Invalid zip archive"
 msgstr "Archivo zip inválido"
 
-#: /Extensions/src/ExtensionsInstaller.php:86
 msgid "Invalid plugin.json or missing plugin name"
 msgstr "Archivo plugin.json invalido o falta nombre del plugin"
 
-#: /Extensions/src/ExtensionsInstaller.php:107
 msgid "Missing expected files: {0} in: {1}"
 msgstr "Faltan archivos esperados: {0} en {1}"
 
-#: /Extensions/src/ExtensionsInstaller.php:108
 msgid "Invalid plugin or missing expected files"
 msgstr "Plugin faltante o faltan archivos esperados"
 
-#: /Extensions/src/ExtensionsInstaller.php:134
 msgid "Invalid plugin file path"
 msgstr "Ruta al archivo del plugin inválida"
 
-#: /Extensions/src/ExtensionsInstaller.php:145
 msgid "Plugin already exists"
 msgstr "Plugin ya existe."
 
-#: /Extensions/src/ExtensionsInstaller.php:161
 msgid "Failed to extract plugin"
 msgstr "Falló al extraer el plugin"
 
-#: /Extensions/src/ExtensionsInstaller.php:175
 msgid "Invalid theme path"
 msgstr "Ruta al tema inválida"
 
-#: /Extensions/src/ExtensionsInstaller.php:217
 msgid "Invalid theme file path"
 msgstr "Ruta al archivo del tema inválida"
 
-#: /Extensions/src/ExtensionsInstaller.php:228
 msgid "Theme already exists"
 msgstr "El tema ya existe"
 
-#: /Extensions/src/ExtensionsInstaller.php:244
 msgid "Failed to extract theme"
 msgstr "Falló al extraer el tema"
 
-#: /Extensions/src/ExtensionsInstaller.php:264
 msgid "Must specify a valid package name: vendor/name."
 msgstr "Debe especificar un nombre de paquete válido: proveedor/nombre."
 
-#: /Extensions/src/ExtensionsInstaller.php:267
 msgid "Themes installed via composer are not yet supported."
 msgstr "Temas instalados via composer aun no son soportados."
 
-#: /Extensions/src/Controller/Admin/LocalesController.php:73
 msgid "Locale does not exist."
 msgstr "El locale no existe."
 
-#: /Extensions/src/Controller/Admin/LocalesController.php:79
 msgid "Locale '{0}' set as default"
 msgstr "Locale '{0}' activado como por defecto"
 
-#: /Extensions/src/Controller/Admin/LocalesController.php:81
 msgid "Could not save Locale setting."
 msgstr "No pudieron ser guardadas las opciones de locale"
 
-#: /Extensions/src/Controller/Admin/LocalesController.php:93
 msgid "Upload a new locale"
 msgstr "Cargar un nuevo locale"
 
-#: /Extensions/src/Controller/Admin/LocalesController.php:119;175
 msgid "Invalid locale."
 msgstr "Locale no válido."
 
-#: /Extensions/src/Controller/Admin/LocalesController.php:124
 msgid "Locale already exists."
 msgstr "Locale ya existe."
 
-#: /Extensions/src/Controller/Admin/LocalesController.php:172
 msgid "Edit locale: {0}"
 msgstr "Editar locale: {0}"
 
-#: /Extensions/src/Controller/Admin/LocalesController.php:182;211
 msgid "The file {0} does not exist."
 msgstr "El archivo {0} no existe."
 
-#: /Extensions/src/Controller/Admin/LocalesController.php:192
 msgid "Locale updated successfully"
 msgstr "Locale actualizado con éxito"
 
-#: /Extensions/src/Controller/Admin/LocalesController.php:217
 msgid "Locale deleted successfully."
 msgstr "Locale borrado con éxito."
 
-#: /Extensions/src/Controller/Admin/LocalesController.php:219
 msgid "Local could not be deleted."
 msgstr "No se pudo borrar el locale."
 
-#: /Extensions/src/Controller/Admin/PluginsController.php:68
 msgid "Upload a new plugin"
 msgstr "Cargar un nuevo plugin"
 
-#: /Extensions/src/Controller/Admin/PluginsController.php:98
 msgid "You cannot delete a plugin that is currently active."
 msgstr "Usted no puede borrar un plugin que está actualmente activo."
 
-#: /Extensions/src/Controller/Admin/PluginsController.php:104
 msgid "Plugin \"{0}\" deleted successfully."
 msgstr "Plugin \"{0}\" borrado exitosamente."
 
-#: /Extensions/src/Controller/Admin/PluginsController.php:108
 msgid "Plugin could not be deleted."
 msgstr "El plugin no ha podido ser borrado."
 
-#: /Extensions/src/Controller/Admin/PluginsController.php:148
 msgid "Plugin could not be activated. Please, try again."
 msgstr "El plugin no pudo ser activado. Por favor intente de nuevo."
 
-#: /Extensions/src/Controller/Admin/PluginsController.php:165
 msgid "Plugin \"{0}\" migrated successfully."
 msgstr "Plugin \"{0}\" se ha migrado exitosamente."
 
-#: /Extensions/src/Controller/Admin/PluginsController.php:168
 msgid "Plugin \"{0}\" could not be migrated. Error: {1}"
 msgstr "Plugin \"{0}\" no pudo ser migrado. Error: {1}"
 
-#: /Extensions/src/Controller/Admin/PluginsController.php:191
 msgid "Plugin {0} has been moved up"
 msgstr "Plugin {0} ha sido movido hacia arriba"
 
-#: /Extensions/src/Controller/Admin/PluginsController.php:218
 msgid "Plugin {0} has been moved down"
 msgstr "Plugin {0} ha sido movido hacia abajo"
 
-#: /Extensions/src/Controller/Admin/ThemesController.php:71
 msgid "Theme activated."
 msgstr "Tema activado."
 
-#: /Extensions/src/Controller/Admin/ThemesController.php:73
 msgid "Theme activation failed: {0}"
 msgstr ""
 
-#: /Extensions/src/Controller/Admin/ThemesController.php:86
 msgid "Upload a new theme"
 msgstr "Cargar un nuevo tema"
 
-#: /Extensions/src/Controller/Admin/ThemesController.php:95
 msgid "Theme uploaded successfully."
 msgstr "Tema cargado exitosamente."
 
-#: /Extensions/src/Controller/Admin/ThemesController.php:111
 msgid "Theme Editor"
 msgstr "Editor de temas"
 
-#: /Extensions/src/Controller/Admin/ThemesController.php:132
 msgid "Invalid Theme."
 msgstr "Tema no válido."
 
-#: /Extensions/src/Controller/Admin/ThemesController.php:138
 msgid "Default theme cannot be deleted."
 msgstr "El tema por defecto no ha podido ser borrado."
 
-#: /Extensions/src/Controller/Admin/ThemesController.php:142
 msgid "You cannot delete a theme that is currently active."
 msgstr "Usted no puede borrar un tema que está activo."
 
-#: /Extensions/src/Controller/Admin/ThemesController.php:150
 msgid "Theme deleted successfully."
 msgstr "Tema borrado con éxito."
 
-#: /Extensions/src/Controller/Admin/ThemesController.php:154
-#: /Users/src/Controller/UsersController.php:177
-#: /Users/src/Controller/Admin/UsersController.php:439
 msgid "An error occurred."
 msgstr "Ha ocurrido un error."
 
-#: /Extensions/src/Template/Admin/Locales/add.ctp:9;21;35
-#: /Extensions/src/Template/Admin/Locales/index.ctp:12
-#: /Extensions/src/Template/Admin/Plugins/add.ctp:8;20;34
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:11
-#: /Extensions/src/Template/Admin/Themes/add.ctp:9;21;34
-#: /Extensions/src/Template/Admin/Themes/index.ctp:14
-#: /FileManager/src/Controller/Admin/FileManagerController.php:205
-#: /FileManager/src/Template/Admin/Attachments/add.ctp:8;15
-#: /FileManager/src/Template/Admin/FileManager/upload.ctp:7;18
 msgid "Upload"
 msgstr "Upload"
 
-#: /Extensions/src/Template/Admin/Locales/index.ctp:20
-#: /Nodes/src/Template/Admin/Nodes/translations.ctp:26
-#: /Settings/src/Template/Admin/Languages/form.ctp:33
-#: /Translate/src/Template/Admin/Translate/index.ctp:90
 msgid "Locale"
 msgstr "Locale"
 
-#: /Extensions/src/Template/Admin/Locales/index.ctp:21
 msgid "Default"
 msgstr "Defecto"
 
-#: /Extensions/src/Template/Admin/Locales/index.ctp:34
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:32
-#: /Extensions/src/Template/Admin/Themes/index.ctp:99
 msgid "Activate"
 msgstr "Activar"
 
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:20
-#: /Menus/src/Template/Admin/Links/form.ctp:102
-#: /Menus/src/Template/Admin/Menus/form.ctp:38
-#: /Settings/src/Template/Admin/Settings/form.ctp:39
-#: /Settings/src/Template/Admin/Settings/view.ctp:19
-#: /Taxonomy/src/Template/Admin/Terms/form.ctp:62
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:47
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:42
 msgid "Description"
 msgstr "Descripción"
 
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:21
-#: /Users/src/Template/Admin/Users/form.ctp:79
 msgid "Active"
 msgstr "Activo"
 
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:32
 msgid "Deactivate"
 msgstr "Desactivar"
 
-#: /Extensions/src/Template/Admin/Plugins/index.ctp:62
 msgid "Migrate"
 msgstr "Migrar"
 
-#: /Extensions/src/Template/Admin/Themes/index.ctp:21
 msgid "Current Theme"
 msgstr "Tema actual"
 
-#: /Extensions/src/Template/Admin/Themes/index.ctp:50;96
 msgid "Regions supported: "
 msgstr "Regiones válidas:"
 
-#: /Extensions/src/Template/Admin/Themes/index.ctp:57
 msgid "Available Themes"
 msgstr "Temas disponibles"
 
-#: /Extensions/src/Template/Admin/Themes/index.ctp:120
 msgid "No available theme"
 msgstr ""
 
-#: /FileManager/config/admin_menu.php:9
 msgid "Media"
 msgstr "Media"
 
-#: /FileManager/config/admin_menu.php:19
-#: /FileManager/src/Template/Admin/Attachments/add.ctp:6
-#: /FileManager/src/Template/Admin/Attachments/edit.ctp:6
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:6;9
 msgid "Attachments"
 msgstr "Archivos adjuntos"
 
-#: /FileManager/config/admin_menu.php:28
-#: /FileManager/src/Template/Admin/FileManager/browse.ctp:5;6
-#: /FileManager/src/Template/Admin/FileManager/create_directory.ctp:8
-#: /FileManager/src/Template/Admin/FileManager/create_file.ctp:6
-#: /FileManager/src/Template/Admin/FileManager/edit_file.ctp:9
-#: /FileManager/src/Template/Admin/FileManager/rename.ctp:5
-#: /FileManager/src/Template/Admin/FileManager/upload.ctp:5
 msgid "File Manager"
 msgstr "Gestor de archivos"
 
-#: /FileManager/src/Controller/Admin/AttachmentsController.php:130
 msgid "Attachments deleted"
 msgstr ""
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:142;175;215;247;282;379;414
 msgid "Path {0} is restricted"
 msgstr "Ruta {0} restringida"
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:188
 msgid "File saved successfully"
 msgstr "Archivo guardado con éxito"
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:225
 msgid "File uploaded successfully."
 msgstr "Archivo cargado con éxito."
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:253
 msgid "File deleted"
 msgstr "Archivo borrado"
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:288
 msgid "Directory deleted"
 msgstr "Directorio borrado"
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:314
 msgid "Path \"{0}\" cannot be renamed"
 msgstr ""
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:333
 msgid "{0} already exists"
 msgstr ""
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:337
 msgid "\"{0}\" has been renamed to \"{1}\""
 msgstr ""
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:340
 msgid "Could not rename \"{0}\" to \"{1}\""
 msgstr ""
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:345
 msgid "Name has not changed"
 msgstr ""
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:387
 msgid "Directory created successfully."
 msgstr "Directorio creado con éxito"
 
-#: /FileManager/src/Controller/Admin/FileManagerController.php:421
 msgid "File created successfully."
 msgstr "Archivo creado con éxito."
 
-#: /FileManager/src/Model/Table/AttachmentsTable.php:127
 msgid "Error during file upload"
 msgstr "Error durante la carga del archivo"
 
-#: /FileManager/src/Template/Admin/Attachments/add.ctp:3
 msgid "Add Attachment"
 msgstr "Añadir archivo adjunto"
 
-#: /FileManager/src/Template/Admin/Attachments/add.ctp:31
-#: /FileManager/src/Template/Admin/FileManager/upload.ctp:35
 msgid "Upload file"
 msgstr "Cargar archivo"
 
-#: /FileManager/src/Template/Admin/Attachments/chooser.ctp:5
-#: /Nodes/src/Template/Admin/Nodes/chooser.ctp:4
 msgid "Sort by:"
 msgstr "Ordenado por:"
 
-#: /FileManager/src/Template/Admin/Attachments/edit.ctp:3
 msgid "Edit Attachment"
 msgstr "Editar archivo adjunto"
 
-#: /FileManager/src/Template/Admin/Attachments/edit.ctp:13
 msgid "Attachment"
 msgstr "Archivo adjunto"
 
-#: /FileManager/src/Template/Admin/Attachments/edit.ctp:21
 msgid "Caption"
 msgstr "Leyenda"
 
-#: /FileManager/src/Template/Admin/Attachments/edit.ctp:23
 msgid "File URL"
 msgstr "URL del archivo"
 
-#: /FileManager/src/Template/Admin/Attachments/edit.ctp:27
 msgid "Mime Type"
 msgstr "Tipo Mime"
 
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:32
 msgid "URL"
 msgstr "URL"
 
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:93
-#: /Menus/src/Template/Admin/Links/index.ctp:95;106
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:131
 msgid "Bulk actions"
 msgstr ""
 
-#: /FileManager/src/Template/Admin/Attachments/index.ctp:110
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:150
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:157
 msgid "{0} selected items?"
 msgstr "{0} los ítems seleccionados?"
 
-#: /FileManager/src/Template/Admin/FileManager/browse.ctp:13
 msgid "Upload here"
 msgstr "Cargar aquí"
 
-#: /FileManager/src/Template/Admin/FileManager/browse.ctp:15
-#: /FileManager/src/Template/Admin/FileManager/create_directory.ctp:34
 msgid "Create directory"
 msgstr "Crear directorio"
 
-#: /FileManager/src/Template/Admin/FileManager/browse.ctp:17
-#: /FileManager/src/Template/Admin/FileManager/create_file.ctp:37
 msgid "Create file"
 msgstr "Crear archivo"
 
-#: /FileManager/src/Template/Admin/FileManager/browse.ctp:30
 msgid "Directory content"
 msgstr "Contenido del directorio"
 
-#: /FileManager/src/Template/Admin/FileManager/browse.ctp:43
 msgid "Open"
 msgstr "Abrir"
 
-#: /FileManager/src/Template/Admin/FileManager/browse.ctp:50;92
-#: /FileManager/src/Template/Admin/FileManager/rename.ctp:7
 msgid "Rename"
 msgstr ""
 
-#: /FileManager/src/Template/Admin/FileManager/browse.ctp:76
 msgid "View"
 msgstr "Vista"
 
-#: /FileManager/src/Template/Admin/FileManager/create_directory.ctp:5;10
 msgid "Create Directory"
 msgstr "Se creo directorio"
 
-#: /FileManager/src/Template/Admin/FileManager/create_directory.ctp:19
 msgid "Directory"
 msgstr "Directorio"
 
-#: /FileManager/src/Template/Admin/FileManager/create_directory.ctp:25
 msgid "Directory name"
 msgstr "Nombre del directorio"
 
-#: /FileManager/src/Template/Admin/FileManager/create_file.ctp:3;8
 msgid "Create File"
 msgstr "Crear archivo"
 
-#: /FileManager/src/Template/Admin/FileManager/create_file.ctp:17
-#: /FileManager/src/Template/Admin/FileManager/rename.ctp:16
 msgid "File"
 msgstr "Archivo"
 
-#: /FileManager/src/Template/Admin/FileManager/create_file.ctp:24
 msgid "Filename"
 msgstr "Nombre de archivo"
 
-#: /FileManager/src/Template/Admin/FileManager/edit_file.ctp:5
 msgid "Edit file: {0}"
 msgstr "Editar archivo: {0}"
 
-#: /FileManager/src/Template/Admin/FileManager/rename.ctp:23
 msgid "New name"
 msgstr ""
 
-#: /FileManager/src/Template/Admin/FileManager/rename.ctp:32
 msgid "Rename file"
 msgstr ""
 
-#: /FileManager/src/Template/Element/admin/attachments_search.ctp:38
-#: /Nodes/src/Template/Element/search.ctp:27
-#: /Nodes/src/Template/Element/admin/nodes_search.ctp:12
 msgid "Search"
 msgstr "Búsqueda"
 
-#: /FileManager/src/Template/Element/admin/attachments_search.ctp:39
-#: /Nodes/src/Template/Element/admin/nodes_search.ctp:13
 msgid "Search..."
 msgstr "Buscar..."
 
-#: /FileManager/src/Template/Element/admin/dropzone_setup.ctp:8
 msgid "Drop files here to upload"
 msgstr ""
 
-#: /Install/src/InstallManager.php:96
 msgid "Could not connect to database: "
 msgstr "No se pudo conectar con base de datos:"
 
-#: /Install/src/InstallManager.php:100
 msgid "Could not connect to database."
 msgstr "No se pudo conectar a la base de datos."
 
-#: /Install/src/InstallManager.php:238
 msgid "Unable to create administrative user. Validation errors:"
 msgstr ""
 
-#: /Install/src/InstallManager.php:312
 msgid "Permission {0} granted to {1}"
 msgstr "Permiso {0} concedido a {1}"
 
-#: /Install/src/Controller/InstallController.php:183
 msgid "Warning: Database \"{0}\" is not empty."
 msgstr "Alerta: Base de datos \"{0}\" no esta vacia"
 
-#: /Install/src/Controller/InstallController.php:195
 msgid "There was a problem installing Croogo"
 msgstr ""
 
-#: /Install/src/Controller/InstallController.php:213
 msgid "Error installing access control objects"
 msgstr ""
 
-#: /Install/src/Shell/InstallShell.php:48
 msgid "Install Utilities"
 msgstr "Instalar Utilidades"
 
-#: /Install/src/Shell/InstallShell.php:133
 msgid "DataSource"
 msgstr "Fuente de datos (DataSource)"
 
-#: /Install/src/Shell/InstallShell.php:140
-#: /Install/src/Template/Install/database.ctp:47;50
 msgid "Host"
 msgstr "Host"
 
-#: /Install/src/Shell/InstallShell.php:141
-#: /Install/src/Template/Install/database.ctp:53;56
-#: /Users/src/Template/Admin/Users/login.ctp:4
-#: /Users/src/Template/Users/login.ctp:2
 msgid "Login"
 msgstr "Login"
 
-#: /Install/src/Shell/InstallShell.php:142;189
-#: /Install/src/Template/Install/database.ctp:59;62
-#: /Users/src/Template/Admin/Users/form.ctp:85
-#: /Users/src/Template/Admin/Users/login.ctp:18
 msgid "Password"
 msgstr "Password"
 
-#: /Install/src/Shell/InstallShell.php:143
-#: /Install/src/Template/Install/database.ctp:2;37
 msgid "Database"
 msgstr "Base de datos"
 
-#: /Install/src/Shell/InstallShell.php:145
-#: /Install/src/Template/Install/database.ctp:71;74
 msgid "Port"
 msgstr "Puerto"
 
-#: /Install/src/Shell/InstallShell.php:182
-#: /Install/src/Template/Install/admin_user.ctp:8;10
-#: /Users/src/Template/Admin/Users/form.ctp:40
-#: /Users/src/Template/Admin/Users/login.ctp:13
-#: /Users/src/Template/Admin/Users/view.ctp:22
-#: /Users/src/Template/Users/forgot.ctp:11
 msgid "Username"
 msgstr "Nombre de usuario"
 
-#: /Install/src/Shell/InstallShell.php:191
-#: /Install/src/Template/Install/admin_user.ctp:19;23
-#: /Users/src/Template/Admin/Users/form.ctp:89
-#: /Users/src/Template/Admin/Users/reset.ctp:16
-#: /Users/src/Template/Admin/Users/reset_password.ctp:22
-#: /Users/src/Template/Users/reset.ctp:6
 msgid "Verify Password"
 msgstr "Verificar Contraseña"
 
-#: /Install/src/Template/Install/admin_user.ctp:13;16
-#: /Users/src/Template/Admin/Users/reset_password.ctp:20
 msgid "New Password"
 msgstr "Nueva contraseña"
 
-#: /Install/src/Template/Install/admin_user.ctp:27
 msgid "Finalize installation"
 msgstr ""
 
-#: /Install/src/Template/Install/data.ctp:2
 msgid "Step 2: Build database"
 msgstr "Paso 2: Construir base de datos"
 
-#: /Install/src/Template/Install/data.ctp:10
 msgid "Create tables and load initial data"
 msgstr "Crear tablas y cargar informacion inicial"
 
-#: /Install/src/Template/Install/data.ctp:16
 msgid "Build database"
 msgstr "Construir base de datos"
 
-#: /Install/src/Template/Install/data.ctp:23
 msgid "Click here to build your database"
 msgstr "Pulse aquí para crear su base de datos"
 
-#: /Install/src/Template/Install/database.ctp:12
 msgid "Warning"
 msgstr ""
 
-#: /Install/src/Template/Install/database.ctp:13
 msgid "A database configuration already exists."
 msgstr ""
 
-#: /Install/src/Template/Install/database.ctp:16
 msgid "Valid"
 msgstr ""
 
-#: /Install/src/Template/Install/database.ctp:19
 msgid "Invalid"
 msgstr ""
 
-#: /Install/src/Template/Install/database.ctp:22
 msgid "The configuration is {0}."
 msgstr ""
 
-#: /Install/src/Template/Install/database.ctp:26
 msgid "Reuse this configuration and proceed"
 msgstr ""
 
-#: /Install/src/Template/Install/database.ctp:30
 msgid "This configuration will be replaced."
 msgstr ""
 
-#: /Install/src/Template/Install/database.ctp:48
 msgid "Database hostname or IP Address"
 msgstr "Host de base de datos o direccion IP"
 
-#: /Install/src/Template/Install/database.ctp:54
 msgid "Database login/username"
 msgstr "Login/Usuario de base de datos"
 
-#: /Install/src/Template/Install/database.ctp:60
 msgid "Database password"
 msgstr "Password de base de datos"
 
-#: /Install/src/Template/Install/database.ctp:66
 msgid "Database name"
 msgstr "Nombre de base de datos"
 
-#: /Install/src/Template/Install/database.ctp:72
 msgid "Database port (leave blank if unknown)"
 msgstr "Puerto de base de datos (dejar en blanco si se desconoce)"
 
-#: /Install/src/Template/Install/finish.ctp:2
 msgid "Successful"
 msgstr ""
 
-#: /Install/src/Template/Install/finish.ctp:5
 msgid "The user {0} has been created with administrative rights."
 msgstr ""
 
-#: /Install/src/Template/Install/finish.ctp:11
 msgid "Admin panel: {0}"
 msgstr "Panel de administración: {0}"
 
-#: /Install/src/Template/Install/finish.ctp:17
 msgid "You can start with {0} or jump in and {1}."
 msgstr "Puede empezar en {0} o saltarlo y {1}"
 
-#: /Install/src/Template/Install/finish.ctp:18
 msgid "configuring your site"
 msgstr "configurando su sitio"
 
-#: /Install/src/Template/Install/finish.ctp:24
 msgid "create a blog post"
 msgstr "Crear un artículo blog"
 
-#: /Install/src/Template/Install/finish.ctp:35
 msgid "Resources"
 msgstr "Recursos"
 
-#: /Install/src/Template/Install/index.ctp:7
 msgid "Your tmp directory is writable."
 msgstr "Su directorio tmp es escribible"
 
-#: /Install/src/Template/Install/index.ctp:10
 msgid "Your tmp directory is NOT writable."
 msgstr "Su directorio tmp NO es escribible"
 
-#: /Install/src/Template/Install/index.ctp:15
 msgid "Your config directory is writable."
 msgstr "Su directorio config es escribible"
 
-#: /Install/src/Template/Install/index.ctp:18
 msgid "Your config directory is NOT writable."
 msgstr "Su directorio config NO es escribible"
 
-#: /Install/src/Template/Install/index.ctp:24
 msgid "PHP version {0} >= {1}"
 msgstr ""
 
-#: /Install/src/Template/Install/index.ctp:29
 msgid "PHP version {0} < {1}"
 msgstr "Version PHP {0} < {1}"
 
-#: /Install/src/Template/Install/index.ctp:36
 msgid "CakePhp version {0} >= {1}"
 msgstr "Versión de CakePhp {0} >= {1}"
 
-#: /Install/src/Template/Install/index.ctp:42
 msgid "CakePHP version {0} < {1}"
 msgstr "Version de CakePHP {0} < {1}"
 
-#: /Install/src/Template/Install/index.ctp:48
 msgid "Start installation"
 msgstr ""
 
-#: /Install/src/Template/Install/index.ctp:53
 msgid "Click here to begin installation"
 msgstr "Click aqui para iniciar instalacion"
 
-#: /Install/src/Template/Install/index.ctp:58
 msgid "Installation cannot continue as minimum requirements are not met."
 msgstr ""
 "La instalación no puede continuar ya que el mínimo de requerimientos no se "
 "cumple."
 
-#: /Install/src/Template/Layout/install.ctp:6;34
 msgid "Installation: {0}"
 msgstr ""
 
-#: /Install/src/Template/Layout/install.ctp:6
 msgid "Croogo"
 msgstr "Croogo"
 
-#: /Install/src/Template/Layout/install.ctp:27
 msgid "Install Croogo"
 msgstr "Instalar Croogo"
 
-#: /Menus/config/admin_menu.php:9;19 /Menus/src/Template/Admin/Links/form.ctp:8
-#: /Menus/src/Template/Admin/Links/index.ctp:10
-#: /Menus/src/Template/Admin/Menus/form.ctp:7
-#: /Menus/src/Template/Admin/Menus/index.ctp:7
 msgid "Menus"
 msgstr "Menús"
 
-#: /Menus/src/Controller/Admin/LinksController.php:44
 msgid "Links: {0}"
 msgstr "Enlaces: {0}"
 
-#: /Menus/src/Controller/Admin/LinksController.php:76
 msgid "Link deleted"
 msgstr "Enlace borrado"
 
-#: /Menus/src/Controller/Admin/LinksController.php:99;136
 msgid "Invalid id for Link"
 msgstr "Id de enlace no válido"
 
-#: /Menus/src/Controller/Admin/LinksController.php:182
 #, fuzzy
 msgid "Links deleted"
 msgstr "Enlaces borrados."
 
-#: /Menus/src/Controller/Admin/LinksController.php:183
 msgid "Links published"
 msgstr "Enlaces publicados"
 
-#: /Menus/src/Controller/Admin/LinksController.php:184
 msgid "Links unpublished"
 msgstr "Enlaces no publicados"
 
-#: /Menus/src/Model/Table/LinksTable.php:34
 msgid "Link cannot be empty."
 msgstr "El enlace no puede ser vacio."
 
-#: /Menus/src/Template/Admin/Links/form.ctp:45;90
 msgid "Link"
 msgstr "Enlace"
 
-#: /Menus/src/Template/Admin/Links/form.ctp:46
-#: /Menus/src/Template/Admin/Menus/form.ctp:25
 msgid "Misc."
 msgstr "Misc."
 
-#: /Menus/src/Template/Admin/Links/form.ctp:59
 msgid "(no parent)"
 msgstr ""
 
-#: /Menus/src/Template/Admin/Links/form.ctp:108
 msgid "Rel"
 msgstr "Rel"
 
-#: /Menus/src/Template/Admin/Links/form.ctp:111
 msgid "Target"
 msgstr "Objetivo"
 
-#: /Menus/src/Template/Admin/Links/index.ctp:14
 msgid "New link"
 msgstr ""
 
-#: /Menus/src/Template/Admin/Links/index.ctp:65
 msgid "Create a copy of this Link?"
 msgstr ""
 
-#: /Menus/src/Template/Admin/Links/index.ctp:69
 msgid "Delete this item"
 msgstr "Eliminar este elemento"
 
-#: /Menus/src/Template/Admin/Menus/form.ctp:12
 msgid "Edit Menu"
 msgstr "Editar menú"
 
-#: /Menus/src/Template/Admin/Menus/form.ctp:18
 msgid "Add Menu"
 msgstr "Añadir menú"
 
-#: /Menus/src/Template/Admin/Menus/form.ctp:24
 msgid "Menu"
 msgstr "Menú"
 
-#: /Menus/src/Template/Admin/Menus/index.ctp:13
 msgid "Link Count"
 msgstr "Numero de links"
 
-#: /Menus/src/Template/Admin/Menus/index.ctp:26
 msgid "View links"
 msgstr "Ver enlaces"
 
-#: /Meta/config/admin_menu.php:8 /Meta/src/Template/Admin/Meta/form.ctp:8
-#: /Meta/src/Template/Admin/Meta/index.ctp:8
 msgid "Meta"
 msgstr "Meta"
 
-#: /Meta/src/Controller/Component/MetaComponent.php:52
 msgid "Custom Fields"
 msgstr "Campos personalizados"
 
-#: /Meta/src/Template/Admin/Meta/form.ctp:7
-#: /Meta/src/Template/Admin/Meta/index.ctp:7 /Settings/config/admin_menu.php:9
-#: /Settings/src/Template/Admin/Caches/index.ctp:13
-#: /Settings/src/Template/Admin/Languages/form.ctp:5
-#: /Settings/src/Template/Admin/Languages/index.ctp:5
-#: /Settings/src/Template/Admin/Languages/select.ctp:6
-#: /Settings/src/Template/Admin/Settings/form.ctp:5;24
-#: /Settings/src/Template/Admin/Settings/index.ctp:6
-#: /Settings/src/Template/Admin/Settings/prefix.ctp:7
 msgid "Settings"
 msgstr "Configuración"
 
-#: /Meta/src/Template/Admin/Meta/form.ctp:13
 msgid "Edit Meta"
 msgstr ""
 
-#: /Meta/src/Template/Admin/Meta/form.ctp:19
 msgid "Add Meta"
 msgstr ""
 
-#: /Meta/src/Template/Element/admin/meta_tab.ctp:17
 msgid "Add another field"
 msgstr "Añadir otro campo"
 
-#: /Meta/src/View/Helper/MetaHelper.php:116
-#: /Settings/src/Template/Admin/Settings/form.ctp:31
-#: /Settings/src/Template/Admin/Settings/index.ctp:18
-#: /Settings/src/Template/Admin/Settings/view.ctp:9
 msgid "Key"
 msgstr "Clave"
 
-#: /Meta/src/View/Helper/MetaHelper.php:120
-#: /Settings/src/Template/Admin/Settings/form.ctp:33
-#: /Settings/src/Template/Admin/Settings/index.ctp:19
-#: /Settings/src/Template/Admin/Settings/view.ctp:14
 msgid "Value"
 msgstr "Valor"
 
-#: /Meta/src/View/Helper/MetaHelper.php:156
 msgid "Remove"
 msgstr "Eliminar"
 
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:37
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:30
-#: /Nodes/src/Template/Element/admin/nodes_search.ctp:22
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:22
 msgid "Type"
 msgstr "Tipo"
 
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:38
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:31
-#: /Users/src/Template/Admin/Users/form.ctp:33
 msgid "User"
 msgstr "Usuario"
 
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:66
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:57
 msgid "promoted"
 msgstr "promovido"
 
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:125
 msgid "Applying to selected"
 msgstr "Aplicar a seleccionados"
 
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:130
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:136
 msgid "Promote"
 msgstr "Promover"
 
-#: /Nodes/View/Nodes/admin_hierarchy.ctp:131
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:137
 msgid "Unpromote"
 msgstr "Degradar"
 
-#: /Nodes/config/admin_menu.php:19 /Taxonomy/config/admin_menu.php:29
 msgid "List"
 msgstr "Listado"
 
-#: /Nodes/config/admin_menu.php:29 /Nodes/src/Template/Admin/Nodes/create.ctp:8
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:15
 msgid "Create"
 msgstr "Crear"
 
-#: /Nodes/src/Controller/NodesController.php:270
 msgid "Invalid content type."
 msgstr "Tipo de contenido no válido."
 
-#: /Nodes/src/Controller/Admin/NodesController.php:77
 msgid "Paths updated."
 msgstr "Rutas actualizadas."
 
-#: /Nodes/src/Controller/Admin/NodesController.php:80
 msgid ""
 "Something went wrong while updating paths.\n"
 "Please try again"
@@ -2484,694 +1489,495 @@ msgstr ""
 "Algo salio mal actualizando rutas.\n"
 "Intente de nuevo"
 
-#: /Nodes/src/Controller/Admin/NodesController.php:138
 msgid "Nodes deleted"
 msgstr "Nodos eliminados"
 
-#: /Nodes/src/Controller/Admin/NodesController.php:139
 msgid "Nodes published"
 msgstr "Nodos publicados"
 
-#: /Nodes/src/Controller/Admin/NodesController.php:140
 msgid "Nodes unpublished"
 msgstr "Nodos no publicados"
 
-#: /Nodes/src/Controller/Admin/NodesController.php:141
 msgid "Nodes promoted"
 msgstr "Nodos promocionados"
 
-#: /Nodes/src/Controller/Admin/NodesController.php:142
 msgid "Nodes unpromoted"
 msgstr "Nodos no promocionados"
 
-#: /Nodes/src/Controller/Admin/NodesController.php:143
 #, fuzzy
 msgid "Nodes copied"
 msgstr "Nodos publicados"
 
-#: /Nodes/src/Controller/Admin/NodesController.php:326
 msgid "Content moved up"
 msgstr ""
 
-#: /Nodes/src/Controller/Admin/NodesController.php:331
 msgid "Content moved down"
 msgstr ""
 
-#: /Nodes/src/Model/Table/NodesTable.php:145
 msgid "Please supply a title."
 msgstr ""
 
-#: /Nodes/src/Model/Table/NodesTable.php:147
 msgid "Slug cannot be empty."
 msgstr "El slug no puede estar vacio."
 
-#: /Nodes/src/Model/Table/NodesTable.php:154
 msgid "The slug has already been taken."
 msgstr ""
 
-#: /Nodes/src/Template/Admin/Nodes/chooser.ctp:20
 msgid "{0} archive/index"
 msgstr ""
 
-#: /Nodes/src/Template/Admin/Nodes/chooser.ctp:57
-#: /Nodes/src/Template/Element/admin/nodes_search.ctp:42
 msgid "Promoted"
 msgstr "Promovido"
 
-#: /Nodes/src/Template/Admin/Nodes/create.ctp:2
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:16
 msgid "Create content"
 msgstr "Crear contenido"
 
-#: /Nodes/src/Template/Admin/Nodes/create.ctp:13
 msgid "Select the type of content you wish to create from the list below"
 msgstr ""
 
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:13
 msgid "Create content: {0}"
 msgstr "Crear contenido: {0}"
 
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:39
 msgid "{0} title"
 msgstr ""
 
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:46
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:37
 msgid "Permalink"
 msgstr ""
 
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:60
 msgid "Excerpt"
 msgstr "Esbozo"
 
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:73
 msgid "Promoted to front page"
 msgstr "Promovido a la página principal"
 
-#: /Nodes/src/Template/Admin/Nodes/form.ctp:78
 msgid "{0} attributes"
 msgstr ""
 
-#: /Nodes/src/Template/Admin/Nodes/index.ctp:6
 msgid "Contents"
 msgstr ""
 
-#: /Nodes/src/Template/Admin/Nodes/translations.ctp:8
-#: /Translate/src/Template/Admin/Translate/index.ctp:35
 msgid "Translate in a new language"
 msgstr "Traducir a un nuevo idioma"
 
-#: /Nodes/src/Template/Admin/Nodes/translations.ctp:49
-#: /Translate/src/Template/Admin/Translate/index.ctp:81
 msgid "No translations available."
 msgstr "No hay traducciones disponibles."
 
-#: /Nodes/src/Template/Element/node_info.ctp:6
 msgid "Posted"
 msgstr "Publicado"
 
-#: /Nodes/src/Template/Element/node_info.ctp:20
 msgid "on"
 msgstr "en"
 
-#: /Nodes/src/Template/Element/node_more_info.ctp:18
 msgid "Posted in"
 msgstr "Publicado en"
 
-#: /Nodes/src/Template/Element/node_more_info.ctp:29
 msgid "Leave a comment"
 msgstr "Dejar un comentario"
 
-#: /Nodes/src/Template/Nodes/index.ctp:9
-#: /Nodes/src/Template/Nodes/promoted.ctp:9
-#: /Nodes/src/Template/Nodes/search.ctp:11
-#: /Nodes/src/Template/Nodes/term.ctp:17
 msgid "No items found."
 msgstr "No se han encontrado elementos."
 
-#: /Nodes/src/Template/Nodes/search.ctp:3
 msgid "Search Results: {0}"
 msgstr "Resultados de búsqueda: {0}"
 
-#: /Settings/config/admin_menu.php:20
 msgid "Site"
 msgstr "Sitio"
 
-#: /Settings/config/admin_menu.php:44
 msgid "Reading"
 msgstr "Leyendo"
 
-#: /Settings/config/admin_menu.php:56
 msgid "Writing"
 msgstr "Escribiendo"
 
-#: /Settings/config/admin_menu.php:80
 msgid "Service"
 msgstr "Servicio"
 
-#: /Settings/config/admin_menu.php:92
-#: /Settings/src/Template/Admin/Languages/index.ctp:7
-#: /Settings/src/Template/Admin/Languages/select.ctp:11
 msgid "Languages"
 msgstr "Idiomas"
 
-#: /Settings/config/admin_menu.php:103
-#: /Settings/src/Template/Admin/Caches/index.ctp:30
 msgid "Cache"
 msgstr ""
 
-#: /Settings/src/Controller/Admin/CachesController.php:47
 msgid "Cache '{0}' cleared"
 msgstr ""
 
-#: /Settings/src/Controller/Admin/CachesController.php:49
 msgid "Failed clearing cache"
 msgstr ""
 
-#: /Settings/src/Controller/Admin/LanguagesController.php:48
 msgid "Select a language"
 msgstr "Seleccione un idioma"
 
-#: /Settings/src/Controller/Admin/SettingsController.php:69
 msgid "Settings updated successfully"
 msgstr "Configuraciones actualizadas con éxito"
 
-#: /Settings/src/Controller/Admin/SettingsController.php:82
 msgid "Invalid Setting key"
 msgstr "Clave de configuración no válida"
 
-#: /Settings/src/Model/Table/LanguagesTable.php:43
 msgid "Native cannot be empty."
 msgstr ""
 
-#: /Settings/src/Model/Table/LanguagesTable.php:45
 msgid "Locale cannot be empty."
 msgstr ""
 
-#: /Settings/src/Model/Table/LanguagesTable.php:53
 msgid "That locale is already taken"
 msgstr ""
 
-#: /Settings/src/Model/Table/SettingsTable.php:34
 msgid "Key cannot be empty."
 msgstr "La llave no puede ser vacia."
 
-#: /Settings/src/Model/Table/SettingsTable.php:42
 msgid "That key is already taken"
 msgstr ""
 
-#: /Settings/src/Shell/SettingsShell.php:43
 msgid "Displays setting values"
 msgstr "Mostrar valores de opciones"
 
-#: /Settings/src/Shell/SettingsShell.php:47;65;106
 msgid "Setting key"
 msgstr "Indice de opcion"
 
-#: /Settings/src/Shell/SettingsShell.php:53
 msgid "List all settings"
 msgstr "Mostrar todas las opciones"
 
-#: /Settings/src/Shell/SettingsShell.php:61
 msgid "Write setting value for a given key"
 msgstr "Escribe el valor de la opcion para el indice dado"
 
-#: /Settings/src/Shell/SettingsShell.php:69
 msgid "Setting value"
 msgstr "Valor de opcion"
 
-#: /Settings/src/Shell/SettingsShell.php:102
 msgid "Delete setting based on key"
 msgstr "Eliminar opcion en base a indice"
 
-#: /Settings/src/Shell/SettingsShell.php:113
 msgid "Update version string from git tag information"
 msgstr "Actualizar la cadena de version desde la informacion de un tag de git"
 
-#: /Settings/src/Shell/SettingsShell.php:143
 msgid "    {0}: {1}"
 msgstr ""
 
-#: /Settings/src/Shell/SettingsShell.php:165
 msgid "Updating {0}"
 msgstr "Actualizando {0}"
 
-#: /Settings/src/Shell/SettingsShell.php:166
 msgid "Confirm update"
 msgstr "Confirmar actualizacion"
 
-#: /Settings/src/Shell/SettingsShell.php:189
 msgid "Setting updated"
 msgstr "Opcion actualizada"
 
-#: /Settings/src/Shell/SettingsShell.php:191;220
 msgid "Cancelled"
 msgstr "Cancelado"
 
-#: /Settings/src/Shell/SettingsShell.php:194;223
 msgid "Key: {0} not found"
 msgstr "Key: {0} no encontrada"
 
-#: /Settings/src/Shell/SettingsShell.php:213
 msgid "Deleting {0}"
 msgstr "Borrando {0}"
 
-#: /Settings/src/Shell/SettingsShell.php:214
 msgid "Delete?"
 msgstr "Borrar?"
 
-#: /Settings/src/Shell/SettingsShell.php:218
 msgid "Setting deleted"
 msgstr "Configuración borrada"
 
-#: /Settings/src/Template/Admin/Caches/index.ctp:15
 msgid "Caches"
 msgstr ""
 
-#: /Settings/src/Template/Admin/Caches/index.ctp:18
 msgid "Clear All"
 msgstr ""
 
-#: /Settings/src/Template/Admin/Caches/index.ctp:23
 msgid "Clear all cache"
 msgstr ""
 
-#: /Settings/src/Template/Admin/Caches/index.ctp:31
 msgid "Engine"
 msgstr ""
 
-#: /Settings/src/Template/Admin/Caches/index.ctp:32
 msgid "Duration"
 msgstr ""
 
-#: /Settings/src/Template/Admin/Caches/index.ctp:47
 msgid "Clear cache: {0}"
 msgstr ""
 
-#: /Settings/src/Template/Admin/Languages/form.ctp:7;21
 msgid "Language"
 msgstr "Idioma"
 
-#: /Settings/src/Template/Admin/Languages/form.ctp:30
-#: /Settings/src/Template/Admin/Languages/index.ctp:11
 msgid "Native"
 msgstr "Nativo"
 
-#: /Settings/src/Template/Admin/Languages/form.ctp:37
 msgid "Locale alias, typically a two letter country/locale code"
 msgstr ""
 
-#: /Settings/src/Template/Admin/Settings/form.ctp:25
 msgid "Misc"
 msgstr "Miscelaneo"
 
-#: /Settings/src/Template/Admin/Settings/form.ctp:30
 msgid "e.g., 'Site.title'"
 msgstr "ej: 'Site.title'"
 
-#: /Settings/src/Template/Admin/Settings/form.ctp:41
-#: /Settings/src/Template/Admin/Settings/view.ctp:24
 msgid "Input Type"
 msgstr "Tipo de entrada"
 
-#: /Settings/src/Template/Admin/Settings/form.ctp:42
 msgid "e.g., 'text' or 'textarea'"
 msgstr "ej: 'text' o 'textarea'"
 
-#: /Settings/src/Template/Admin/Settings/form.ctp:44
-#: /Settings/src/Template/Admin/Settings/index.ctp:20
 msgid "Editable"
 msgstr "Editable"
 
-#: /Settings/src/Template/Admin/Settings/view.ctp:2
 msgid "Setting"
 msgstr "Configuración"
 
-#: /Settings/src/Template/Admin/Settings/view.ctp:29
 msgid "Weight"
 msgstr "Peso"
 
-#: /Settings/src/Template/Admin/Settings/view.ctp:43
 msgid "Edit Setting"
 msgstr "Editar configuración"
 
-#: /Settings/src/Template/Admin/Settings/view.ctp:44
 msgid "Delete Setting"
 msgstr "Borrar configuración"
 
-#: /Settings/src/Template/Admin/Settings/view.ctp:45
 msgid "List Settings"
 msgstr "Listado de configuraciones"
 
-#: /Settings/src/Template/Admin/Settings/view.ctp:46
 msgid "New Setting"
 msgstr "Nueva configuración"
 
-#: /Taxonomy/config/admin_menu.php:8
 msgid "Content Types"
 msgstr "Tipos de contenido"
 
-#: /Taxonomy/config/admin_menu.php:19
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:23
 msgid "Taxonomy"
 msgstr "Taxonomía"
 
-#: /Taxonomy/config/admin_menu.php:39
 msgid "Add new"
 msgstr "Añadir nuevo"
 
-#: /Taxonomy/src/Action/Admin/TermAddAction.php:40
-#: /Taxonomy/src/Action/Admin/TermEditAction.php:62
 msgid "Term saved successfuly."
 msgstr "Térmio guardado exitosamente."
 
-#: /Taxonomy/src/Action/Admin/TermAddAction.php:55
-#: /Taxonomy/src/Action/Admin/TermEditAction.php:76
 msgid "Term could not be added to the vocabulary. Please try again."
 msgstr ""
 "El término no ha podido ser adicionado al vocabulario. Por favor intente de "
 "nuevo."
 
-#: /Taxonomy/src/Action/Admin/TermEditAction.php:57
 msgid "{0}: Edit Term"
 msgstr "{0}: Editar término"
 
-#: /Taxonomy/src/Controller/Admin/TermsController.php:130
 msgid "Term deleted"
 msgstr "Término borrado"
 
-#: /Taxonomy/src/Controller/Admin/TermsController.php:133
 msgid "Term could not be deleted. Please, try again."
 msgstr "El término no pudo ser eliminado. Por favor intente de nuevo."
 
-#: /Taxonomy/src/Controller/Admin/TermsController.php:200
 msgid "Moved {0} successfully"
 msgstr ""
 
-#: /Taxonomy/src/Controller/Admin/TermsController.php:203
 msgid "Could not move {0}"
 msgstr ""
 
-#: /Taxonomy/src/Controller/Admin/TermsController.php:243
 msgid "Invalid Term ID."
 msgstr ""
 
-#: /Taxonomy/src/Controller/Admin/TermsController.php:264
 msgid "Invalid Taxonomy."
 msgstr ""
 
-#: /Taxonomy/src/Controller/Admin/TermsController.php:287
 msgid "Invalid Vocabulary ID."
 msgstr "ID de vocabulario no válido."
 
-#: /Taxonomy/src/Model/Behavior/TaxonomizableBehavior.php:139
 msgid "Please select at least 1 value"
 msgstr ""
 
-#: /Taxonomy/src/Model/Behavior/TaxonomizableBehavior.php:140
 msgid "Please select at most 1 value"
 msgstr ""
 
-#: /Taxonomy/src/Model/Behavior/TaxonomizableBehavior.php:167
 msgid "Invalid Content Type"
 msgstr "Tipo de contenido invalido"
 
-#: /Taxonomy/src/Model/Table/TermsTable.php:59
-#: /Taxonomy/src/Model/Table/VocabulariesTable.php:49
 msgid "The title cannot be empty"
 msgstr ""
 
-#: /Taxonomy/src/Model/Table/TermsTable.php:60
 msgid "The slug cannot be empty"
 msgstr ""
 
-#: /Taxonomy/src/Model/Table/TermsTable.php:201
 msgid "\"vocabulary_id\" key not found"
 msgstr ""
 
-#: /Taxonomy/src/Model/Table/TypesTable.php:79
 msgid "That alias is already taken."
 msgstr ""
 
-#: /Taxonomy/src/Model/Table/VocabulariesTable.php:50
 msgid "The alias cannot be empty"
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Terms/chooser.ctp:7
-#: /Taxonomy/src/Template/Admin/Terms/form.ctp:48
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:25
 msgid "Slug"
 msgstr "Slug"
 
-#: /Taxonomy/src/Template/Admin/Terms/form.ctp:10;18
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:9
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:12;19
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:7
 msgid "Vocabularies"
 msgstr "Vocabularios"
 
-#: /Taxonomy/src/Template/Admin/Terms/form.ctp:16
 msgid "{0}: Add Term"
 msgstr "{0}: Añadir término"
 
-#: /Taxonomy/src/Template/Admin/Terms/form.ctp:37
 msgid "Term"
 msgstr "Término"
 
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:3
 msgid "Vocabulary: {0}"
 msgstr "Vocabulario: {0}"
 
-#: /Taxonomy/src/Template/Admin/Terms/index.ctp:14
 msgid "Create term"
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:7
-#: /Taxonomy/src/Template/Admin/Types/index.ctp:4
 msgid "Types"
 msgstr "Tipos"
 
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:10
 msgid "Edit Type"
 msgstr "Editar tipo"
 
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:66
 msgid "Commenting"
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:102
 msgid "Show author's name"
 msgstr "Mostrar nombre del autor"
 
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:106
 msgid "Show date"
 msgstr "Mostrar fecha"
 
-#: /Taxonomy/src/Template/Admin/Types/form.ctp:110
 msgid "Use rich editor"
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:10
 msgid "Edit Vocabulary"
 msgstr "Editar vocabulario"
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:17
 msgid "Add Vocabulary"
 msgstr "Añadir vocabulario"
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:28
 msgid "Vocabulary"
 msgstr "Vocabulario"
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:45
 msgid "Content types"
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:47
 msgid "Select which content types will use this vocabulary"
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:54
 msgid "vocabulary"
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:57
 msgid "Options"
 msgstr "Opciones"
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:59
 msgid "Required"
 msgstr "Requerido"
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:61
 msgid "Required to select a term from the vocabulary."
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:64
 msgid "Multiple selections"
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:66
 msgid "Allow multiple terms to be selected."
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:69
 msgid "Freetags"
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/form.ctp:71
 msgid "Allow free-typing of terms/tags."
 msgstr ""
 
-#: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:25
 msgid "View terms"
 msgstr "Ver términos"
 
-#: /Taxonomy/src/View/Helper/TaxonomiesHelper.php:53
 msgid "Terms"
 msgstr "Términos"
 
-#: /Translate/src/Translations.php:33;39
-#: /Translate/src/Event/TranslateEventHandler.php:54
-#: /Translate/src/Template/Admin/Translate/edit.ctp:41
 msgid "Translate"
 msgstr "Traducir"
 
-#: /Translate/src/Controller/Admin/TranslateController.php:43;107
 msgid "Invalid ID."
 msgstr "ID no válido."
 
-#: /Translate/src/Controller/Admin/TranslateController.php:56;218
 msgid "Invalid model."
 msgstr "Modelo no válido."
 
-#: /Translate/src/Controller/Admin/TranslateController.php:68;146;229
 msgid "Invalid record."
 msgstr "Registro no válido."
 
-#: /Translate/src/Controller/Admin/TranslateController.php:75
 msgid "Translations: {0}"
 msgstr "Traducciones: {0}"
 
-#: /Translate/src/Controller/Admin/TranslateController.php:116
 msgid "Invalid locale"
 msgstr "Locale no válido"
 
-#: /Translate/src/Controller/Admin/TranslateController.php:134
 msgid "Invalid Language"
 msgstr "Idioma no válido"
 
-#: /Translate/src/Controller/Admin/TranslateController.php:170
 msgid "Record has been translated"
 msgstr "El registro ha sido traducido"
 
-#: /Translate/src/Controller/Admin/TranslateController.php:185
 msgid "Record could not be translated. Please, try again."
 msgstr "El registro no ha podido ser traducido. Por favor intente de nuevo."
 
-#: /Translate/src/Controller/Admin/TranslateController.php:205
 msgid "Invalid Locale or ID"
 msgstr "Locale o ID no válido"
 
-#: /Translate/src/Controller/Admin/TranslateController.php:244
 msgid "Translation for the locale deleted successfully."
 msgstr "Traducción del locale borrada con éxito."
 
-#: /Translate/src/Controller/Admin/TranslateController.php:246
 msgid "Translation for the locale could not be deleted."
 msgstr "La traducción del locale no ha podido ser borrada."
 
-#: /Translate/src/Template/Admin/Translate/edit.ctp:6
 msgid "Translate content: {0} ({1})"
 msgstr "Traducir contenido: {0} ({1})"
 
-#: /Translate/src/Template/Admin/Translate/edit.ctp:13
-#: /Translate/src/Template/Admin/Translate/index.ctp:31
 msgid "Translations"
 msgstr ""
 
-#: /Translate/src/Template/Admin/Translate/edit.ctp:24
 msgid "Translate ({0})"
 msgstr ""
 
-#: /Translate/src/Template/Admin/Translate/edit.ctp:42
-#: /Translate/src/Template/Admin/Translate/index.ctp:88
 msgid "Original"
 msgstr ""
 
-#: /Users/config/admin_menu.php:29 /Users/src/Template/Admin/Roles/form.ctp:5
-#: /Users/src/Template/Admin/Roles/index.ctp:6
 msgid "Roles"
 msgstr "Roles"
 
-#: /Users/config/bootstrap.php:32 /Users/src/Template/Admin/Users/form.ctp:21
 msgid "Reset password"
 msgstr "Reestablecer contraseña"
 
-#: /Users/src/Controller/UsersController.php:63
-#: /Users/src/Controller/Admin/UsersController.php:374
 msgid "The User could not be saved. Please, try again."
 msgstr "El usuario no ha podido ser guardado. Por favor intente de nuevo."
 
-#: /Users/src/Controller/UsersController.php:68
-#: /Users/src/Controller/Admin/UsersController.php:379
 msgid ""
 "You have successfully registered an account. An email has been sent with "
 "further instructions."
 msgstr "Ha registrado una cuenta. Se le ha enviado un email con instrucciones."
 
-#: /Users/src/Controller/UsersController.php:92
 msgid "Could not activate your account."
 msgstr ""
 
-#: /Users/src/Controller/UsersController.php:100
 msgid "Could not activate your account"
 msgstr ""
 
-#: /Users/src/Controller/UsersController.php:105
 msgid "Account activated successfully."
 msgstr "Cuenta activada con éxito."
 
-#: /Users/src/Controller/UsersController.php:136
-#: /Users/src/Controller/Admin/UsersController.php:398;408
 msgid "Invalid username."
 msgstr "Nombre de usuario no válido"
 
-#: /Users/src/Controller/UsersController.php:142
 msgid "Invalid email."
 msgstr ""
 
-#: /Users/src/Controller/UsersController.php:151;194
-#: /Users/src/Controller/Admin/UsersController.php:414;456
 msgid "An error occurred. Please try again."
 msgstr "Ha ocurrido un error. Por favor intente de nuevo."
 
-#: /Users/src/Controller/UsersController.php:156
-#: /Users/src/Controller/Admin/UsersController.php:418
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 "Se le ha enviado un email con instrucciones para reestablecer su contraseña."
 
-#: /Users/src/Controller/UsersController.php:199
-#: /Users/src/Controller/Admin/UsersController.php:461
 msgid "Your password has been reset successfully."
 msgstr "Su contraseña ha sido reestablecida con éxito."
 
-#: /Users/src/Controller/UsersController.php:241
-#: /Users/src/Controller/Admin/UsersController.php:253
 msgid "Authorization error"
 msgstr ""
 
-#: /Users/src/Controller/UsersController.php:263
-#: /Users/src/Controller/Admin/UsersController.php:286
 msgid "Log out successful."
 msgstr "Logout realizado."
 
-#: /Users/src/Controller/UsersController.php:284
 msgid "Invalid User."
 msgstr "Usuario no válido."
 
-#: /Users/src/Controller/Admin/UsersController.php:133
 msgid ""
 "You have reached maximum limit for failed login attempts. Please try again "
 "after a few minutes."
@@ -3179,180 +1985,126 @@ msgstr ""
 "Usted ha alcanzado el límite máximo de logins fallidos. Por favor intente "
 "nuevamente en unos minutos."
 
-#: /Users/src/Controller/Admin/UsersController.php:204
 msgid "Password has been reset."
 msgstr "Contraseña reestablecida."
 
-#: /Users/src/Controller/Admin/UsersController.php:207
 msgid "Password could not be reset. Please, try again."
 msgstr ""
 "La contraseña no ha podido ser reestablecida. Por favor intente de nuevo."
 
-#: /Users/src/Controller/Admin/UsersController.php:228;360
 msgid "You are already logged in"
 msgstr ""
 
-#: /Users/src/Controller/Admin/UsersController.php:270
 msgid "Incorrect username or password"
 msgstr "Nombre de usuario y password incorrecto"
 
-#: /Users/src/Mailer/UserMailer.php:27
 msgid "[{0}] Reset Password"
 msgstr "[{0}] Reinicio de Contraseña"
 
-#: /Users/src/Mailer/UserMailer.php:40
 msgid "[{0}] Please activate your account"
 msgstr "[{0}] Por favor active su cuenta"
 
-#: /Users/src/Shell/UsersShell.php:36
 msgid "Create a new user"
 msgstr ""
 
-#: /Users/src/Shell/UsersShell.php:41;60
 msgid "Username to reset"
 msgstr "Nombre de usuario a reiniciar"
 
-#: /Users/src/Shell/UsersShell.php:45;64
 msgid "New user password"
 msgstr "Password de nuevo usuario"
 
-#: /Users/src/Shell/UsersShell.php:49
 msgid "Role id for user"
 msgstr ""
 
-#: /Users/src/Shell/UsersShell.php:55
 msgid "Reset user password"
 msgstr "Reiniciar password de usuario"
 
-#: /Users/src/Shell/UsersShell.php:81
 msgid "User '{0}' not found"
 msgstr "Usuario '{0}' no encontrado"
 
-#: /Users/src/Shell/UsersShell.php:87
 msgid "Password for '{0}' has been changed"
 msgstr "Password para '{0}' ha sido cambiado"
 
-#: /Users/src/Shell/UsersShell.php:102
 msgid "User '{0}' already exists"
 msgstr ""
 
-#: /Users/src/Shell/UsersShell.php:116
 msgid "User '{0}' has been created"
 msgstr ""
 
-#: /Users/src/Template/Admin/Roles/form.ctp:18
-#: /Users/src/Template/Admin/Users/form.ctp:59
-#: /Users/src/Template/Admin/Users/view.ctp:18
 msgid "Role"
 msgstr "Rol"
 
-#: /Users/src/Template/Admin/Users/forgot.ctp:6
-#: /Users/src/Template/Users/forgot.ctp:3
 msgid "Forgot Password"
 msgstr "Olvidé la contraseña"
 
-#: /Users/src/Template/Admin/Users/forgot.ctp:17
 msgid "Username/Email"
 msgstr ""
 
-#: /Users/src/Template/Admin/Users/form.ctp:13
 msgid "Edit user {0}"
 msgstr ""
 
-#: /Users/src/Template/Admin/Users/form.ctp:15;16
 msgid "New user"
 msgstr ""
 
-#: /Users/src/Template/Admin/Users/form.ctp:55
-#: /Users/src/Template/Admin/Users/view.ctp:38
 msgid "Timezone"
 msgstr ""
 
-#: /Users/src/Template/Admin/Users/form.ctp:72
 msgid "Send Activation Email"
 msgstr ""
 
-#: /Users/src/Template/Admin/Users/login.ctp:24
 msgid "Remember me?"
 msgstr "Recordarte?"
 
-#: /Users/src/Template/Admin/Users/login.ctp:29
 msgid "Log In"
 msgstr "Login"
 
-#: /Users/src/Template/Admin/Users/login.ctp:30
 msgid "Forgot password?"
 msgstr "¿Olvidó su contraseña?"
 
-#: /Users/src/Template/Admin/Users/register.ctp:3
-#: /Users/src/Template/Users/add.ctp:3
 msgid "Registration"
 msgstr ""
 
-#: /Users/src/Template/Admin/Users/register.ctp:19
-#: /Users/src/Template/Users/add.ctp:18
 msgid "Register"
 msgstr "Registro"
 
-#: /Users/src/Template/Admin/Users/reset.ctp:9
-#: /Users/src/Template/Users/reset.ctp:5
 msgid "New password"
 msgstr "Nueva contraseña"
 
-#: /Users/src/Template/Admin/Users/reset.ctp:21
-#: /Users/src/Template/Users/reset.ctp:8
 msgid "Reset"
 msgstr "Reiniciar"
 
-#: /Users/src/Template/Admin/Users/reset_password.ctp:4
 msgid "Reset password: {0}"
 msgstr ""
 
-#: /Users/src/Template/Admin/Users/reset_password.ctp:11;15
 msgid "Reset Password"
 msgstr "Reestablecer contraseña"
 
-#: /Users/src/Template/Admin/Users/view.ctp:10
 msgid "Edit User"
 msgstr "Editar usuario"
 
-#: /Users/src/Template/Admin/Users/view.ctp:42
 msgid "Updated By"
 msgstr ""
 
-#: /Users/src/Template/Admin/Users/view.ctp:46
 msgid "Created By"
 msgstr ""
 
-#: /Users/src/Template/Admin/Users/view.ctp:64
 msgid "Bio"
 msgstr ""
 
-#: /Users/src/Template/Email/html/forgot_password.ctp:2
-#: /Users/src/Template/Email/html/register.ctp:7
-#: /Users/src/Template/Email/text/forgot_password.ctp:3
-#: /Users/src/Template/Email/text/register.ctp:3
 msgid "Hello {0}"
 msgstr "Hola {0}"
 
-#: /Users/src/Template/Email/html/forgot_password.ctp:14
-#: /Users/src/Template/Email/text/forgot_password.ctp:14
 msgid "Please visit this link to reset your password: {0}"
 msgstr "Por favor, pulse este enlace para reestablecer su contraseña: {0}"
 
-#: /Users/src/Template/Email/html/forgot_password.ctp:19
-#: /Users/src/Template/Email/text/forgot_password.ctp:18
 msgid "If you did not request a password reset, then please ignore this email."
 msgstr ""
 "Si no pidió que su contraseña fuese reestablecida, por favor ignore este "
 "email."
 
-#: /Users/src/Template/Email/html/register.ctp:11
-#: /Users/src/Template/Email/text/register.ctp:6
 msgid "Please visit this link to activate your account: {0}"
 msgstr "Por favor visite este enlace para activar su cuenta: {0}"
 
-#: /Users/src/Template/Users/index.ctp:4
 msgid "You are currently logged in as:"
 msgstr "Está conectado como:"
 
