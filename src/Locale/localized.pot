@@ -2073,3 +2073,6 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
+msgid "Calendar"
+msgstr ""
+
