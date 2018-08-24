@@ -15,7 +15,7 @@ composer require funayaki/localized:dev-master
 To use these files link or copy them
 into their expected location: `src/Locale/<locale>/localized.po`
 
-### Setting the Default locale
+### Setting the Default Locale
 
 Refer: https://book.cakephp.org/3.0/en/core-libraries/internationalization-and-localization.html#setting-the-default-locale
 
