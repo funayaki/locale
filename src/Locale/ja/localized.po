@@ -36,7 +36,7 @@ msgstr ""
 
 #: /Acl/src/Controller/Admin/ActionsController.php:76;106
 msgid "The {0} has been saved."
-msgstr ""
+msgstr "{0}を保存しました。"
 
 #: /Acl/src/Controller/Admin/ActionsController.php:79;113
 msgid "The {0} could not be saved. Please, try again."
