@@ -2,18 +2,28 @@
 
 Each locale now resides in its own directory.
 
-# Installation
+## Installation
 
-## Composer
+### Composer
 
-```
+```shell
 composer require funayaki/localized:dev-master
 ```
 
-## PO files
+### PO files
 
 To use these files link or copy them
 into their expected location: `src/Locale/<locale>/localized.po`
+
+### Setting the Default locale
+
+Refer: https://book.cakephp.org/3.0/en/core-libraries/internationalization-and-localization.html#setting-the-default-locale
+
+## Usage
+
+```php
+<?= __d('localized', 'Title') ?>
+```
 
 # Tools
 
