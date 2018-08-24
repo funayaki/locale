@@ -3326,3 +3326,18 @@ msgstr "プロフィール"
 msgid "Sign out"
 msgstr "サインアウト"
 
+msgid "The {0} has been deleted."
+msgstr "{0}を削除しました。"
+
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "{0}をできませんでした。もう一度、試してください。"
+
+msgid "View"
+msgstr "表示"
+
+msgid "Export"
+msgstr "エクスポート"
+
+msgid "Download"
+msgstr "ダウンロード"
+

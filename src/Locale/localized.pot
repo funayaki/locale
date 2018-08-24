@@ -3326,3 +3326,18 @@ msgstr ""
 msgid "Sign out"
 msgstr ""
 
+msgid "The {0} has been deleted."
+msgstr ""
+
+msgid "The {0} could not be deleted. Please, try again."
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
