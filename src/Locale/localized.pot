@@ -2055,9 +2055,6 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-msgid "Profile"
-msgstr ""
-
 msgid "Sign out"
 msgstr ""
 
