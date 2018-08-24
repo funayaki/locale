@@ -25,7 +25,11 @@ Refer: https://book.cakephp.org/3.0/en/core-libraries/internationalization-and-l
 <?= __d('localized', 'Title') ?>
 ```
 
-# Tools
+## Tools
 
 - Poedit (http://www.poedit.net/)
 - Others http://www.gnu.org/software/gettext/manual/html_node/Editing.html#Editing
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/funayaki/localized.
