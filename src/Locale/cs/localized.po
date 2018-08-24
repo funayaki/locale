@@ -702,8 +702,8 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 
@@ -2081,6 +2081,29 @@ msgstr ""
 msgid "You are currently logged in as:"
 msgstr "Právě přihlášen:"
 
+msgid "Home"
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "{0} byl uložen"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "{0} nemohl být uložen. Zkuste to prosím znovu"
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
 #~ msgid "Add Block"
 #~ msgstr "Přidat Blok"
 
@@ -2240,12 +2263,6 @@ msgstr "Právě přihlášen:"
 
 #~ msgid "Content type does not exist."
 #~ msgstr "Typ obsahu neexistuje"
-
-#~ msgid "{0} has been saved"
-#~ msgstr "{0} byl uložen"
-
-#~ msgid "{0} could not be saved. Please, try again."
-#~ msgstr "{0} nemohl být uložen. Zkuste to prosím znovu"
 
 #~ msgid "Invalid id for Node"
 #~ msgstr "Neplatné ID pro článek"

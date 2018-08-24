@@ -706,8 +706,8 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 
@@ -2087,6 +2087,29 @@ msgstr "Bezoek alstublieft deze link om uw account te activeren: {0}"
 msgid "You are currently logged in as:"
 msgstr "Je bent momenteel ingelogd als:"
 
+msgid "Home"
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "De {0} is opgeslagen"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "De {0} kon niet worden opgeslagen. Probeer opnieuw, alstublieft."
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "Te verwerken plugin"
 
@@ -2706,8 +2729,8 @@ msgstr "Je bent momenteel ingelogd als:"
 #~ msgid ""
 #~ "Headers already sent in {0} on line {1}. Cannot send log data to FirePHP."
 #~ msgstr ""
-#~ "Headers reeds verstuurd in {0} op lijn {1}. Kan geen log data naar FirePHP "
-#~ "verzenden"
+#~ "Headers reeds verstuurd in {0} op lijn {1}. Kan geen log data naar "
+#~ "FirePHP verzenden"
 
 #~ msgid "Incorrect parameter count for FireCake::fb()"
 #~ msgstr "Foutieve parameter aantal voor FireCake::fb()"

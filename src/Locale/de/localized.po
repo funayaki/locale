@@ -634,7 +634,8 @@ msgid "Plugin \"{0}\" activated successfully."
 msgstr "Plugin \"{0}\" erfolgreich aktiviert."
 
 msgid "Plugin \"{0}\" could not be activated. Please, try again."
-msgstr "Plugin \"{0}\"  konnte nicht aktiviert werden. Bitte nochmal versuchen "
+msgstr ""
+"Plugin \"{0}\"  konnte nicht aktiviert werden. Bitte nochmal versuchen "
 
 msgid "Plugin \"{0}\" could not be deactivated. Please, try again."
 msgstr ""
@@ -707,8 +708,8 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 
@@ -2092,10 +2093,35 @@ msgstr ""
 "Email."
 
 msgid "Please visit this link to activate your account: {0}"
-msgstr "Bitte folgen Sie diesen Link, um ihren Benutzerkonto zu aktivieren: {0}"
+msgstr ""
+"Bitte folgen Sie diesen Link, um ihren Benutzerkonto zu aktivieren: {0}"
 
 msgid "You are currently logged in as:"
 msgstr "Sie sind eingeloggt als:"
+
+msgid "Home"
+msgstr "Startseite"
+
+#, fuzzy
+msgid "Sign out"
+msgstr "Abmelden"
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "{0} wurde gespeichert"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "Der Begriff konnte nicht gelöscht werden. Bitte nochmal versuchen"
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
 
 #~ msgid "Plugin to process"
 #~ msgstr "Plugin, um zu verarbeiten"
@@ -2558,9 +2584,6 @@ msgstr "Sie sind eingeloggt als:"
 #~ msgid "Invalid Term."
 #~ msgstr "Ungültiger Term"
 
-#~ msgid "Home"
-#~ msgstr "Startseite"
-
 #~ msgid "Publish as "
 #~ msgstr "Veröffentlicht als"
 
@@ -2745,9 +2768,6 @@ msgstr "Sie sind eingeloggt als:"
 
 #~ msgid "You are logged in as: {0}"
 #~ msgstr "Sie sind eingeloggt als: {0}"
-
-#~ msgid "Log out"
-#~ msgstr "Abmelden"
 
 #~ msgid "Link to a Node"
 #~ msgstr "Link zu ein Node"

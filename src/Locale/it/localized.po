@@ -708,8 +708,8 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 "Aggiorna la gerarchia delle ACO dalla 1.3/1.4 in modo che segua il normale "
@@ -2104,6 +2104,29 @@ msgstr "Visita questo link per attivare il tuo account: {0}"
 msgid "You are currently logged in as:"
 msgstr "Stai accedendo come:"
 
+msgid "Home"
+msgstr "Home"
+
+msgid "Sign out"
+msgstr ""
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "Il {0} è stato salvato"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "Il Termine non può essere eliminato. Riprova."
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "Plugin da processare"
 
@@ -2611,9 +2634,6 @@ msgstr "Stai accedendo come:"
 
 #~ msgid "Invalid Term."
 #~ msgstr "Termine non valido."
-
-#~ msgid "Home"
-#~ msgstr "Home"
 
 #~ msgid "Publish as "
 #~ msgstr "Pubblica come"

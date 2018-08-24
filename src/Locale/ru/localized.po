@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Croogo\n"
-"POT-Creation-Date: 2012-07-08 17:30+0700\n"
+"POT-Creation-Date: 2017-11-27 12:15+0000\n"
 "PO-Revision-Date: 2010-08-06 20:35+0300\n"
 "Last-Translator: Sitex <gsitex@gmail.com>\n"
 "Language-Team: BS-Group <bs@bs-group.biz>\n"
@@ -22,70 +22,19 @@ msgstr "Разрешения"
 msgid "Access Control"
 msgstr ""
 
-msgid "Plugin to process"
-msgstr ""
-
-msgid "Better manage, and easily synchronize you application's ACO tree"
-msgstr ""
-
 msgid ""
-"Add new ACOs for new controllers and actions. Does not remove nodes from the "
-"ACO table."
+"_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
+"\"%2$s\""
 msgstr ""
 
-msgid ""
-"Perform a full sync on the ACO table.Will create new ACOs or missing "
-"controllers and actions.Will also remove orphaned entries that no longer "
-"have a matching controller/action"
+msgid "You need to specify token parameter and/or header"
 msgstr ""
-
-msgid ""
-"Perform a full content sync on the ACO table.Will create new ACOs or missing "
-"contents.Will also remove orphaned entries that no longer have a matching "
-"contents"
-msgstr ""
-
-msgid "The content model name "
-msgstr ""
-
-msgid "Verify the tree structure of either your Aco or Aro Trees"
-msgstr ""
-
-msgid "The type of tree to verify"
-msgstr ""
-
-msgid "Recover a corrupted Tree"
-msgstr ""
-
-msgid "The type of tree to recover"
-msgstr ""
-
-msgid "Actions"
-msgstr "Действия"
-
-msgid "Add Action"
-msgstr "Добавить Action"
 
 msgid "The {0} has been saved."
 msgstr ""
 
 msgid "The {0} could not be saved. Please, try again."
 msgstr ""
-
-msgid "Edit Action"
-msgstr "Редактировать Action"
-
-msgid "Invalid Action"
-msgstr "Неверный Action"
-
-msgid "The Action has been saved"
-msgstr "Action сохранен"
-
-msgid "The Action could not be saved. Please, try again."
-msgstr "Action не может быть сохранен. Пожалуйста, попробуйте еще раз."
-
-msgid "Invalid id for Action"
-msgstr "Неверный id Action"
 
 msgid "Action deleted"
 msgstr "Action удален"
@@ -96,12 +45,6 @@ msgstr "Action поднят"
 msgid "Action moved down"
 msgstr "Action опущен"
 
-msgid "Created %d new permissions"
-msgstr ""
-
-msgid "ACL database has been upgraded successfully"
-msgstr ""
-
 msgid "Parent Role"
 msgstr ""
 
@@ -109,70 +52,14 @@ msgid ""
 "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
 msgstr ""
 
-msgid ""
-"_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
-"\"%2$s\""
-msgstr ""
-
-msgid "Model {0} cannot be found."
-msgstr ""
-
-msgid "Created Aco node: {0}"
-msgstr ""
-
-msgid "<error>Plugin {0} not found or not activated</error>"
-msgstr ""
-
-msgid "<success>Aco Sync Complete</success>"
-msgstr ""
-
-msgid "<success>Aco Update Complete</success>"
-msgstr ""
-
-msgid "Skipped Aco node: <warning>{0}</warning>"
-msgstr ""
-
-msgid "Deleted {0} and all children"
-msgstr ""
-
-msgid "Created Aco node: <success>{0}</success>"
-msgstr ""
-
-msgid "Deleted Aco node: <warning>{0}</warning>"
-msgstr ""
-
-msgid "<success>Tree is valid and strong</success>"
-msgstr ""
-
-msgid "Tree has been recovered, or tree did not need recovery."
-msgstr ""
-
-msgid "<error>Tree recovery failed.</error>"
-msgstr ""
-
-msgid "No root node found"
-msgstr ""
-
-msgid "<warning>ACL Database seems to have already been upgraded</warning>"
-msgstr ""
-
-msgid "{0} not found"
-msgstr ""
-
-msgid "Role: Public not found"
-msgstr ""
-
-msgid "Role: Registered not found"
-msgstr ""
-
-msgid "Role: Admin not found"
-msgstr ""
-
 msgid "API"
 msgstr ""
 
 msgid "Users"
 msgstr "Пользователи"
+
+msgid "Actions"
+msgstr "Действия"
 
 msgid "Add"
 msgstr "Добавление"
@@ -183,23 +70,8 @@ msgstr ""
 msgid "Parent"
 msgstr "Родительский элемент"
 
-msgid "Choose none if the Aco is a controller."
-msgstr "Выберите Нет, если Aco является контроллером."
-
 msgid "Alias"
 msgstr "Псевдоним"
-
-msgid "Publishing"
-msgstr "Публикация"
-
-msgid "Apply"
-msgstr "Применить"
-
-msgid "Save"
-msgstr "Сохранить"
-
-msgid "Cancel"
-msgstr "Отменить"
 
 msgid "Tools"
 msgstr ""
@@ -215,9 +87,6 @@ msgstr ""
 
 msgid "Create new & remove orphaned actions"
 msgstr ""
-
-msgid "Edit Actions"
-msgstr "Редактировать Actions"
 
 msgid "Id"
 msgstr "#"
@@ -237,6 +106,9 @@ msgstr "Удалить"
 msgid "Are you sure?"
 msgstr "Вы уверены?"
 
+msgid "Edit Actions"
+msgstr "Редактировать Actions"
+
 msgid "error"
 msgstr "ошибка"
 
@@ -246,90 +118,36 @@ msgstr ""
 msgid "Edit Permissions"
 msgstr ""
 
-msgid "Upgrade Acl database"
-msgstr ""
-
 msgid "Blocks"
 msgstr "Блоки"
 
 msgid "Regions"
 msgstr "Регионы"
 
-msgid "Add Block"
-msgstr "Добавить блок"
-
-msgid "The Block has been saved"
-msgstr "Блок сохранен"
-
-msgid "The Block could not be saved. Please, try again."
-msgstr "Блок не может быть сохранен. Пожалуйста, попробуйте еще раз."
-
-msgid "Edit Block"
-msgstr "Изменить блок"
-
-msgid "Invalid Block"
-msgstr "Неправильный Блок"
-
-msgid "Invalid id for Block"
-msgstr "Неверный идентификатор (id) для Блока"
-
-msgid "Block deleted"
-msgstr "Блок удален"
-
-msgid "Moved up successfully"
-msgstr "Перемещен вверх успешно"
-
-msgid "Could not move up"
-msgstr "Не удалось переместить вверх"
-
-msgid "Moved down successfully"
-msgstr "Перемещен вниз успешно"
-
-msgid "Could not move down"
-msgstr "Не удалось переместить вниз"
-
-msgid "Blocks deleted"
+msgid "Successfully deleted blocks"
 msgstr ""
 
-msgid "Blocks published"
-msgstr "Блоки опубликованы."
+msgid "Successfully published blocks"
+msgstr ""
 
-msgid "Blocks unpublished"
-msgstr "Блоки сняты с публикации"
+msgid "Successfully unpublished blocks"
+msgstr ""
+
+msgid "Successfully copied blocks"
+msgstr ""
+
+msgid "Title cannot be empty."
+msgstr ""
+
+msgid "Alias cannot be empty."
+msgstr ""
 
 #, fuzzy
-msgid "Blocks copied"
-msgstr "Блоки опубликованы."
-
-msgid "Region"
-msgstr "Регион"
-
-msgid "Add Region"
-msgstr "Новый регион"
-
-msgid "The Region has been saved"
-msgstr "Регион сохранен"
-
-msgid "The Region could not be saved. Please, try again."
-msgstr "Регион не сохранен. Попробуйте еще раз"
-
-msgid "Edit Region"
-msgstr "Редактировать регион"
-
-msgid "Invalid Region"
-msgstr "Неверный регион"
-
-msgid "Invalid id for Region"
-msgstr "Неверный id региона"
-
-msgid "Region deleted"
-msgstr "Регион удален"
+msgid "That alias is already taken"
+msgstr "Идентификатор уже использован"
 
 msgid "Block"
 msgstr "Блок"
-
-msgid "Access"
-msgstr "Доступ"
 
 msgid "Visibilities"
 msgstr "Видимость"
@@ -343,6 +161,9 @@ msgstr "Заголовок"
 msgid "unique name for your block"
 msgstr "уникальное название для вашего блока"
 
+msgid "Region"
+msgstr "Регион"
+
 msgid "if you are not sure, choose 'none'"
 msgstr "если вы не уверены, выберите 'Нет'"
 
@@ -355,8 +176,8 @@ msgstr ""
 msgid "Element"
 msgstr ""
 
-msgid "Role"
-msgstr "Роль"
+msgid "Cell"
+msgstr ""
 
 msgid "Visibility Paths"
 msgstr ""
@@ -368,16 +189,18 @@ msgstr ""
 "Введите один URL в каждой строке. Оставьте пустым, если вы хотите, чтобы "
 "этот блок присутствовал на всех страницах."
 
+msgid "Publishing"
+msgstr "Публикация"
+
 msgid "Show title ?"
 msgstr ""
 
 #, fuzzy
-msgid "Publish Start"
-msgstr "Автор: "
+msgid "Access control"
+msgstr "Доступ"
 
-#, fuzzy
-msgid "Publish End"
-msgstr "Опубликовано"
+msgid "Updated"
+msgstr ""
 
 msgid "Status"
 msgstr "Статус"
@@ -393,6 +216,9 @@ msgid "Choose"
 msgstr ""
 
 msgid "preview"
+msgstr ""
+
+msgid "Bulk action"
 msgstr ""
 
 msgid "Publish"
@@ -419,33 +245,6 @@ msgstr "Опубликовано"
 msgid "Approval"
 msgstr "Рассмотрение"
 
-msgid "Edit Comment"
-msgstr "Редактировать комментарий"
-
-msgid "Invalid Comment"
-msgstr "Неверный комментарий"
-
-msgid "The Comment has been saved"
-msgstr "Комментарий сохранен"
-
-msgid "The Comment could not be saved. Please, try again."
-msgstr "Комментарий не может быть сохранен. Пожалуйста, попробуйте еще раз."
-
-msgid "Invalid id for Comment"
-msgstr "Неверный идентификатор (id) для Комментария"
-
-msgid "Comment deleted"
-msgstr "Комментарий удален"
-
-msgid "Comments deleted"
-msgstr ""
-
-msgid "Comments published"
-msgstr "Комментарии опубликованы."
-
-msgid "Comments unpublished"
-msgstr "Комментарии сняты с публикации."
-
 msgid "Invalid id"
 msgstr ""
 
@@ -465,23 +264,31 @@ msgstr "Ваш комментарий появится после модерац
 msgid "Sorry, the comment appears to be spam."
 msgstr "К сожалению, комментарий является спамом."
 
-msgid "Invalid captcha entry"
-msgstr "Неверное значение Captcha."
+#, fuzzy
+msgid "Sorry, the comment did not pass the security challenge"
+msgstr "К сожалению, комментарий является спамом."
 
-msgid "New comment posted under"
-msgstr "Новые комментарии публикуются ниже"
-
-msgid "Invalid Node id"
+msgid "Comments deleted"
 msgstr ""
+
+msgid "Comments published"
+msgstr "Комментарии опубликованы."
+
+msgid "Comments unpublished"
+msgstr "Комментарии сняты с публикации."
+
+#, fuzzy
+msgid "New comment posted"
+msgstr "Новые комментарии публикуются ниже"
 
 msgid "Invalid Comment id"
 msgstr ""
 
-msgid "Content"
-msgstr "Контент"
-
+#, fuzzy
 msgid "Comment"
-msgstr "Комментарии"
+msgid_plural "Comments"
+msgstr[0] "Комментарии"
+msgstr[1] "Комментарии"
 
 msgid "Contact"
 msgstr "Контакт"
@@ -498,17 +305,34 @@ msgstr "Сайт"
 msgid "Ip"
 msgstr ""
 
+msgid "Content"
+msgstr "Контент"
+
 msgid "Comments: Published"
 msgstr "Комментарии: Опубликованы"
 
-msgid "Comments: Approval"
-msgstr "Комментарии: Приняты"
+#, fuzzy
+msgid "Awaiting approval"
+msgstr "Рассмотрение"
 
-msgid "Node"
-msgstr ""
+msgid "Disabled"
+msgstr "Не активно"
 
-msgid "Created"
-msgstr "Дата"
+msgid "Read only"
+msgstr "Только для чтения"
+
+msgid "Read/Write"
+msgstr "Чтение/Запись"
+
+msgid "Add new comment"
+msgstr "Добавить новый комментарий"
+
+#, fuzzy
+msgid "Go back to original post: {0}"
+msgstr "Вернуться к исходному сообщению"
+
+msgid "Post comment"
+msgstr "Оставить комментарий"
 
 msgid "Comment on"
 msgstr "Прокомментировать"
@@ -522,25 +346,8 @@ msgstr "говорит о  {0}"
 msgid "Reply"
 msgstr "Ответ"
 
-msgid "Add new comment"
-msgstr "Добавить новый комментарий"
-
-msgid "Go back to original post"
-msgstr "Вернуться к исходному сообщению"
-
-msgid "Post comment"
-msgstr "Оставить комментарий"
-
-msgid "Disabled"
-msgstr "Не активно"
-
-msgid "Read only"
-msgstr "Только для чтения"
-
-msgid "Read/Write"
-msgstr "Чтение/Запись"
-
-msgid "A new comment has been posted under: {0}"
+#, fuzzy
+msgid "A new comment has been posted"
 msgstr "Новый комментарий был размещен под: {0}"
 
 msgid "Name: {0}"
@@ -564,56 +371,17 @@ msgstr "Контакты"
 msgid "Messages"
 msgstr "Сообщения"
 
-msgid "Add Contact"
-msgstr "Новый контакт"
-
-msgid "The Contact has been saved"
-msgstr "Контакт сохранен"
-
-msgid "The Contact could not be saved. Please, try again."
-msgstr "Контакт не может быть сохранен. Пожалуйста, попробуйте еще раз."
-
-msgid "Edit Contact"
-msgstr "Редактирование контакта"
-
-msgid "Invalid Contact"
-msgstr "Неверный Контакт"
-
-msgid "Invalid id for Contact"
-msgstr "Неверный идентификатор (id) для Контакта"
-
-msgid "Contact deleted"
-msgstr "Контакт удален"
-
 msgid "Your message has been received..."
 msgstr "Ваше сообщение принято..."
 
 msgid "Sorry, the message appears to be spam."
 msgstr "К сожалению, сообщение похоже на спам."
 
+msgid "Invalid captcha entry"
+msgstr "Неверное значение Captcha."
+
 msgid "[{0}] {1}"
 msgstr ""
-
-msgid "Read"
-msgstr "Читать"
-
-msgid "Edit Message"
-msgstr "Редактировать сообщение"
-
-msgid "Invalid Message"
-msgstr "Неверное сообщение"
-
-msgid "The Message has been saved"
-msgstr "Сообщение было сохранено"
-
-msgid "The Message could not be saved. Please, try again."
-msgstr "Сообщение не может быть сохранено. Пожалуйста, попробуйте еще раз."
-
-msgid "Invalid id for Message"
-msgstr "Неверный id сообщения"
-
-msgid "Message deleted"
-msgstr "Сообщение удалено"
 
 #, fuzzy
 msgid "Messages deleted"
@@ -624,6 +392,16 @@ msgstr "Сообщения отмечены как прочитанные"
 
 msgid "Messages marked as unread"
 msgstr "Сообщения отмечены как непрочитанные"
+
+#, fuzzy
+msgid "Not a valid email address."
+msgstr "Укажите верный почтовый ящик."
+
+msgid "This field cannot be left blank."
+msgstr "Это обязательное поле"
+
+msgid "Please provide a valid email address."
+msgstr "Укажите верный почтовый ящик."
 
 msgid "Details"
 msgstr "Подробно"
@@ -673,26 +451,11 @@ msgstr "Использовать captcha? (требуется ReCaptcha API key)
 msgid "You can manage your API keys here."
 msgstr "Управление API ключами"
 
-msgid "Your name"
-msgstr "Ваше имя"
+msgid "Edit Message"
+msgstr "Редактировать сообщение"
 
-msgid "Your email"
-msgstr "Ваш e-mail"
-
-msgid "Subject"
-msgstr "# Тема"
-
-msgid "Send"
-msgstr "Отправить"
-
-msgid "You have received a new message at: {0}"
-msgstr "Вы получили новые сообщения на: {0}"
-
-msgid "Subject: {0}"
-msgstr "Тема: {0}"
-
-msgid "Message: {0}"
-msgstr "Сообщение: {0}"
+msgid "Read"
+msgstr "Читать"
 
 msgid "Messages: Read"
 msgstr "Сообщения: Прочитаны"
@@ -703,16 +466,155 @@ msgstr "Непрочитанный"
 msgid "Messages: Unread"
 msgstr "Сообщения: Непрочитаны"
 
+msgid "Created"
+msgstr "Дата"
+
+#, fuzzy
+msgid "View this item"
+msgstr "Править"
+
 msgid "Mark as read"
 msgstr "Отметить как прочитанное"
 
 msgid "Mark as unread"
 msgstr "Отметить как непрочитанное"
 
-msgid "Croogo Utilities"
+msgid "Apply"
+msgstr "Применить"
+
+#, fuzzy
+msgid "List Messages"
+msgstr "Редактировать сообщение"
+
+#, fuzzy
+msgid "Message Type"
+msgstr "Сообщение"
+
+msgid "Trackable Updater"
 msgstr ""
 
-msgid "Compile/Generate CSS"
+msgid "Trackable Creator"
+msgstr ""
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Your name"
+msgstr "Ваше имя"
+
+msgid "Your email"
+msgstr "Ваш e-mail"
+
+msgid "Subject"
+msgstr "# Тема"
+
+msgid "You have received a new message at: {0}"
+msgstr "Вы получили новые сообщения на: {0}"
+
+msgid "Subject: {0}"
+msgstr "Тема: {0}"
+
+msgid "Message: {0}"
+msgstr "Сообщение: {0}"
+
+msgid "Plugin \"{0}\" is not active."
+msgstr ""
+
+msgid "Plugin could not be deactivated. Please, try again."
+msgstr ""
+
+msgid "Invalid plugin"
+msgstr "Неверный плагин"
+
+msgid "{0} is already at the first position"
+msgstr ""
+
+msgid "Plugin {0} depends on {1}"
+msgstr ""
+
+msgid "{0} is already at the last position"
+msgstr ""
+
+msgid "Invalid direction"
+msgstr ""
+
+msgid "Plugin {0} cannot be reordered"
+msgstr ""
+
+msgid "Plugin \"%2$s\" requires the \"%3$s\" plugin to be installed."
+msgid_plural "Plugin \"%2$s\" requires the %3$s plugins to be installed."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Unable to get routeable content types: {0}"
+msgstr ""
+
+msgid "Unpublished"
+msgstr "Неопубликованный"
+
+msgid "Preview"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Invalid content"
+msgstr "Неверный контент"
+
+msgid "Failed toggling field {0} to {1}"
+msgstr ""
+
+msgid "Cannot load configuration files with ../ in them."
+msgstr ""
+
+msgid "Could not load configuration files: {0) or {1}"
+msgstr ""
+
+msgid "Site down for maintenance"
+msgstr "Сайт закрыт на обслуживание"
+
+#, fuzzy
+msgid "No item selected"
+msgstr "Нет выбранных элементов."
+
+msgid "Please choose only one item for this operation"
+msgstr ""
+
+msgid "{0} processed"
+msgstr ""
+
+msgid "An error occured"
+msgstr "Произошла ошибка "
+
+msgid "Visit website"
+msgstr "На сайт"
+
+msgid "Profile"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "EventHandler {0} not found in plugin {1}"
+msgstr ""
+
+msgid "Invalid action to perform"
+msgstr ""
+
+msgid "No target to process action upon"
+msgstr ""
+
+#, fuzzy
+msgid "Action {0} is disabled"
+msgstr "Action удален"
+
+msgid "Croogo Utilities"
 msgstr ""
 
 msgid "Upgrade Croogo"
@@ -815,8 +717,8 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 
@@ -838,7 +740,7 @@ msgstr ""
 msgid "Run all upgrade tasks"
 msgstr ""
 
-msgid "<warning>Config/settings.json already exist</warning>"
+msgid "<warning>config/settings.json already exist</warning>"
 msgstr ""
 
 msgid ""
@@ -866,79 +768,17 @@ msgstr ""
 msgid "Command not recognized"
 msgstr ""
 
-msgid "Site down for maintenance"
-msgstr "Сайт закрыт на обслуживание"
-
-msgid "Errors in CakeErrorController: {0}"
-msgstr ""
-
-#, fuzzy
-msgid "No item selected"
-msgstr "Нет выбранных элементов."
-
-msgid "Please choose only one item for this operation"
-msgstr ""
-
-msgid "{0} processed"
-msgstr ""
-
-msgid "An error occured"
-msgstr "Произошла ошибка "
-
-msgid "Visit website"
-msgstr "На сайт"
-
-msgid "Profile"
-msgstr ""
-
-msgid "Logout"
-msgstr ""
-
-msgid "Invalid content"
-msgstr "Неверный контент"
-
-msgid "Failed toggling field {0} to {1}"
-msgstr ""
-
-msgid "EventHandler {0} not found in plugin {1}"
-msgstr ""
-
-msgid "Unable to get routeable content types: {0}"
-msgstr ""
-
-msgid "Unpublished"
-msgstr "Неопубликованный"
-
-msgid "Preview"
-msgstr ""
-
-msgid "Approved"
-msgstr ""
-
-msgid "Pending"
-msgstr ""
-
-msgid "Cannot load configuration files with ../ in them."
-msgstr ""
-
-msgid "Could not load configuration files: {0} or {1}"
-msgstr ""
-
-msgid "Invalid action to perform"
-msgstr ""
-
-msgid "No target to process action upon"
-msgstr ""
-
-#, fuzzy
-msgid "Action {0} is disabled"
-msgstr "Action удален"
-
 msgid "Edit"
 msgstr "Изменить"
 
 msgid "New {0}"
 msgstr ""
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Cancel"
+msgstr "Отменить"
 
 msgid "Croogo {0}"
 msgstr ""
@@ -946,15 +786,13 @@ msgstr ""
 msgid "Powered by {0}"
 msgstr ""
 
-msgid "Dashboard"
-msgstr "Панель"
-
 msgid "Close"
 msgstr "Закрыть"
 
+#, fuzzy
 msgid ""
-"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
-"starting on record {:start}, ending on {:end}"
+"Page {{page}} of {{pages}}, showing {{current}} records out of {{count}} "
+"total"
 msgstr ""
 "Страница {:page} из {:pages}, записи с {:start} по {:end}, всего записей: {:"
 "count}"
@@ -971,29 +809,16 @@ msgstr "вперед"
 msgid "last"
 msgstr "вконец"
 
+#, fuzzy
+msgid "Publish on"
+msgstr "Опубликовано"
+
+#, fuzzy
+msgid "Un-publish on"
+msgstr "Отменить публикацию"
+
 msgid "Filter"
 msgstr "Фильтр"
-
-msgid "Page not found"
-msgstr "Страница не найдена"
-
-msgid "Error"
-msgstr "Ошибка"
-
-msgid "The requested address was not found on this server."
-msgstr "Запрашиваемый адрес не был найден на этом сервере."
-
-msgid "Security Error"
-msgstr "Ошибка безопасности"
-
-msgid "Request blackholed due to \"{0}\" violation."
-msgstr ""
-
-msgid "Method %1$s::%2$s does not exist"
-msgstr ""
-
-msgid "Croogo"
-msgstr ""
 
 msgid "Back to"
 msgstr "Назад к"
@@ -1004,11 +829,26 @@ msgstr "Сайт закрыт на техническое обслуживани
 msgid "Croogo News"
 msgstr ""
 
+msgid "Dashboard"
+msgstr "Панель"
+
 msgid "Invalid id for Dashboard"
 msgstr ""
 
 msgid "Dashboard deleted"
 msgstr ""
+
+msgid "Moved up successfully"
+msgstr "Перемещен вверх успешно"
+
+msgid "Could not move up"
+msgstr "Не удалось переместить вверх"
+
+msgid "Moved down successfully"
+msgstr "Перемещен вниз успешно"
+
+msgid "Could not move down"
+msgstr "Не удалось переместить вниз"
 
 msgid "Dashboards"
 msgstr ""
@@ -1042,129 +882,6 @@ msgstr "Локализации"
 
 msgid "Plugins"
 msgstr "Плагины"
-
-msgid "Data Migration Utility"
-msgstr ""
-
-msgid "Locale does not exist."
-msgstr "Локализация не существует."
-
-msgid "Locale '{0}' set as default"
-msgstr ""
-
-msgid "Could not save Locale setting."
-msgstr ""
-
-msgid "Upload a new locale"
-msgstr "Загрузить новую локализацию"
-
-msgid "Invalid locale."
-msgstr "Неверная Локализация"
-
-msgid "Locale already exists."
-msgstr "Локализация уже существует."
-
-msgid "Edit locale: {0}"
-msgstr "Редактировать локализацию: {0}"
-
-msgid "The file {0} does not exist."
-msgstr ""
-
-msgid "Locale updated successfully"
-msgstr "Локализация обновлена успешно"
-
-msgid "Locale deleted successfully."
-msgstr "Локализация удалена"
-
-msgid "Local could not be deleted."
-msgstr "Локализация не удалена."
-
-msgid "Upload a new plugin"
-msgstr "Загрузка нового плагина"
-
-msgid "Invalid plugin"
-msgstr "Неверный плагин"
-
-msgid "You cannot delete a plugin that is currently active."
-msgstr ""
-
-msgid "Plugin \"{0}\" deleted successfully."
-msgstr ""
-
-msgid "Plugin could not be deleted."
-msgstr "Плагин не удален."
-
-msgid "Plugin could not be deactivated. Please, try again."
-msgstr ""
-
-msgid "Plugin could not be activated. Please, try again."
-msgstr ""
-
-msgid "Plugin \"{0}\" migrated successfully."
-msgstr ""
-
-msgid "Plugin \"{0}\" could not be migrated. Error: {1}"
-msgstr ""
-
-msgid "Plugin {0} has been moved up"
-msgstr ""
-
-msgid "Plugin {0} has been moved down"
-msgstr ""
-
-msgid "Theme activated."
-msgstr "Тема активирована."
-
-msgid "Theme activation failed."
-msgstr ""
-
-msgid "Upload a new theme"
-msgstr "Загрузить новую тему"
-
-msgid "Theme uploaded successfully."
-msgstr "Тема загружена успешно."
-
-msgid "Theme Editor"
-msgstr "Редактор тем"
-
-msgid "Invalid Theme."
-msgstr "Неверная тема"
-
-msgid "Default theme cannot be deleted."
-msgstr "Тема по умолчанию не может быть удалена"
-
-msgid "You cannot delete a theme that is currently active."
-msgstr ""
-
-msgid "Theme deleted successfully."
-msgstr "Тема удалена"
-
-msgid "An error occurred."
-msgstr "Произошла ошибка."
-
-msgid "Plugin \"{0}\" is already active."
-msgstr ""
-
-msgid "Plugin \"{0}\" depends on \"{1}\" plugin."
-msgstr ""
-
-msgid "Plugin \"{0}\" is not active."
-msgstr ""
-
-msgid "{0} is already at the first position"
-msgstr ""
-
-msgid "Plugin {0} depends on {1}"
-msgstr ""
-
-msgid "{0} is already at the last position"
-msgstr ""
-
-msgid "Invalid direction"
-msgstr ""
-
-msgid "Plugin {0} cannot be reordered"
-msgstr ""
 
 msgid "Invalid theme"
 msgstr ""
@@ -1214,6 +931,97 @@ msgstr ""
 msgid "Themes installed via composer are not yet supported."
 msgstr ""
 
+msgid "Locale does not exist."
+msgstr "Локализация не существует."
+
+msgid "Locale '{0}' set as default"
+msgstr ""
+
+msgid "Could not save Locale setting."
+msgstr ""
+
+msgid "Upload a new locale"
+msgstr "Загрузить новую локализацию"
+
+msgid "Invalid locale."
+msgstr "Неверная Локализация"
+
+msgid "Locale already exists."
+msgstr "Локализация уже существует."
+
+msgid "Edit locale: {0}"
+msgstr "Редактировать локализацию: {0}"
+
+msgid "The file {0} does not exist."
+msgstr ""
+
+msgid "Locale updated successfully"
+msgstr "Локализация обновлена успешно"
+
+msgid "Locale deleted successfully."
+msgstr "Локализация удалена"
+
+msgid "Local could not be deleted."
+msgstr "Локализация не удалена."
+
+msgid "Upload a new plugin"
+msgstr "Загрузка нового плагина"
+
+msgid "You cannot delete a plugin that is currently active."
+msgstr ""
+
+msgid "Plugin \"{0}\" deleted successfully."
+msgstr ""
+
+msgid "Plugin could not be deleted."
+msgstr "Плагин не удален."
+
+msgid "Plugin could not be activated. Please, try again."
+msgstr ""
+
+msgid "Plugin \"{0}\" migrated successfully."
+msgstr ""
+
+msgid "Plugin \"{0}\" could not be migrated. Error: {1}"
+msgstr ""
+
+msgid "Plugin {0} has been moved up"
+msgstr ""
+
+msgid "Plugin {0} has been moved down"
+msgstr ""
+
+msgid "Theme activated."
+msgstr "Тема активирована."
+
+#, fuzzy
+msgid "Theme activation failed: {0}"
+msgstr "Тема активирована."
+
+msgid "Upload a new theme"
+msgstr "Загрузить новую тему"
+
+msgid "Theme uploaded successfully."
+msgstr "Тема загружена успешно."
+
+msgid "Theme Editor"
+msgstr "Редактор тем"
+
+msgid "Invalid Theme."
+msgstr "Неверная тема"
+
+msgid "Default theme cannot be deleted."
+msgstr "Тема по умолчанию не может быть удалена"
+
+msgid "You cannot delete a theme that is currently active."
+msgstr ""
+
+msgid "Theme deleted successfully."
+msgstr "Тема удалена"
+
+msgid "An error occurred."
+msgstr "Произошла ошибка."
+
 msgid "Upload"
 msgstr "Загрузить"
 
@@ -1225,9 +1033,6 @@ msgstr "По умолчанию"
 
 msgid "Activate"
 msgstr "Активировать"
-
-msgid "File"
-msgstr ""
 
 msgid "Description"
 msgstr "Описание"
@@ -1262,35 +1067,12 @@ msgstr "Вложения"
 msgid "File Manager"
 msgstr "Файловый менеджер"
 
-msgid "Add Attachment"
-msgstr "Загрузка вложения"
-
-msgid "Upload failed. Please ensure size does not exceed the server limit."
-msgstr ""
-
-msgid "The Attachment has been saved"
-msgstr "Вложение сохранено"
-
-msgid "The Attachment could not be saved. Please, try again."
-msgstr "Вложение не удалось сохранить. Повторите попытку."
-
-msgid "Edit Attachment"
-msgstr "Редактировать вложение"
-
-msgid "Invalid Attachment"
-msgstr "Неправильное вложение"
-
-msgid "Invalid id for Attachment"
-msgstr "Неверный идентификатор (id) для вложения"
-
-msgid "Attachment deleted"
+#, fuzzy
+msgid "Attachments deleted"
 msgstr "Вложение удалено"
 
 msgid "Path {0} is restricted"
 msgstr ""
-
-msgid "Edit file: {0}"
-msgstr "Изменить файл: {0}"
 
 msgid "File saved successfully"
 msgstr "Файл сохранен"
@@ -1319,14 +1101,8 @@ msgstr ""
 msgid "Name has not changed"
 msgstr ""
 
-msgid "Create Directory"
-msgstr ""
-
 msgid "Directory created successfully."
 msgstr "Директория создана успешно."
-
-msgid "Create File"
-msgstr ""
 
 msgid "File created successfully."
 msgstr "Файл создан"
@@ -1334,20 +1110,18 @@ msgstr "Файл создан"
 msgid "Error during file upload"
 msgstr ""
 
-msgid "New Attachment"
-msgstr "Новое вложение"
+msgid "Add Attachment"
+msgstr "Загрузка вложения"
 
-msgid "URL"
-msgstr ""
-
-msgid "Insert"
-msgstr "Вставить"
+#, fuzzy
+msgid "Upload file"
+msgstr "Загрузить"
 
 msgid "Sort by:"
 msgstr "Сортировать по:"
 
-msgid "Promoted"
-msgstr "На главной"
+msgid "Edit Attachment"
+msgstr "Редактировать вложение"
 
 msgid "Attachment"
 msgstr "Вложение"
@@ -1361,17 +1135,15 @@ msgstr ""
 msgid "Mime Type"
 msgstr ""
 
-msgid "Search"
-msgstr "Поиск"
+msgid "URL"
+msgstr ""
 
-msgid "Search..."
-msgstr "Поиск..."
+#, fuzzy
+msgid "Bulk actions"
+msgstr "Действия"
 
-msgid "Yes"
-msgstr "Да"
-
-msgid "No"
-msgstr "Нет"
+msgid "{0} selected items?"
+msgstr ""
 
 msgid "Upload here"
 msgstr "Загрузить"
@@ -1381,9 +1153,6 @@ msgstr "Создать папку"
 
 msgid "Create file"
 msgstr "Создать файл"
-
-msgid "You are here"
-msgstr ""
 
 msgid "Directory content"
 msgstr "Содержимое папки"
@@ -1397,19 +1166,62 @@ msgstr ""
 msgid "View"
 msgstr ""
 
+msgid "Create Directory"
+msgstr ""
+
 msgid "Directory"
 msgstr ""
 
 msgid "Directory name"
 msgstr ""
 
-msgid "Create"
-msgstr "Добавить"
+msgid "Create File"
+msgstr ""
+
+msgid "File"
+msgstr ""
 
 msgid "Filename"
 msgstr ""
 
+msgid "Edit file: {0}"
+msgstr "Изменить файл: {0}"
+
 msgid "New name"
+msgstr ""
+
+#, fuzzy
+msgid "Rename file"
+msgstr "Создать файл"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Search..."
+msgstr "Поиск..."
+
+msgid "Drop files here to upload"
+msgstr ""
+
+msgid "Could not connect to database: "
+msgstr ""
+
+msgid "Could not connect to database."
+msgstr ""
+
+msgid "Unable to create administrative user. Validation errors:"
+msgstr ""
+
+msgid "Permission {0} granted to {1}"
+msgstr ""
+
+msgid "Warning: Database \"{0}\" is not empty."
+msgstr ""
+
+msgid "There was a problem installing Croogo"
+msgstr ""
+
+msgid "Error installing access control objects"
 msgstr ""
 
 msgid "Install Utilities"
@@ -1430,9 +1242,6 @@ msgstr "Пароль"
 msgid "Database"
 msgstr ""
 
-msgid "Prefix"
-msgstr ""
-
 msgid "Port"
 msgstr ""
 
@@ -1442,65 +1251,14 @@ msgstr "Имя пользователя"
 msgid "Verify Password"
 msgstr "Повтор пароля"
 
-msgid "Permission {0} granted to {1}"
-msgstr ""
+msgid "New Password"
+msgstr "Новый пароль"
 
-msgid "Installation: Welcome"
-msgstr ""
-
-msgid "Step 1: Database"
+msgid "Finalize installation"
 msgstr ""
 
 msgid "Step 2: Build database"
 msgstr ""
-
-msgid "Warning: Database \"{0}\" is not empty."
-msgstr ""
-
-msgid "Installation successful"
-msgstr ""
-
-msgid "Installation failed"
-msgstr ""
-
-msgid "Installation failed: Unable to create settings file"
-msgstr ""
-
-msgid "CSS : {0} created"
-msgstr ""
-
-msgid "CSS : {0} failed"
-msgstr ""
-
-msgid "JS  : {0} created"
-msgstr ""
-
-msgid "JS  : {0} failed"
-msgstr ""
-
-msgid "Font: {0} copied"
-msgstr ""
-
-msgid "File: {0} not copied"
-msgstr ""
-
-msgid "Could not copy database.php file."
-msgstr ""
-
-msgid "Could not write database.php file."
-msgstr ""
-
-msgid "Could not connect to database: "
-msgstr ""
-
-msgid "Could not connect to database."
-msgstr ""
-
-msgid "Step 3: Create Admin User"
-msgstr ""
-
-msgid "New Password"
-msgstr "Новый пароль"
 
 msgid "Create tables and load initial data"
 msgstr ""
@@ -1514,8 +1272,9 @@ msgstr ""
 msgid "Warning"
 msgstr ""
 
-msgid "A `database.php` file already exists."
-msgstr ""
+#, fuzzy
+msgid "A database configuration already exists."
+msgstr "Плагин уже существует."
 
 msgid "Valid"
 msgstr ""
@@ -1523,13 +1282,13 @@ msgstr ""
 msgid "Invalid"
 msgstr ""
 
-msgid "This file is {0}."
+msgid "The configuration is {0}."
 msgstr ""
 
-msgid "Reuse this file and proceed."
+msgid "Reuse this configuration and proceed"
 msgstr ""
 
-msgid "This file will be replaced."
+msgid "This configuration will be replaced."
 msgstr ""
 
 msgid "Database hostname or IP Address"
@@ -1544,15 +1303,14 @@ msgstr ""
 msgid "Database name"
 msgstr ""
 
-msgid "Table prefix (leave blank if unknown)"
-msgstr ""
-
 msgid "Database port (leave blank if unknown)"
 msgstr ""
 
-msgid ""
-"\n"
-"\t\tThe user {0} has been created with administrative rights."
+#, fuzzy
+msgid "Successful"
+msgstr "Доступ"
+
+msgid "The user {0} has been created with administrative rights."
 msgstr ""
 
 msgid "Admin panel: {0}"
@@ -1582,25 +1340,32 @@ msgstr ""
 msgid "Your config directory is NOT writable."
 msgstr ""
 
-msgid "PHP version {0} {1} {2}"
+msgid "PHP version {0} >= {1}"
 msgstr ""
 
 msgid "PHP version {0} < {1}"
 msgstr ""
 
-msgid "CakePhp version {0} {1} {2}"
+msgid "CakePhp version {0} >= {1}"
 msgstr ""
 
 msgid "CakePHP version {0} < {1}"
 msgstr ""
 
-msgid "Install"
+msgid "Start installation"
 msgstr ""
 
 msgid "Click here to begin installation"
 msgstr ""
 
 msgid "Installation cannot continue as minimum requirements are not met."
+msgstr ""
+
+#, fuzzy
+msgid "Installation: {0}"
+msgstr "Переводы: {0}"
+
+msgid "Croogo"
 msgstr ""
 
 msgid "Install Croogo"
@@ -1612,26 +1377,11 @@ msgstr "Меню"
 msgid "Links: {0}"
 msgstr "Ссылки: {0}"
 
-msgid "Add Link"
-msgstr "Новая ссылка"
-
-msgid "The Link has been saved"
-msgstr "Ссылка сохранена"
-
-msgid "The Link could not be saved. Please, try again."
-msgstr "Ссылка не может быть сохранена. Пожалуйста, попробуйте еще раз."
-
-msgid "Edit Link"
-msgstr "Изменить ссылку"
-
-msgid "Invalid Link"
-msgstr "Неверная ссылка"
+msgid "Link deleted"
+msgstr "Ссылка удалена"
 
 msgid "Invalid id for Link"
 msgstr "Неверный id ссылки"
-
-msgid "Link deleted"
-msgstr "Ссылка удалена"
 
 #, fuzzy
 msgid "Links deleted"
@@ -1643,26 +1393,8 @@ msgstr "Ссылка опубликована"
 msgid "Links unpublished"
 msgstr "Ссылка снята с публикации"
 
-msgid "Add Menu"
-msgstr "Новое меню"
-
-msgid "The Menu has been saved"
-msgstr "Меню сохранено"
-
-msgid "The Menu could not be saved. Please, try again."
-msgstr "Меню не может быть сохранено. Пожалуйста, попробуйте еще раз."
-
-msgid "Edit Menu"
-msgstr "Редактировать меню"
-
-msgid "Invalid Menu"
-msgstr "Неверное меню"
-
-msgid "Invalid id for Menu"
-msgstr "Неверный id меню"
-
-msgid "Menu deleted"
-msgstr "Меню удалено"
+msgid "Link cannot be empty."
+msgstr ""
 
 msgid "Link"
 msgstr "Ссылка"
@@ -1670,10 +1402,7 @@ msgstr "Ссылка"
 msgid "Misc."
 msgstr "Разное"
 
-msgid "Menu"
-msgstr "Меню"
-
-msgid "Link Chooser"
+msgid "(no parent)"
 msgstr ""
 
 msgid "Rel"
@@ -1682,8 +1411,9 @@ msgstr ""
 msgid "Target"
 msgstr ""
 
-msgid "Choose Link"
-msgstr ""
+#, fuzzy
+msgid "New link"
+msgstr "Новая ссылка"
 
 msgid "Create a copy of this Link?"
 msgstr ""
@@ -1691,8 +1421,14 @@ msgstr ""
 msgid "Delete this item"
 msgstr ""
 
-msgid "Link to {0}"
-msgstr ""
+msgid "Edit Menu"
+msgstr "Редактировать меню"
+
+msgid "Add Menu"
+msgstr "Новое меню"
+
+msgid "Menu"
+msgstr "Меню"
 
 msgid "Link Count"
 msgstr "Кол-во ссылок"
@@ -1700,8 +1436,22 @@ msgstr "Кол-во ссылок"
 msgid "View links"
 msgstr "Открыть ссылки"
 
+msgid "Meta"
+msgstr "Мета"
+
 msgid "Custom Fields"
 msgstr "Пользовательские поля"
+
+msgid "Settings"
+msgstr "Настройки"
+
+#, fuzzy
+msgid "Edit Meta"
+msgstr "Редактировать меню"
+
+#, fuzzy
+msgid "Add Meta"
+msgstr "Новое меню"
 
 msgid "Add another field"
 msgstr "Добавить еще одно поле"
@@ -1715,97 +1465,8 @@ msgstr "Значение"
 msgid "Remove"
 msgstr "Удалить"
 
-msgid "List"
-msgstr "Список"
-
-msgid "Type must be specified"
-msgstr ""
-
-msgid "Create content"
-msgstr "Добавить"
-
-msgid "Content type does not exist."
-msgstr "Тип контента не существует."
-
-msgid "{0} has been saved"
-msgstr "{0} было сохранено"
-
-msgid "{0} could not be saved. Please, try again."
-msgstr "{0} не может быть сохранено. Повторите попытку."
-
-msgid "Create content: {0}"
-msgstr "Создать контент: {0}"
-
-msgid "Edit {0}: {1}"
-msgstr ""
-
-msgid "Paths updated."
-msgstr "Пути обновлены."
-
-msgid ""
-"Something went wrong while updating paths.\n"
-"Please try again"
-msgstr ""
-
-msgid "Invalid id for Node"
-msgstr "Неверный id узла (Node)"
-
-msgid "Node deleted"
-msgstr "Узел удален"
-
-msgid "{0} deleted"
-msgstr ""
-
-msgid "{0} published"
-msgstr ""
-
-msgid "{0} unpublished"
-msgstr ""
-
-msgid "{0} promoted"
-msgstr ""
-
-msgid "{0} unpromoted"
-msgstr ""
-
-msgid "{0} copied"
-msgstr ""
-
-msgid "Invalid content type."
-msgstr "Неверный тип контента."
-
-msgid "Invalid Term."
-msgstr "Неверный термин"
-
-msgid "Home"
-msgstr ""
-
-msgid "Posted"
-msgstr "Написал"
-
-msgid "on"
-msgstr "в"
-
-msgid "Posted in"
-msgstr "Опубликовано в"
-
-msgid "Leave a comment"
-msgstr "Оставить комментарий"
-
 msgid "Type"
 msgstr "Тип"
-
-msgid "Slug"
-msgstr "Идентификатор"
-
-msgid "Excerpt"
-msgstr "Отрывок"
-
-msgid "Promoted to front page"
-msgstr " На Главной "
-
-msgid "Publish as "
-msgstr "Автор: "
 
 msgid "User"
 msgstr "Пользователь"
@@ -1822,8 +1483,95 @@ msgstr "Поместить на главной"
 msgid "Unpromote"
 msgstr "Снять с главной"
 
-msgid "{0} selected items?"
+msgid "List"
+msgstr "Список"
+
+msgid "Create"
+msgstr "Добавить"
+
+msgid "Invalid content type."
+msgstr "Неверный тип контента."
+
+msgid "Paths updated."
+msgstr "Пути обновлены."
+
+msgid ""
+"Something went wrong while updating paths.\n"
+"Please try again"
 msgstr ""
+
+#, fuzzy
+msgid "Nodes deleted"
+msgstr "Узлы удалены."
+
+msgid "Nodes published"
+msgstr "Узлы опубликованы"
+
+msgid "Nodes unpublished"
+msgstr "Узлы сняты с публикации"
+
+msgid "Nodes promoted"
+msgstr "Узлы продвинуты"
+
+msgid "Nodes unpromoted"
+msgstr "Узлы сняты"
+
+#, fuzzy
+msgid "Nodes copied"
+msgstr "Узлы опубликованы"
+
+#, fuzzy
+msgid "Content moved up"
+msgstr "Не удалось переместить вверх"
+
+#, fuzzy
+msgid "Content moved down"
+msgstr "Не удалось переместить вниз"
+
+msgid "Please supply a title."
+msgstr ""
+
+msgid "Slug cannot be empty."
+msgstr "Идентификатор не может быть пустым"
+
+#, fuzzy
+msgid "The slug has already been taken."
+msgstr "Идентификатор уже использован"
+
+msgid "{0} archive/index"
+msgstr ""
+
+msgid "Promoted"
+msgstr "На главной"
+
+msgid "Create content"
+msgstr "Добавить"
+
+msgid "Select the type of content you wish to create from the list below"
+msgstr ""
+
+msgid "Create content: {0}"
+msgstr "Создать контент: {0}"
+
+msgid "{0} title"
+msgstr ""
+
+#, fuzzy
+msgid "Permalink"
+msgstr "Разрешения"
+
+msgid "Excerpt"
+msgstr "Отрывок"
+
+msgid "Promoted to front page"
+msgstr " На Главной "
+
+msgid "{0} attributes"
+msgstr ""
+
+#, fuzzy
+msgid "Contents"
+msgstr "Контент"
 
 msgid "Translate in a new language"
 msgstr "Перевести на новой язык"
@@ -1831,20 +1579,26 @@ msgstr "Перевести на новой язык"
 msgid "No translations available."
 msgstr "Нет доступных переводов."
 
+msgid "Posted"
+msgstr "Написал"
+
+msgid "on"
+msgstr "в"
+
+msgid "Posted in"
+msgstr "Опубликовано в"
+
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
 msgid "No items found."
 msgstr "Не найдено."
 
 msgid "Search Results: {0}"
 msgstr "Результаты поиска: {0}"
 
-msgid "Settings"
-msgstr "Настройки"
-
 msgid "Site"
 msgstr "Сайт"
-
-msgid "Meta"
-msgstr "Мета"
 
 msgid "Reading"
 msgstr "Просмотр"
@@ -1857,6 +1611,43 @@ msgstr "Сервис"
 
 msgid "Languages"
 msgstr "Языки"
+
+msgid "Cache"
+msgstr ""
+
+msgid "Cache '{0}' cleared"
+msgstr ""
+
+msgid "Failed clearing cache"
+msgstr ""
+
+msgid "Select a language"
+msgstr "Выберите язык"
+
+msgid "Settings updated successfully"
+msgstr "Настройки обновлены успешно "
+
+msgid "Invalid Setting key"
+msgstr "Неправильный ключ установки"
+
+#, fuzzy
+msgid "Native cannot be empty."
+msgstr "Идентификатор не может быть пустым"
+
+#, fuzzy
+msgid "Locale cannot be empty."
+msgstr "Идентификатор не может быть пустым"
+
+#, fuzzy
+msgid "That locale is already taken"
+msgstr "К сожалению, выбранный логин уже занят"
+
+msgid "Key cannot be empty."
+msgstr ""
+
+#, fuzzy
+msgid "That key is already taken"
+msgstr "К сожалению, выбранный логин уже занят"
 
 msgid "Displays setting values"
 msgstr ""
@@ -1906,62 +1697,25 @@ msgstr ""
 msgid "Setting deleted"
 msgstr "Настройка удалена"
 
-msgid "Add Language"
-msgstr "Новый язык"
+msgid "Caches"
+msgstr ""
 
-msgid "The Language has been saved"
-msgstr "Язык сохранен"
+msgid "Clear All"
+msgstr ""
 
-msgid "The Language could not be saved. Please, try again."
-msgstr "Не удается сохранить Язык. Повторите попытку."
+msgid "Clear all cache"
+msgstr ""
 
-msgid "Edit Language"
-msgstr "Изменить язык"
+msgid "Engine"
+msgstr ""
 
-msgid "Invalid Language"
-msgstr "Неверный Язык"
+#, fuzzy
+msgid "Duration"
+msgstr "Заголовок"
 
-msgid "Invalid id for Language"
-msgstr "Неверный идентификатор (id) для Языка"
-
-msgid "Language deleted"
-msgstr "Язык удален"
-
-msgid "Select a language"
-msgstr "Выберите язык"
-
-msgid "Invalid Setting."
-msgstr "Неправильная настройка."
-
-msgid "Add Setting"
-msgstr "Добавить настройку"
-
-msgid "The Setting has been saved"
-msgstr "Настройка сохранена"
-
-msgid "The Setting could not be saved. Please, try again."
-msgstr "Настройка не может быть сохранена. Пожалуйста, попробуйте еще раз."
-
-msgid "Edit Setting"
-msgstr "Редактировать настройку"
-
-msgid "Invalid Setting"
-msgstr "Неверная настройка"
-
-msgid "Invalid id for Setting"
-msgstr "Неверный id настройки"
-
-msgid "Settings: {0}"
-msgstr "Настройки: {0}"
-
-msgid "Settings updated successfully"
-msgstr "Настройки обновлены успешно "
-
-msgid "Invalid Setting key"
-msgstr "Неправильный ключ установки"
-
-msgid "Could not add a new language."
-msgstr "Не могу добавить новый язык."
+#, fuzzy
+msgid "Clear cache: {0}"
+msgstr "Создать контент: {0}"
 
 msgid "Language"
 msgstr ""
@@ -1969,8 +1723,8 @@ msgstr ""
 msgid "Native"
 msgstr ""
 
-msgid "New Language"
-msgstr "Новый язык"
+msgid "Locale alias, typically a two letter country/locale code"
+msgstr ""
 
 msgid "Misc"
 msgstr ""
@@ -1987,14 +1741,14 @@ msgstr ""
 msgid "Editable"
 msgstr ""
 
-msgid "Saving"
-msgstr ""
-
 msgid "Setting"
 msgstr "Настройка"
 
 msgid "Weight"
 msgstr "Ширина"
+
+msgid "Edit Setting"
+msgstr "Редактировать настройку"
 
 msgid "Delete Setting"
 msgstr "Удалить Настройку"
@@ -2013,12 +1767,6 @@ msgstr "Классификация"
 
 msgid "Add new"
 msgstr "Добавить"
-
-msgid "Vocabulary: {0}"
-msgstr ""
-
-msgid "{0}: Add Term"
-msgstr ""
 
 msgid "Term saved successfuly."
 msgstr ""
@@ -2050,57 +1798,6 @@ msgstr ""
 msgid "Invalid Vocabulary ID."
 msgstr ""
 
-msgid "Add Type"
-msgstr "Новый тип"
-
-msgid "The Type has been saved"
-msgstr "Тип был сохранен"
-
-msgid "The Type could not be saved. Please, try again."
-msgstr "Тип не может быть сохранен. Пожалуйста, попробуйте еще раз."
-
-msgid "Edit Type"
-msgstr "Редактировать тип."
-
-msgid "Invalid Type"
-msgstr "Неверный тип"
-
-msgid "Invalid id for Type"
-msgstr "Неверный id типа"
-
-msgid "Type deleted"
-msgstr "Тип удален"
-
-msgid "Vocabularies"
-msgstr ""
-
-msgid "Add Vocabulary"
-msgstr "Добавить словарь"
-
-msgid "The Vocabulary has been saved"
-msgstr "Словарь был сохранен"
-
-msgid "The Vocabulary could not be saved. Please, try again."
-msgstr "Словарь не может быть сохранен. Пожалуйста, попробуйте еще раз."
-
-msgid "Edit Vocabulary"
-msgstr "Редактировать словарь"
-
-msgid "Invalid Vocabulary"
-msgstr "Неверный словарь"
-
-msgid "Invalid id for Vocabulary"
-msgstr "Неверный id словаря"
-
-msgid "Vocabulary deleted"
-msgstr "Словарь удален"
-
-msgid "Invalid Term Id"
-msgstr ""
-
-msgid "\"vocabulary_id\" key not found"
-msgstr ""
-
 msgid "Please select at least 1 value"
 msgstr ""
 
@@ -2110,23 +1807,53 @@ msgstr ""
 msgid "Invalid Content Type"
 msgstr ""
 
-msgid "Terms"
-msgstr "Термины"
+#, fuzzy
+msgid "The title cannot be empty"
+msgstr "Идентификатор не может быть пустым"
+
+#, fuzzy
+msgid "The slug cannot be empty"
+msgstr "Идентификатор не может быть пустым"
+
+msgid "\"vocabulary_id\" key not found"
+msgstr ""
+
+#, fuzzy
+msgid "That alias is already taken."
+msgstr "Идентификатор уже использован"
+
+#, fuzzy
+msgid "The alias cannot be empty"
+msgstr "Идентификатор не может быть пустым"
+
+msgid "Slug"
+msgstr "Идентификатор"
+
+msgid "Vocabularies"
+msgstr ""
+
+msgid "{0}: Add Term"
+msgstr ""
 
 msgid "Term"
 msgstr ""
 
-msgid "New Term"
-msgstr "Новый термин"
+msgid "Vocabulary: {0}"
+msgstr ""
+
+#, fuzzy
+msgid "Create term"
+msgstr "Создать файл"
 
 msgid "Types"
 msgstr ""
 
-msgid "Enable Wysiwyg Editor"
-msgstr ""
+msgid "Edit Type"
+msgstr "Редактировать тип."
 
-msgid "Vocabulary"
-msgstr "Словарь"
+#, fuzzy
+msgid "Commenting"
+msgstr "Комментарии"
 
 msgid "Show author's name"
 msgstr "Отображать имя автора"
@@ -2134,20 +1861,57 @@ msgstr "Отображать имя автора"
 msgid "Show date"
 msgstr "Отображать дату"
 
+msgid "Use rich editor"
+msgstr ""
+
+msgid "Edit Vocabulary"
+msgstr "Редактировать словарь"
+
+msgid "Add Vocabulary"
+msgstr "Добавить словарь"
+
+msgid "Vocabulary"
+msgstr "Словарь"
+
+msgid "Content types"
+msgstr "Тип контента"
+
+msgid "Select which content types will use this vocabulary"
+msgstr ""
+
+#, fuzzy
+msgid "vocabulary"
+msgstr "Словарь"
+
 msgid "Options"
 msgstr "Опции"
 
 msgid "Required"
 msgstr ""
 
-msgid "Multiple"
+msgid "Required to select a term from the vocabulary."
 msgstr ""
 
-msgid "Tags"
+msgid "Multiple selections"
+msgstr ""
+
+msgid "Allow multiple terms to be selected."
+msgstr ""
+
+msgid "Freetags"
+msgstr ""
+
+msgid "Allow free-typing of terms/tags."
 msgstr ""
 
 msgid "View terms"
 msgstr "Просмотр терминов"
+
+msgid "Terms"
+msgstr "Термины"
+
+msgid "Translate"
+msgstr ""
 
 msgid "Invalid ID."
 msgstr "Неверный ID."
@@ -2164,8 +1928,8 @@ msgstr "Переводы: {0}"
 msgid "Invalid locale"
 msgstr "Неверная локализация"
 
-msgid "Translate content: {0} ({1})"
-msgstr "Перевести контент: {0} ({1})"
+msgid "Invalid Language"
+msgstr "Неверный Язык"
 
 msgid "Record has been translated"
 msgstr "Запись была переведена"
@@ -2182,13 +1946,17 @@ msgstr "Перевод для языка успешно удален."
 msgid "Translation for the locale could not be deleted."
 msgstr "Перевод для языка не может быть удален."
 
-msgid "Translate"
-msgstr ""
-
-msgid "Datasource {0} for CroogoTranslateBehavior of model {1} is not connected"
-msgstr "Datasource {0} для CroogoTranslateBehavior моделиl {1} не связался"
+msgid "Translate content: {0} ({1})"
+msgstr "Перевести контент: {0} ({1})"
 
 msgid "Translations"
+msgstr ""
+
+#, fuzzy
+msgid "Translate ({0})"
+msgstr "Переводы: {0}"
+
+msgid "Original"
 msgstr ""
 
 msgid "Roles"
@@ -2197,88 +1965,8 @@ msgstr "Роли"
 msgid "Reset password"
 msgstr "Сбросить пароль"
 
-msgid "Reset user password"
-msgstr ""
-
-msgid "Username to reset"
-msgstr ""
-
-msgid "New user password"
-msgstr ""
-
-msgid "User '{0}' not found"
-msgstr ""
-
-msgid "Password for '{0}' has been changed"
-msgstr ""
-
-msgid "Add Role"
-msgstr "Добавить роль"
-
-msgid "The Role has been saved"
-msgstr "Роль сохранена"
-
-msgid "The Role could not be saved. Please, try again."
-msgstr "Роль не может быть сохранена. Пожалуйста, попробуйте еще раз."
-
-msgid "Edit Role"
-msgstr "Редактировать"
-
-msgid "Invalid Role"
-msgstr "Неверная роль"
-
-msgid "Invalid id for Role"
-msgstr "Неверный id роли"
-
-msgid "Role deleted"
-msgstr "Роль удалена"
-
-msgid ""
-"You have reached maximum limit for failed login attempts. Please try again "
-"after a few minutes."
-msgstr ""
-
-msgid "[{0}] Please activate your account"
-msgstr "[{0}] Активация учетной записи"
-
-msgid "The User has been saved"
-msgstr "Пользователь был сохранен"
-
 msgid "The User could not be saved. Please, try again."
 msgstr "Пользователь не может быть сохранен. Пожалуйста, попробуйте еще раз."
-
-msgid "Invalid User"
-msgstr "Неверный пользователь"
-
-msgid "Password has been reset."
-msgstr "Пароль был сброшен."
-
-msgid "Password could not be reset. Please, try again."
-msgstr "Пароль не может быть сброшен. Пожалуйста, попробуйте еще раз."
-
-msgid "Invalid id for User"
-msgstr "Неверный id пользователя"
-
-msgid "User deleted"
-msgstr "Пользователь удален"
-
-msgid "User cannot be deleted"
-msgstr ""
-
-msgid "Admin Login"
-msgstr ""
-
-msgid "You are already logged in"
-msgstr ""
-
-msgid "Incorrect username or password"
-msgstr "Неверное имя пользователя или пароль"
-
-msgid "Log out successful."
-msgstr "Вы вышли из системы."
-
-msgid "Register"
-msgstr "Зарегистрироваться"
 
 msgid ""
 "You have successfully registered an account. An email has been sent with "
@@ -2287,56 +1975,106 @@ msgstr ""
 "Вы успешно зарегистрировали аккаунт. Письмо было отправлено с дальнейшими "
 "инструкциями."
 
-msgid "You are currently logged in as:"
-msgstr "В настоящее время Вы вошли как:"
+#, fuzzy
+msgid "Could not activate your account."
+msgstr "[{0}] Активация учетной записи"
+
+#, fuzzy
+msgid "Could not activate your account"
+msgstr "[{0}] Активация учетной записи"
 
 msgid "Account activated successfully."
 msgstr "Аккаунт активирован успешно."
 
-msgid "Forgot Password"
-msgstr "Забыли пароль?"
-
 msgid "Invalid username."
 msgstr "Неверное имя пользователя"
 
-msgid "[{0}] Reset Password"
-msgstr "[{0}] Сброс пароля"
+#, fuzzy
+msgid "Invalid email."
+msgstr "Неверный термин"
+
+msgid "An error occurred. Please try again."
+msgstr "Произошла ошибка. Пожалуйста, попробуйте еще раз."
 
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 "На ваш электронный адрес выслано письмо с инструкциями восстановления пароля"
 
-msgid "An error occurred. Please try again."
-msgstr "Произошла ошибка. Пожалуйста, попробуйте еще раз."
-
-msgid "Reset Password"
-msgstr "Сброс пароля"
-
 msgid "Your password has been reset successfully."
 msgstr "Ваш пароль был успешно изменен."
 
-msgid "Log in"
-msgstr "Войти"
+msgid "Authorization error"
+msgstr ""
+
+msgid "Log out successful."
+msgstr "Вы вышли из системы."
 
 msgid "Invalid User."
 msgstr "Неверный пользователь"
 
-msgid "Passwords do not match. Please, try again."
-msgstr "Пароли не совпадают"
-
-msgid "Hello {0}"
-msgstr "Привет {0}"
-
-msgid "Please visit this link to reset your password: {0}"
-msgstr "Пожалуйста, посетите эту ссылку для сброса пароля: {0}"
-
-msgid "If you did not request a password reset, then please ignore this email."
+msgid ""
+"You have reached maximum limit for failed login attempts. Please try again "
+"after a few minutes."
 msgstr ""
-"Если Вы не запрашивали восстановление пароля, то Вы можете проигнорировать "
-"это сообщение."
 
-msgid "Please visit this link to activate your account: {0}"
-msgstr "ожалуйста, посетите эту ссылку для активации учетной записи: {0}"
+msgid "Password has been reset."
+msgstr "Пароль был сброшен."
+
+msgid "Password could not be reset. Please, try again."
+msgstr "Пароль не может быть сброшен. Пожалуйста, попробуйте еще раз."
+
+msgid "You are already logged in"
+msgstr ""
+
+msgid "Incorrect username or password"
+msgstr "Неверное имя пользователя или пароль"
+
+msgid "[{0}] Reset Password"
+msgstr "[{0}] Сброс пароля"
+
+msgid "[{0}] Please activate your account"
+msgstr "[{0}] Активация учетной записи"
+
+#, fuzzy
+msgid "Create a new user"
+msgstr "Создать папку"
+
+msgid "Username to reset"
+msgstr ""
+
+msgid "New user password"
+msgstr ""
+
+#, fuzzy
+msgid "Role id for user"
+msgstr "Неверный id пользователя"
+
+msgid "Reset user password"
+msgstr ""
+
+msgid "User '{0}' not found"
+msgstr ""
+
+msgid "Password for '{0}' has been changed"
+msgstr ""
+
+#, fuzzy
+msgid "User '{0}' already exists"
+msgstr "Локализация уже существует."
+
+#, fuzzy
+msgid "User '{0}' has been created"
+msgstr "{0} было сохранено"
+
+msgid "Role"
+msgstr "Роль"
+
+msgid "Forgot Password"
+msgstr "Забыли пароль?"
+
+#, fuzzy
+msgid "Username/Email"
+msgstr "Имя пользователя"
 
 msgid "Edit user {0}"
 msgstr ""
@@ -2359,94 +2097,434 @@ msgstr "Вход"
 msgid "Forgot password?"
 msgstr "Забыли пароль?"
 
-msgid "Reset Password: {0}"
-msgstr ""
+#, fuzzy
+msgid "Registration"
+msgstr "Зарегистрироваться"
 
-msgid "Reset"
-msgstr ""
+msgid "Register"
+msgstr "Зарегистрироваться"
 
 msgid "New password"
 msgstr "Новый пароль"
 
-msgid "Title cannot be empty."
+msgid "Reset"
 msgstr ""
-
-msgid "This alias has already been taken."
-msgstr ""
-
-msgid "Alias cannot be empty."
-msgstr ""
-
-msgid "This field cannot be left blank."
-msgstr "Это обязательное поле"
-
-msgid "Please enter a valid email address."
-msgstr ""
-
-msgid "Please provide a valid email address."
-msgstr "Укажите верный почтовый ящик."
-
-msgid "This slug has already been taken."
-msgstr "Идентификатор уже использован"
-
-msgid "Slug cannot be empty."
-msgstr "Идентификатор не может быть пустым"
-
-msgid "Link cannot be empty."
-msgstr ""
-
-msgid "This key has already been taken."
-msgstr ""
-
-msgid "Key cannot be empty."
-msgstr ""
-
-msgid "This field must be alphanumeric"
-msgstr "Только латинские буквы"
-
-msgid "The username has already been taken."
-msgstr "К сожалению, выбранный логин уже занят"
-
-msgid "Email address already in use."
-msgstr "Адрес электронной почты уже используется"
-
-msgid "Passwords must be at least 6 characters long."
-msgstr "Пароль должен быть не меньше 6 символов"
-
-msgid "This field must be a valid URL"
-msgstr "Неправильный адрес"
-
-#~ msgid "Nodes published"
-#~ msgstr "Узлы опубликованы"
-
-#~ msgid "Nodes unpublished"
-#~ msgstr "Узлы сняты с публикации"
-
-#~ msgid "Nodes promoted"
-#~ msgstr "Узлы продвинуты"
-
-#~ msgid "Nodes unpromoted"
-#~ msgstr "Узлы сняты"
 
 #, fuzzy
-#~ msgid "Nodes copied"
-#~ msgstr "Узлы опубликованы"
+msgid "Reset password: {0}"
+msgstr "Сбросить пароль"
+
+msgid "Reset Password"
+msgstr "Сброс пароля"
+
+msgid "Edit User"
+msgstr "Редактирование пользователя"
+
+msgid "Updated By"
+msgstr ""
+
+#, fuzzy
+msgid "Created By"
+msgstr "Дата"
+
+msgid "Bio"
+msgstr ""
+
+msgid "Hello {0}"
+msgstr "Привет {0}"
+
+msgid "Please visit this link to reset your password: {0}"
+msgstr "Пожалуйста, посетите эту ссылку для сброса пароля: {0}"
+
+msgid "If you did not request a password reset, then please ignore this email."
+msgstr ""
+"Если Вы не запрашивали восстановление пароля, то Вы можете проигнорировать "
+"это сообщение."
+
+msgid "Please visit this link to activate your account: {0}"
+msgstr "ожалуйста, посетите эту ссылку для активации учетной записи: {0}"
+
+msgid "You are currently logged in as:"
+msgstr "В настоящее время Вы вошли как:"
+
+msgid "Home"
+msgstr ""
+
+#, fuzzy
+msgid "Sign out"
+msgstr "Выход"
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "{0} было сохранено"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "{0} не может быть сохранено. Повторите попытку."
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
+#~ msgid "Add Action"
+#~ msgstr "Добавить Action"
+
+#~ msgid "Edit Action"
+#~ msgstr "Редактировать Action"
+
+#~ msgid "Invalid Action"
+#~ msgstr "Неверный Action"
+
+#~ msgid "The Action has been saved"
+#~ msgstr "Action сохранен"
+
+#~ msgid "The Action could not be saved. Please, try again."
+#~ msgstr "Action не может быть сохранен. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Invalid id for Action"
+#~ msgstr "Неверный id Action"
+
+#~ msgid "Choose none if the Aco is a controller."
+#~ msgstr "Выберите Нет, если Aco является контроллером."
+
+#~ msgid "Add Block"
+#~ msgstr "Добавить блок"
+
+#~ msgid "The Block has been saved"
+#~ msgstr "Блок сохранен"
+
+#~ msgid "The Block could not be saved. Please, try again."
+#~ msgstr "Блок не может быть сохранен. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Edit Block"
+#~ msgstr "Изменить блок"
+
+#~ msgid "Invalid Block"
+#~ msgstr "Неправильный Блок"
+
+#~ msgid "Invalid id for Block"
+#~ msgstr "Неверный идентификатор (id) для Блока"
+
+#~ msgid "Block deleted"
+#~ msgstr "Блок удален"
+
+#~ msgid "Blocks published"
+#~ msgstr "Блоки опубликованы."
+
+#~ msgid "Blocks unpublished"
+#~ msgstr "Блоки сняты с публикации"
+
+#, fuzzy
+#~ msgid "Blocks copied"
+#~ msgstr "Блоки опубликованы."
+
+#~ msgid "Add Region"
+#~ msgstr "Новый регион"
+
+#~ msgid "The Region has been saved"
+#~ msgstr "Регион сохранен"
+
+#~ msgid "The Region could not be saved. Please, try again."
+#~ msgstr "Регион не сохранен. Попробуйте еще раз"
+
+#~ msgid "Edit Region"
+#~ msgstr "Редактировать регион"
+
+#~ msgid "Invalid Region"
+#~ msgstr "Неверный регион"
+
+#~ msgid "Invalid id for Region"
+#~ msgstr "Неверный id региона"
+
+#~ msgid "Region deleted"
+#~ msgstr "Регион удален"
+
+#, fuzzy
+#~ msgid "Publish Start"
+#~ msgstr "Автор: "
+
+#~ msgid "Edit Comment"
+#~ msgstr "Редактировать комментарий"
+
+#~ msgid "Invalid Comment"
+#~ msgstr "Неверный комментарий"
+
+#~ msgid "The Comment has been saved"
+#~ msgstr "Комментарий сохранен"
+
+#~ msgid "The Comment could not be saved. Please, try again."
+#~ msgstr "Комментарий не может быть сохранен. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Invalid id for Comment"
+#~ msgstr "Неверный идентификатор (id) для Комментария"
+
+#~ msgid "Comment deleted"
+#~ msgstr "Комментарий удален"
+
+#~ msgid "Comments: Approval"
+#~ msgstr "Комментарии: Приняты"
+
+#~ msgid "Add Contact"
+#~ msgstr "Новый контакт"
+
+#~ msgid "The Contact has been saved"
+#~ msgstr "Контакт сохранен"
+
+#~ msgid "The Contact could not be saved. Please, try again."
+#~ msgstr "Контакт не может быть сохранен. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Edit Contact"
+#~ msgstr "Редактирование контакта"
+
+#~ msgid "Invalid Contact"
+#~ msgstr "Неверный Контакт"
+
+#~ msgid "Invalid id for Contact"
+#~ msgstr "Неверный идентификатор (id) для Контакта"
+
+#~ msgid "Contact deleted"
+#~ msgstr "Контакт удален"
+
+#~ msgid "Invalid Message"
+#~ msgstr "Неверное сообщение"
+
+#~ msgid "The Message has been saved"
+#~ msgstr "Сообщение было сохранено"
+
+#~ msgid "The Message could not be saved. Please, try again."
+#~ msgstr "Сообщение не может быть сохранено. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Invalid id for Message"
+#~ msgstr "Неверный id сообщения"
+
+#~ msgid "Message deleted"
+#~ msgstr "Сообщение удалено"
+
+#~ msgid "Send"
+#~ msgstr "Отправить"
+
+#~ msgid "Page not found"
+#~ msgstr "Страница не найдена"
+
+#~ msgid "Error"
+#~ msgstr "Ошибка"
+
+#~ msgid "The requested address was not found on this server."
+#~ msgstr "Запрашиваемый адрес не был найден на этом сервере."
+
+#~ msgid "Security Error"
+#~ msgstr "Ошибка безопасности"
+
+#~ msgid "The Attachment has been saved"
+#~ msgstr "Вложение сохранено"
+
+#~ msgid "The Attachment could not be saved. Please, try again."
+#~ msgstr "Вложение не удалось сохранить. Повторите попытку."
+
+#~ msgid "Invalid Attachment"
+#~ msgstr "Неправильное вложение"
+
+#~ msgid "Invalid id for Attachment"
+#~ msgstr "Неверный идентификатор (id) для вложения"
+
+#~ msgid "New Attachment"
+#~ msgstr "Новое вложение"
+
+#~ msgid "Insert"
+#~ msgstr "Вставить"
+
+#~ msgid "Add Link"
+#~ msgstr "Новая ссылка"
+
+#~ msgid "The Link has been saved"
+#~ msgstr "Ссылка сохранена"
+
+#~ msgid "The Link could not be saved. Please, try again."
+#~ msgstr "Ссылка не может быть сохранена. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Edit Link"
+#~ msgstr "Изменить ссылку"
+
+#~ msgid "Invalid Link"
+#~ msgstr "Неверная ссылка"
+
+#~ msgid "The Menu has been saved"
+#~ msgstr "Меню сохранено"
+
+#~ msgid "The Menu could not be saved. Please, try again."
+#~ msgstr "Меню не может быть сохранено. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Invalid Menu"
+#~ msgstr "Неверное меню"
+
+#~ msgid "Invalid id for Menu"
+#~ msgstr "Неверный id меню"
+
+#~ msgid "Menu deleted"
+#~ msgstr "Меню удалено"
+
+#~ msgid "Content type does not exist."
+#~ msgstr "Тип контента не существует."
+
+#~ msgid "Invalid id for Node"
+#~ msgstr "Неверный id узла (Node)"
+
+#~ msgid "Node deleted"
+#~ msgstr "Узел удален"
+
+#~ msgid "Publish as "
+#~ msgstr "Автор: "
+
+#~ msgid "Add Language"
+#~ msgstr "Новый язык"
+
+#~ msgid "The Language has been saved"
+#~ msgstr "Язык сохранен"
+
+#~ msgid "The Language could not be saved. Please, try again."
+#~ msgstr "Не удается сохранить Язык. Повторите попытку."
+
+#~ msgid "Edit Language"
+#~ msgstr "Изменить язык"
+
+#~ msgid "Invalid id for Language"
+#~ msgstr "Неверный идентификатор (id) для Языка"
+
+#~ msgid "Language deleted"
+#~ msgstr "Язык удален"
+
+#~ msgid "Invalid Setting."
+#~ msgstr "Неправильная настройка."
+
+#~ msgid "Add Setting"
+#~ msgstr "Добавить настройку"
+
+#~ msgid "The Setting has been saved"
+#~ msgstr "Настройка сохранена"
+
+#~ msgid "The Setting could not be saved. Please, try again."
+#~ msgstr "Настройка не может быть сохранена. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Invalid Setting"
+#~ msgstr "Неверная настройка"
+
+#~ msgid "Invalid id for Setting"
+#~ msgstr "Неверный id настройки"
+
+#~ msgid "Settings: {0}"
+#~ msgstr "Настройки: {0}"
+
+#~ msgid "Could not add a new language."
+#~ msgstr "Не могу добавить новый язык."
+
+#~ msgid "New Language"
+#~ msgstr "Новый язык"
+
+#~ msgid "Add Type"
+#~ msgstr "Новый тип"
+
+#~ msgid "The Type has been saved"
+#~ msgstr "Тип был сохранен"
+
+#~ msgid "The Type could not be saved. Please, try again."
+#~ msgstr "Тип не может быть сохранен. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Invalid Type"
+#~ msgstr "Неверный тип"
+
+#~ msgid "Invalid id for Type"
+#~ msgstr "Неверный id типа"
+
+#~ msgid "Type deleted"
+#~ msgstr "Тип удален"
+
+#~ msgid "The Vocabulary has been saved"
+#~ msgstr "Словарь был сохранен"
+
+#~ msgid "The Vocabulary could not be saved. Please, try again."
+#~ msgstr "Словарь не может быть сохранен. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Invalid Vocabulary"
+#~ msgstr "Неверный словарь"
+
+#~ msgid "Invalid id for Vocabulary"
+#~ msgstr "Неверный id словаря"
+
+#~ msgid "Vocabulary deleted"
+#~ msgstr "Словарь удален"
+
+#~ msgid "New Term"
+#~ msgstr "Новый термин"
+
+#~ msgid ""
+#~ "Datasource {0} for CroogoTranslateBehavior of model {1} is not connected"
+#~ msgstr "Datasource {0} для CroogoTranslateBehavior моделиl {1} не связался"
+
+#~ msgid "Add Role"
+#~ msgstr "Добавить роль"
+
+#~ msgid "The Role has been saved"
+#~ msgstr "Роль сохранена"
+
+#~ msgid "The Role could not be saved. Please, try again."
+#~ msgstr "Роль не может быть сохранена. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Edit Role"
+#~ msgstr "Редактировать"
+
+#~ msgid "Invalid Role"
+#~ msgstr "Неверная роль"
+
+#~ msgid "Invalid id for Role"
+#~ msgstr "Неверный id роли"
+
+#~ msgid "Role deleted"
+#~ msgstr "Роль удалена"
+
+#~ msgid "The User has been saved"
+#~ msgstr "Пользователь был сохранен"
+
+#~ msgid "Invalid User"
+#~ msgstr "Неверный пользователь"
+
+#~ msgid "User deleted"
+#~ msgstr "Пользователь удален"
+
+#~ msgid "Log in"
+#~ msgstr "Войти"
+
+#~ msgid "Passwords do not match. Please, try again."
+#~ msgstr "Пароли не совпадают"
+
+#~ msgid "This field must be alphanumeric"
+#~ msgstr "Только латинские буквы"
+
+#~ msgid "Email address already in use."
+#~ msgstr "Адрес электронной почты уже используется"
+
+#~ msgid "Passwords must be at least 6 characters long."
+#~ msgstr "Пароль должен быть не меньше 6 символов"
+
+#~ msgid "This field must be a valid URL"
+#~ msgstr "Неправильный адрес"
 
 #~ msgid ""
 #~ "Page %page% of %pages%, showing %current% records out of %count% total, "
 #~ "starting on record {0}tart%, ending on %end%"
 #~ msgstr ""
-#~ "Страница  %page% из %pages%, показано %current% записей из %count%, с "
-#~ "{0}tart%, по %end%"
+#~ "Страница  %page% из %pages%, показано %current% записей из %count%, с {0}"
+#~ "tart%, по %end%"
 
 #~ msgid "Invalid Node"
 #~ msgstr "Неверный узел (Node)."
 
 #~ msgid "You are logged in as: {0}"
 #~ msgstr "Вы зашли как: {0}"
-
-#~ msgid "Log out"
-#~ msgstr "Выход"
 
 #~ msgid "Link to a Node"
 #~ msgstr "Ссылка на узел"
@@ -2474,9 +2552,6 @@ msgstr "Неправильный адрес"
 
 #~ msgid "Edit content: {0}"
 #~ msgstr "Редактировать контент: {0}"
-
-#~ msgid "Nodes deleted."
-#~ msgstr "Узлы удалены."
 
 #~ msgid "Terms: {0}"
 #~ msgstr "Термины: {0}"
@@ -2586,9 +2661,6 @@ msgstr "Неправильный адрес"
 #~ msgid "Invalid plugin."
 #~ msgstr "Неверный плагин."
 
-#~ msgid "Plugin already exists."
-#~ msgstr "Плагин уже существует."
-
 #~ msgid "Plugin deleted successfully."
 #~ msgstr "Плагин удален."
 
@@ -2622,9 +2694,6 @@ msgstr "Неправильный адрес"
 #~ msgid "Admin Panel"
 #~ msgstr "Админцентр"
 
-#~ msgid "Content types"
-#~ msgstr "Тип контента"
-
 #~ msgid "You are logged in as "
 #~ msgstr "Вы зашли как "
 
@@ -2633,9 +2702,6 @@ msgstr "Неправильный адрес"
 
 #~ msgid "You are here:"
 #~ msgstr "Вы здесь:"
-
-#~ msgid "New Link"
-#~ msgstr "Новая ссылка"
 
 #~ msgid "New Menu"
 #~ msgstr "Новое меню"
@@ -2657,9 +2723,6 @@ msgstr "Неправильный адрес"
 
 #~ msgid "Add User"
 #~ msgstr "Новый пользователь"
-
-#~ msgid "Edit User"
-#~ msgstr "Редактирование пользователя"
 
 #~ msgid "New User"
 #~ msgstr "Новый пользователь"

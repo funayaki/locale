@@ -634,7 +634,8 @@ msgid "Plugin \"{0}\" activated successfully."
 msgstr "A következő bővítmény sikeresen aktiválva: \"{0}\""
 
 msgid "Plugin \"{0}\" could not be activated. Please, try again."
-msgstr "A következő bővítményt nem lehet aktiválni: \"{0}\". Próbálja meg újra."
+msgstr ""
+"A következő bővítményt nem lehet aktiválni: \"{0}\". Próbálja meg újra."
 
 msgid "Plugin \"{0}\" could not be deactivated. Please, try again."
 msgstr ""
@@ -709,8 +710,8 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 "Az ACO hierarhia frissítve 1.3/1.4-re, így követi a normál CakePHP "
@@ -972,7 +973,8 @@ msgid "Plugin could not be deleted."
 msgstr "Plugin nincs törölve."
 
 msgid "Plugin could not be activated. Please, try again."
-msgstr "A következő bővítményt nem lehet aktiválni: \"{0}\". Próbálja meg újra."
+msgstr ""
+"A következő bővítményt nem lehet aktiválni: \"{0}\". Próbálja meg újra."
 
 msgid "Plugin \"{0}\" migrated successfully."
 msgstr "A következő bővítmény sikeresen migrálva: \"{0}\""
@@ -1306,7 +1308,8 @@ msgstr "Admin panel: {0}"
 
 msgid "You can start with {0} or jump in and {1}."
 msgstr ""
-"Kezdheti ezzel: '{0}' vagy egyből belecsaphat a lecsóba és kezdheti itt: '{1}'"
+"Kezdheti ezzel: '{0}' vagy egyből belecsaphat a lecsóba és kezdheti itt: "
+"'{1}'"
 
 msgid "configuring your site"
 msgstr "oldal beállítása"
@@ -2102,6 +2105,29 @@ msgstr "Az aktiváláshoz kattintson erre a linkre: {0}"
 msgid "You are currently logged in as:"
 msgstr "A következő névvel van bejelentkezve:"
 
+msgid "Home"
+msgstr "Kezdőlap"
+
+msgid "Sign out"
+msgstr ""
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "A(z) {0} el lett mentve."
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "A kifejezést nem lehet törölni. Próbálja újra."
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "Bővítmény feldolgozásra"
 
@@ -2605,9 +2631,6 @@ msgstr "A következő névvel van bejelentkezve:"
 
 #~ msgid "Invalid Term."
 #~ msgstr "Érvénytelen kifejezés"
-
-#~ msgid "Home"
-#~ msgstr "Kezdőlap"
 
 #~ msgid "Publish as "
 #~ msgstr "Közzététel mint"

@@ -709,8 +709,8 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 
@@ -2087,6 +2087,29 @@ msgstr ""
 msgid "You are currently logged in as:"
 msgstr "دخولك الأن مسجل تحت إسم:"
 
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+msgid "Sign out"
+msgstr ""
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "تم حفظ {0}"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "لم يتم حفظ {0} ، المرجوا المحاولة من جديد"
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
 #~ msgid "Add Action"
 #~ msgstr "إضافة إجراء"
 
@@ -2292,17 +2315,8 @@ msgstr "دخولك الأن مسجل تحت إسم:"
 #~ msgid "Content type does not exist."
 #~ msgstr "نوع المحتوى غير موجود"
 
-#~ msgid "{0} has been saved"
-#~ msgstr "تم حفظ {0}"
-
-#~ msgid "{0} could not be saved. Please, try again."
-#~ msgstr "لم يتم حفظ {0} ، المرجوا المحاولة من جديد"
-
 #~ msgid "Edit {0}: {1}"
 #~ msgstr "تعديل {0}: {1}"
-
-#~ msgid "Home"
-#~ msgstr "الصفحة الرئيسية"
 
 #~ msgid "Publish as "
 #~ msgstr "نشر تحت اسم"

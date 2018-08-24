@@ -703,16 +703,16 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 "Aprimorando a hierarquia ACO de 1.3/1.4 então ela segue o padrão de "
 "aplicações comuns do CakePHP. A principal diferença são os controladores de "
 "plugins que agora armazenam debaixo de seu próprio plugin de registro ACO, "
 "enquanto que a versão anterior assume que todos os controladores pertencem "
-"ao nó raiz de controle. {0}<warning> Verifique que você tem um backup de suas "
-"tabelas aros,acos e aros_acos antes de tentar aprimorar.</warning>"
+"ao nó raiz de controle. {0}<warning> Verifique que você tem um backup de "
+"suas tabelas aros,acos e aros_acos antes de tentar aprimorar.</warning>"
 
 msgid "Create settings.json from database"
 msgstr "Criar settings.json do banco de dados"
@@ -2097,6 +2097,30 @@ msgstr "Por favor, acesse este link para ativar sua conta: {0}"
 msgid "You are currently logged in as:"
 msgstr "Você está logado como:"
 
+msgid "Home"
+msgstr "Início"
+
+#, fuzzy
+msgid "Sign out"
+msgstr "Sair"
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "O {0} foi salvo"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "Termo não pode ser excluído.Por favor,tente novamente."
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "Plugin para processar"
 
@@ -2583,9 +2607,6 @@ msgstr "Você está logado como:"
 #~ msgid "Invalid Term."
 #~ msgstr "Termo inválido."
 
-#~ msgid "Home"
-#~ msgstr "Início"
-
 #~ msgid "Publish as "
 #~ msgstr "Publicar como"
 
@@ -2778,9 +2799,6 @@ msgstr "Você está logado como:"
 
 #~ msgid "You are logged in as: {0}"
 #~ msgstr "Você esta logado como: {0}"
-
-#~ msgid "Log out"
-#~ msgstr "Sair"
 
 #~ msgid "Link to a Node"
 #~ msgstr "Link para o nó"
