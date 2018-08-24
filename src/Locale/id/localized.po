@@ -40,12 +40,12 @@ msgid "You need to specify token parameter and/or header"
 msgstr ""
 
 #: /Acl/src/Controller/Admin/ActionsController.php:76;106
-msgid "The %s has been saved"
-msgstr "%s telah disimpan."
+msgid "The {0} has been saved"
+msgstr "{0} telah disimpan."
 
 #: /Acl/src/Controller/Admin/ActionsController.php:79;113
-msgid "The %s could not be saved. Please, try again."
-msgstr "%s tidak dapat disimpan. Silahkan coba kembali."
+msgid "The {0} could not be saved. Please, try again."
+msgstr "{0} tidak dapat disimpan. Silahkan coba kembali."
 
 #: /Acl/src/Controller/Admin/ActionsController.php:131
 msgid "Action deleted"
@@ -756,7 +756,7 @@ msgid "Add new comment"
 msgstr "Tambah Komentar Baru"
 
 #: /Comments/src/Template/Cell/Comments/comment_form_node.ctp:8
-msgid "Go back to original post: %s"
+msgid "Go back to original post: {0}"
 msgstr ""
 
 #: /Comments/src/Template/Cell/Comments/comment_form_node.ctp:21
@@ -774,8 +774,8 @@ msgid "by"
 msgstr "oleh"
 
 #: /Comments/src/Template/Element/comment.ctp:14
-msgid "said on %s"
-msgstr "telah menanggapi pada %s"
+msgid "said on {0}"
+msgstr "telah menanggapi pada {0}"
 
 #: /Comments/src/Template/Element/comment.ctp:19
 msgid "Reply"
@@ -787,28 +787,28 @@ msgstr ""
 
 #: /Comments/src/Template/Email/text/comment.ctp:3
 #: /Contacts/src/Template/Email/text/contact.ctp:8
-msgid "Name: %s"
-msgstr "Nama: %s"
+msgid "Name: {0}"
+msgstr "Nama: {0}"
 
 #: /Comments/src/Template/Email/text/comment.ctp:4
 #: /Contacts/src/Template/Email/text/contact.ctp:9
-msgid "Email: %s"
-msgstr "Email: %s"
+msgid "Email: {0}"
+msgstr "Email: {0}"
 
 #: /Comments/src/Template/Email/text/comment.ctp:5
-msgid "Website: %s"
-msgstr "Website: %s"
+msgid "Website: {0}"
+msgstr "Website: {0}"
 
 #: /Comments/src/Template/Email/text/comment.ctp:6
 #: /Contacts/src/Template/Email/text/contact.ctp:11
 #: /Users/src/Template/Email/html/forgot_password.ctp:23
 #: /Users/src/Template/Email/text/forgot_password.ctp:21
-msgid "IP Address: %s"
-msgstr "Alamat IP: %s"
+msgid "IP Address: {0}"
+msgstr "Alamat IP: {0}"
 
 #: /Comments/src/Template/Email/text/comment.ctp:7
-msgid "Comment: %s"
-msgstr "Komentar: %s"
+msgid "Comment: {0}"
+msgstr "Komentar: {0}"
 
 #: /Contacts/config/admin_menu.php:9;19
 #: /Contacts/src/Template/Admin/Contacts/form.ctp:5
@@ -838,8 +838,8 @@ msgid "Invalid captcha entry"
 msgstr "Masukan captcha tidak sah"
 
 #: /Contacts/src/Controller/ContactsController.php:163
-msgid "[%s] %s"
-msgstr "[%s] %s"
+msgid "[{0}] {1}"
+msgstr "[{0}] {1}"
 
 #: /Contacts/src/Controller/Admin/MessagesController.php:46
 msgid "Messages deleted"
@@ -1028,20 +1028,20 @@ msgid "Subject"
 msgstr "Pokok Bahasan"
 
 #: /Contacts/src/Template/Email/text/contact.ctp:7
-msgid "You have received a new message at: %s"
-msgstr "Anda menerima pesan baru: %s"
+msgid "You have received a new message at: {0}"
+msgstr "Anda menerima pesan baru: {0}"
 
 #: /Contacts/src/Template/Email/text/contact.ctp:10
-msgid "Subject: %s"
-msgstr "Judul: %s"
+msgid "Subject: {0}"
+msgstr "Judul: {0}"
 
 #: /Contacts/src/Template/Email/text/contact.ctp:12
-msgid "Message: %s"
-msgstr "Pesan: %s"
+msgid "Message: {0}"
+msgstr "Pesan: {0}"
 
 #: /Core/src/Plugin.php:801
-msgid "Plugin \"%s\" is not active."
-msgstr "Plugin \"%s\" tidak aktif"
+msgid "Plugin \"{0}\" is not active."
+msgstr "Plugin \"{0}\" tidak aktif"
 
 #: /Core/src/Plugin.php:820
 #: /Extensions/src/Controller/Admin/PluginsController.php:139
@@ -1054,24 +1054,24 @@ msgid "Invalid plugin"
 msgstr "Plugin tidak sah"
 
 #: /Core/src/Plugin.php:954
-msgid "%s is already at the first position"
-msgstr "%s sudah berada dalam posisi pertama"
+msgid "{0} is already at the first position"
+msgstr "{0} sudah berada dalam posisi pertama"
 
 #: /Core/src/Plugin.php:960;972
-msgid "Plugin %s depends on %s"
-msgstr "Plugin %s bergantung pada %s"
+msgid "Plugin {0} depends on {1}"
+msgstr "Plugin {0} bergantung pada {1}"
 
 #: /Core/src/Plugin.php:965
-msgid "%s is already at the last position"
-msgstr "%s sudah dalam posisi terakhir"
+msgid "{0} is already at the last position"
+msgstr "{0} sudah dalam posisi terakhir"
 
 #: /Core/src/Plugin.php:976
 msgid "Invalid direction"
 msgstr "Direction tidak sah"
 
 #: /Core/src/Plugin.php:981
-msgid "Plugin %s cannot be reordered"
-msgstr "Plugin %s tidak dapat disusun ulang"
+msgid "Plugin {0} cannot be reordered"
+msgstr "Plugin {0} tidak dapat disusun ulang"
 
 #: /Core/src/Plugin.php:745
 msgid "Plugin \"%2$s\" requires the \"%3$s\" plugin to be installed."
@@ -1080,8 +1080,8 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: /Core/src/Router.php:164
-msgid "Unable to get routeable content types: %s"
-msgstr "Tidak dapat memperoleh konten yang dapat dirutekan bertipe: %s"
+msgid "Unable to get routeable content types: {0}"
+msgstr "Tidak dapat memperoleh konten yang dapat dirutekan bertipe: {0}"
 
 #: /Core/src/Status.php:45
 #: /Nodes/src/Template/Element/admin/nodes_search.ctp:30
@@ -1108,8 +1108,8 @@ msgstr "Konten tidak sah"
 
 #: /Core/src/Action/Admin/ToggleAction.php:37
 #: /Core/src/Controller/Component/CroogoComponent.php:322
-msgid "Failed toggling field %s to %s"
-msgstr "Gagal mengubah bidang %s menjadi %s"
+msgid "Failed toggling field {0} to {1}"
+msgstr "Gagal mengubah bidang {0} menjadi {1}"
 
 #: /Core/src/Configure/CroogoJsonReader.php:48
 msgid "Cannot load configuration files with ../ in them."
@@ -1132,8 +1132,8 @@ msgid "Please choose only one item for this operation"
 msgstr "Mohon pilih satu saja untuk operasi ini"
 
 #: /Core/src/Controller/Component/BulkProcessComponent.php:147
-msgid "%s processed"
-msgstr "%s telah diproses"
+msgid "{0} processed"
+msgstr "{0} telah diproses"
 
 #: /Core/src/Controller/Component/BulkProcessComponent.php:152
 #: /FileManager/src/Controller/Admin/FileManagerController.php:255;290;392;426
@@ -1153,8 +1153,8 @@ msgid "Logout"
 msgstr "Keluar"
 
 #: /Core/src/Event/EventManager.php:88
-msgid "EventHandler %s not found in plugin %s"
-msgstr "EventHandler %s tidak ditemukan didalam plugin %s"
+msgid "EventHandler {0} not found in plugin {1}"
+msgstr "EventHandler {0} tidak ditemukan didalam plugin {1}"
 
 #: /Core/src/Model/Behavior/BulkProcessBehavior.php:67
 msgid "Invalid action to perform"
@@ -1165,8 +1165,8 @@ msgid "No target to process action upon"
 msgstr ""
 
 #: /Core/src/Model/Behavior/BulkProcessBehavior.php:77
-msgid "Action %s is disabled"
-msgstr "Aksi %s telah dimatikan"
+msgid "Action {0} is disabled"
+msgstr "Aksi {0} telah dimatikan"
 
 #: /Core/src/Shell/CroogoShell.php:34
 msgid "Croogo Utilities"
@@ -1181,12 +1181,12 @@ msgid "Theme cannot be deactivated, instead activate another theme."
 msgstr ""
 
 #: /Core/src/Shell/ExtShell.php:114
-msgid "%s \"%s\" not found."
-msgstr "%s \"%s\" tidak ditemukan."
+msgid "{0} \"{1}\" not found."
+msgstr "{0} \"{1}\" tidak ditemukan."
 
 #: /Core/src/Shell/ExtShell.php:123
-msgid "%s name must be provided."
-msgstr "nama %s harus disediakan."
+msgid "{0} name must be provided."
+msgstr "nama {0} harus disediakan."
 
 #: /Core/src/Shell/ExtShell.php:136
 msgid "Activate Plugins & Themes"
@@ -1206,42 +1206,42 @@ msgstr "Nama Ekstensi"
 
 #: /Core/src/Shell/ExtShell.php:174
 #: /Extensions/src/Controller/Admin/PluginsController.php:144
-msgid "Plugin \"%s\" activated successfully."
-msgstr "Plugin \"%s\" telah berhasil diaktifkan."
+msgid "Plugin \"{0}\" activated successfully."
+msgstr "Plugin \"{0}\" telah berhasil diaktifkan."
 
 #: /Core/src/Shell/ExtShell.php:179
-msgid "Plugin \"%s\" could not be activated. Please, try again."
-msgstr "Plugin \"%s\" tidak dapat diaktifkan. Silahkan coba kembali."
+msgid "Plugin \"{0}\" could not be activated. Please, try again."
+msgstr "Plugin \"{0}\" tidak dapat diaktifkan. Silahkan coba kembali."
 
 #: /Core/src/Shell/ExtShell.php:196
-msgid "Plugin \"%s\" could not be deactivated. Please, try again."
-msgstr "Plugin \"%s\" tidak dapat di non-aktifkan. Silahkan coba kembali."
+msgid "Plugin \"{0}\" could not be deactivated. Please, try again."
+msgstr "Plugin \"{0}\" tidak dapat di non-aktifkan. Silahkan coba kembali."
 
 #: /Core/src/Shell/ExtShell.php:204
 #: /Extensions/src/Controller/Admin/PluginsController.php:130
-msgid "Plugin \"%s\" could not be deactivated since \"%s\" depends on it."
+msgid "Plugin \"{0}\" could not be deactivated since \"{1}\" depends on it."
 msgstr ""
-"Plugin \"%s\" tidak dapat di non-aktifkan karena \"%s\" bergantung padanya"
+"Plugin \"{0}\" tidak dapat di non-aktifkan karena \"{1}\" bergantung padanya"
 
 #: /Core/src/Shell/ExtShell.php:215
 #: /Extensions/src/Controller/Admin/PluginsController.php:135
-msgid "Plugin \"%s\" deactivated successfully."
-msgstr "Plugin \"%s\" berhasil di non-aktifkan."
+msgid "Plugin \"{0}\" deactivated successfully."
+msgstr "Plugin \"{0}\" berhasil di non-aktifkan."
 
 #: /Core/src/Shell/ExtShell.php:230
-msgid "Theme \"%s\" activated successfully."
-msgstr "Tema \"%s\" berhasil diaktifkan."
+msgid "Theme \"{0}\" activated successfully."
+msgstr "Tema \"{0}\" berhasil diaktifkan."
 
 #: /Core/src/Shell/ExtShell.php:232
-msgid "Theme \"%s\" activation failed."
-msgstr "Pengaktifan tema \"%s\" gagal."
+msgid "Theme \"{0}\" activation failed."
+msgstr "Pengaktifan tema \"{0}\" gagal."
 
 #: /Core/src/Shell/ExtShell.php:246
 msgid "Plugins:"
 msgstr "Plugin"
 
 #: /Core/src/Shell/ExtShell.php:247;259;274;284
-msgid "%-20s%-50s%s"
+msgid "{0}{1}{2}"
 msgstr ""
 
 #: /Core/src/Shell/ExtShell.php:247
@@ -1299,8 +1299,8 @@ msgid "Please specify a URL to a zipball extension"
 msgstr ""
 
 #: /Core/src/Shell/InstallShell.php:211
-msgid "Downloading extension to %s..."
-msgstr "Mengunduh ekstensi ke %s..."
+msgid "Downloading extension to {0}..."
+msgstr "Mengunduh ekstensi ke {0}..."
 
 #: /Core/src/Shell/Task/UpgradeTask.php:70
 msgid "Upgrade ACL database for core controllers."
@@ -1312,14 +1312,14 @@ msgid ""
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
 "version assumes all Controllers belongs to the root 'controllers' node."
-"%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 "Tingkatkan hirarki ACO dari 1,3 / 1,4 sehingga mengikuti perilaku standar "
 "dalam aplikasi CakePHP yang normal. Perbedaan utama adalah Kontroler Plugin "
 "sekarang disimpan di bawah rekord Plugin ACO itu sendiri, sedangkan pada "
 "versi sebelumnya mengasumsikan semua Controller dimiliki oleh root dari node "
-"'kontroler' node . %s<warning>Pastikan Anda memiliki backup dari tabel "
+"'kontroler' node . {0}<warning>Pastikan Anda memiliki backup dari tabel "
 "database aros, acos dan aros_acos sebelum melakukan peningkatan."
 
 #: /Core/src/Shell/Task/UpgradeTask.php:86
@@ -1358,18 +1358,18 @@ msgstr ""
 "success>"
 
 #: /Core/src/Shell/Task/UpgradeTask.php:196
-msgid "Updating Link %s"
-msgstr "Memperbarui tautan %s"
+msgid "Updating Link {0}"
+msgstr "Memperbarui tautan {0}"
 
 #: /Core/src/Shell/Task/UpgradeTask.php:197
 #: /Settings/src/Shell/SettingsShell.php:170
-msgid "- %s"
-msgstr "- %s"
+msgid "- {0}"
+msgstr "- {0}"
 
 #: /Core/src/Shell/Task/UpgradeTask.php:198
 #: /Settings/src/Shell/SettingsShell.php:173
-msgid "+ %s"
-msgstr "+ %s"
+msgid "+ {0}"
+msgstr "+ {0}"
 
 #: /Core/src/Shell/Task/UpgradeTask.php:203
 msgid "Links updated: %d rows"
@@ -1380,8 +1380,8 @@ msgid "Hook.bootstraps updated"
 msgstr "Hook.bootstraps telah diperbarui"
 
 #: /Core/src/Shell/Task/UpgradeTask.php:350
-msgid "Upgrade \"%s\""
-msgstr "Tingkatkan \"%s\""
+msgid "Upgrade \"{0}\""
+msgstr "Tingkatkan \"{0}\""
 
 #: /Core/src/Shell/Task/UpgradeTask.php:365
 msgid "Command not recognized"
@@ -1396,8 +1396,8 @@ msgstr "Ubah"
 
 #: /Core/src/Template/Common/admin_index.ctp:34
 #: /Core/src/Template/Common/admin_view.ctp:42;43
-msgid "New %s"
-msgstr "Buat %s Baru"
+msgid "New {0}"
+msgstr "Buat {0} Baru"
 
 #: /Core/src/Template/Element/admin/buttons.ctp:7
 #: /Extensions/src/Template/Admin/Locales/edit.ctp:37
@@ -1415,12 +1415,12 @@ msgid "Cancel"
 msgstr "Batal"
 
 #: /Core/src/Template/Element/admin/footer.ctp:8
-msgid "Croogo %s"
-msgstr "Croogo %s"
+msgid "Croogo {0}"
+msgstr "Croogo {0}"
 
 #: /Core/src/Template/Element/admin/footer.ctp:11
-msgid "Powered by %s"
-msgstr "Ditenagai oleh %s"
+msgid "Powered by {0}"
+msgstr "Ditenagai oleh {0}"
 
 #: /Core/src/Template/Element/admin/modal.ctp:35
 msgid "Close"
@@ -1519,8 +1519,8 @@ msgstr "Dasbor"
 
 #: /Dashboards/src/Template/Admin/Dashboards/index.ctp:73
 #: /Settings/src/Template/Admin/Settings/view.ctp:44
-msgid "Are you sure you want to delete # %s?"
-msgstr "Apakah Anda yakin ingin menghapus # %s?"
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Apakah Anda yakin ingin menghapus # {0}?"
 
 #: /Dashboards/src/View/Helper/DashboardsHelper.php:158
 msgid "Left"
@@ -1582,8 +1582,8 @@ msgid "Invalid theme"
 msgstr "Tema tidak sah"
 
 #: /Extensions/src/CroogoTheme.php:266
-msgid "Theme %s not found"
-msgstr "Tema %s tidak ditemukan"
+msgid "Theme {0} not found"
+msgstr "Tema {0} tidak ditemukan"
 
 #: /Extensions/src/ExtensionsInstaller.php:70
 msgid "Invalid plugin path"
@@ -1598,8 +1598,8 @@ msgid "Invalid plugin.json or missing plugin name"
 msgstr "plugin.json tidak sah atau plugin name tidak ditemukan"
 
 #: /Extensions/src/ExtensionsInstaller.php:107
-msgid "Missing expected files: %s in: %s"
-msgstr "Tidak ditemukan berkas yang dibutuhkan: %s didalam %s"
+msgid "Missing expected files: {0} in: {1}"
+msgstr "Tidak ditemukan berkas yang dibutuhkan: {0} didalam {1}"
 
 #: /Extensions/src/ExtensionsInstaller.php:108
 msgid "Invalid plugin or missing expected files"
@@ -1646,8 +1646,8 @@ msgid "Locale does not exist."
 msgstr "Lokal tidak ditersedia"
 
 #: /Extensions/src/Controller/Admin/LocalesController.php:79
-msgid "Locale '%s' set as default"
-msgstr "Lokal %s ditetapkan sebagai default"
+msgid "Locale '{0}' set as default"
+msgstr "Lokal {0} ditetapkan sebagai default"
 
 #: /Extensions/src/Controller/Admin/LocalesController.php:81
 msgid "Could not save Locale setting."
@@ -1666,12 +1666,12 @@ msgid "Locale already exists."
 msgstr "Lokal telah tersedia"
 
 #: /Extensions/src/Controller/Admin/LocalesController.php:172
-msgid "Edit locale: %s"
-msgstr "Ubah lokal: %s"
+msgid "Edit locale: {0}"
+msgstr "Ubah lokal: {0}"
 
 #: /Extensions/src/Controller/Admin/LocalesController.php:182;211
-msgid "The file %s does not exist."
-msgstr "Berkas %s tidak tersedia."
+msgid "The file {0} does not exist."
+msgstr "Berkas {0} tidak tersedia."
 
 #: /Extensions/src/Controller/Admin/LocalesController.php:192
 msgid "Locale updated successfully"
@@ -1694,8 +1694,8 @@ msgid "You cannot delete a plugin that is currently active."
 msgstr "Anda tidak dapat menghapus plugin yang saat ini sedang aktif."
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:104
-msgid "Plugin \"%s\" deleted successfully."
-msgstr "Plugin \"%s\" berhasil dihapus."
+msgid "Plugin \"{0}\" deleted successfully."
+msgstr "Plugin \"{0}\" berhasil dihapus."
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:108
 msgid "Plugin could not be deleted."
@@ -1706,27 +1706,27 @@ msgid "Plugin could not be activated. Please, try again."
 msgstr "Plugin tidak dapat di non-aktifkan. Silahkan coba kembali."
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:165
-msgid "Plugin \"%s\" migrated successfully."
-msgstr "Plugin \"%s\" telah berhasil di migrasi."
+msgid "Plugin \"{0}\" migrated successfully."
+msgstr "Plugin \"{0}\" telah berhasil di migrasi."
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:168
-msgid "Plugin \"%s\" could not be migrated. Error: %s"
-msgstr "Plugin \"%s\" tidak dapat di migrasi. Error: %s"
+msgid "Plugin \"{0}\" could not be migrated. Error: {1}"
+msgstr "Plugin \"{0}\" tidak dapat di migrasi. Error: {1}"
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:191
-msgid "Plugin %s has been moved up"
-msgstr "Plugin %s telah digeser ke atas"
+msgid "Plugin {0} has been moved up"
+msgstr "Plugin {0} telah digeser ke atas"
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:218
-msgid "Plugin %s has been moved down"
-msgstr "Plugin %s telah digeser kebawah"
+msgid "Plugin {0} has been moved down"
+msgstr "Plugin {0} telah digeser kebawah"
 
 #: /Extensions/src/Controller/Admin/ThemesController.php:71
 msgid "Theme activated."
 msgstr "Tema diaktifkan."
 
 #: /Extensions/src/Controller/Admin/ThemesController.php:73
-msgid "Theme activation failed: %s"
+msgid "Theme activation failed: {0}"
 msgstr ""
 
 #: /Extensions/src/Controller/Admin/ThemesController.php:86
@@ -1858,8 +1858,8 @@ msgid "Attachments deleted"
 msgstr ""
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:142;175;215;247;282;379;414
-msgid "Path %s is restricted"
-msgstr "Jalur %s dibatasi"
+msgid "Path {0} is restricted"
+msgstr "Jalur {0} dibatasi"
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:188
 msgid "File saved successfully"
@@ -1878,20 +1878,20 @@ msgid "Directory deleted"
 msgstr "Direktori telah dihapus."
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:314
-msgid "Path \"%s\" cannot be renamed"
-msgstr "Penamaan pada jalur \"%s\" tidak dapat dirubah"
+msgid "Path \"{0}\" cannot be renamed"
+msgstr "Penamaan pada jalur \"{0}\" tidak dapat dirubah"
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:333
-msgid "%s already exists"
-msgstr "%s sudah ada"
+msgid "{0} already exists"
+msgstr "{0} sudah ada"
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:337
-msgid "\"%s\" has been renamed to \"%s\""
-msgstr "Penamaan \"%s\" telah dirubah menjadi \"%s\""
+msgid "\"{0}\" has been renamed to \"{1}\""
+msgstr "Penamaan \"{0}\" telah dirubah menjadi \"{1}\""
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:340
-msgid "Could not rename \"%s\" to \"%s\""
-msgstr "Tidak dapat merubah penamaan \"%s\" menjadi \"%s\""
+msgid "Could not rename \"{0}\" to \"{1}\""
+msgstr "Tidak dapat merubah penamaan \"{0}\" menjadi \"{1}\""
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:345
 msgid "Name has not changed"
@@ -1956,8 +1956,8 @@ msgstr ""
 #: /FileManager/src/Template/Admin/Attachments/index.ctp:110
 #: /Nodes/View/Nodes/admin_hierarchy.ctp:150
 #: /Nodes/src/Template/Admin/Nodes/index.ctp:157
-msgid "%s selected items?"
-msgstr "%s item yang dipilih?"
+msgid "{0} selected items?"
+msgstr "{0} item yang dipilih?"
 
 #: /FileManager/src/Template/Admin/FileManager/browse.ctp:13
 msgid "Upload here"
@@ -2016,8 +2016,8 @@ msgid "Filename"
 msgstr "Nama berkas"
 
 #: /FileManager/src/Template/Admin/FileManager/edit_file.ctp:5
-msgid "Edit file: %s"
-msgstr "Ubat berkas: %s"
+msgid "Edit file: {0}"
+msgstr "Ubat berkas: {0}"
 
 #: /FileManager/src/Template/Admin/FileManager/rename.ctp:23
 msgid "New name"
@@ -2055,12 +2055,12 @@ msgid "Unable to create administrative user. Validation errors:"
 msgstr ""
 
 #: /Install/src/InstallManager.php:312
-msgid "Permission %s granted to %s"
-msgstr "Izin %s diberikan kepada %s"
+msgid "Permission {0} granted to {1}"
+msgstr "Izin {0} diberikan kepada {1}"
 
 #: /Install/src/Controller/InstallController.php:183
-msgid "Warning: Database \"%s\" is not empty."
-msgstr "Peringatan: Database \"%s\" tidak dalam keadaan kosong."
+msgid "Warning: Database \"{0}\" is not empty."
+msgstr "Peringatan: Database \"{0}\" tidak dalam keadaan kosong."
 
 #: /Install/src/Controller/InstallController.php:195
 msgid "There was a problem installing Croogo"
@@ -2167,7 +2167,7 @@ msgid "Invalid"
 msgstr "Tidak Sah"
 
 #: /Install/src/Template/Install/database.ctp:22
-msgid "The configuration is %s."
+msgid "The configuration is {0}."
 msgstr ""
 
 #: /Install/src/Template/Install/database.ctp:26
@@ -2203,16 +2203,16 @@ msgid "Successful"
 msgstr ""
 
 #: /Install/src/Template/Install/finish.ctp:5
-msgid "The user %s has been created with administrative rights."
+msgid "The user {0} has been created with administrative rights."
 msgstr ""
 
 #: /Install/src/Template/Install/finish.ctp:11
-msgid "Admin panel: %s"
-msgstr "Panel Admin: %s"
+msgid "Admin panel: {0}"
+msgstr "Panel Admin: {0}"
 
 #: /Install/src/Template/Install/finish.ctp:17
-msgid "You can start with %s or jump in and %s."
-msgstr "Anda dapat memulai dengan %s atau langsung ke %s"
+msgid "You can start with {0} or jump in and {1}."
+msgstr "Anda dapat memulai dengan {0} atau langsung ke {1}"
 
 #: /Install/src/Template/Install/finish.ctp:18
 msgid "configuring your site"
@@ -2243,20 +2243,20 @@ msgid "Your config directory is NOT writable."
 msgstr "Direktori config tidak dapat ditulisi."
 
 #: /Install/src/Template/Install/index.ctp:24
-msgid "PHP version %s >= %s"
+msgid "PHP version {0} >= {1}"
 msgstr ""
 
 #: /Install/src/Template/Install/index.ctp:29
-msgid "PHP version %s < %s"
-msgstr "Versi PHP %s < %s"
+msgid "PHP version {0} < {1}"
+msgstr "Versi PHP {0} < {1}"
 
 #: /Install/src/Template/Install/index.ctp:36
-msgid "CakePhp version %s >= %s"
+msgid "CakePhp version {0} >= {1}"
 msgstr ""
 
 #: /Install/src/Template/Install/index.ctp:42
-msgid "CakePHP version %s < %s"
-msgstr "Versi CakePHP %s < %s"
+msgid "CakePHP version {0} < {1}"
+msgstr "Versi CakePHP {0} < {1}"
 
 #: /Install/src/Template/Install/index.ctp:48
 msgid "Start installation"
@@ -2273,7 +2273,7 @@ msgstr ""
 "terpenuhi."
 
 #: /Install/src/Template/Layout/install.ctp:6;34
-msgid "Installation: %s"
+msgid "Installation: {0}"
 msgstr ""
 
 #: /Install/src/Template/Layout/install.ctp:6
@@ -2292,8 +2292,8 @@ msgid "Menus"
 msgstr "Menu"
 
 #: /Menus/src/Controller/Admin/LinksController.php:44
-msgid "Links: %s"
-msgstr "Tautan: %s"
+msgid "Links: {0}"
+msgstr "Tautan: {0}"
 
 #: /Menus/src/Controller/Admin/LinksController.php:76
 msgid "Link deleted"
@@ -2525,7 +2525,7 @@ msgid "The slug has already been taken."
 msgstr ""
 
 #: /Nodes/src/Template/Admin/Nodes/chooser.ctp:20
-msgid "%s archive/index"
+msgid "{0} archive/index"
 msgstr ""
 
 #: /Nodes/src/Template/Admin/Nodes/chooser.ctp:57
@@ -2543,11 +2543,11 @@ msgid "Select the type of content you wish to create from the list below"
 msgstr ""
 
 #: /Nodes/src/Template/Admin/Nodes/form.ctp:13
-msgid "Create content: %s"
-msgstr "Buat konten: %s"
+msgid "Create content: {0}"
+msgstr "Buat konten: {0}"
 
 #: /Nodes/src/Template/Admin/Nodes/form.ctp:39
-msgid "%s title"
+msgid "{0} title"
 msgstr ""
 
 #: /Nodes/src/Template/Admin/Nodes/form.ctp:46
@@ -2564,7 +2564,7 @@ msgid "Promoted to front page"
 msgstr "Promosikan ke halaman depan"
 
 #: /Nodes/src/Template/Admin/Nodes/form.ctp:78
-msgid "%s attributes"
+msgid "{0} attributes"
 msgstr ""
 
 #: /Nodes/src/Template/Admin/Nodes/index.ctp:6
@@ -2605,8 +2605,8 @@ msgid "No items found."
 msgstr "Tidak ada item yang ditemukan"
 
 #: /Nodes/src/Template/Nodes/search.ctp:3
-msgid "Search Results: %s"
-msgstr "Hasil pencarian: %s"
+msgid "Search Results: {0}"
+msgstr "Hasil pencarian: {0}"
 
 #: /Settings/config/admin_menu.php:20
 msgid "Site"
@@ -2636,7 +2636,7 @@ msgid "Cache"
 msgstr ""
 
 #: /Settings/src/Controller/Admin/CachesController.php:47
-msgid "Cache '%s' cleared"
+msgid "Cache '{0}' cleared"
 msgstr ""
 
 #: /Settings/src/Controller/Admin/CachesController.php:49
@@ -2704,12 +2704,12 @@ msgid "Update version string from git tag information"
 msgstr "Perbarui versi string dari informasi git tag"
 
 #: /Settings/src/Shell/SettingsShell.php:143
-msgid "    %-30s: %s"
+msgid "    {0}: {1}"
 msgstr ""
 
 #: /Settings/src/Shell/SettingsShell.php:165
-msgid "Updating %s"
-msgstr "Memperbarui %s"
+msgid "Updating {0}"
+msgstr "Memperbarui {0}"
 
 #: /Settings/src/Shell/SettingsShell.php:166
 msgid "Confirm update"
@@ -2724,12 +2724,12 @@ msgid "Cancelled"
 msgstr "Telah dibatalkan"
 
 #: /Settings/src/Shell/SettingsShell.php:194;223
-msgid "Key: %s not found"
-msgstr "Kunci: %s tidak ditemukan"
+msgid "Key: {0} not found"
+msgstr "Kunci: {0} tidak ditemukan"
 
 #: /Settings/src/Shell/SettingsShell.php:213
-msgid "Deleting %s"
-msgstr "Menghapus %s"
+msgid "Deleting {0}"
+msgstr "Menghapus {0}"
 
 #: /Settings/src/Shell/SettingsShell.php:214
 msgid "Delete?"
@@ -2760,7 +2760,7 @@ msgid "Duration"
 msgstr ""
 
 #: /Settings/src/Template/Admin/Caches/index.ctp:47
-msgid "Clear cache: %s"
+msgid "Clear cache: {0}"
 msgstr ""
 
 #: /Settings/src/Template/Admin/Languages/form.ctp:7;21
@@ -2847,8 +2847,8 @@ msgstr ""
 "Istilah tidak dapat ditambahkan kepada kosakata. Silahkan coba kembali."
 
 #: /Taxonomy/src/Action/Admin/TermEditAction.php:57
-msgid "%s: Edit Term"
-msgstr "%s: Ubah Istilah"
+msgid "{0}: Edit Term"
+msgstr "{0}: Ubah Istilah"
 
 #: /Taxonomy/src/Controller/Admin/TermsController.php:130
 msgid "Term deleted"
@@ -2859,12 +2859,12 @@ msgid "Term could not be deleted. Please, try again."
 msgstr "Istildah tidak dapat dihapus. Silahkan coba kembali."
 
 #: /Taxonomy/src/Controller/Admin/TermsController.php:200
-msgid "Moved %s successfully"
-msgstr "%s berhasil dipindahkan"
+msgid "Moved {0} successfully"
+msgstr "{0} berhasil dipindahkan"
 
 #: /Taxonomy/src/Controller/Admin/TermsController.php:203
-msgid "Could not move %s"
-msgstr "%s tidak dapat dipindahkan"
+msgid "Could not move {0}"
+msgstr "{0} tidak dapat dipindahkan"
 
 #: /Taxonomy/src/Controller/Admin/TermsController.php:243
 msgid "Invalid Term ID."
@@ -2925,16 +2925,16 @@ msgid "Vocabularies"
 msgstr "Kosa Kata"
 
 #: /Taxonomy/src/Template/Admin/Terms/form.ctp:16
-msgid "%s: Add Term"
-msgstr "%s: Tambah Istilah"
+msgid "{0}: Add Term"
+msgstr "{0}: Tambah Istilah"
 
 #: /Taxonomy/src/Template/Admin/Terms/form.ctp:37
 msgid "Term"
 msgstr "Istilah"
 
 #: /Taxonomy/src/Template/Admin/Terms/index.ctp:3
-msgid "Vocabulary: %s"
-msgstr "Kosa kata: %s"
+msgid "Vocabulary: {0}"
+msgstr "Kosa kata: {0}"
 
 #: /Taxonomy/src/Template/Admin/Terms/index.ctp:14
 msgid "Create term"
@@ -3044,8 +3044,8 @@ msgid "Invalid record."
 msgstr "Rekord tidak sah"
 
 #: /Translate/src/Controller/Admin/TranslateController.php:75
-msgid "Translations: %s"
-msgstr "Alih bahasa: %s"
+msgid "Translations: {0}"
+msgstr "Alih bahasa: {0}"
 
 #: /Translate/src/Controller/Admin/TranslateController.php:116
 msgid "Invalid locale"
@@ -3076,8 +3076,8 @@ msgid "Translation for the locale could not be deleted."
 msgstr "Alihbahasa untuk lokal tidak dapat dihapus."
 
 #: /Translate/src/Template/Admin/Translate/edit.ctp:6
-msgid "Translate content: %s (%s)"
-msgstr "Alibahasa konten: %s (%s)"
+msgid "Translate content: {0} ({1})"
+msgstr "Alibahasa konten: {0} ({1})"
 
 #: /Translate/src/Template/Admin/Translate/edit.ctp:13
 #: /Translate/src/Template/Admin/Translate/index.ctp:31
@@ -3085,7 +3085,7 @@ msgid "Translations"
 msgstr "Terjemahan"
 
 #: /Translate/src/Template/Admin/Translate/edit.ctp:24
-msgid "Translate (%s)"
+msgid "Translate ({0})"
 msgstr ""
 
 #: /Translate/src/Template/Admin/Translate/edit.ctp:42
@@ -3193,12 +3193,12 @@ msgid "Incorrect username or password"
 msgstr "Nama pengguna atau kata sandi tidak tepat"
 
 #: /Users/src/Mailer/UserMailer.php:27
-msgid "[%s] Reset Password"
-msgstr "[%s] Tetapkan ulang kata sandi"
+msgid "[{0}] Reset Password"
+msgstr "[{0}] Tetapkan ulang kata sandi"
 
 #: /Users/src/Mailer/UserMailer.php:40
-msgid "[%s] Please activate your account"
-msgstr "[%s] Mohon aktifkan akun Anda"
+msgid "[{0}] Please activate your account"
+msgstr "[{0}] Mohon aktifkan akun Anda"
 
 #: /Users/src/Shell/UsersShell.php:36
 msgid "Create a new user"
@@ -3221,19 +3221,19 @@ msgid "Reset user password"
 msgstr "Reset kata sandi Pengguna"
 
 #: /Users/src/Shell/UsersShell.php:81
-msgid "User '%s' not found"
-msgstr "User '%s' tidak ditemukan"
+msgid "User '{0}' not found"
+msgstr "User '{0}' tidak ditemukan"
 
 #: /Users/src/Shell/UsersShell.php:87
-msgid "Password for '%s' has been changed"
-msgstr "Kata sandi untuk '%s' telah dirubah"
+msgid "Password for '{0}' has been changed"
+msgstr "Kata sandi untuk '{0}' telah dirubah"
 
 #: /Users/src/Shell/UsersShell.php:102
-msgid "User '%s' already exists"
+msgid "User '{0}' already exists"
 msgstr ""
 
 #: /Users/src/Shell/UsersShell.php:116
-msgid "User '%s' has been created"
+msgid "User '{0}' has been created"
 msgstr ""
 
 #: /Users/src/Template/Admin/Roles/form.ctp:18
@@ -3252,8 +3252,8 @@ msgid "Username/Email"
 msgstr ""
 
 #: /Users/src/Template/Admin/Users/form.ctp:13
-msgid "Edit user %s"
-msgstr "Ubah pengguna %s"
+msgid "Edit user {0}"
+msgstr "Ubah pengguna {0}"
 
 #: /Users/src/Template/Admin/Users/form.ctp:15;16
 msgid "New user"
@@ -3301,7 +3301,7 @@ msgid "Reset"
 msgstr "Tetapkan Ulang"
 
 #: /Users/src/Template/Admin/Users/reset_password.ctp:4
-msgid "Reset password: %s"
+msgid "Reset password: {0}"
 msgstr ""
 
 #: /Users/src/Template/Admin/Users/reset_password.ctp:11;15
@@ -3328,14 +3328,14 @@ msgstr ""
 #: /Users/src/Template/Email/html/register.ctp:7
 #: /Users/src/Template/Email/text/forgot_password.ctp:3
 #: /Users/src/Template/Email/text/register.ctp:3
-msgid "Hello %s"
-msgstr "Hallo %s"
+msgid "Hello {0}"
+msgstr "Hallo {0}"
 
 #: /Users/src/Template/Email/html/forgot_password.ctp:14
 #: /Users/src/Template/Email/text/forgot_password.ctp:14
-msgid "Please visit this link to reset your password: %s"
+msgid "Please visit this link to reset your password: {0}"
 msgstr ""
-"Silahkan kunjungi tautan berikut untuk menetapkan ulang kata sandi Anda: %s"
+"Silahkan kunjungi tautan berikut untuk menetapkan ulang kata sandi Anda: {0}"
 
 #: /Users/src/Template/Email/html/forgot_password.ctp:19
 #: /Users/src/Template/Email/text/forgot_password.ctp:18
@@ -3346,8 +3346,8 @@ msgstr ""
 
 #: /Users/src/Template/Email/html/register.ctp:11
 #: /Users/src/Template/Email/text/register.ctp:6
-msgid "Please visit this link to activate your account: %s"
-msgstr "Mohon kunjungi tautan ini untuk mengaktifkan akun Anda: %s"
+msgid "Please visit this link to activate your account: {0}"
+msgstr "Mohon kunjungi tautan ini untuk mengaktifkan akun Anda: {0}"
 
 #: /Users/src/Template/Users/index.ctp:4
 msgid "You are currently logged in as:"
@@ -3421,14 +3421,14 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "ACL database has been upgraded successfully"
 #~ msgstr "ACL database telah berhasil ditingkatkan"
 
-#~ msgid "Model %s cannot be found."
-#~ msgstr "Model %s tidak ditemukan."
+#~ msgid "Model {0} cannot be found."
+#~ msgstr "Model {0} tidak ditemukan."
 
-#~ msgid "Created Aco node: %s"
-#~ msgstr "Telah dibuat Aco node: %s"
+#~ msgid "Created Aco node: {0}"
+#~ msgstr "Telah dibuat Aco node: {0}"
 
-#~ msgid "<error>Plugin %s not found or not activated</error>"
-#~ msgstr "<error>Plugin %s tidak ditemukan atau tidak diaktifkan</error>"
+#~ msgid "<error>Plugin {0} not found or not activated</error>"
+#~ msgstr "<error>Plugin {0} tidak ditemukan atau tidak diaktifkan</error>"
 
 #~ msgid "<success>Aco Sync Complete</success>"
 #~ msgstr "Sinkronisasi Aco Selesai"
@@ -3436,17 +3436,17 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "<success>Aco Update Complete</success>"
 #~ msgstr "<success>Perbaruan Aco selesai</success>"
 
-#~ msgid "Skipped Aco node: <warning>%s</warning>"
-#~ msgstr "Aco node yang dilewati: <warning>%s</warning>"
+#~ msgid "Skipped Aco node: <warning>{0}</warning>"
+#~ msgstr "Aco node yang dilewati: <warning>{0}</warning>"
 
-#~ msgid "Deleted %s and all children"
-#~ msgstr "%s dan semua turunannya telah dihapus"
+#~ msgid "Deleted {0} and all children"
+#~ msgstr "{0} dan semua turunannya telah dihapus"
 
-#~ msgid "Created Aco node: <success>%s</success>"
-#~ msgstr "Aco node telah dibuat: <success>%s</success>"
+#~ msgid "Created Aco node: <success>{0}</success>"
+#~ msgstr "Aco node telah dibuat: <success>{0}</success>"
 
-#~ msgid "Deleted Aco node: <warning>%s</warning>"
-#~ msgstr "Aco node telah dihapus: <warning>%s</warning>"
+#~ msgid "Deleted Aco node: <warning>{0}</warning>"
+#~ msgstr "Aco node telah dihapus: <warning>{0}</warning>"
 
 #~ msgid "<success>Tree is valid and strong</success>"
 #~ msgstr "Struktur pokok adalah sah dan benar"
@@ -3465,8 +3465,8 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "<warning>ACL Database seems to have already been upgraded</warning>"
 #~ msgstr "<warning>ACL database sepertinya sudah ditingkatkan</warning>"
 
-#~ msgid "%s not found"
-#~ msgstr "%s tidak ditemukan"
+#~ msgid "{0} not found"
+#~ msgstr "{0} tidak ditemukan"
 
 #~ msgid "Role: Public not found"
 #~ msgstr "Penugasan: Publik tidak ditemukan"
@@ -3579,8 +3579,8 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "Go back to original post"
 #~ msgstr "Kembali ke pos orisinal"
 
-#~ msgid "A new comment has been posted under: %s"
-#~ msgstr "Sebuah komentar baru telah dicantumkan di: %s"
+#~ msgid "A new comment has been posted under: {0}"
+#~ msgstr "Sebuah komentar baru telah dicantumkan di: {0}"
 
 #~ msgid "Add Contact"
 #~ msgstr "Tambah Kontak"
@@ -3627,11 +3627,11 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "<warning>Config/settings.json already exist</warning>"
 #~ msgstr "<warning>Config/settings.json sudah ada</warning>"
 
-#~ msgid "Errors in CakeErrorController: %s"
-#~ msgstr "Kesalahan dalam CakeErrorController: %s"
+#~ msgid "Errors in CakeErrorController: {0}"
+#~ msgstr "Kesalahan dalam CakeErrorController: {0}"
 
-#~ msgid "Could not load configuration files: %s or %s"
-#~ msgstr "Tidak dapat memuat berkas konfigurasi: %s atau %s"
+#~ msgid "Could not load configuration files: {0} or {1}"
+#~ msgstr "Tidak dapat memuat berkas konfigurasi: {0} atau {1}"
 
 #~ msgid ""
 #~ "Page {:page} of {:pages}, showing {:current} records out of {:count} "
@@ -3661,11 +3661,11 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "Theme activation failed."
 #~ msgstr "Pengaktifan tema gagal."
 
-#~ msgid "Plugin \"%s\" is already active."
-#~ msgstr "Plugin \"%s\" sudah aktif"
+#~ msgid "Plugin \"{0}\" is already active."
+#~ msgstr "Plugin \"{0}\" sudah aktif"
 
-#~ msgid "Plugin \"%s\" depends on \"%s\" plugin."
-#~ msgstr "Plugin \"%s\" bergantung kepada plugin \"%s\"."
+#~ msgid "Plugin \"{0}\" depends on \"{1}\" plugin."
+#~ msgstr "Plugin \"{0}\" bergantung kepada plugin \"{1}\"."
 
 #~ msgid "Upload failed. Please ensure size does not exceed the server limit."
 #~ msgstr "Unggah gagal. Pasikan ukuran berkas tidak melibihi batasan server."
@@ -3712,23 +3712,23 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "Installation failed: Unable to create settings file"
 #~ msgstr "Pemasangan gagal: Tidak dapat membuat berkas 'settings'"
 
-#~ msgid "CSS : %s created"
-#~ msgstr "CSS: %s telah dibuat"
+#~ msgid "CSS : {0} created"
+#~ msgstr "CSS: {0} telah dibuat"
 
-#~ msgid "CSS : %s failed"
-#~ msgstr "CSS : %s telah gagal"
+#~ msgid "CSS : {0} failed"
+#~ msgstr "CSS : {0} telah gagal"
 
-#~ msgid "JS  : %s created"
-#~ msgstr "JS : %s telah dibuat"
+#~ msgid "JS  : {0} created"
+#~ msgstr "JS : {0} telah dibuat"
 
-#~ msgid "JS  : %s failed"
-#~ msgstr "JS : %s telah gagal"
+#~ msgid "JS  : {0} failed"
+#~ msgstr "JS : {0} telah gagal"
 
-#~ msgid "Font: %s copied"
-#~ msgstr "Font: %s telah disalin"
+#~ msgid "Font: {0} copied"
+#~ msgstr "Font: {0} telah disalin"
 
-#~ msgid "File: %s not copied"
-#~ msgstr "Berkas: %s tidak tersalin"
+#~ msgid "File: {0} not copied"
+#~ msgstr "Berkas: {0} tidak tersalin"
 
 #~ msgid "Could not copy database.php file."
 #~ msgstr "Tidak dapat menyalin berkas database.php"
@@ -3742,8 +3742,8 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "A `database.php` file already exists."
 #~ msgstr "Berkas 'database.php' sudah ada."
 
-#~ msgid "This file is %s."
-#~ msgstr "Berkas ini %s"
+#~ msgid "This file is {0}."
+#~ msgstr "Berkas ini {0}"
 
 #~ msgid "Reuse this file and proceed."
 #~ msgstr "Gunakan kembali berkas ini dan lanjutkan proses."
@@ -3756,16 +3756,16 @@ msgstr "Anda saat ini sedang login sebagai:"
 
 #~ msgid ""
 #~ "\n"
-#~ "\t\tThe user %s has been created with administrative rights."
+#~ "\t\tThe user {0} has been created with administrative rights."
 #~ msgstr ""
 #~ "\n"
-#~ "\t\tPengguna %s telah dibuat dengan hak administrator"
+#~ "\t\tPengguna {0} telah dibuat dengan hak administrator"
 
-#~ msgid "PHP version %s %s %s"
-#~ msgstr "Versi PHP %s %s %s"
+#~ msgid "PHP version {0} {1} {2}"
+#~ msgstr "Versi PHP {0} {1} {2}"
 
-#~ msgid "CakePhp version %s %s %s"
-#~ msgstr "Versi CakePhp %s %s %s"
+#~ msgid "CakePhp version {0} {1} {2}"
+#~ msgstr "Versi CakePhp {0} {1} {2}"
 
 #~ msgid "Install"
 #~ msgstr "Pasang"
@@ -3806,8 +3806,8 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "Choose Link"
 #~ msgstr "Pilih Tautan"
 
-#~ msgid "Link to %s"
-#~ msgstr "Tautkan ke %s"
+#~ msgid "Link to {0}"
+#~ msgstr "Tautkan ke {0}"
 
 #~ msgid "Type must be specified"
 #~ msgstr "Tipe harus spesifik"
@@ -3815,14 +3815,14 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "Content type does not exist."
 #~ msgstr "Tipe konten tidak tersedia"
 
-#~ msgid "%s has been saved"
-#~ msgstr "%s telah disimpan"
+#~ msgid "{0} has been saved"
+#~ msgstr "{0} telah disimpan"
 
-#~ msgid "%s could not be saved. Please, try again."
-#~ msgstr "%s tidak dapat disimpan. Silahkan coba kembali."
+#~ msgid "{0} could not be saved. Please, try again."
+#~ msgstr "{0} tidak dapat disimpan. Silahkan coba kembali."
 
-#~ msgid "Edit %s: %s"
-#~ msgstr "Ubah %s: %s"
+#~ msgid "Edit {0}: {1}"
+#~ msgstr "Ubah {0}: {1}"
 
 #~ msgid "Invalid id for Node"
 #~ msgstr "Id node tidak sah"
@@ -3830,23 +3830,23 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "Node deleted"
 #~ msgstr "Node telah dihapus"
 
-#~ msgid "%s deleted"
-#~ msgstr "%s telah dihapus"
+#~ msgid "{0} deleted"
+#~ msgstr "{0} telah dihapus"
 
-#~ msgid "%s published"
-#~ msgstr "%s telah dipublikasikan"
+#~ msgid "{0} published"
+#~ msgstr "{0} telah dipublikasikan"
 
-#~ msgid "%s unpublished"
-#~ msgstr "%s tidak dipublikasikan"
+#~ msgid "{0} unpublished"
+#~ msgstr "{0} tidak dipublikasikan"
 
-#~ msgid "%s promoted"
-#~ msgstr "%s telah dipromosikan"
+#~ msgid "{0} promoted"
+#~ msgstr "{0} telah dipromosikan"
 
-#~ msgid "%s unpromoted"
-#~ msgstr "%s tidak dipromosikan"
+#~ msgid "{0} unpromoted"
+#~ msgstr "{0} tidak dipromosikan"
 
-#~ msgid "%s copied"
-#~ msgstr "%s tersalin"
+#~ msgid "{0} copied"
+#~ msgstr "{0} tersalin"
 
 #~ msgid "Invalid Term."
 #~ msgstr "Term tidak sah."
@@ -3893,8 +3893,8 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "Invalid id for Setting"
 #~ msgstr "Id Pengaturan tidak sah"
 
-#~ msgid "Settings: %s"
-#~ msgstr "Pengaturan: %s"
+#~ msgid "Settings: {0}"
+#~ msgstr "Pengaturan: {0}"
 
 #~ msgid "Could not add a new language."
 #~ msgstr "Tidak dapat menambahkan bahasa baru."
@@ -3954,9 +3954,9 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgstr "Tag"
 
 #~ msgid ""
-#~ "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
+#~ "Datasource {0} for CroogoTranslateBehavior of model {1} is not connected"
 #~ msgstr ""
-#~ "Sumber data %s untuk CroogoTranslateBehavior atau model $s tidak "
+#~ "Sumber data {0} untuk CroogoTranslateBehavior atau model $s tidak "
 #~ "tersambung"
 
 #~ msgid "Add Role"
@@ -4004,8 +4004,8 @@ msgstr "Anda saat ini sedang login sebagai:"
 #~ msgid "Passwords do not match. Please, try again."
 #~ msgstr "Kata sandi tidak cocok. Silahkan coba kembali."
 
-#~ msgid "Reset Password: %s"
-#~ msgstr "Tetapkan Ulang Kata Sandi: %s"
+#~ msgid "Reset Password: {0}"
+#~ msgstr "Tetapkan Ulang Kata Sandi: {0}"
 
 #~ msgid "This alias has already been taken."
 #~ msgstr "Alias ini sudah digunakan"

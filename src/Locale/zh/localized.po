@@ -38,12 +38,12 @@ msgid "You need to specify token parameter and/or header"
 msgstr ""
 
 #: /Acl/src/Controller/Admin/ActionsController.php:76;106
-msgid "The %s has been saved"
-msgstr "%s 已经被保存"
+msgid "The {0} has been saved"
+msgstr "{0} 已经被保存"
 
 #: /Acl/src/Controller/Admin/ActionsController.php:79;113
-msgid "The %s could not be saved. Please, try again."
-msgstr "%s 不能被保存，请重试。"
+msgid "The {0} could not be saved. Please, try again."
+msgstr "{0} 不能被保存，请重试。"
 
 #: /Acl/src/Controller/Admin/ActionsController.php:131
 msgid "Action deleted"
@@ -749,7 +749,7 @@ msgid "Add new comment"
 msgstr "添加新评论"
 
 #: /Comments/src/Template/Cell/Comments/comment_form_node.ctp:8
-msgid "Go back to original post: %s"
+msgid "Go back to original post: {0}"
 msgstr ""
 
 #: /Comments/src/Template/Cell/Comments/comment_form_node.ctp:21
@@ -767,8 +767,8 @@ msgid "by"
 msgstr "于"
 
 #: /Comments/src/Template/Element/comment.ctp:14
-msgid "said on %s"
-msgstr "%s 说的"
+msgid "said on {0}"
+msgstr "{0} 说的"
 
 #: /Comments/src/Template/Element/comment.ctp:19
 msgid "Reply"
@@ -780,28 +780,28 @@ msgstr ""
 
 #: /Comments/src/Template/Email/text/comment.ctp:3
 #: /Contacts/src/Template/Email/text/contact.ctp:8
-msgid "Name: %s"
-msgstr "姓名: %s"
+msgid "Name: {0}"
+msgstr "姓名: {0}"
 
 #: /Comments/src/Template/Email/text/comment.ctp:4
 #: /Contacts/src/Template/Email/text/contact.ctp:9
-msgid "Email: %s"
-msgstr "邮箱: %s"
+msgid "Email: {0}"
+msgstr "邮箱: {0}"
 
 #: /Comments/src/Template/Email/text/comment.ctp:5
-msgid "Website: %s"
-msgstr "网站: %s"
+msgid "Website: {0}"
+msgstr "网站: {0}"
 
 #: /Comments/src/Template/Email/text/comment.ctp:6
 #: /Contacts/src/Template/Email/text/contact.ctp:11
 #: /Users/src/Template/Email/html/forgot_password.ctp:23
 #: /Users/src/Template/Email/text/forgot_password.ctp:21
-msgid "IP Address: %s"
-msgstr "IP地址: %s"
+msgid "IP Address: {0}"
+msgstr "IP地址: {0}"
 
 #: /Comments/src/Template/Email/text/comment.ctp:7
-msgid "Comment: %s"
-msgstr "评论: %s"
+msgid "Comment: {0}"
+msgstr "评论: {0}"
 
 #: /Contacts/config/admin_menu.php:9;19
 #: /Contacts/src/Template/Admin/Contacts/form.ctp:5
@@ -831,8 +831,8 @@ msgid "Invalid captcha entry"
 msgstr "不合法的验证码入口"
 
 #: /Contacts/src/Controller/ContactsController.php:163
-msgid "[%s] %s"
-msgstr "[%s] %s"
+msgid "[{0}] {1}"
+msgstr "[{0}] {1}"
 
 #: /Contacts/src/Controller/Admin/MessagesController.php:46
 #, fuzzy
@@ -1022,20 +1022,20 @@ msgid "Subject"
 msgstr "主题"
 
 #: /Contacts/src/Template/Email/text/contact.ctp:7
-msgid "You have received a new message at: %s"
-msgstr "您在 %s 收到一条新信息"
+msgid "You have received a new message at: {0}"
+msgstr "您在 {0} 收到一条新信息"
 
 #: /Contacts/src/Template/Email/text/contact.ctp:10
-msgid "Subject: %s"
-msgstr "主题：%s"
+msgid "Subject: {0}"
+msgstr "主题：{0}"
 
 #: /Contacts/src/Template/Email/text/contact.ctp:12
-msgid "Message: %s"
-msgstr "信息：%s"
+msgid "Message: {0}"
+msgstr "信息：{0}"
 
 #: /Core/src/Plugin.php:801
-msgid "Plugin \"%s\" is not active."
-msgstr " \"%s\" 插件未启用"
+msgid "Plugin \"{0}\" is not active."
+msgstr " \"{0}\" 插件未启用"
 
 #: /Core/src/Plugin.php:820
 #: /Extensions/src/Controller/Admin/PluginsController.php:139
@@ -1048,24 +1048,24 @@ msgid "Invalid plugin"
 msgstr "无效的插件"
 
 #: /Core/src/Plugin.php:954
-msgid "%s is already at the first position"
-msgstr "%s 已在首位"
+msgid "{0} is already at the first position"
+msgstr "{0} 已在首位"
 
 #: /Core/src/Plugin.php:960;972
-msgid "Plugin %s depends on %s"
-msgstr "%s 插件基于 %s"
+msgid "Plugin {0} depends on {1}"
+msgstr "{0} 插件基于 {1}"
 
 #: /Core/src/Plugin.php:965
-msgid "%s is already at the last position"
-msgstr "%s 已在末位"
+msgid "{0} is already at the last position"
+msgstr "{0} 已在末位"
 
 #: /Core/src/Plugin.php:976
 msgid "Invalid direction"
 msgstr "无效的方向"
 
 #: /Core/src/Plugin.php:981
-msgid "Plugin %s cannot be reordered"
-msgstr " %s 插件不能重排序"
+msgid "Plugin {0} cannot be reordered"
+msgstr " {0} 插件不能重排序"
 
 #: /Core/src/Plugin.php:745
 msgid "Plugin \"%2$s\" requires the \"%3$s\" plugin to be installed."
@@ -1074,8 +1074,8 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: /Core/src/Router.php:164
-msgid "Unable to get routeable content types: %s"
-msgstr "无法获得可路由的内容类型 %s"
+msgid "Unable to get routeable content types: {0}"
+msgstr "无法获得可路由的内容类型 {0}"
 
 #: /Core/src/Status.php:45
 #: /Nodes/src/Template/Element/admin/nodes_search.ctp:30
@@ -1102,8 +1102,8 @@ msgstr "无效的内容"
 
 #: /Core/src/Action/Admin/ToggleAction.php:37
 #: /Core/src/Controller/Component/CroogoComponent.php:322
-msgid "Failed toggling field %s to %s"
-msgstr "域 %s 到 %s 的转换失败"
+msgid "Failed toggling field {0} to {1}"
+msgstr "域 {0} 到 {1} 的转换失败"
 
 #: /Core/src/Configure/CroogoJsonReader.php:48
 msgid "Cannot load configuration files with ../ in them."
@@ -1127,7 +1127,7 @@ msgid "Please choose only one item for this operation"
 msgstr ""
 
 #: /Core/src/Controller/Component/BulkProcessComponent.php:147
-msgid "%s processed"
+msgid "{0} processed"
 msgstr ""
 
 #: /Core/src/Controller/Component/BulkProcessComponent.php:152
@@ -1148,8 +1148,8 @@ msgid "Logout"
 msgstr ""
 
 #: /Core/src/Event/EventManager.php:88
-msgid "EventHandler %s not found in plugin %s"
-msgstr "%s 事件处理器未在插件 %s 中找到"
+msgid "EventHandler {0} not found in plugin {1}"
+msgstr "{0} 事件处理器未在插件 {1} 中找到"
 
 #: /Core/src/Model/Behavior/BulkProcessBehavior.php:67
 msgid "Invalid action to perform"
@@ -1161,7 +1161,7 @@ msgstr "正在执行的动作没有目标"
 
 #: /Core/src/Model/Behavior/BulkProcessBehavior.php:77
 #, fuzzy
-msgid "Action %s is disabled"
+msgid "Action {0} is disabled"
 msgstr "动作已删除"
 
 #: /Core/src/Shell/CroogoShell.php:34
@@ -1177,12 +1177,12 @@ msgid "Theme cannot be deactivated, instead activate another theme."
 msgstr "主题无法禁用，除非启用了另一个主题"
 
 #: /Core/src/Shell/ExtShell.php:114
-msgid "%s \"%s\" not found."
-msgstr "%s \"%s\"没有找到"
+msgid "{0} \"{1}\" not found."
+msgstr "{0} \"{1}\"没有找到"
 
 #: /Core/src/Shell/ExtShell.php:123
-msgid "%s name must be provided."
-msgstr "姓名%s已经被提供"
+msgid "{0} name must be provided."
+msgstr "姓名{0}已经被提供"
 
 #: /Core/src/Shell/ExtShell.php:136
 msgid "Activate Plugins & Themes"
@@ -1202,42 +1202,42 @@ msgstr "扩展名"
 
 #: /Core/src/Shell/ExtShell.php:174
 #: /Extensions/src/Controller/Admin/PluginsController.php:144
-msgid "Plugin \"%s\" activated successfully."
-msgstr " \"%s\" 插件启用成功"
+msgid "Plugin \"{0}\" activated successfully."
+msgstr " \"{0}\" 插件启用成功"
 
 #: /Core/src/Shell/ExtShell.php:179
-msgid "Plugin \"%s\" could not be activated. Please, try again."
-msgstr " \"%s\" 插件无法启用。请重试。"
+msgid "Plugin \"{0}\" could not be activated. Please, try again."
+msgstr " \"{0}\" 插件无法启用。请重试。"
 
 #: /Core/src/Shell/ExtShell.php:196
-msgid "Plugin \"%s\" could not be deactivated. Please, try again."
-msgstr " \"%s\" 插件无法禁用。请重试。"
+msgid "Plugin \"{0}\" could not be deactivated. Please, try again."
+msgstr " \"{0}\" 插件无法禁用。请重试。"
 
 #: /Core/src/Shell/ExtShell.php:204
 #: /Extensions/src/Controller/Admin/PluginsController.php:130
-msgid "Plugin \"%s\" could not be deactivated since \"%s\" depends on it."
+msgid "Plugin \"{0}\" could not be deactivated since \"{1}\" depends on it."
 msgstr ""
 
 #: /Core/src/Shell/ExtShell.php:215
 #: /Extensions/src/Controller/Admin/PluginsController.php:135
-msgid "Plugin \"%s\" deactivated successfully."
-msgstr " \"%s\" 插件已禁用"
+msgid "Plugin \"{0}\" deactivated successfully."
+msgstr " \"{0}\" 插件已禁用"
 
 #: /Core/src/Shell/ExtShell.php:230
-msgid "Theme \"%s\" activated successfully."
-msgstr " \"%s\" 主题启用成功"
+msgid "Theme \"{0}\" activated successfully."
+msgstr " \"{0}\" 主题启用成功"
 
 #: /Core/src/Shell/ExtShell.php:232
-msgid "Theme \"%s\" activation failed."
-msgstr " \"%s\" 主题启用失败"
+msgid "Theme \"{0}\" activation failed."
+msgstr " \"{0}\" 主题启用失败"
 
 #: /Core/src/Shell/ExtShell.php:246
 msgid "Plugins:"
 msgstr "插件："
 
 #: /Core/src/Shell/ExtShell.php:247;259;274;284
-msgid "%-20s%-50s%s"
-msgstr "%-20s%-50s%s"
+msgid "{0}{1}{2}"
+msgstr "{0}{1}{2}"
 
 #: /Core/src/Shell/ExtShell.php:247
 #: /Taxonomy/src/Template/Admin/Vocabularies/index.ctp:13
@@ -1294,8 +1294,8 @@ msgid "Please specify a URL to a zipball extension"
 msgstr "请为zipball扩展确立一个URL"
 
 #: /Core/src/Shell/InstallShell.php:211
-msgid "Downloading extension to %s..."
-msgstr "正在下载扩展到%s..."
+msgid "Downloading extension to {0}..."
+msgstr "正在下载扩展到{0}..."
 
 #: /Core/src/Shell/Task/UpgradeTask.php:70
 msgid "Upgrade ACL database for core controllers."
@@ -1307,12 +1307,12 @@ msgid ""
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
 "version assumes all Controllers belongs to the root 'controllers' node."
-"%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 "ACO继承结构从1.3/1.4升级了，所以它遵守普通CakePHP程序的表现。主要的区别是插件"
 "控制器现在被储存到它自己的插件ACO记录里，而先前的版本假设所有控制器属于根控制"
-"器。%s<warning>请在升级前确保你的ARO和ACO和ARO_ACO表有备份。</warning>"
+"器。{0}<warning>请在升级前确保你的ARO和ACO和ARO_ACO表有备份。</warning>"
 
 #: /Core/src/Shell/Task/UpgradeTask.php:86
 msgid "Create settings.json from database"
@@ -1348,18 +1348,18 @@ msgid ""
 msgstr "<success>Config/settings.yml 基于'settings'表已创建</success>"
 
 #: /Core/src/Shell/Task/UpgradeTask.php:196
-msgid "Updating Link %s"
-msgstr "正在更新连接 %s"
+msgid "Updating Link {0}"
+msgstr "正在更新连接 {0}"
 
 #: /Core/src/Shell/Task/UpgradeTask.php:197
 #: /Settings/src/Shell/SettingsShell.php:170
-msgid "- %s"
-msgstr "- %s"
+msgid "- {0}"
+msgstr "- {0}"
 
 #: /Core/src/Shell/Task/UpgradeTask.php:198
 #: /Settings/src/Shell/SettingsShell.php:173
-msgid "+ %s"
-msgstr "+ %s"
+msgid "+ {0}"
+msgstr "+ {0}"
 
 #: /Core/src/Shell/Task/UpgradeTask.php:203
 msgid "Links updated: %d rows"
@@ -1370,8 +1370,8 @@ msgid "Hook.bootstraps updated"
 msgstr "Hook.bootstraps已更新"
 
 #: /Core/src/Shell/Task/UpgradeTask.php:350
-msgid "Upgrade \"%s\""
-msgstr "升级\"%s\""
+msgid "Upgrade \"{0}\""
+msgstr "升级\"{0}\""
 
 #: /Core/src/Shell/Task/UpgradeTask.php:365
 msgid "Command not recognized"
@@ -1386,8 +1386,8 @@ msgstr "编辑"
 
 #: /Core/src/Template/Common/admin_index.ctp:34
 #: /Core/src/Template/Common/admin_view.ctp:42;43
-msgid "New %s"
-msgstr "新的 %s"
+msgid "New {0}"
+msgstr "新的 {0}"
 
 #: /Core/src/Template/Element/admin/buttons.ctp:7
 #: /Extensions/src/Template/Admin/Locales/edit.ctp:37
@@ -1405,11 +1405,11 @@ msgid "Cancel"
 msgstr "删除"
 
 #: /Core/src/Template/Element/admin/footer.ctp:8
-msgid "Croogo %s"
-msgstr "Croogo %s"
+msgid "Croogo {0}"
+msgstr "Croogo {0}"
 
 #: /Core/src/Template/Element/admin/footer.ctp:11
-msgid "Powered by %s"
+msgid "Powered by {0}"
 msgstr ""
 
 #: /Core/src/Template/Element/admin/modal.ctp:35
@@ -1509,8 +1509,8 @@ msgstr ""
 
 #: /Dashboards/src/Template/Admin/Dashboards/index.ctp:73
 #: /Settings/src/Template/Admin/Settings/view.ctp:44
-msgid "Are you sure you want to delete # %s?"
-msgstr "你确定要删除# %s?"
+msgid "Are you sure you want to delete # {0}?"
+msgstr "你确定要删除# {0}?"
 
 #: /Dashboards/src/View/Helper/DashboardsHelper.php:158
 msgid "Left"
@@ -1572,8 +1572,8 @@ msgid "Invalid theme"
 msgstr "无效的主题"
 
 #: /Extensions/src/CroogoTheme.php:266
-msgid "Theme %s not found"
-msgstr "%s 主题未找到"
+msgid "Theme {0} not found"
+msgstr "{0} 主题未找到"
 
 #: /Extensions/src/ExtensionsInstaller.php:70
 msgid "Invalid plugin path"
@@ -1588,7 +1588,7 @@ msgid "Invalid plugin.json or missing plugin name"
 msgstr ""
 
 #: /Extensions/src/ExtensionsInstaller.php:107
-msgid "Missing expected files: %s in: %s"
+msgid "Missing expected files: {0} in: {1}"
 msgstr ""
 
 #: /Extensions/src/ExtensionsInstaller.php:108
@@ -1636,8 +1636,8 @@ msgid "Locale does not exist."
 msgstr "本地化环境不存在"
 
 #: /Extensions/src/Controller/Admin/LocalesController.php:79
-msgid "Locale '%s' set as default"
-msgstr "本地化 '%s' 设置为默认"
+msgid "Locale '{0}' set as default"
+msgstr "本地化 '{0}' 设置为默认"
 
 #: /Extensions/src/Controller/Admin/LocalesController.php:81
 msgid "Could not save Locale setting."
@@ -1656,12 +1656,12 @@ msgid "Locale already exists."
 msgstr "本地化已存在"
 
 #: /Extensions/src/Controller/Admin/LocalesController.php:172
-msgid "Edit locale: %s"
-msgstr "编辑本地化： %s"
+msgid "Edit locale: {0}"
+msgstr "编辑本地化： {0}"
 
 #: /Extensions/src/Controller/Admin/LocalesController.php:182;211
-msgid "The file %s does not exist."
-msgstr " %s 文件不存在"
+msgid "The file {0} does not exist."
+msgstr " {0} 文件不存在"
 
 #: /Extensions/src/Controller/Admin/LocalesController.php:192
 msgid "Locale updated successfully"
@@ -1684,8 +1684,8 @@ msgid "You cannot delete a plugin that is currently active."
 msgstr "不能删除当前再用的插件"
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:104
-msgid "Plugin \"%s\" deleted successfully."
-msgstr " \"%s\" 插件成功删除"
+msgid "Plugin \"{0}\" deleted successfully."
+msgstr " \"{0}\" 插件成功删除"
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:108
 msgid "Plugin could not be deleted."
@@ -1696,27 +1696,27 @@ msgid "Plugin could not be activated. Please, try again."
 msgstr "插件不能激活。请重试。"
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:165
-msgid "Plugin \"%s\" migrated successfully."
-msgstr "\"%s\" 插件迁移成功"
+msgid "Plugin \"{0}\" migrated successfully."
+msgstr "\"{0}\" 插件迁移成功"
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:168
-msgid "Plugin \"%s\" could not be migrated. Error: %s"
-msgstr "\"%s\" 插件不能迁移。错误: %s"
+msgid "Plugin \"{0}\" could not be migrated. Error: {1}"
+msgstr "\"{0}\" 插件不能迁移。错误: {1}"
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:191
-msgid "Plugin %s has been moved up"
-msgstr " %s 插件已上移"
+msgid "Plugin {0} has been moved up"
+msgstr " {0} 插件已上移"
 
 #: /Extensions/src/Controller/Admin/PluginsController.php:218
-msgid "Plugin %s has been moved down"
-msgstr " %s 插件已下移"
+msgid "Plugin {0} has been moved down"
+msgstr " {0} 插件已下移"
 
 #: /Extensions/src/Controller/Admin/ThemesController.php:71
 msgid "Theme activated."
 msgstr "主题已激活"
 
 #: /Extensions/src/Controller/Admin/ThemesController.php:73
-msgid "Theme activation failed: %s"
+msgid "Theme activation failed: {0}"
 msgstr ""
 
 #: /Extensions/src/Controller/Admin/ThemesController.php:86
@@ -1848,8 +1848,8 @@ msgid "Attachments deleted"
 msgstr ""
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:142;175;215;247;282;379;414
-msgid "Path %s is restricted"
-msgstr "%s 路径受限"
+msgid "Path {0} is restricted"
+msgstr "{0} 路径受限"
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:188
 msgid "File saved successfully"
@@ -1868,19 +1868,19 @@ msgid "Directory deleted"
 msgstr "目录已删除"
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:314
-msgid "Path \"%s\" cannot be renamed"
+msgid "Path \"{0}\" cannot be renamed"
 msgstr ""
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:333
-msgid "%s already exists"
+msgid "{0} already exists"
 msgstr ""
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:337
-msgid "\"%s\" has been renamed to \"%s\""
+msgid "\"{0}\" has been renamed to \"{1}\""
 msgstr ""
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:340
-msgid "Could not rename \"%s\" to \"%s\""
+msgid "Could not rename \"{0}\" to \"{1}\""
 msgstr ""
 
 #: /FileManager/src/Controller/Admin/FileManagerController.php:345
@@ -1946,8 +1946,8 @@ msgstr ""
 #: /FileManager/src/Template/Admin/Attachments/index.ctp:110
 #: /Nodes/View/Nodes/admin_hierarchy.ctp:150
 #: /Nodes/src/Template/Admin/Nodes/index.ctp:157
-msgid "%s selected items?"
-msgstr "%s 选择的项？"
+msgid "{0} selected items?"
+msgstr "{0} 选择的项？"
 
 #: /FileManager/src/Template/Admin/FileManager/browse.ctp:13
 msgid "Upload here"
@@ -2006,8 +2006,8 @@ msgid "Filename"
 msgstr "文件名"
 
 #: /FileManager/src/Template/Admin/FileManager/edit_file.ctp:5
-msgid "Edit file: %s"
-msgstr "编辑文件: %s"
+msgid "Edit file: {0}"
+msgstr "编辑文件: {0}"
 
 #: /FileManager/src/Template/Admin/FileManager/rename.ctp:23
 msgid "New name"
@@ -2045,12 +2045,12 @@ msgid "Unable to create administrative user. Validation errors:"
 msgstr ""
 
 #: /Install/src/InstallManager.php:312
-msgid "Permission %s granted to %s"
-msgstr "权限 %s 被赋予 %s"
+msgid "Permission {0} granted to {1}"
+msgstr "权限 {0} 被赋予 {1}"
 
 #: /Install/src/Controller/InstallController.php:183
-msgid "Warning: Database \"%s\" is not empty."
-msgstr "警告： \"%s\" 数据库非空"
+msgid "Warning: Database \"{0}\" is not empty."
+msgstr "警告： \"{0}\" 数据库非空"
 
 #: /Install/src/Controller/InstallController.php:195
 msgid "There was a problem installing Croogo"
@@ -2157,7 +2157,7 @@ msgid "Invalid"
 msgstr ""
 
 #: /Install/src/Template/Install/database.ctp:22
-msgid "The configuration is %s."
+msgid "The configuration is {0}."
 msgstr ""
 
 #: /Install/src/Template/Install/database.ctp:26
@@ -2193,16 +2193,16 @@ msgid "Successful"
 msgstr ""
 
 #: /Install/src/Template/Install/finish.ctp:5
-msgid "The user %s has been created with administrative rights."
+msgid "The user {0} has been created with administrative rights."
 msgstr ""
 
 #: /Install/src/Template/Install/finish.ctp:11
-msgid "Admin panel: %s"
-msgstr "管理面板: %s"
+msgid "Admin panel: {0}"
+msgstr "管理面板: {0}"
 
 #: /Install/src/Template/Install/finish.ctp:17
-msgid "You can start with %s or jump in and %s."
-msgstr "您可以以 %s 开始或者跳到 %s。"
+msgid "You can start with {0} or jump in and {1}."
+msgstr "您可以以 {0} 开始或者跳到 {1}。"
 
 #: /Install/src/Template/Install/finish.ctp:18
 msgid "configuring your site"
@@ -2233,20 +2233,20 @@ msgid "Your config directory is NOT writable."
 msgstr "你的配置目录不可写"
 
 #: /Install/src/Template/Install/index.ctp:24
-msgid "PHP version %s >= %s"
-msgstr "PHP 版本 %s >= %s"
+msgid "PHP version {0} >= {1}"
+msgstr "PHP 版本 {0} >= {1}"
 
 #: /Install/src/Template/Install/index.ctp:29
-msgid "PHP version %s < %s"
-msgstr "PHP 版本 %s < %s"
+msgid "PHP version {0} < {1}"
+msgstr "PHP 版本 {0} < {1}"
 
 #: /Install/src/Template/Install/index.ctp:36
-msgid "CakePhp version %s >= %s"
-msgstr "CakePhp 版本 %s >= %s"
+msgid "CakePhp version {0} >= {1}"
+msgstr "CakePhp 版本 {0} >= {1}"
 
 #: /Install/src/Template/Install/index.ctp:42
-msgid "CakePHP version %s < %s"
-msgstr "CakePHP 版本 %s < %s"
+msgid "CakePHP version {0} < {1}"
+msgstr "CakePHP 版本 {0} < {1}"
 
 #: /Install/src/Template/Install/index.ctp:48
 msgid "Start installation"
@@ -2261,7 +2261,7 @@ msgid "Installation cannot continue as minimum requirements are not met."
 msgstr "未达到最小配置要求无法继续安装"
 
 #: /Install/src/Template/Layout/install.ctp:6;34
-msgid "Installation: %s"
+msgid "Installation: {0}"
 msgstr ""
 
 #: /Install/src/Template/Layout/install.ctp:6
@@ -2280,8 +2280,8 @@ msgid "Menus"
 msgstr "菜单"
 
 #: /Menus/src/Controller/Admin/LinksController.php:44
-msgid "Links: %s"
-msgstr "链接: %s"
+msgid "Links: {0}"
+msgstr "链接: {0}"
 
 #: /Menus/src/Controller/Admin/LinksController.php:76
 msgid "Link deleted"
@@ -2515,7 +2515,7 @@ msgid "The slug has already been taken."
 msgstr ""
 
 #: /Nodes/src/Template/Admin/Nodes/chooser.ctp:20
-msgid "%s archive/index"
+msgid "{0} archive/index"
 msgstr ""
 
 #: /Nodes/src/Template/Admin/Nodes/chooser.ctp:57
@@ -2533,11 +2533,11 @@ msgid "Select the type of content you wish to create from the list below"
 msgstr ""
 
 #: /Nodes/src/Template/Admin/Nodes/form.ctp:13
-msgid "Create content: %s"
-msgstr "创建内容：%s "
+msgid "Create content: {0}"
+msgstr "创建内容：{0} "
 
 #: /Nodes/src/Template/Admin/Nodes/form.ctp:39
-msgid "%s title"
+msgid "{0} title"
 msgstr ""
 
 #: /Nodes/src/Template/Admin/Nodes/form.ctp:46
@@ -2554,7 +2554,7 @@ msgid "Promoted to front page"
 msgstr "置顶"
 
 #: /Nodes/src/Template/Admin/Nodes/form.ctp:78
-msgid "%s attributes"
+msgid "{0} attributes"
 msgstr ""
 
 #: /Nodes/src/Template/Admin/Nodes/index.ctp:6
@@ -2595,8 +2595,8 @@ msgid "No items found."
 msgstr "没找到项目"
 
 #: /Nodes/src/Template/Nodes/search.ctp:3
-msgid "Search Results: %s"
-msgstr "搜索结果: %s"
+msgid "Search Results: {0}"
+msgstr "搜索结果: {0}"
 
 #: /Settings/config/admin_menu.php:20
 msgid "Site"
@@ -2626,7 +2626,7 @@ msgid "Cache"
 msgstr ""
 
 #: /Settings/src/Controller/Admin/CachesController.php:47
-msgid "Cache '%s' cleared"
+msgid "Cache '{0}' cleared"
 msgstr ""
 
 #: /Settings/src/Controller/Admin/CachesController.php:49
@@ -2694,12 +2694,12 @@ msgid "Update version string from git tag information"
 msgstr "从git标签信息升级版本数字"
 
 #: /Settings/src/Shell/SettingsShell.php:143
-msgid "    %-30s: %s"
-msgstr "    %-30s: %s"
+msgid "    {0}: {1}"
+msgstr "    {0}: {1}"
 
 #: /Settings/src/Shell/SettingsShell.php:165
-msgid "Updating %s"
-msgstr "正在更新 %s"
+msgid "Updating {0}"
+msgstr "正在更新 {0}"
 
 #: /Settings/src/Shell/SettingsShell.php:166
 msgid "Confirm update"
@@ -2714,12 +2714,12 @@ msgid "Cancelled"
 msgstr "已取消"
 
 #: /Settings/src/Shell/SettingsShell.php:194;223
-msgid "Key: %s not found"
-msgstr "Key: %s 未找到"
+msgid "Key: {0} not found"
+msgstr "Key: {0} 未找到"
 
 #: /Settings/src/Shell/SettingsShell.php:213
-msgid "Deleting %s"
-msgstr "正在删除 %s"
+msgid "Deleting {0}"
+msgstr "正在删除 {0}"
 
 #: /Settings/src/Shell/SettingsShell.php:214
 msgid "Delete?"
@@ -2750,7 +2750,7 @@ msgid "Duration"
 msgstr ""
 
 #: /Settings/src/Template/Admin/Caches/index.ctp:47
-msgid "Clear cache: %s"
+msgid "Clear cache: {0}"
 msgstr ""
 
 #: /Settings/src/Template/Admin/Languages/form.ctp:7;21
@@ -2836,8 +2836,8 @@ msgid "Term could not be added to the vocabulary. Please try again."
 msgstr "术语无法加入词汇表。请重试。"
 
 #: /Taxonomy/src/Action/Admin/TermEditAction.php:57
-msgid "%s: Edit Term"
-msgstr "%s: 编辑术语"
+msgid "{0}: Edit Term"
+msgstr "{0}: 编辑术语"
 
 #: /Taxonomy/src/Controller/Admin/TermsController.php:130
 msgid "Term deleted"
@@ -2848,11 +2848,11 @@ msgid "Term could not be deleted. Please, try again."
 msgstr "术语无法删除。请重试。"
 
 #: /Taxonomy/src/Controller/Admin/TermsController.php:200
-msgid "Moved %s successfully"
+msgid "Moved {0} successfully"
 msgstr ""
 
 #: /Taxonomy/src/Controller/Admin/TermsController.php:203
-msgid "Could not move %s"
+msgid "Could not move {0}"
 msgstr ""
 
 #: /Taxonomy/src/Controller/Admin/TermsController.php:243
@@ -2914,16 +2914,16 @@ msgid "Vocabularies"
 msgstr "词汇表"
 
 #: /Taxonomy/src/Template/Admin/Terms/form.ctp:16
-msgid "%s: Add Term"
-msgstr " %s: 添加术语"
+msgid "{0}: Add Term"
+msgstr " {0}: 添加术语"
 
 #: /Taxonomy/src/Template/Admin/Terms/form.ctp:37
 msgid "Term"
 msgstr "术语"
 
 #: /Taxonomy/src/Template/Admin/Terms/index.ctp:3
-msgid "Vocabulary: %s"
-msgstr "词汇表： %s"
+msgid "Vocabulary: {0}"
+msgstr "词汇表： {0}"
 
 #: /Taxonomy/src/Template/Admin/Terms/index.ctp:14
 msgid "Create term"
@@ -3033,8 +3033,8 @@ msgid "Invalid record."
 msgstr "无效的记录"
 
 #: /Translate/src/Controller/Admin/TranslateController.php:75
-msgid "Translations: %s"
-msgstr "翻译：%s"
+msgid "Translations: {0}"
+msgstr "翻译：{0}"
 
 #: /Translate/src/Controller/Admin/TranslateController.php:116
 msgid "Invalid locale"
@@ -3065,8 +3065,8 @@ msgid "Translation for the locale could not be deleted."
 msgstr "本地化的翻译无法删除"
 
 #: /Translate/src/Template/Admin/Translate/edit.ctp:6
-msgid "Translate content: %s (%s)"
-msgstr "翻译内容: %s (%s)"
+msgid "Translate content: {0} ({1})"
+msgstr "翻译内容: {0} ({1})"
 
 #: /Translate/src/Template/Admin/Translate/edit.ctp:13
 #: /Translate/src/Template/Admin/Translate/index.ctp:31
@@ -3074,7 +3074,7 @@ msgid "Translations"
 msgstr ""
 
 #: /Translate/src/Template/Admin/Translate/edit.ctp:24
-msgid "Translate (%s)"
+msgid "Translate ({0})"
 msgstr ""
 
 #: /Translate/src/Template/Admin/Translate/edit.ctp:42
@@ -3176,12 +3176,12 @@ msgid "Incorrect username or password"
 msgstr "用户名或密码错误"
 
 #: /Users/src/Mailer/UserMailer.php:27
-msgid "[%s] Reset Password"
-msgstr "[%s] 重置密码"
+msgid "[{0}] Reset Password"
+msgstr "[{0}] 重置密码"
 
 #: /Users/src/Mailer/UserMailer.php:40
-msgid "[%s] Please activate your account"
-msgstr "[%s] 请激活您的账户"
+msgid "[{0}] Please activate your account"
+msgstr "[{0}] 请激活您的账户"
 
 #: /Users/src/Shell/UsersShell.php:36
 msgid "Create a new user"
@@ -3204,19 +3204,19 @@ msgid "Reset user password"
 msgstr "重设密码"
 
 #: /Users/src/Shell/UsersShell.php:81
-msgid "User '%s' not found"
-msgstr " '%s' 用户未找到"
+msgid "User '{0}' not found"
+msgstr " '{0}' 用户未找到"
 
 #: /Users/src/Shell/UsersShell.php:87
-msgid "Password for '%s' has been changed"
-msgstr " '%s' 的密码已修改"
+msgid "Password for '{0}' has been changed"
+msgstr " '{0}' 的密码已修改"
 
 #: /Users/src/Shell/UsersShell.php:102
-msgid "User '%s' already exists"
+msgid "User '{0}' already exists"
 msgstr ""
 
 #: /Users/src/Shell/UsersShell.php:116
-msgid "User '%s' has been created"
+msgid "User '{0}' has been created"
 msgstr ""
 
 #: /Users/src/Template/Admin/Roles/form.ctp:18
@@ -3235,7 +3235,7 @@ msgid "Username/Email"
 msgstr ""
 
 #: /Users/src/Template/Admin/Users/form.ctp:13
-msgid "Edit user %s"
+msgid "Edit user {0}"
 msgstr ""
 
 #: /Users/src/Template/Admin/Users/form.ctp:15;16
@@ -3284,7 +3284,7 @@ msgid "Reset"
 msgstr "重置"
 
 #: /Users/src/Template/Admin/Users/reset_password.ctp:4
-msgid "Reset password: %s"
+msgid "Reset password: {0}"
 msgstr ""
 
 #: /Users/src/Template/Admin/Users/reset_password.ctp:11;15
@@ -3311,13 +3311,13 @@ msgstr ""
 #: /Users/src/Template/Email/html/register.ctp:7
 #: /Users/src/Template/Email/text/forgot_password.ctp:3
 #: /Users/src/Template/Email/text/register.ctp:3
-msgid "Hello %s"
-msgstr "%s 你好"
+msgid "Hello {0}"
+msgstr "{0} 你好"
 
 #: /Users/src/Template/Email/html/forgot_password.ctp:14
 #: /Users/src/Template/Email/text/forgot_password.ctp:14
-msgid "Please visit this link to reset your password: %s"
-msgstr "请访问该链接重置您的密码: %s"
+msgid "Please visit this link to reset your password: {0}"
+msgstr "请访问该链接重置您的密码: {0}"
 
 #: /Users/src/Template/Email/html/forgot_password.ctp:19
 #: /Users/src/Template/Email/text/forgot_password.ctp:18
@@ -3326,8 +3326,8 @@ msgstr "如果您未申请重置密码，请忽略该邮件。"
 
 #: /Users/src/Template/Email/html/register.ctp:11
 #: /Users/src/Template/Email/text/register.ctp:6
-msgid "Please visit this link to activate your account: %s"
-msgstr "请访问该链接以激活您的账户: %s"
+msgid "Please visit this link to activate your account: {0}"
+msgstr "请访问该链接以激活您的账户: {0}"
 
 #: /Users/src/Template/Users/index.ctp:4
 msgid "You are currently logged in as:"
@@ -3397,14 +3397,14 @@ msgstr "欢迎您："
 #~ msgid "ACL database has been upgraded successfully"
 #~ msgstr "ACL数据库已成功升级"
 
-#~ msgid "Model %s cannot be found."
-#~ msgstr " %s 模型未找到"
+#~ msgid "Model {0} cannot be found."
+#~ msgstr " {0} 模型未找到"
 
-#~ msgid "Created Aco node: %s"
-#~ msgstr "创建Aco节点：%s "
+#~ msgid "Created Aco node: {0}"
+#~ msgstr "创建Aco节点：{0} "
 
-#~ msgid "<error>Plugin %s not found or not activated</error>"
-#~ msgstr "<error> %s 插件未找到或未激活</error>"
+#~ msgid "<error>Plugin {0} not found or not activated</error>"
+#~ msgstr "<error> {0} 插件未找到或未激活</error>"
 
 #~ msgid "<success>Aco Sync Complete</success>"
 #~ msgstr "<success>Aco同步完成</success>"
@@ -3412,17 +3412,17 @@ msgstr "欢迎您："
 #~ msgid "<success>Aco Update Complete</success>"
 #~ msgstr "<success>Aco 完成更新</success>"
 
-#~ msgid "Skipped Aco node: <warning>%s</warning>"
-#~ msgstr "被跳过的Aco节点: <warning>%s</warning>"
+#~ msgid "Skipped Aco node: <warning>{0}</warning>"
+#~ msgstr "被跳过的Aco节点: <warning>{0}</warning>"
 
-#~ msgid "Deleted %s and all children"
-#~ msgstr "删除 %s 和它的所有孩子"
+#~ msgid "Deleted {0} and all children"
+#~ msgstr "删除 {0} 和它的所有孩子"
 
-#~ msgid "Created Aco node: <success>%s</success>"
-#~ msgstr "创建Aco节点: <success>%s</success>"
+#~ msgid "Created Aco node: <success>{0}</success>"
+#~ msgstr "创建Aco节点: <success>{0}</success>"
 
-#~ msgid "Deleted Aco node: <warning>%s</warning>"
-#~ msgstr "删除Aco节点: <warning>%s</warning>"
+#~ msgid "Deleted Aco node: <warning>{0}</warning>"
+#~ msgstr "删除Aco节点: <warning>{0}</warning>"
 
 #~ msgid "<success>Tree is valid and strong</success>"
 #~ msgstr "<success>树已被验证</success>"
@@ -3439,8 +3439,8 @@ msgstr "欢迎您："
 #~ msgid "<warning>ACL Database seems to have already been upgraded</warning>"
 #~ msgstr "<warning>ACL数据库已经被升级了</warning>"
 
-#~ msgid "%s not found"
-#~ msgstr "%s 没有找到"
+#~ msgid "{0} not found"
+#~ msgstr "{0} 没有找到"
 
 #~ msgid "Role: Public not found"
 #~ msgstr "角色：Public 没有找到"
@@ -3556,8 +3556,8 @@ msgstr "欢迎您："
 #~ msgid "Go back to original post"
 #~ msgstr "返回原始帖子"
 
-#~ msgid "A new comment has been posted under: %s"
-#~ msgstr "%s 有一条新留言"
+#~ msgid "A new comment has been posted under: {0}"
+#~ msgstr "{0} 有一条新留言"
 
 #~ msgid "Add Contact"
 #~ msgstr "添加联系人"
@@ -3604,11 +3604,11 @@ msgstr "欢迎您："
 #~ msgid "<warning>Config/settings.json already exist</warning>"
 #~ msgstr "<warning>Config/settings.json已经存在</warning>"
 
-#~ msgid "Errors in CakeErrorController: %s"
-#~ msgstr "CakeErrorController有错误: %s"
+#~ msgid "Errors in CakeErrorController: {0}"
+#~ msgstr "CakeErrorController有错误: {0}"
 
-#~ msgid "Could not load configuration files: %s or %s"
-#~ msgstr "无法加载配置文件: %s 或 %s"
+#~ msgid "Could not load configuration files: {0} or {1}"
+#~ msgstr "无法加载配置文件: {0} 或 {1}"
 
 #~ msgid ""
 #~ "Page {:page} of {:pages}, showing {:current} records out of {:count} "
@@ -3629,8 +3629,8 @@ msgstr "欢迎您："
 #~ msgid "Security Error"
 #~ msgstr "安全错误"
 
-#~ msgid "Request blackholed due to \"%s\" violation."
-#~ msgstr "请求因为 \"%s\"  失败"
+#~ msgid "Request blackholed due to \"{0}\" violation."
+#~ msgstr "请求因为 \"{0}\"  失败"
 
 #~ msgid "Method %1$s::%2$s does not exist"
 #~ msgstr "方法 %1$s::%2$s 不存在"
@@ -3638,11 +3638,11 @@ msgstr "欢迎您："
 #~ msgid "Theme activation failed."
 #~ msgstr "主题激活失败"
 
-#~ msgid "Plugin \"%s\" is already active."
-#~ msgstr " \"%s\" 主题已启用"
+#~ msgid "Plugin \"{0}\" is already active."
+#~ msgstr " \"{0}\" 主题已启用"
 
-#~ msgid "Plugin \"%s\" depends on \"%s\" plugin."
-#~ msgstr " \"%s\" 插件基于 \"%s\" 插件"
+#~ msgid "Plugin \"{0}\" depends on \"{1}\" plugin."
+#~ msgstr " \"{0}\" 插件基于 \"{1}\" 插件"
 
 #~ msgid "Upload failed. Please ensure size does not exceed the server limit."
 #~ msgstr "上传失败。请确认文件大小未超过服务器限制。"
@@ -3686,23 +3686,23 @@ msgstr "欢迎您："
 #~ msgid "Installation failed: Unable to create settings file"
 #~ msgstr "安装失败：无法创建设置文件"
 
-#~ msgid "CSS : %s created"
-#~ msgstr "CSS：%s 已创建"
+#~ msgid "CSS : {0} created"
+#~ msgstr "CSS：{0} 已创建"
 
-#~ msgid "CSS : %s failed"
-#~ msgstr "CSS : %s 失败"
+#~ msgid "CSS : {0} failed"
+#~ msgstr "CSS : {0} 失败"
 
-#~ msgid "JS  : %s created"
-#~ msgstr "JS  : %s 已创建"
+#~ msgid "JS  : {0} created"
+#~ msgstr "JS  : {0} 已创建"
 
-#~ msgid "JS  : %s failed"
-#~ msgstr "JS  : %s 失败"
+#~ msgid "JS  : {0} failed"
+#~ msgstr "JS  : {0} 失败"
 
-#~ msgid "Font: %s copied"
-#~ msgstr "字体：%s 已复制"
+#~ msgid "Font: {0} copied"
+#~ msgstr "字体：{0} 已复制"
 
-#~ msgid "File: %s not copied"
-#~ msgstr "文件: %s 未复制"
+#~ msgid "File: {0} not copied"
+#~ msgstr "文件: {0} 未复制"
 
 #~ msgid "Could not write database.php file."
 #~ msgstr "database.php文件不可写"
@@ -3715,10 +3715,10 @@ msgstr "欢迎您："
 
 #~ msgid ""
 #~ "\n"
-#~ "\t\tThe user %s has been created with administrative rights."
+#~ "\t\tThe user {0} has been created with administrative rights."
 #~ msgstr ""
 #~ "\n"
-#~ "\t\t 用户 %s 已经被创建，并被赋予管理员权限。"
+#~ "\t\t 用户 {0} 已经被创建，并被赋予管理员权限。"
 
 #~ msgid "Install"
 #~ msgstr "安装"
@@ -3756,14 +3756,14 @@ msgstr "欢迎您："
 #~ msgid "Content type does not exist."
 #~ msgstr "内容类型不村爱"
 
-#~ msgid "%s has been saved"
-#~ msgstr "%s 已保存"
+#~ msgid "{0} has been saved"
+#~ msgstr "{0} 已保存"
 
-#~ msgid "%s could not be saved. Please, try again."
-#~ msgstr "%s 无法保存。请重试。"
+#~ msgid "{0} could not be saved. Please, try again."
+#~ msgstr "{0} 无法保存。请重试。"
 
-#~ msgid "Edit %s: %s"
-#~ msgstr "编辑 %s: %s"
+#~ msgid "Edit {0}: {1}"
+#~ msgstr "编辑 {0}: {1}"
 
 #~ msgid "Invalid id for Node"
 #~ msgstr "无效的节点id"
@@ -3813,8 +3813,8 @@ msgstr "欢迎您："
 #~ msgid "Invalid id for Setting"
 #~ msgstr "无效的设置id"
 
-#~ msgid "Settings: %s"
-#~ msgstr "设置： %s "
+#~ msgid "Settings: {0}"
+#~ msgstr "设置： {0} "
 
 #~ msgid "Could not add a new language."
 #~ msgstr "无法添加新语言"
@@ -3865,8 +3865,8 @@ msgstr "欢迎您："
 #~ msgstr "标签"
 
 #~ msgid ""
-#~ "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
-#~ msgstr "CroogoTranslateBehavior的数据源 %s 于 模型 %s 没有连接"
+#~ "Datasource {0} for CroogoTranslateBehavior of model {1} is not connected"
+#~ msgstr "CroogoTranslateBehavior的数据源 {0} 于 模型 {1} 没有连接"
 
 #~ msgid "Add Role"
 #~ msgstr "添加角色"
@@ -3942,10 +3942,10 @@ msgstr "欢迎您："
 
 #~ msgid ""
 #~ "Page %page% of %pages%, showing %current% records out of %count% total, "
-#~ "starting on record %start%, ending on %end%"
+#~ "starting on record {0}tart%, ending on %end%"
 #~ msgstr ""
 #~ "第 %page% 页，共 %pages% 页，本页显示 %current% 条记录，共  %count% 条记"
-#~ "录，从第 %start% 到 %end%"
+#~ "录，从第 {0}tart% 到 %end%"
 
 #~ msgid "Edit file"
 #~ msgstr "编辑文件"
@@ -3953,8 +3953,8 @@ msgstr "欢迎您："
 #~ msgid "Invalid Node"
 #~ msgstr "不合法的节点"
 
-#~ msgid "You are logged in as: %s"
-#~ msgstr "您已作为 %s 登陆"
+#~ msgid "You are logged in as: {0}"
+#~ msgstr "您已作为 {0} 登陆"
 
 #~ msgid "Log out"
 #~ msgstr "退出登陆"

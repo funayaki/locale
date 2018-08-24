@@ -104,11 +104,11 @@ msgid "Add Action"
 msgstr "Добавить Action"
 
 #: Acl/Controller/AclActionsController.php:78
-msgid "The %s has been saved"
+msgid "The {0} has been saved"
 msgstr ""
 
 #: Acl/Controller/AclActionsController.php:81
-msgid "The %s could not be saved. Please, try again."
+msgid "The {0} could not be saved. Please, try again."
 msgstr ""
 
 #: Acl/Controller/AclActionsController.php:95
@@ -167,15 +167,15 @@ msgid ""
 msgstr ""
 
 #: Acl/Lib/AclExtras.php:149
-msgid "Model %s cannot be found."
+msgid "Model {0} cannot be found."
 msgstr ""
 
 #: Acl/Lib/AclExtras.php:172
-msgid "Created Aco node: %s"
+msgid "Created Aco node: {0}"
 msgstr ""
 
 #: Acl/Lib/AclExtras.php:192
-msgid "<error>Plugin %s not found or not activated</error>"
+msgid "<error>Plugin {0} not found or not activated</error>"
 msgstr ""
 
 #: Acl/Lib/AclExtras.php:208
@@ -187,19 +187,19 @@ msgid "<success>Aco Update Complete</success>"
 msgstr ""
 
 #: Acl/Lib/AclExtras.php:241
-msgid "Skipped Aco node: <warning>%s</warning>"
+msgid "Skipped Aco node: <warning>{0}</warning>"
 msgstr ""
 
 #: Acl/Lib/AclExtras.php:261
-msgid "Deleted %s and all children"
+msgid "Deleted {0} and all children"
 msgstr ""
 
 #: Acl/Lib/AclExtras.php:291;366
-msgid "Created Aco node: <success>%s</success>"
+msgid "Created Aco node: <success>{0}</success>"
 msgstr ""
 
 #: Acl/Lib/AclExtras.php:307;438
-msgid "Deleted Aco node: <warning>%s</warning>"
+msgid "Deleted Aco node: <warning>{0}</warning>"
 msgstr ""
 
 #: Acl/Lib/AclExtras.php:457
@@ -223,7 +223,7 @@ msgid "<warning>ACL Database seems to have already been upgraded</warning>"
 msgstr ""
 
 #: Acl/Lib/AclUpgrade.php:115
-msgid "%s not found"
+msgid "{0} not found"
 msgstr ""
 
 #: Acl/Lib/AclUpgrade.php:139
@@ -1048,8 +1048,8 @@ msgid "by"
 msgstr ""
 
 #: Comments/View/Elements/comment.ctp:13
-msgid "said on %s"
-msgstr "говорит о  %s"
+msgid "said on {0}"
+msgstr "говорит о  {0}"
 
 #: Comments/View/Elements/comment.ctp:19
 msgid "Reply"
@@ -1083,32 +1083,32 @@ msgid "Read/Write"
 msgstr "Чтение/Запись"
 
 #: Comments/View/Emails/text/comment.ctp:2
-msgid "A new comment has been posted under: %s"
-msgstr "Новый комментарий был размещен под: %s"
+msgid "A new comment has been posted under: {0}"
+msgstr "Новый комментарий был размещен под: {0}"
 
 #: Comments/View/Emails/text/comment.ctp:6
 #: Contacts/View/Emails/text/contact.ctp:8
-msgid "Name: %s"
-msgstr "Имя %s"
+msgid "Name: {0}"
+msgstr "Имя {0}"
 
 #: Comments/View/Emails/text/comment.ctp:7
 #: Contacts/View/Emails/text/contact.ctp:9
-msgid "Email: %s"
+msgid "Email: {0}"
 msgstr ""
 
 #: Comments/View/Emails/text/comment.ctp:8
-msgid "Website: %s"
+msgid "Website: {0}"
 msgstr ""
 
 #: Comments/View/Emails/text/comment.ctp:9
 #: Contacts/View/Emails/text/contact.ctp:11
 #: Users/View/Emails/text/forgot_password.ctp:17
-msgid "IP Address: %s"
+msgid "IP Address: {0}"
 msgstr ""
 
 #: Comments/View/Emails/text/comment.ctp:10
-msgid "Comment: %s"
-msgstr "Комментарий: %s"
+msgid "Comment: {0}"
+msgstr "Комментарий: {0}"
 
 #: Contacts/Config/admin_menu.php:5;15
 #: Contacts/Controller/ContactsController.php:52
@@ -1163,7 +1163,7 @@ msgid "Sorry, the message appears to be spam."
 msgstr "К сожалению, сообщение похоже на спам."
 
 #: Contacts/Controller/ContactsController.php:270
-msgid "[%s] %s"
+msgid "[{0}] {1}"
 msgstr ""
 
 #: Contacts/Controller/MessagesController.php:72
@@ -1295,16 +1295,16 @@ msgid "Send"
 msgstr "Отправить"
 
 #: Contacts/View/Emails/text/contact.ctp:7
-msgid "You have received a new message at: %s"
-msgstr "Вы получили новые сообщения на: %s"
+msgid "You have received a new message at: {0}"
+msgstr "Вы получили новые сообщения на: {0}"
 
 #: Contacts/View/Emails/text/contact.ctp:10
-msgid "Subject: %s"
-msgstr "Тема: %s"
+msgid "Subject: {0}"
+msgstr "Тема: {0}"
 
 #: Contacts/View/Emails/text/contact.ctp:12
-msgid "Message: %s"
-msgstr "Сообщение: %s"
+msgid "Message: {0}"
+msgstr "Сообщение: {0}"
 
 #: Contacts/View/Messages/admin_index.ctp:15
 msgid "Messages: Read"
@@ -1343,11 +1343,11 @@ msgid "Theme cannot be deactivated, instead activate another theme."
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:107
-msgid "%s \"%s\" not found."
+msgid "{0} \"{1}\" not found."
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:116
-msgid "%s name must be provided."
+msgid "{0} name must be provided."
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:128
@@ -1369,33 +1369,33 @@ msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:165
 #: Extensions/Controller/ExtensionsPluginsController.php:157
-msgid "Plugin \"%s\" activated successfully."
+msgid "Plugin \"{0}\" activated successfully."
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:558
-msgid "Plugin \"%s\" could not be activated. Please, try again."
+msgid "Plugin \"{0}\" could not be activated. Please, try again."
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:186
-msgid "Plugin \"%s\" could not be deactivated. Please, try again."
+msgid "Plugin \"{0}\" could not be deactivated. Please, try again."
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:194
 #: Extensions/Controller/ExtensionsPluginsController.php:143
-msgid "Plugin \"%s\" could not be deactivated since \"%s\" depends on it."
+msgid "Plugin \"{0}\" could not be deactivated since \"{1}\" depends on it."
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:205
 #: Extensions/Controller/ExtensionsPluginsController.php:148
-msgid "Plugin \"%s\" deactivated successfully."
+msgid "Plugin \"{0}\" deactivated successfully."
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:219
-msgid "Theme \"%s\" activated successfully."
+msgid "Theme \"{0}\" activated successfully."
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:221
-msgid "Theme \"%s\" activation failed."
+msgid "Theme \"{0}\" activation failed."
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:235
@@ -1403,7 +1403,7 @@ msgid "Plugins:"
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:236;248;262;272
-msgid "%-20s%-50s%s"
+msgid "{0}{1}{2}"
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:236
@@ -1460,7 +1460,7 @@ msgid "Please specify a URL to a zipball extension"
 msgstr ""
 
 #: Croogo/Console/Command/InstallShell.php:200
-msgid "Downloading extension to %s..."
+msgid "Downloading extension to {0}..."
 msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:62
@@ -1473,7 +1473,7 @@ msgid ""
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
 "version assumes all Controllers belongs to the root 'controllers' node."
-"%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 
@@ -1511,17 +1511,17 @@ msgid ""
 msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:187
-msgid "Updating Link %s"
+msgid "Updating Link {0}"
 msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:188
 #: Settings/Console/Command/SettingsShell.php:155
-msgid "- %s"
+msgid "- {0}"
 msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:189
 #: Settings/Console/Command/SettingsShell.php:158
-msgid "+ %s"
+msgid "+ {0}"
 msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:194
@@ -1533,7 +1533,7 @@ msgid "Hook.bootstraps updated"
 msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:334
-msgid "Upgrade \"%s\""
+msgid "Upgrade \"{0}\""
 msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:348
@@ -1545,7 +1545,7 @@ msgid "Site down for maintenance"
 msgstr "Сайт закрыт на обслуживание"
 
 #: Croogo/Controller/CroogoErrorController.php:55
-msgid "Errors in CakeErrorController: %s"
+msgid "Errors in CakeErrorController: {0}"
 msgstr ""
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:98
@@ -1558,7 +1558,7 @@ msgid "Please choose only one item for this operation"
 msgstr ""
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:136
-msgid "%s processed"
+msgid "{0} processed"
 msgstr ""
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:141
@@ -1584,15 +1584,15 @@ msgid "Invalid content"
 msgstr "Неверный контент"
 
 #: Croogo/Controller/Component/CroogoComponent.php:301
-msgid "Failed toggling field %s to %s"
+msgid "Failed toggling field {0} to {1}"
 msgstr ""
 
 #: Croogo/Event/CroogoEventManager.php:77
-msgid "EventHandler %s not found in plugin %s"
+msgid "EventHandler {0} not found in plugin {1}"
 msgstr ""
 
 #: Croogo/Lib/CroogoRouter.php:201
-msgid "Unable to get routeable content types: %s"
+msgid "Unable to get routeable content types: {0}"
 msgstr ""
 
 #: Croogo/Lib/CroogoStatus.php:39
@@ -1619,7 +1619,7 @@ msgid "Cannot load configuration files with ../ in them."
 msgstr ""
 
 #: Croogo/Lib/Configure/CroogoJsonReader.php:55
-msgid "Could not load configuration files: %s or %s"
+msgid "Could not load configuration files: {0} or {1}"
 msgstr ""
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:65
@@ -1632,7 +1632,7 @@ msgstr ""
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:75
 #, fuzzy
-msgid "Action %s is disabled"
+msgid "Action {0} is disabled"
 msgstr "Action удален"
 
 #: Croogo/View/Common/admin_edit.ctp:11
@@ -1645,15 +1645,15 @@ msgstr "Изменить"
 
 #: Croogo/View/Common/admin_index.ctp:41 Croogo/View/Common/admin_view.ctp:39
 #: Menus/View/Links/admin_index.ctp:17
-msgid "New %s"
+msgid "New {0}"
 msgstr ""
 
 #: Croogo/View/Elements/admin/footer.ctp:7
-msgid "Croogo %s"
+msgid "Croogo {0}"
 msgstr ""
 
 #: Croogo/View/Elements/admin/footer.ctp:11
-msgid "Powered by %s"
+msgid "Powered by {0}"
 msgstr ""
 
 #: Croogo/View/Elements/admin/header.ctp:18
@@ -1721,7 +1721,7 @@ msgid "Security Error"
 msgstr "Ошибка безопасности"
 
 #: Croogo/View/Errors/security.ctp:8
-msgid "Request blackholed due to \"%s\" violation."
+msgid "Request blackholed due to \"{0}\" violation."
 msgstr ""
 
 #: Croogo/View/Helper/LayoutHelper.php:95
@@ -1760,8 +1760,8 @@ msgstr ""
 
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:69
 #: Settings/View/Settings/admin_view.ctp:44
-msgid "Are you sure you want to delete # %s?"
-msgstr "Вы уверены, что хотите удалить # %s?"
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Вы уверены, что хотите удалить # {0}?"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:131
 msgid "Left"
@@ -1825,7 +1825,7 @@ msgid "Locale does not exist."
 msgstr "Локализация не существует."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:82
-msgid "Locale '%s' set as default"
+msgid "Locale '{0}' set as default"
 msgstr ""
 
 #: Extensions/Controller/ExtensionsLocalesController.php:84
@@ -1845,11 +1845,11 @@ msgid "Locale already exists."
 msgstr "Локализация уже существует."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:173
-msgid "Edit locale: %s"
-msgstr "Редактировать локализацию: %s"
+msgid "Edit locale: {0}"
+msgstr "Редактировать локализацию: {0}"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:183;211
-msgid "The file %s does not exist."
+msgid "The file {0} does not exist."
 msgstr ""
 
 #: Extensions/Controller/ExtensionsLocalesController.php:193
@@ -1879,7 +1879,7 @@ msgid "You cannot delete a plugin that is currently active."
 msgstr ""
 
 #: Extensions/Controller/ExtensionsPluginsController.php:118
-msgid "Plugin \"%s\" deleted successfully."
+msgid "Plugin \"{0}\" deleted successfully."
 msgstr ""
 
 #: Extensions/Controller/ExtensionsPluginsController.php:122
@@ -1896,19 +1896,19 @@ msgid "Plugin could not be activated. Please, try again."
 msgstr ""
 
 #: Extensions/Controller/ExtensionsPluginsController.php:176
-msgid "Plugin \"%s\" migrated successfully."
+msgid "Plugin \"{0}\" migrated successfully."
 msgstr ""
 
 #: Extensions/Controller/ExtensionsPluginsController.php:179
-msgid "Plugin \"%s\" could not be migrated. Error: %s"
+msgid "Plugin \"{0}\" could not be migrated. Error: {1}"
 msgstr ""
 
 #: Extensions/Controller/ExtensionsPluginsController.php:201
-msgid "Plugin %s has been moved up"
+msgid "Plugin {0} has been moved up"
 msgstr ""
 
 #: Extensions/Controller/ExtensionsPluginsController.php:225
-msgid "Plugin %s has been moved down"
+msgid "Plugin {0} has been moved down"
 msgstr ""
 
 #: Extensions/Controller/ExtensionsThemesController.php:81
@@ -1953,27 +1953,27 @@ msgid "An error occurred."
 msgstr "Произошла ошибка."
 
 #: Extensions/Lib/CroogoPlugin.php:530
-msgid "Plugin \"%s\" is already active."
+msgid "Plugin \"{0}\" is already active."
 msgstr ""
 
 #: Extensions/Lib/CroogoPlugin.php:556
-msgid "Plugin \"%s\" depends on \"%s\" plugin."
+msgid "Plugin \"{0}\" depends on \"{1}\" plugin."
 msgstr ""
 
 #: Extensions/Lib/CroogoPlugin.php:587
-msgid "Plugin \"%s\" is not active."
+msgid "Plugin \"{0}\" is not active."
 msgstr ""
 
 #: Extensions/Lib/CroogoPlugin.php:715
-msgid "%s is already at the first position"
+msgid "{0} is already at the first position"
 msgstr ""
 
 #: Extensions/Lib/CroogoPlugin.php:721;733
-msgid "Plugin %s depends on %s"
+msgid "Plugin {0} depends on {1}"
 msgstr ""
 
 #: Extensions/Lib/CroogoPlugin.php:726
-msgid "%s is already at the last position"
+msgid "{0} is already at the last position"
 msgstr ""
 
 #: Extensions/Lib/CroogoPlugin.php:737
@@ -1981,7 +1981,7 @@ msgid "Invalid direction"
 msgstr ""
 
 #: Extensions/Lib/CroogoPlugin.php:742
-msgid "Plugin %s cannot be reordered"
+msgid "Plugin {0} cannot be reordered"
 msgstr ""
 
 #: Extensions/Lib/CroogoTheme.php:255
@@ -1990,7 +1990,7 @@ msgid "Invalid theme"
 msgstr ""
 
 #: Extensions/Lib/CroogoTheme.php:276
-msgid "Theme %s not found"
+msgid "Theme {0} not found"
 msgstr ""
 
 #: Extensions/Lib/ExtensionsInstaller.php:62
@@ -2006,7 +2006,7 @@ msgid "Invalid plugin.json or missing plugin name"
 msgstr ""
 
 #: Extensions/Lib/ExtensionsInstaller.php:99
-msgid "Missing expected files: %s in: %s"
+msgid "Missing expected files: {0} in: {1}"
 msgstr ""
 
 #: Extensions/Lib/ExtensionsInstaller.php:100
@@ -2176,12 +2176,12 @@ msgid "Attachment deleted"
 msgstr "Вложение удалено"
 
 #: FileManager/Controller/FileManagerController.php:122;154;193;222;255;340;374
-msgid "Path %s is restricted"
+msgid "Path {0} is restricted"
 msgstr ""
 
 #: FileManager/Controller/FileManagerController.php:157
-msgid "Edit file: %s"
-msgstr "Изменить файл: %s"
+msgid "Edit file: {0}"
+msgstr "Изменить файл: {0}"
 
 #: FileManager/Controller/FileManagerController.php:167
 msgid "File saved successfully"
@@ -2200,19 +2200,19 @@ msgid "Directory deleted"
 msgstr "Директория удалены"
 
 #: FileManager/Controller/FileManagerController.php:285
-msgid "Path \"%s\" cannot be renamed"
+msgid "Path \"{0}\" cannot be renamed"
 msgstr ""
 
 #: FileManager/Controller/FileManagerController.php:298
-msgid "%s already exists"
+msgid "{0} already exists"
 msgstr ""
 
 #: FileManager/Controller/FileManagerController.php:302
-msgid "\"%s\" has been renamed to \"%s\""
+msgid "\"{0}\" has been renamed to \"{1}\""
 msgstr ""
 
 #: FileManager/Controller/FileManagerController.php:305
-msgid "Could not rename \"%s\" to \"%s\""
+msgid "Could not rename \"{0}\" to \"{1}\""
 msgstr ""
 
 #: FileManager/Controller/FileManagerController.php:310
@@ -2416,7 +2416,7 @@ msgid "Verify Password"
 msgstr "Повтор пароля"
 
 #: Install/Console/Command/InstallShell.php:217
-msgid "Permission %s granted to %s"
+msgid "Permission {0} granted to {1}"
 msgstr ""
 
 #: Install/Controller/InstallController.php:101
@@ -2432,7 +2432,7 @@ msgid "Step 2: Build database"
 msgstr ""
 
 #: Install/Controller/InstallController.php:170
-msgid "Warning: Database \"%s\" is not empty."
+msgid "Warning: Database \"{0}\" is not empty."
 msgstr ""
 
 #: Install/Controller/InstallController.php:222
@@ -2448,27 +2448,27 @@ msgid "Installation failed: Unable to create settings file"
 msgstr ""
 
 #: Install/Lib/AssetGenerator.php:100
-msgid "CSS : %s created"
+msgid "CSS : {0} created"
 msgstr ""
 
 #: Install/Lib/AssetGenerator.php:103
-msgid "CSS : %s failed"
+msgid "CSS : {0} failed"
 msgstr ""
 
 #: Install/Lib/AssetGenerator.php:120
-msgid "JS  : %s created"
+msgid "JS  : {0} created"
 msgstr ""
 
 #: Install/Lib/AssetGenerator.php:123
-msgid "JS  : %s failed"
+msgid "JS  : {0} failed"
 msgstr ""
 
 #: Install/Lib/AssetGenerator.php:165
-msgid "Font: %s copied"
+msgid "Font: {0} copied"
 msgstr ""
 
 #: Install/Lib/AssetGenerator.php:168
-msgid "File: %s not copied"
+msgid "File: {0} not copied"
 msgstr ""
 
 #: Install/Lib/InstallManager.php:38
@@ -2525,7 +2525,7 @@ msgid "Invalid"
 msgstr ""
 
 #: Install/View/Install/database.ctp:30
-msgid "This file is %s."
+msgid "This file is {0}."
 msgstr ""
 
 #: Install/View/Install/database.ctp:35
@@ -2563,15 +2563,15 @@ msgstr ""
 #: Install/View/Install/finish.ctp:6
 msgid ""
 "\n"
-"\t\tThe user %s has been created with administrative rights."
+"\t\tThe user {0} has been created with administrative rights."
 msgstr ""
 
 #: Install/View/Install/finish.ctp:13
-msgid "Admin panel: %s"
+msgid "Admin panel: {0}"
 msgstr ""
 
 #: Install/View/Install/finish.ctp:18
-msgid "You can start with %s or jump in and %s."
+msgid "You can start with {0} or jump in and {1}."
 msgstr ""
 
 #: Install/View/Install/finish.ctp:19
@@ -2603,19 +2603,19 @@ msgid "Your config directory is NOT writable."
 msgstr ""
 
 #: Install/View/Install/index.ctp:26
-msgid "PHP version %s %s %s"
+msgid "PHP version {0} {1} {2}"
 msgstr ""
 
 #: Install/View/Install/index.ctp:29
-msgid "PHP version %s < %s"
+msgid "PHP version {0} < {1}"
 msgstr ""
 
 #: Install/View/Install/index.ctp:37
-msgid "CakePhp version %s %s %s"
+msgid "CakePhp version {0} {1} {2}"
 msgstr ""
 
 #: Install/View/Install/index.ctp:40
-msgid "CakePHP version %s < %s"
+msgid "CakePHP version {0} < {1}"
 msgstr ""
 
 #: Install/View/Install/index.ctp:47
@@ -2641,8 +2641,8 @@ msgid "Menus"
 msgstr "Меню"
 
 #: Menus/Controller/LinksController.php:108
-msgid "Links: %s"
-msgstr "Ссылки: %s"
+msgid "Links: {0}"
+msgstr "Ссылки: {0}"
 
 #: Menus/Controller/LinksController.php:137
 msgid "Add Link"
@@ -2750,7 +2750,7 @@ msgid "Delete this item"
 msgstr ""
 
 #: Menus/View/Links/admin_link_chooser.ctp:12
-msgid "Link to %s"
+msgid "Link to {0}"
 msgstr ""
 
 #: Menus/View/Menus/admin_index.ctp:15
@@ -2804,19 +2804,19 @@ msgid "Content type does not exist."
 msgstr "Тип контента не существует."
 
 #: Nodes/Controller/NodesController.php:258;299
-msgid "%s has been saved"
-msgstr "%s было сохранено"
+msgid "{0} has been saved"
+msgstr "{0} было сохранено"
 
 #: Nodes/Controller/NodesController.php:261;302
-msgid "%s could not be saved. Please, try again."
-msgstr "%s не может быть сохранено. Повторите попытку."
+msgid "{0} could not be saved. Please, try again."
+msgstr "{0} не может быть сохранено. Повторите попытку."
 
 #: Nodes/Controller/NodesController.php:268
-msgid "Create content: %s"
-msgstr "Создать контент: %s"
+msgid "Create content: {0}"
+msgstr "Создать контент: {0}"
 
 #: Nodes/Controller/NodesController.php:315
-msgid "Edit %s: %s"
+msgid "Edit {0}: {1}"
 msgstr ""
 
 #: Nodes/Controller/NodesController.php:328
@@ -2838,27 +2838,27 @@ msgid "Node deleted"
 msgstr "Узел удален"
 
 #: Nodes/Controller/NodesController.php:409
-msgid "%s deleted"
+msgid "{0} deleted"
 msgstr ""
 
 #: Nodes/Controller/NodesController.php:410
-msgid "%s published"
+msgid "{0} published"
 msgstr ""
 
 #: Nodes/Controller/NodesController.php:411
-msgid "%s unpublished"
+msgid "{0} unpublished"
 msgstr ""
 
 #: Nodes/Controller/NodesController.php:412
-msgid "%s promoted"
+msgid "{0} promoted"
 msgstr ""
 
 #: Nodes/Controller/NodesController.php:413
-msgid "%s unpromoted"
+msgid "{0} unpromoted"
 msgstr ""
 
 #: Nodes/Controller/NodesController.php:414
-msgid "%s copied"
+msgid "{0} copied"
 msgstr ""
 
 #: Nodes/Controller/NodesController.php:467;568;640;703
@@ -2941,7 +2941,7 @@ msgstr "Снять с главной"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:151
 #: Nodes/View/Nodes/admin_index.ctp:152
-msgid "%s selected items?"
+msgid "{0} selected items?"
 msgstr ""
 
 #: Nodes/View/Nodes/admin_translations.ctp:8
@@ -2960,8 +2960,8 @@ msgid "No items found."
 msgstr "Не найдено."
 
 #: Nodes/View/Nodes/search.ctp:3
-msgid "Search Results: %s"
-msgstr "Результаты поиска: %s"
+msgid "Search Results: {0}"
+msgstr "Результаты поиска: {0}"
 
 #: Settings/Config/admin_menu.php:5
 #: Settings/Controller/SettingsController.php:68
@@ -3030,11 +3030,11 @@ msgid "Update version string from git tag information"
 msgstr ""
 
 #: Settings/Console/Command/SettingsShell.php:129
-msgid "    %-30s: %s"
+msgid "    {0}: {1}"
 msgstr ""
 
 #: Settings/Console/Command/SettingsShell.php:150
-msgid "Updating %s"
+msgid "Updating {0}"
 msgstr ""
 
 #: Settings/Console/Command/SettingsShell.php:151
@@ -3050,11 +3050,11 @@ msgid "Cancelled"
 msgstr ""
 
 #: Settings/Console/Command/SettingsShell.php:171;199
-msgid "Key: %s not found"
+msgid "Key: {0} not found"
 msgstr ""
 
 #: Settings/Console/Command/SettingsShell.php:189
-msgid "Deleting %s"
+msgid "Deleting {0}"
 msgstr ""
 
 #: Settings/Console/Command/SettingsShell.php:190
@@ -3129,8 +3129,8 @@ msgid "Invalid id for Setting"
 msgstr "Неверный id настройки"
 
 #: Settings/Controller/SettingsController.php:165
-msgid "Settings: %s"
-msgstr "Настройки: %s"
+msgid "Settings: {0}"
+msgstr "Настройки: {0}"
 
 #: Settings/Controller/SettingsController.php:169
 msgid "Settings updated successfully"
@@ -3216,11 +3216,11 @@ msgid "Add new"
 msgstr "Добавить"
 
 #: Taxonomy/Controller/TermsController.php:67
-msgid "Vocabulary: %s"
+msgid "Vocabulary: {0}"
 msgstr ""
 
 #: Taxonomy/Controller/TermsController.php:89
-msgid "%s: Add Term"
+msgid "{0}: Add Term"
 msgstr ""
 
 #: Taxonomy/Controller/TermsController.php:93;136
@@ -3232,7 +3232,7 @@ msgid "Term could not be added to the vocabulary. Please try again."
 msgstr ""
 
 #: Taxonomy/Controller/TermsController.php:132
-msgid "%s: Edit Term"
+msgid "{0}: Edit Term"
 msgstr ""
 
 #: Taxonomy/Controller/TermsController.php:172
@@ -3244,11 +3244,11 @@ msgid "Term could not be deleted. Please, try again."
 msgstr ""
 
 #: Taxonomy/Controller/TermsController.php:229
-msgid "Moved %s successfully"
+msgid "Moved {0} successfully"
 msgstr ""
 
 #: Taxonomy/Controller/TermsController.php:232
-msgid "Could not move %s"
+msgid "Could not move {0}"
 msgstr ""
 
 #: Taxonomy/Controller/TermsController.php:265
@@ -3413,16 +3413,16 @@ msgid "Invalid record."
 msgstr "Неверная запись."
 
 #: Translate/Controller/TranslateController.php:76
-msgid "Translations: %s"
-msgstr "Переводы: %s"
+msgid "Translations: {0}"
+msgstr "Переводы: {0}"
 
 #: Translate/Controller/TranslateController.php:116
 msgid "Invalid locale"
 msgstr "Неверная локализация"
 
 #: Translate/Controller/TranslateController.php:153
-msgid "Translate content: %s (%s)"
-msgstr "Перевести контент: %s (%s)"
+msgid "Translate content: {0} ({1})"
+msgstr "Перевести контент: {0} ({1})"
 
 #: Translate/Controller/TranslateController.php:160
 msgid "Record has been translated"
@@ -3450,8 +3450,8 @@ msgid "Translate"
 msgstr ""
 
 #: Translate/Model/Behavior/CroogoTranslateBehavior.php:56
-msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
-msgstr "Datasource %s для CroogoTranslateBehavior моделиl %s не связался"
+msgid "Datasource {0} for CroogoTranslateBehavior of model {1} is not connected"
+msgstr "Datasource {0} для CroogoTranslateBehavior моделиl {1} не связался"
 
 #: Translate/View/Translate/admin_edit.ctp:10
 #: Translate/View/Translate/admin_index.ctp:31
@@ -3480,11 +3480,11 @@ msgid "New user password"
 msgstr ""
 
 #: Users/Console/Command/UsersShell.php:45
-msgid "User '%s' not found"
+msgid "User '{0}' not found"
 msgstr ""
 
 #: Users/Console/Command/UsersShell.php:50
-msgid "Password for '%s' has been changed"
+msgid "Password for '{0}' has been changed"
 msgstr ""
 
 #: Users/Controller/RolesController.php:55
@@ -3522,8 +3522,8 @@ msgid ""
 msgstr ""
 
 #: Users/Controller/UsersController.php:146;362
-msgid "[%s] Please activate your account"
-msgstr "[%s] Активация учетной записи"
+msgid "[{0}] Please activate your account"
+msgstr "[{0}] Активация учетной записи"
 
 #: Users/Controller/UsersController.php:171;194
 msgid "The User has been saved"
@@ -3602,8 +3602,8 @@ msgid "Invalid username."
 msgstr "Неверное имя пользователя"
 
 #: Users/Controller/UsersController.php:468
-msgid "[%s] Reset Password"
-msgstr "[%s] Сброс пароля"
+msgid "[{0}] Reset Password"
+msgstr "[{0}] Сброс пароля"
 
 #: Users/Controller/UsersController.php:476
 msgid "An email has been sent with instructions for resetting your password."
@@ -3637,12 +3637,12 @@ msgstr "Пароли не совпадают"
 
 #: Users/View/Emails/text/forgot_password.ctp:1
 #: Users/View/Emails/text/register.ctp:1
-msgid "Hello %s"
-msgstr "Привет %s"
+msgid "Hello {0}"
+msgstr "Привет {0}"
 
 #: Users/View/Emails/text/forgot_password.ctp:10
-msgid "Please visit this link to reset your password: %s"
-msgstr "Пожалуйста, посетите эту ссылку для сброса пароля: %s"
+msgid "Please visit this link to reset your password: {0}"
+msgstr "Пожалуйста, посетите эту ссылку для сброса пароля: {0}"
 
 #: Users/View/Emails/text/forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
@@ -3651,11 +3651,11 @@ msgstr ""
 "это сообщение."
 
 #: Users/View/Emails/text/register.ctp:12
-msgid "Please visit this link to activate your account: %s"
-msgstr "ожалуйста, посетите эту ссылку для активации учетной записи: %s"
+msgid "Please visit this link to activate your account: {0}"
+msgstr "ожалуйста, посетите эту ссылку для активации учетной записи: {0}"
 
 #: Users/View/Users/admin_form.ctp:14
-msgid "Edit user %s"
+msgid "Edit user {0}"
 msgstr ""
 
 #: Users/View/Users/admin_form.ctp:16
@@ -3683,7 +3683,7 @@ msgid "Forgot password?"
 msgstr "Забыли пароль?"
 
 #: Users/View/Users/admin_reset_password.ctp:13
-msgid "Reset Password: %s"
+msgid "Reset Password: {0}"
 msgstr ""
 
 #: Users/View/Users/admin_reset_password.ctp:46 Users/View/Users/reset.ctp:10
@@ -3795,16 +3795,16 @@ msgstr "Неправильный адрес"
 
 #~ msgid ""
 #~ "Page %page% of %pages%, showing %current% records out of %count% total, "
-#~ "starting on record %start%, ending on %end%"
+#~ "starting on record {0}tart%, ending on %end%"
 #~ msgstr ""
 #~ "Страница  %page% из %pages%, показано %current% записей из %count%, с "
-#~ "%start%, по %end%"
+#~ "{0}tart%, по %end%"
 
 #~ msgid "Invalid Node"
 #~ msgstr "Неверный узел (Node)."
 
-#~ msgid "You are logged in as: %s"
-#~ msgstr "Вы зашли как: %s"
+#~ msgid "You are logged in as: {0}"
+#~ msgstr "Вы зашли как: {0}"
 
 #~ msgid "Log out"
 #~ msgstr "Выход"
@@ -3833,14 +3833,14 @@ msgstr "Неправильный адрес"
 #~ msgid "Links"
 #~ msgstr "Ссылки"
 
-#~ msgid "Edit content: %s"
-#~ msgstr "Редактировать контент: %s"
+#~ msgid "Edit content: {0}"
+#~ msgstr "Редактировать контент: {0}"
 
 #~ msgid "Nodes deleted."
 #~ msgstr "Узлы удалены."
 
-#~ msgid "Terms: %s"
-#~ msgstr "Термины: %s"
+#~ msgid "Terms: {0}"
+#~ msgstr "Термины: {0}"
 
 #~ msgid "Add Term"
 #~ msgstr "Добавить термин"
@@ -3932,11 +3932,11 @@ msgstr "Неправильный адрес"
 #~ msgid "Example 2"
 #~ msgstr "Пример 2"
 
-#~ msgid "%s activated successfully."
-#~ msgstr "%s активирован успешно."
+#~ msgid "{0} activated successfully."
+#~ msgstr "{0} активирован успешно."
 
-#~ msgid "%s deactivated successfully."
-#~ msgstr "%s деактивирован успешно."
+#~ msgid "{0} deactivated successfully."
+#~ msgstr "{0} деактивирован успешно."
 
 #~ msgid "Could not edit croogo_bootstrap.php file."
 #~ msgstr "Невозможно отредактировать файл \"croogo_bootstrap.php\""
