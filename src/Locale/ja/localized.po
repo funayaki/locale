@@ -571,7 +571,7 @@ msgid "Visit website"
 msgstr "ウェブサイトを訪問"
 
 msgid "Profile"
-msgstr ""
+msgstr "プロフィール"
 
 msgid "Logout"
 msgstr ""
@@ -2054,9 +2054,6 @@ msgstr "現在、下記のユーザでログイン中:"
 
 msgid "Home"
 msgstr "ホーム"
-
-msgid "Profile"
-msgstr "プロフィール"
 
 msgid "Sign out"
 msgstr "サインアウト"
