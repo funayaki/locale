@@ -2073,3 +2073,6 @@ msgstr "エクスポート"
 msgid "Download"
 msgstr "ダウンロード"
 
+msgid "Calendar"
+msgstr "カレンダー"
+
