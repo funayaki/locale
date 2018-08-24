@@ -2065,7 +2065,7 @@ msgid "The {0} has been deleted."
 msgstr "{0}を削除しました。"
 
 msgid "The {0} could not be deleted. Please, try again."
-msgstr "{0}をできませんでした。もう一度、試してください。"
+msgstr "{0}を削除できませんでした。もう一度、試してください。"
 
 msgid "Export"
 msgstr "エクスポート"
