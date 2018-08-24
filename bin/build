@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+cd $(dirname $0)
+base=$(pwd)
+
+source=$base/../src/Locale/localized.pot
+
+for po in `find $base/../src/Locale/ -name "*.po"`; do
+    msgmerge -U $po $source
+done
