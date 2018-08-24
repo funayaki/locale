@@ -1,4 +1,4 @@
-# Locale
+# Localized
 
 Each locale now resides in its own directory.
 
@@ -6,23 +6,14 @@ Each locale now resides in its own directory.
 
 ## Composer
 
-```json
-{
-  "require": {
-    "croogo/locale": "2.0.x-dev"
-  }
-}
+```
+composer require funayaki/localized:dev-master
 ```
 
-Add the following to `Config/bootstrap.php`
+## PO files
 
-```php
-<?php
-
-App::build(array(
-  'Locale' => array(APP . 'Vendor' . DS . 'croogo' . DS . 'locale' . DS ),
-), App::APPEND);
-```
+To use these files link or copy them
+into their expected location: `src/Locale/<locale>/localized.po`
 
 # Tools
 
