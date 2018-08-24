@@ -104,7 +104,7 @@ msgid "Add Action"
 msgstr "Добавить Action"
 
 #: Acl/Controller/AclActionsController.php:78
-msgid "The {0} has been saved"
+msgid "The {0} has been saved."
 msgstr ""
 
 #: Acl/Controller/AclActionsController.php:81

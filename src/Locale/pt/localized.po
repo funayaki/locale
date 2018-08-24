@@ -37,7 +37,7 @@ msgid "You need to specify token parameter and/or header"
 msgstr ""
 
 #: /Acl/src/Controller/Admin/ActionsController.php:76;106
-msgid "The {0} has been saved"
+msgid "The {0} has been saved."
 msgstr ""
 
 #: /Acl/src/Controller/Admin/ActionsController.php:79;113
