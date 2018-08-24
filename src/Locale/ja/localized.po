@@ -40,7 +40,7 @@ msgstr ""
 
 #: /Acl/src/Controller/Admin/ActionsController.php:79;113
 msgid "The {0} could not be saved. Please, try again."
-msgstr ""
+msgstr "{0}を保存できませんでした。もう一度、試してください。"
 
 #: /Acl/src/Controller/Admin/ActionsController.php:131
 msgid "Action deleted"
