@@ -710,8 +710,8 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 "Actualiza la jerarquia ACO de 1.3/1.4 para que siga el comportamiendo por "
@@ -2108,6 +2108,30 @@ msgstr "Por favor visite este enlace para activar su cuenta: {0}"
 msgid "You are currently logged in as:"
 msgstr "Está conectado como:"
 
+msgid "Home"
+msgstr ""
+
+#, fuzzy
+msgid "Sign out"
+msgstr "Salir"
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "El {0} ha sido guardado"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "El término no pudo ser eliminado. Por favor intente de nuevo."
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "Plugin a procesar"
 
@@ -2661,8 +2685,8 @@ msgstr "Está conectado como:"
 #~ msgid ""
 #~ "Datasource {0} for CroogoTranslateBehavior of model {1} is not connected"
 #~ msgstr ""
-#~ "La fuente de datos {0} para CroogoTranslateBehaviour del modelo {1} no está "
-#~ "conectada"
+#~ "La fuente de datos {0} para CroogoTranslateBehaviour del modelo {1} no "
+#~ "está conectada"
 
 #~ msgid "Add Role"
 #~ msgstr "Añadir rol"
@@ -2751,9 +2775,6 @@ msgstr "Está conectado como:"
 
 #~ msgid "You are logged in as: {0}"
 #~ msgstr "Está conectado como: {0}"
-
-#~ msgid "Log out"
-#~ msgstr "Salir"
 
 #~ msgid "Link to a Node"
 #~ msgstr "Enlace a un nodo"

@@ -705,17 +705,17 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 "Mises à niveau de la hiérarchie ACO à partir des versions 1.3/1.4 si elle "
 "suit le comportement par défaut dans les applications normales CakePHP. La "
 "principale différence est que les contrôleurs des extensions sont désormais "
 "stockés sous leur propre  enregistrement ACO, alors que dans les version "
-"précédentes, tous les contrôleurs appartenaient aux contrôleurs racine. "
-"{0}<warning>Assurez-vous que vous avez une sauvegarde de vos tables AROS, "
-"ACOS et AROS_ACOS avant la mise à niveau.</warning>"
+"précédentes, tous les contrôleurs appartenaient aux contrôleurs racine. {0}"
+"<warning>Assurez-vous que vous avez une sauvegarde de vos tables AROS, ACOS "
+"et AROS_ACOS avant la mise à niveau.</warning>"
 
 msgid "Create settings.json from database"
 msgstr "Créer le fichier settings.json à partir de la base de données"
@@ -2096,7 +2096,8 @@ msgid "Hello {0}"
 msgstr "Hello {0}:"
 
 msgid "Please visit this link to reset your password: {0}"
-msgstr "Merci de cliquer sur ce lien pour réinitialiser votre mot de passe: {0}"
+msgstr ""
+"Merci de cliquer sur ce lien pour réinitialiser votre mot de passe: {0}"
 
 msgid "If you did not request a password reset, then please ignore this email."
 msgstr ""
@@ -2108,6 +2109,30 @@ msgstr "Merci de visiter ce lien pour activer votre compte: {0}"
 
 msgid "You are currently logged in as:"
 msgstr "Vous êtes actuellement loggué en tant que:"
+
+msgid "Home"
+msgstr ""
+
+#, fuzzy
+msgid "Sign out"
+msgstr "Se déconnecter"
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "{0} enregistré(e)"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "Le terme n'a pas pu être supprimé. Merci de bien vouloir réessayer."
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
 
 #~ msgid "Plugin to process"
 #~ msgstr "Extension à traiter"
@@ -2679,8 +2704,8 @@ msgstr "Vous êtes actuellement loggué en tant que:"
 #~ msgid ""
 #~ "Datasource {0} for CroogoTranslateBehavior of model {1} is not connected"
 #~ msgstr ""
-#~ "Source de données {0} pour le comportement CakePHP CroogoTranslateBehavior "
-#~ "du modèle {0} n'est pas connecté"
+#~ "Source de données {0} pour le comportement CakePHP "
+#~ "CroogoTranslateBehavior du modèle {0} n'est pas connecté"
 
 #~ msgid "Add Role"
 #~ msgstr "Ajouter un rôle"
@@ -2759,8 +2784,8 @@ msgstr "Vous êtes actuellement loggué en tant que:"
 #~ "Page %page% of %pages%, showing %current% records out of %count% total, "
 #~ "starting on record {0}tart%, ending on %end%"
 #~ msgstr ""
-#~ "Page %page% sur %pages%, affichant %current% enregistrements de {0}tart% à "
-#~ "{0}end% sur un total de %count%"
+#~ "Page %page% sur %pages%, affichant %current% enregistrements de {0}tart% "
+#~ "à {0}end% sur un total de %count%"
 
 #~ msgid "Edit file"
 #~ msgstr "Editer le fichier"
@@ -2770,9 +2795,6 @@ msgstr "Vous êtes actuellement loggué en tant que:"
 
 #~ msgid "You are logged in as: {0}"
 #~ msgstr "Vous êtes connecté en tant que : {0}"
-
-#~ msgid "Log out"
-#~ msgstr "Se déconnecter"
 
 #~ msgid "Link to a Node"
 #~ msgstr "Lien vers un noeud"

@@ -709,8 +709,8 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 "Αναβαθμίζει την ιεραρχία ACO από 1.3/1.4 ώστε να ακολουθεί την βασική "
@@ -2092,7 +2092,8 @@ msgstr "Γειά σου {0}"
 
 msgid "Please visit this link to reset your password: {0}"
 msgstr ""
-"Παρακαλώ επισκεφθείτε αυτό τον σύνδεσμο για να επαναφέρετε τον κωδικό σας: {0}"
+"Παρακαλώ επισκεφθείτε αυτό τον σύνδεσμο για να επαναφέρετε τον κωδικό σας: "
+"{0}"
 
 msgid "If you did not request a password reset, then please ignore this email."
 msgstr ""
@@ -2105,6 +2106,30 @@ msgstr ""
 
 msgid "You are currently logged in as:"
 msgstr "Είστε συνδεδεμένος ως:"
+
+msgid "Home"
+msgstr ""
+
+#, fuzzy
+msgid "Sign out"
+msgstr "Αποσύνδεση"
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "Το {0} αποθηκεύτηκε"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "Ο όρος δεν μπόρεσε να διαγραφεί."
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
 
 #~ msgid "Plugin to process"
 #~ msgstr "Μονάδα προς επεξεργασία"
@@ -2731,9 +2756,6 @@ msgstr "Είστε συνδεδεμένος ως:"
 
 #~ msgid "You are logged in as: {0}"
 #~ msgstr "Έχετε συνδεθεί ως: {0}"
-
-#~ msgid "Log out"
-#~ msgstr "Αποσύνδεση"
 
 #~ msgid "Link to a Node"
 #~ msgstr "Σύνδεσμος σε Node"

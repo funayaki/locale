@@ -705,8 +705,8 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 
@@ -2089,6 +2089,29 @@ msgstr "Przedź do tego linku by aktywować konto: {0}"
 msgid "You are currently logged in as:"
 msgstr "Jesteś zalogowany jako:"
 
+msgid "Home"
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "{0} - zapisano"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "{0} - błąd podczas zapisywania. Spróbuj ponownie."
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
 #~ msgid "Add Action"
 #~ msgstr "Dodaj Akcje"
 
@@ -2308,12 +2331,6 @@ msgstr "Jesteś zalogowany jako:"
 #~ msgid "Content type does not exist."
 #~ msgstr "Typ treśći nie istnieje."
 
-#~ msgid "{0} has been saved"
-#~ msgstr "{0} - zapisano"
-
-#~ msgid "{0} could not be saved. Please, try again."
-#~ msgstr "{0} - błąd podczas zapisywania. Spróbuj ponownie."
-
 #~ msgid "Invalid id for Node"
 #~ msgstr "Nieprawidłowy identyfikator węzła"
 
@@ -2426,8 +2443,8 @@ msgstr "Jesteś zalogowany jako:"
 #~ "Page %page% of %pages%, showing %current% records out of %count% total, "
 #~ "starting on record {0}tart%, ending on %end%"
 #~ msgstr ""
-#~ "Strona %page% na %pages%, widoczne %current% rekordy na %count%, od {0}tart"
-#~ "%, do %end%"
+#~ "Strona %page% na %pages%, widoczne %current% rekordy na %count%, od {0}"
+#~ "tart%, do %end%"
 
 #~ msgid "Invalid Node"
 #~ msgstr "Nieprawidłowy węzeł"

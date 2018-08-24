@@ -702,8 +702,8 @@ msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
 "now are stored underneath its own Plugin ACO record, whereas previous "
-"version assumes all Controllers belongs to the root 'controllers' node."
-"{0}<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"version assumes all Controllers belongs to the root 'controllers' node.{0}"
+"<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
 "ACO继承结构从1.3/1.4升级了，所以它遵守普通CakePHP程序的表现。主要的区别是插件"
@@ -2085,6 +2085,30 @@ msgstr "请访问该链接以激活您的账户: {0}"
 msgid "You are currently logged in as:"
 msgstr "欢迎您："
 
+msgid "Home"
+msgstr ""
+
+#, fuzzy
+msgid "Sign out"
+msgstr "退出登陆"
+
+#, fuzzy
+msgid "The {0} has been deleted."
+msgstr "{0} 已经被保存"
+
+#, fuzzy
+msgid "The {0} could not be deleted. Please, try again."
+msgstr "术语无法删除。请重试。"
+
+msgid "Export"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "插入到程序中"
 
@@ -2707,9 +2731,6 @@ msgstr "欢迎您："
 
 #~ msgid "You are logged in as: {0}"
 #~ msgstr "您已作为 {0} 登陆"
-
-#~ msgid "Log out"
-#~ msgstr "退出登陆"
 
 #~ msgid "Link to a Node"
 #~ msgstr "作为一个节点进行链接"
