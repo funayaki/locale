@@ -31,9 +31,11 @@ msgstr ""
 msgid "You need to specify token parameter and/or header"
 msgstr ""
 
+#: Controller/Admin/UsersController.php:70;97;224
 msgid "The {0} has been saved."
 msgstr "{0} telah disimpan."
 
+#: Controller/Admin/UsersController.php:74;101;228
 msgid "The {0} could not be saved. Please, try again."
 msgstr "{0} tidak dapat disimpan. Silahkan coba kembali."
 
@@ -58,12 +60,16 @@ msgstr ""
 msgid "API"
 msgstr "API"
 
+#: Template/Admin/Users/change_password.ctp:12 Template/Admin/Users/form.ctp:12
+#: Template/Admin/Users/index.ctp:10 Template/Admin/Users/view.ctp:13
 msgid "Users"
 msgstr "Pengguna"
 
+#: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
 msgid "Actions"
 msgstr "Aksi"
 
+#: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
 msgid "Add"
 msgstr "Tambah"
 
@@ -73,6 +79,7 @@ msgstr "Aksi"
 msgid "Parent"
 msgstr "Induk"
 
+#: Template/Admin/Roles/index.ctp:22 Template/Admin/Roles/view.ctp:28
 msgid "Alias"
 msgstr "Alias"
 
@@ -91,6 +98,8 @@ msgstr "Sinkronkan"
 msgid "Create new & remove orphaned actions"
 msgstr "Buat baru dan hilangkan action yang berdiri sendiri"
 
+#: Template/Admin/Roles/index.ctp:20 Template/Admin/Roles/view.ctp:32
+#: Template/Admin/Users/index.ctp:20 Template/Admin/Users/view.ctp:44
 msgid "Id"
 msgstr "Id"
 
@@ -157,6 +166,7 @@ msgstr "Visibilitas"
 msgid "Params"
 msgstr "Parameter"
 
+#: Template/Admin/Roles/index.ctp:21 Template/Admin/Roles/view.ctp:24
 msgid "Title"
 msgstr "Judul"
 
@@ -227,6 +237,7 @@ msgstr "Publikasikan"
 msgid "Unpublish"
 msgstr "Tidak dipublikasikan"
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
 msgid "Delete"
 msgstr "Hapus"
 
@@ -292,9 +303,11 @@ msgstr[1] "Komentar"
 msgid "Contact"
 msgstr "Kontak"
 
+#: Template/Admin/Users/index.ctp:22 Template/Admin/Users/view.ctp:28
 msgid "Name"
 msgstr "Nama"
 
+#: Template/Admin/Users/index.ctp:23 Template/Admin/Users/view.ctp:32
 msgid "Email"
 msgstr "Email"
 
@@ -460,6 +473,8 @@ msgstr "Belum dibaca"
 msgid "Messages: Unread"
 msgstr "Pesan: Belum dibaca"
 
+#: Template/Admin/Roles/index.ctp:23 Template/Admin/Roles/view.ctp:36
+#: Template/Admin/Users/index.ctp:26 Template/Admin/Users/view.ctp:48
 msgid "Created"
 msgstr "Dibuat"
 
@@ -487,9 +502,11 @@ msgstr ""
 msgid "Trackable Creator"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:57
 msgid "Yes"
 msgstr "Ya"
 
+#: Template/Admin/Users/view.ctp:57
 msgid "No"
 msgstr "Tidak"
 
@@ -766,12 +783,16 @@ msgstr "Tingkatkan \"{0}\""
 msgid "Command not recognized"
 msgstr "Perintah tidak dikenali"
 
+#: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
+#: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
 msgid "Edit"
 msgstr "Ubah"
 
 msgid "New {0}"
 msgstr "Buat {0} Baru"
 
+#: Template/Admin/Roles/form.ctp:30 Template/Admin/Users/change_password.ctp:23
+#: Template/Admin/Users/form.ctp:37 Template/Admin/Users/reset.ctp:10
 msgid "Save"
 msgstr "Simpan"
 
@@ -846,6 +867,7 @@ msgstr "Tidak dapat menggeser kebawah"
 msgid "Dashboards"
 msgstr "Dasbor"
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
 msgid "Are you sure you want to delete # {0}?"
 msgstr "Apakah Anda yakin ingin menghapus # {0}?"
 
@@ -1011,6 +1033,7 @@ msgstr "Anda tidak dapat menghapus tema yang saat ini sedang aktif."
 msgid "Theme deleted successfully."
 msgstr "Tema berhasil dihapus."
 
+#: Controller/Admin/UsersController.php:189
 msgid "An error occurred."
 msgstr "Terjadi error."
 
@@ -1029,6 +1052,7 @@ msgstr "Aktifkan"
 msgid "Description"
 msgstr "Deskripsi"
 
+#: Template/Admin/Users/index.ctp:25 Template/Admin/Users/view.ctp:56
 msgid "Active"
 msgstr "Aktif"
 
@@ -1152,6 +1176,8 @@ msgstr "Buka"
 msgid "Rename"
 msgstr "Rubah nama"
 
+#: Template/Admin/Roles/index.ctp:40 Template/Admin/Roles/view.ctp:9;14
+#: Template/Admin/Users/index.ctp:46 Template/Admin/Users/view.ctp:9;14
 msgid "View"
 msgstr "Tinjau"
 
@@ -1224,6 +1250,7 @@ msgstr "Host"
 msgid "Login"
 msgstr "Masuk"
 
+#: Template/Admin/Users/login.ctp:9 Template/Admin/Users/reset.ctp:8
 msgid "Password"
 msgstr "Kata Sandi"
 
@@ -1233,9 +1260,12 @@ msgstr "Database"
 msgid "Port"
 msgstr "Port"
 
+#: Template/Admin/Users/forgot.ctp:7 Template/Admin/Users/index.ctp:21
+#: Template/Admin/Users/login.ctp:8 Template/Admin/Users/view.ctp:24
 msgid "Username"
 msgstr "Nama Pengguna"
 
+#: Template/Admin/Users/reset.ctp:9
 msgid "Verify Password"
 msgstr "Verifikasi kata sandi"
 
@@ -1451,6 +1481,7 @@ msgstr "Hapus"
 msgid "Type"
 msgstr "Tipe"
 
+#: Controller/Admin/UsersController.php:70;74;97;101;224;228
 msgid "User"
 msgstr "User"
 
@@ -1924,6 +1955,8 @@ msgstr ""
 msgid "Original"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:12 Template/Admin/Roles/index.ctp:10
+#: Template/Admin/Roles/view.ctp:13
 msgid "Roles"
 msgstr "Penugasan"
 
@@ -1955,14 +1988,17 @@ msgstr "Nama pengguna tidak sah"
 msgid "Invalid email."
 msgstr ""
 
+#: Controller/Admin/UsersController.php:162
 msgid "An error occurred. Please try again."
 msgstr "Terjadi kesalahan, silahkan coba kembali."
 
+#: Controller/Admin/UsersController.php:166
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 "Sebuah email telah dikirimkan berikut instruksi untuk menetapkan ulang kata "
 "sandi Anda."
 
+#: Controller/Admin/UsersController.php:196
 msgid "Your password has been reset successfully."
 msgstr "Kata sandi Anda telah berhasil ditetapkan ulang"
 
@@ -2027,6 +2063,7 @@ msgstr ""
 msgid "User '{0}' has been created"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:40
 msgid "Role"
 msgstr "Penugasan"
 
@@ -2072,6 +2109,7 @@ msgstr "Tetapkan Ulang"
 msgid "Reset password: {0}"
 msgstr ""
 
+#: Template/Admin/Users/forgot.ctp:12
 msgid "Reset Password"
 msgstr "Tetapkan Ulang Kata Sandi"
 
@@ -2126,6 +2164,70 @@ msgid "Download"
 msgstr ""
 
 msgid "Calendar"
+msgstr ""
+
+#: Controller/Admin/AppController.php:31;43
+#, fuzzy
+msgid "The {name} has been saved."
+msgstr "{0} telah disimpan."
+
+#: Controller/Admin/AppController.php:34;46
+#, fuzzy
+msgid "The {name} could not be saved. Please, try again."
+msgstr "{0} tidak dapat disimpan. Silahkan coba kembali."
+
+#: Controller/Admin/AppController.php:54
+#, fuzzy
+msgid "The {name} has been deleted."
+msgstr "{0} telah disimpan."
+
+#: Controller/Admin/AppController.php:57
+#, fuzzy
+msgid "The {name} could not be deleted. Please, try again."
+msgstr "Istildah tidak dapat dihapus. Silahkan coba kembali."
+
+#: Controller/Admin/UsersController.php:122
+#, fuzzy
+msgid "Username or password is incorrect"
+msgstr "Nama pengguna atau kata sandi tidak tepat"
+
+#: Controller/Admin/UsersController.php:156
+#, fuzzy
+msgid "Invalid username"
+msgstr "Nama pengguna tidak sah"
+
+#: Controller/Admin/UsersController.php:199
+#, fuzzy
+msgid "Your password could not be saved. Please, try again."
+msgstr "Kata sandi tidak dapat ditetapkan ulang. Silahkan coba kembali."
+
+#: Template/Admin/Roles/index.ctp:24 Template/Admin/Roles/view.ctp:40
+#: Template/Admin/Users/index.ctp:27 Template/Admin/Users/view.ctp:52
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Users/change_password.ctp:13
+#: Template/Admin/Users/index.ctp:48
+#, fuzzy
+msgid "Change Password"
+msgstr "Kata Sandi Baru"
+
+#: Template/Admin/Users/index.ctp:24
+#, fuzzy
+msgid "Role Id"
+msgstr "Penugasan"
+
+#: Template/Admin/Users/login.ctp:14
+msgid "Sign In"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "I forgot my password"
+msgstr "Lupa Kata Sandi?"
+
+#: Template/Admin/Users/view.ctp:36
+msgid "Token"
 msgstr ""
 
 #~ msgid "Plugin to process"

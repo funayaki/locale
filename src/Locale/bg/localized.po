@@ -29,9 +29,11 @@ msgstr ""
 msgid "You need to specify token parameter and/or header"
 msgstr ""
 
+#: Controller/Admin/UsersController.php:70;97;224
 msgid "The {0} has been saved."
 msgstr ""
 
+#: Controller/Admin/UsersController.php:74;101;228
 msgid "The {0} could not be saved. Please, try again."
 msgstr ""
 
@@ -54,12 +56,16 @@ msgstr ""
 msgid "API"
 msgstr ""
 
+#: Template/Admin/Users/change_password.ctp:12 Template/Admin/Users/form.ctp:12
+#: Template/Admin/Users/index.ctp:10 Template/Admin/Users/view.ctp:13
 msgid "Users"
 msgstr "Потребители"
 
+#: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
 msgid "Actions"
 msgstr "Действия"
 
+#: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
 msgid "Add"
 msgstr ""
 
@@ -69,6 +75,7 @@ msgstr ""
 msgid "Parent"
 msgstr "Родител"
 
+#: Template/Admin/Roles/index.ctp:22 Template/Admin/Roles/view.ctp:28
 msgid "Alias"
 msgstr "Роля"
 
@@ -87,6 +94,8 @@ msgstr ""
 msgid "Create new & remove orphaned actions"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:20 Template/Admin/Roles/view.ctp:32
+#: Template/Admin/Users/index.ctp:20 Template/Admin/Users/view.ctp:44
 msgid "Id"
 msgstr "Id"
 
@@ -153,6 +162,7 @@ msgstr "Видимост"
 msgid "Params"
 msgstr "Параметри"
 
+#: Template/Admin/Roles/index.ctp:21 Template/Admin/Roles/view.ctp:24
 msgid "Title"
 msgstr "Потребителско име"
 
@@ -222,6 +232,7 @@ msgstr "Публикуван"
 msgid "Unpublish"
 msgstr "Непубликуван"
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
 msgid "Delete"
 msgstr "Изтрий"
 
@@ -285,9 +296,11 @@ msgstr[1] "Коментар"
 msgid "Contact"
 msgstr "Контакт"
 
+#: Template/Admin/Users/index.ctp:22 Template/Admin/Users/view.ctp:28
 msgid "Name"
 msgstr "Име"
 
+#: Template/Admin/Users/index.ctp:23 Template/Admin/Users/view.ctp:32
 msgid "Email"
 msgstr "Email"
 
@@ -454,6 +467,8 @@ msgstr "Непрочетени"
 msgid "Messages: Unread"
 msgstr "Съобщения: непрочетени"
 
+#: Template/Admin/Roles/index.ctp:23 Template/Admin/Roles/view.ctp:36
+#: Template/Admin/Users/index.ctp:26 Template/Admin/Users/view.ctp:48
 msgid "Created"
 msgstr ""
 
@@ -481,9 +496,11 @@ msgstr ""
 msgid "Trackable Creator"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:57
 msgid "Yes"
 msgstr "Да"
 
+#: Template/Admin/Users/view.ctp:57
 msgid "No"
 msgstr "Не"
 
@@ -752,12 +769,16 @@ msgstr ""
 msgid "Command not recognized"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
+#: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
 msgid "Edit"
 msgstr "Редактирай"
 
 msgid "New {0}"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:30 Template/Admin/Users/change_password.ctp:23
+#: Template/Admin/Users/form.ctp:37 Template/Admin/Users/reset.ctp:10
 msgid "Save"
 msgstr ""
 
@@ -832,6 +853,7 @@ msgstr "Невъзможност за преместване надолу"
 msgid "Dashboards"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
 msgid "Are you sure you want to delete # {0}?"
 msgstr "Сигурени ли сте, че искате да изтриете # {0}?"
 
@@ -997,6 +1019,7 @@ msgstr "Не можете да изтриете тема, която е акти
 msgid "Theme deleted successfully."
 msgstr "Темата е изтрита успешно."
 
+#: Controller/Admin/UsersController.php:189
 msgid "An error occurred."
 msgstr "Грешка в изпълнението."
 
@@ -1015,6 +1038,7 @@ msgstr "Активиране"
 msgid "Description"
 msgstr "Описание"
 
+#: Template/Admin/Users/index.ctp:25 Template/Admin/Users/view.ctp:56
 msgid "Active"
 msgstr ""
 
@@ -1138,6 +1162,8 @@ msgstr "Отвори"
 msgid "Rename"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:40 Template/Admin/Roles/view.ctp:9;14
+#: Template/Admin/Users/index.ctp:46 Template/Admin/Users/view.ctp:9;14
 msgid "View"
 msgstr ""
 
@@ -1210,6 +1236,7 @@ msgstr ""
 msgid "Login"
 msgstr "Вход"
 
+#: Template/Admin/Users/login.ctp:9 Template/Admin/Users/reset.ctp:8
 msgid "Password"
 msgstr ""
 
@@ -1219,9 +1246,12 @@ msgstr ""
 msgid "Port"
 msgstr ""
 
+#: Template/Admin/Users/forgot.ctp:7 Template/Admin/Users/index.ctp:21
+#: Template/Admin/Users/login.ctp:8 Template/Admin/Users/view.ctp:24
 msgid "Username"
 msgstr ""
 
+#: Template/Admin/Users/reset.ctp:9
 msgid "Verify Password"
 msgstr ""
 
@@ -1437,6 +1467,7 @@ msgstr "Премахни"
 msgid "Type"
 msgstr "Тип"
 
+#: Controller/Admin/UsersController.php:70;74;97;101;224;228
 msgid "User"
 msgstr ""
 
@@ -1909,6 +1940,8 @@ msgstr ""
 msgid "Original"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:12 Template/Admin/Roles/index.ctp:10
+#: Template/Admin/Roles/view.ctp:13
 msgid "Roles"
 msgstr "Потребителски роли"
 
@@ -1940,14 +1973,17 @@ msgstr "Невалидно потребителко име."
 msgid "Invalid email."
 msgstr ""
 
+#: Controller/Admin/UsersController.php:162
 msgid "An error occurred. Please try again."
 msgstr "Възникна грешка. Моля, опитайте отново."
 
+#: Controller/Admin/UsersController.php:166
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 "На електронната поща беше изпратено писмо с инструкции за промяна на "
 "паролата ви."
 
+#: Controller/Admin/UsersController.php:196
 msgid "Your password has been reset successfully."
 msgstr "Вашата парола беше променена успешно."
 
@@ -2012,6 +2048,7 @@ msgstr ""
 msgid "User '{0}' has been created"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:40
 msgid "Role"
 msgstr ""
 
@@ -2057,6 +2094,7 @@ msgstr ""
 msgid "Reset password: {0}"
 msgstr ""
 
+#: Template/Admin/Users/forgot.ctp:12
 msgid "Reset Password"
 msgstr "Промяна на парола"
 
@@ -2108,6 +2146,69 @@ msgid "Download"
 msgstr ""
 
 msgid "Calendar"
+msgstr ""
+
+#: Controller/Admin/AppController.php:31;43
+#, fuzzy
+msgid "The {name} has been saved."
+msgstr "Езикът е запазен"
+
+#: Controller/Admin/AppController.php:34;46
+#, fuzzy
+msgid "The {name} could not be saved. Please, try again."
+msgstr "Езикът не може да бъде запазен. Моля, опитайте отново."
+
+#: Controller/Admin/AppController.php:54
+#, fuzzy
+msgid "The {name} has been deleted."
+msgstr "{0} е запазен успешно"
+
+#: Controller/Admin/AppController.php:57
+#, fuzzy
+msgid "The {name} could not be deleted. Please, try again."
+msgstr "Условието не може да бъде изтрито. Моля, опитайте отново."
+
+#: Controller/Admin/UsersController.php:122
+msgid "Username or password is incorrect"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:156
+#, fuzzy
+msgid "Invalid username"
+msgstr "Невалидно потребителко име."
+
+#: Controller/Admin/UsersController.php:199
+#, fuzzy
+msgid "Your password could not be saved. Please, try again."
+msgstr "Паролата не беше променена. Моля, опитайте отново."
+
+#: Template/Admin/Roles/index.ctp:24 Template/Admin/Roles/view.ctp:40
+#: Template/Admin/Users/index.ctp:27 Template/Admin/Users/view.ctp:52
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Users/change_password.ctp:13
+#: Template/Admin/Users/index.ctp:48
+#, fuzzy
+msgid "Change Password"
+msgstr "Нова парола"
+
+#: Template/Admin/Users/index.ctp:24
+#, fuzzy
+msgid "Role Id"
+msgstr "Потребителски роли"
+
+#: Template/Admin/Users/login.ctp:14
+msgid "Sign In"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "I forgot my password"
+msgstr "Забравена парола?"
+
+#: Template/Admin/Users/view.ctp:36
+msgid "Token"
 msgstr ""
 
 #~ msgid "Add Block"
@@ -2325,12 +2426,6 @@ msgstr ""
 
 #~ msgid "Add Language"
 #~ msgstr "Добави език"
-
-#~ msgid "The Language has been saved"
-#~ msgstr "Езикът е запазен"
-
-#~ msgid "The Language could not be saved. Please, try again."
-#~ msgstr "Езикът не може да бъде запазен. Моля, опитайте отново."
 
 #~ msgid "Edit Language"
 #~ msgstr "Редакция на език"

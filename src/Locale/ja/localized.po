@@ -29,9 +29,11 @@ msgstr ""
 msgid "You need to specify token parameter and/or header"
 msgstr ""
 
+#: Controller/Admin/UsersController.php:70;97;224
 msgid "The {0} has been saved."
 msgstr "{0}を保存しました。"
 
+#: Controller/Admin/UsersController.php:74;101;228
 msgid "The {0} could not be saved. Please, try again."
 msgstr "{0}を保存できませんでした。もう一度、試してください。"
 
@@ -54,12 +56,16 @@ msgstr ""
 msgid "API"
 msgstr ""
 
+#: Template/Admin/Users/change_password.ctp:12 Template/Admin/Users/form.ctp:12
+#: Template/Admin/Users/index.ctp:10 Template/Admin/Users/view.ctp:13
 msgid "Users"
 msgstr "ユーザー"
 
+#: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
 msgid "Actions"
 msgstr "アクション"
 
+#: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
 msgid "Add"
 msgstr "追加"
 
@@ -69,6 +75,7 @@ msgstr "アクション"
 msgid "Parent"
 msgstr "親"
 
+#: Template/Admin/Roles/index.ctp:22 Template/Admin/Roles/view.ctp:28
 msgid "Alias"
 msgstr "エイリアス"
 
@@ -87,6 +94,8 @@ msgstr ""
 msgid "Create new & remove orphaned actions"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:20 Template/Admin/Roles/view.ctp:32
+#: Template/Admin/Users/index.ctp:20 Template/Admin/Users/view.ctp:44
 msgid "Id"
 msgstr "Id"
 
@@ -153,6 +162,7 @@ msgstr "可視状態"
 msgid "Params"
 msgstr "パラメータ"
 
+#: Template/Admin/Roles/index.ctp:21 Template/Admin/Roles/view.ctp:24
 msgid "Title"
 msgstr "タイトル"
 
@@ -223,6 +233,7 @@ msgstr "公開"
 msgid "Unpublish"
 msgstr "非公開"
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
 msgid "Delete"
 msgstr "削除"
 
@@ -285,9 +296,11 @@ msgstr[1] "コメント"
 msgid "Contact"
 msgstr "連絡先"
 
+#: Template/Admin/Users/index.ctp:22 Template/Admin/Users/view.ctp:28
 msgid "Name"
 msgstr "名前"
 
+#: Template/Admin/Users/index.ctp:23 Template/Admin/Users/view.ctp:32
 msgid "Email"
 msgstr "Eメール"
 
@@ -453,6 +466,8 @@ msgstr "未読"
 msgid "Messages: Unread"
 msgstr "メッセージ: 未読"
 
+#: Template/Admin/Roles/index.ctp:23 Template/Admin/Roles/view.ctp:36
+#: Template/Admin/Users/index.ctp:26 Template/Admin/Users/view.ctp:48
 msgid "Created"
 msgstr ""
 
@@ -480,9 +495,11 @@ msgstr ""
 msgid "Trackable Creator"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:57
 msgid "Yes"
 msgstr "はい"
 
+#: Template/Admin/Users/view.ctp:57
 msgid "No"
 msgstr "いいえ"
 
@@ -750,12 +767,16 @@ msgstr ""
 msgid "Command not recognized"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
+#: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
 msgid "Edit"
 msgstr "編集"
 
 msgid "New {0}"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:30 Template/Admin/Users/change_password.ctp:23
+#: Template/Admin/Users/form.ctp:37 Template/Admin/Users/reset.ctp:10
 msgid "Save"
 msgstr "保存"
 
@@ -830,6 +851,7 @@ msgstr "下に移動できませんでした"
 msgid "Dashboards"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
 msgid "Are you sure you want to delete # {0}?"
 msgstr "本当に削除してよろしいですか # {0} ?"
 
@@ -995,6 +1017,7 @@ msgstr "現在有効になっているテーマは編集できません。"
 msgid "Theme deleted successfully."
 msgstr "テーマを削除しました。"
 
+#: Controller/Admin/UsersController.php:189
 msgid "An error occurred."
 msgstr "エラーが発生しました"
 
@@ -1013,6 +1036,7 @@ msgstr "有効化"
 msgid "Description"
 msgstr "説明"
 
+#: Template/Admin/Users/index.ctp:25 Template/Admin/Users/view.ctp:56
 msgid "Active"
 msgstr ""
 
@@ -1136,6 +1160,8 @@ msgstr "オープン"
 msgid "Rename"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:40 Template/Admin/Roles/view.ctp:9;14
+#: Template/Admin/Users/index.ctp:46 Template/Admin/Users/view.ctp:9;14
 msgid "View"
 msgstr "表示"
 
@@ -1208,6 +1234,7 @@ msgstr ""
 msgid "Login"
 msgstr "ログイン"
 
+#: Template/Admin/Users/login.ctp:9 Template/Admin/Users/reset.ctp:8
 msgid "Password"
 msgstr ""
 
@@ -1217,9 +1244,12 @@ msgstr ""
 msgid "Port"
 msgstr ""
 
+#: Template/Admin/Users/forgot.ctp:7 Template/Admin/Users/index.ctp:21
+#: Template/Admin/Users/login.ctp:8 Template/Admin/Users/view.ctp:24
 msgid "Username"
 msgstr ""
 
+#: Template/Admin/Users/reset.ctp:9
 msgid "Verify Password"
 msgstr ""
 
@@ -1433,6 +1463,7 @@ msgstr "除去"
 msgid "Type"
 msgstr "タイプ"
 
+#: Controller/Admin/UsersController.php:70;74;97;101;224;228
 msgid "User"
 msgstr ""
 
@@ -1903,6 +1934,8 @@ msgstr ""
 msgid "Original"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:12 Template/Admin/Roles/index.ctp:10
+#: Template/Admin/Roles/view.ctp:13
 msgid "Roles"
 msgstr "ロール"
 
@@ -1932,12 +1965,15 @@ msgstr "不正なユーザー名"
 msgid "Invalid email."
 msgstr ""
 
+#: Controller/Admin/UsersController.php:162
 msgid "An error occurred. Please try again."
 msgstr "エラーが発生しました。もう一度試してみてください。"
 
+#: Controller/Admin/UsersController.php:166
 msgid "An email has been sent with instructions for resetting your password."
 msgstr "パスワードをリセットする手順をメールしました"
 
+#: Controller/Admin/UsersController.php:196
 msgid "Your password has been reset successfully."
 msgstr "あなたのパスワードをリセットしました。"
 
@@ -2001,6 +2037,7 @@ msgstr ""
 msgid "User '{0}' has been created"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:40
 msgid "Role"
 msgstr "ロール"
 
@@ -2046,6 +2083,7 @@ msgstr ""
 msgid "Reset password: {0}"
 msgstr ""
 
+#: Template/Admin/Users/forgot.ctp:12
 msgid "Reset Password"
 msgstr "パスワードをリセット"
 
@@ -2096,3 +2134,67 @@ msgstr "ダウンロード"
 
 msgid "Calendar"
 msgstr "カレンダー"
+
+#: Controller/Admin/AppController.php:31;43
+#, fuzzy
+msgid "The {name} has been saved."
+msgstr "{0}を保存しました。"
+
+#: Controller/Admin/AppController.php:34;46
+#, fuzzy
+msgid "The {name} could not be saved. Please, try again."
+msgstr "{0}を保存できませんでした。もう一度、試してください。"
+
+#: Controller/Admin/AppController.php:54
+#, fuzzy
+msgid "The {name} has been deleted."
+msgstr "{0}を削除しました。"
+
+#: Controller/Admin/AppController.php:57
+#, fuzzy
+msgid "The {name} could not be deleted. Please, try again."
+msgstr "{0}を削除できませんでした。もう一度、試してください。"
+
+#: Controller/Admin/UsersController.php:122
+msgid "Username or password is incorrect"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:156
+#, fuzzy
+msgid "Invalid username"
+msgstr "不正なユーザー名"
+
+#: Controller/Admin/UsersController.php:199
+#, fuzzy
+msgid "Your password could not be saved. Please, try again."
+msgstr "パスワードをリセットできませんでした。もう一度試してみてください。"
+
+#: Template/Admin/Roles/index.ctp:24 Template/Admin/Roles/view.ctp:40
+#: Template/Admin/Users/index.ctp:27 Template/Admin/Users/view.ctp:52
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Users/change_password.ctp:13
+#: Template/Admin/Users/index.ctp:48
+#, fuzzy
+msgid "Change Password"
+msgstr "新しいパスワード"
+
+#: Template/Admin/Users/index.ctp:24
+#, fuzzy
+msgid "Role Id"
+msgstr "ロール"
+
+#: Template/Admin/Users/login.ctp:14
+#, fuzzy
+msgid "Sign In"
+msgstr "サインアウト"
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "I forgot my password"
+msgstr "パスワードを忘れた?"
+
+#: Template/Admin/Users/view.ctp:36
+msgid "Token"
+msgstr ""
