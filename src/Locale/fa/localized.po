@@ -30,9 +30,13 @@ msgstr ""
 msgid "You need to specify token parameter and/or header"
 msgstr ""
 
+#: Controller/Admin/UsersController.php:70;97;224
+#: Controller/Admin/AssetsController.php:45;70
 msgid "The {0} has been saved."
 msgstr "{0} ذخیره شد"
 
+#: Controller/Admin/UsersController.php:74;101;228
+#: Controller/Admin/AssetsController.php:50;75
 msgid "The {0} could not be saved. Please, try again."
 msgstr "{0} نمی تواند ذخیره شود، لطفاً دوباره سعی نمایید."
 
@@ -57,12 +61,18 @@ msgstr ""
 msgid "API"
 msgstr "API"
 
+#: Template/Admin/Users/change_password.ctp:12 Template/Admin/Users/form.ctp:12
+#: Template/Admin/Users/index.ctp:10 Template/Admin/Users/view.ctp:13
 msgid "Users"
 msgstr "کاربران"
 
+#: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
+#: Template/Admin/Assets/index.ctp:27
 msgid "Actions"
 msgstr "فعالیت ها"
 
+#: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
+#: Template/Admin/Assets/form.ctp:17
 msgid "Add"
 msgstr "افزودن"
 
@@ -72,6 +82,7 @@ msgstr "فعالیت"
 msgid "Parent"
 msgstr "والد"
 
+#: Template/Admin/Roles/index.ctp:22 Template/Admin/Roles/view.ctp:28
 msgid "Alias"
 msgstr "مستعار"
 
@@ -90,6 +101,8 @@ msgstr "همگام سازی"
 msgid "Create new & remove orphaned actions"
 msgstr "ایجاد و حذف اکشن های زائد"
 
+#: Template/Admin/Roles/index.ctp:20 Template/Admin/Roles/view.ctp:32
+#: Template/Admin/Users/index.ctp:20 Template/Admin/Users/view.ctp:44
 msgid "Id"
 msgstr "کد"
 
@@ -156,6 +169,7 @@ msgstr "نمایش"
 msgid "Params"
 msgstr "پارامترها"
 
+#: Template/Admin/Roles/index.ctp:21 Template/Admin/Roles/view.ctp:24
 msgid "Title"
 msgstr "عنوان"
 
@@ -226,6 +240,8 @@ msgstr "انتشار"
 msgid "Unpublish"
 msgstr "عدم انتشار"
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Delete"
 msgstr "حذف"
 
@@ -291,9 +307,11 @@ msgstr[1] "نظر"
 msgid "Contact"
 msgstr "تماس"
 
+#: Template/Admin/Users/index.ctp:22 Template/Admin/Users/view.ctp:28
 msgid "Name"
 msgstr "نام"
 
+#: Template/Admin/Users/index.ctp:23 Template/Admin/Users/view.ctp:32
 msgid "Email"
 msgstr "ایمیل"
 
@@ -459,6 +477,8 @@ msgstr "خوانده نشده"
 msgid "Messages: Unread"
 msgstr "پیام ها: خوانده نشده"
 
+#: Template/Admin/Roles/index.ctp:23 Template/Admin/Roles/view.ctp:36
+#: Template/Admin/Users/index.ctp:26 Template/Admin/Users/view.ctp:48
 msgid "Created"
 msgstr "ایجاد شده"
 
@@ -486,9 +506,11 @@ msgstr ""
 msgid "Trackable Creator"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:57
 msgid "Yes"
 msgstr "بله"
 
+#: Template/Admin/Users/view.ctp:57
 msgid "No"
 msgstr "خیر"
 
@@ -762,12 +784,17 @@ msgstr "به روزرسانی  \"{0}\""
 msgid "Command not recognized"
 msgstr "دستور تشخیص داده نشد"
 
+#: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
+#: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
+#: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
 msgid "Edit"
 msgstr "ویرایش"
 
 msgid "New {0}"
 msgstr "جدید {0}"
 
+#: Template/Admin/Roles/form.ctp:30 Template/Admin/Users/change_password.ctp:23
+#: Template/Admin/Users/form.ctp:37 Template/Admin/Users/reset.ctp:10
 msgid "Save"
 msgstr "ذخیره"
 
@@ -842,6 +869,8 @@ msgstr "نمی تواند به پایین جا به جا شود"
 msgid "Dashboards"
 msgstr "داشبوردها"
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Are you sure you want to delete # {0}?"
 msgstr "آیا شما از حذف # {0} مطمئن هستید؟"
 
@@ -1007,9 +1036,11 @@ msgstr "شما نمی توانید قالب فعال را حذف نمایید."
 msgid "Theme deleted successfully."
 msgstr "قالب با موفقیت حذف شد."
 
+#: Controller/Admin/UsersController.php:189
 msgid "An error occurred."
 msgstr "بروز خطا."
 
+#: Template/Admin/Assets/form.ctp:32
 msgid "Upload"
 msgstr "آپلود"
 
@@ -1025,6 +1056,7 @@ msgstr "فعال کردن"
 msgid "Description"
 msgstr "توضیحات"
 
+#: Template/Admin/Users/index.ctp:25 Template/Admin/Users/view.ctp:56
 msgid "Active"
 msgstr "فعال"
 
@@ -1148,6 +1180,8 @@ msgstr "باز کردن"
 msgid "Rename"
 msgstr "تغییر نام"
 
+#: Template/Admin/Roles/index.ctp:40 Template/Admin/Roles/view.ctp:9;14
+#: Template/Admin/Users/index.ctp:46 Template/Admin/Users/view.ctp:9;14
 msgid "View"
 msgstr "مشاهده"
 
@@ -1163,6 +1197,7 @@ msgstr "نام دایرکتوری"
 msgid "Create File"
 msgstr "ایجاد فایل"
 
+#: Controller/Admin/AssetsController.php:45;50;70;75;92;94
 msgid "File"
 msgstr "فایل"
 
@@ -1220,6 +1255,7 @@ msgstr "میزبان"
 msgid "Login"
 msgstr "نام کاربری"
 
+#: Template/Admin/Users/login.ctp:9 Template/Admin/Users/reset.ctp:8
 msgid "Password"
 msgstr "رمز"
 
@@ -1229,9 +1265,12 @@ msgstr "بانک اطلاعاتی"
 msgid "Port"
 msgstr "پورت"
 
+#: Template/Admin/Users/forgot.ctp:7 Template/Admin/Users/index.ctp:21
+#: Template/Admin/Users/login.ctp:8 Template/Admin/Users/view.ctp:24
 msgid "Username"
 msgstr "نام کاربری"
 
+#: Template/Admin/Users/reset.ctp:9
 msgid "Verify Password"
 msgstr "بازبینی رمز"
 
@@ -1445,6 +1484,7 @@ msgstr "حذف"
 msgid "Type"
 msgstr "نوع"
 
+#: Controller/Admin/UsersController.php:70;74;97;101;224;228
 msgid "User"
 msgstr "کاربر"
 
@@ -1917,6 +1957,8 @@ msgstr ""
 msgid "Original"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:12 Template/Admin/Roles/index.ctp:10
+#: Template/Admin/Roles/view.ctp:13
 msgid "Roles"
 msgstr "نقش ها"
 
@@ -1947,12 +1989,15 @@ msgstr "نام کاربری نامعتبر"
 msgid "Invalid email."
 msgstr ""
 
+#: Controller/Admin/UsersController.php:162
 msgid "An error occurred. Please try again."
 msgstr "خطایی رخ داد، لطفاً دوباره سعی نمایید."
 
+#: Controller/Admin/UsersController.php:166
 msgid "An email has been sent with instructions for resetting your password."
 msgstr "یک ایمیل با دستورالعمل نحوه بازیابی پسورد شما ارسال شد."
 
+#: Controller/Admin/UsersController.php:196
 msgid "Your password has been reset successfully."
 msgstr "پسورد شما با موفقیت بازیابی شد."
 
@@ -2017,6 +2062,7 @@ msgstr ""
 msgid "User '{0}' has been created"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:40
 msgid "Role"
 msgstr "نقش"
 
@@ -2062,6 +2108,7 @@ msgstr "بازیابی"
 msgid "Reset password: {0}"
 msgstr ""
 
+#: Template/Admin/Users/forgot.ctp:12
 msgid "Reset Password"
 msgstr "بازیابی پسورد"
 
@@ -2098,10 +2145,12 @@ msgstr "خانه"
 msgid "Sign out"
 msgstr ""
 
+#: Controller/Admin/AssetsController.php:92
 #, fuzzy
 msgid "The {0} has been deleted."
 msgstr "{0} ذخیره شد"
 
+#: Controller/Admin/AssetsController.php:94
 #, fuzzy
 msgid "The {0} could not be deleted. Please, try again."
 msgstr "امکان حذف وجود ندارد. دوباره سعی نمایید"
@@ -2109,10 +2158,84 @@ msgstr "امکان حذف وجود ندارد. دوباره سعی نمایید"
 msgid "Export"
 msgstr ""
 
+#: Template/Admin/Assets/index.ctp:44
 msgid "Download"
 msgstr ""
 
 msgid "Calendar"
+msgstr ""
+
+#: Controller/Admin/AppController.php:31;43
+#, fuzzy
+msgid "The {name} has been saved."
+msgstr "{0} ذخیره شد"
+
+#: Controller/Admin/AppController.php:34;46
+#, fuzzy
+msgid "The {name} could not be saved. Please, try again."
+msgstr "{0} نمی تواند ذخیره شود، لطفاً دوباره سعی نمایید."
+
+#: Controller/Admin/AppController.php:54
+#, fuzzy
+msgid "The {name} has been deleted."
+msgstr "{0} ذخیره شد"
+
+#: Controller/Admin/AppController.php:57
+#, fuzzy
+msgid "The {name} could not be deleted. Please, try again."
+msgstr "امکان حذف وجود ندارد. دوباره سعی نمایید"
+
+#: Controller/Admin/UsersController.php:122
+#, fuzzy
+msgid "Username or password is incorrect"
+msgstr "نام کاربری یا پسورد نامعتبر"
+
+#: Controller/Admin/UsersController.php:156
+#, fuzzy
+msgid "Invalid username"
+msgstr "نام کاربری نامعتبر"
+
+#: Controller/Admin/UsersController.php:199
+#, fuzzy
+msgid "Your password could not be saved. Please, try again."
+msgstr "رمز عبور نمی تواند ریست شود، لطفاً دوباره سعی نمایید."
+
+#: Template/Admin/Roles/index.ctp:24 Template/Admin/Roles/view.ctp:40
+#: Template/Admin/Users/index.ctp:27 Template/Admin/Users/view.ctp:52
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Users/change_password.ctp:13
+#: Template/Admin/Users/index.ctp:48
+#, fuzzy
+msgid "Change Password"
+msgstr "پسورد جدید"
+
+#: Template/Admin/Users/index.ctp:24
+#, fuzzy
+msgid "Role Id"
+msgstr "نقش"
+
+#: Template/Admin/Users/login.ctp:14
+msgid "Sign In"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "I forgot my password"
+msgstr "فراموشی رمز؟"
+
+#: Template/Admin/Users/view.ctp:36
+msgid "Token"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "Forgot your password?"
+msgstr "فراموشی رمز؟"
+
+#: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+msgid "Assets"
 msgstr ""
 
 #~ msgid "Plugin to process"

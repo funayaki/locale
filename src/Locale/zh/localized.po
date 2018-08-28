@@ -29,9 +29,13 @@ msgstr "_authorizeByContent() - 访问控制器 \"%2$s\" 里未映射的动作 \
 msgid "You need to specify token parameter and/or header"
 msgstr ""
 
+#: Controller/Admin/UsersController.php:70;97;224
+#: Controller/Admin/AssetsController.php:45;70
 msgid "The {0} has been saved."
 msgstr "{0} 已经被保存"
 
+#: Controller/Admin/UsersController.php:74;101;228
+#: Controller/Admin/AssetsController.php:50;75
 msgid "The {0} could not be saved. Please, try again."
 msgstr "{0} 不能被保存，请重试。"
 
@@ -54,12 +58,18 @@ msgstr "\"自动登录\" (记住我) 被禁用了，因为mcrypt_encrypt不可�
 msgid "API"
 msgstr ""
 
+#: Template/Admin/Users/change_password.ctp:12 Template/Admin/Users/form.ctp:12
+#: Template/Admin/Users/index.ctp:10 Template/Admin/Users/view.ctp:13
 msgid "Users"
 msgstr "用户"
 
+#: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
+#: Template/Admin/Assets/index.ctp:27
 msgid "Actions"
 msgstr "动作"
 
+#: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
+#: Template/Admin/Assets/form.ctp:17
 msgid "Add"
 msgstr "添加"
 
@@ -69,6 +79,7 @@ msgstr "动作"
 msgid "Parent"
 msgstr "父"
 
+#: Template/Admin/Roles/index.ctp:22 Template/Admin/Roles/view.ctp:28
 msgid "Alias"
 msgstr "昵称"
 
@@ -87,6 +98,8 @@ msgstr "同步"
 msgid "Create new & remove orphaned actions"
 msgstr "新建 或 删除 孤立的动作"
 
+#: Template/Admin/Roles/index.ctp:20 Template/Admin/Roles/view.ctp:32
+#: Template/Admin/Users/index.ctp:20 Template/Admin/Users/view.ctp:44
 msgid "Id"
 msgstr "Id"
 
@@ -153,6 +166,7 @@ msgstr "可见性"
 msgid "Params"
 msgstr "参数"
 
+#: Template/Admin/Roles/index.ctp:21 Template/Admin/Roles/view.ctp:24
 msgid "Title"
 msgstr "标题"
 
@@ -222,6 +236,8 @@ msgstr "发布"
 msgid "Unpublish"
 msgstr "未发布"
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Delete"
 msgstr "删除"
 
@@ -285,9 +301,11 @@ msgstr[1] "评论"
 msgid "Contact"
 msgstr "联系人"
 
+#: Template/Admin/Users/index.ctp:22 Template/Admin/Users/view.ctp:28
 msgid "Name"
 msgstr "姓名"
 
+#: Template/Admin/Users/index.ctp:23 Template/Admin/Users/view.ctp:32
 msgid "Email"
 msgstr "邮箱"
 
@@ -454,6 +472,8 @@ msgstr "未读"
 msgid "Messages: Unread"
 msgstr "信息：未读"
 
+#: Template/Admin/Roles/index.ctp:23 Template/Admin/Roles/view.ctp:36
+#: Template/Admin/Users/index.ctp:26 Template/Admin/Users/view.ctp:48
 msgid "Created"
 msgstr "已创建"
 
@@ -481,9 +501,11 @@ msgstr ""
 msgid "Trackable Creator"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:57
 msgid "Yes"
 msgstr "是"
 
+#: Template/Admin/Users/view.ctp:57
 msgid "No"
 msgstr "否"
 
@@ -756,12 +778,17 @@ msgstr "升级\"{0}\""
 msgid "Command not recognized"
 msgstr "命令未被识别"
 
+#: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
+#: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
+#: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
 msgid "Edit"
 msgstr "编辑"
 
 msgid "New {0}"
 msgstr "新的 {0}"
 
+#: Template/Admin/Roles/form.ctp:30 Template/Admin/Users/change_password.ctp:23
+#: Template/Admin/Users/form.ctp:37 Template/Admin/Users/reset.ctp:10
 msgid "Save"
 msgstr "保存"
 
@@ -836,6 +863,8 @@ msgstr "不能下移"
 msgid "Dashboards"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Are you sure you want to delete # {0}?"
 msgstr "你确定要删除# {0}?"
 
@@ -1001,9 +1030,11 @@ msgstr "不能删除当前在用主题"
 msgid "Theme deleted successfully."
 msgstr "主题删除成功"
 
+#: Controller/Admin/UsersController.php:189
 msgid "An error occurred."
 msgstr "发生错误"
 
+#: Template/Admin/Assets/form.ctp:32
 msgid "Upload"
 msgstr "上传"
 
@@ -1019,6 +1050,7 @@ msgstr "激活"
 msgid "Description"
 msgstr "描述"
 
+#: Template/Admin/Users/index.ctp:25 Template/Admin/Users/view.ctp:56
 msgid "Active"
 msgstr "激活"
 
@@ -1142,6 +1174,8 @@ msgstr "打开"
 msgid "Rename"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:40 Template/Admin/Roles/view.ctp:9;14
+#: Template/Admin/Users/index.ctp:46 Template/Admin/Users/view.ctp:9;14
 msgid "View"
 msgstr "查看"
 
@@ -1157,6 +1191,7 @@ msgstr "目录名"
 msgid "Create File"
 msgstr "创建文件"
 
+#: Controller/Admin/AssetsController.php:45;50;70;75;92;94
 msgid "File"
 msgstr "文件"
 
@@ -1214,6 +1249,7 @@ msgstr "主机"
 msgid "Login"
 msgstr "登陆"
 
+#: Template/Admin/Users/login.ctp:9 Template/Admin/Users/reset.ctp:8
 msgid "Password"
 msgstr "密码"
 
@@ -1223,9 +1259,12 @@ msgstr "数据库"
 msgid "Port"
 msgstr "端口"
 
+#: Template/Admin/Users/forgot.ctp:7 Template/Admin/Users/index.ctp:21
+#: Template/Admin/Users/login.ctp:8 Template/Admin/Users/view.ctp:24
 msgid "Username"
 msgstr "用户名"
 
+#: Template/Admin/Users/reset.ctp:9
 msgid "Verify Password"
 msgstr "验证码"
 
@@ -1440,6 +1479,7 @@ msgstr "移除"
 msgid "Type"
 msgstr "类型"
 
+#: Controller/Admin/UsersController.php:70;74;97;101;224;228
 msgid "User"
 msgstr "用户"
 
@@ -1913,6 +1953,8 @@ msgstr ""
 msgid "Original"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:12 Template/Admin/Roles/index.ctp:10
+#: Template/Admin/Roles/view.ctp:13
 msgid "Roles"
 msgstr "角色"
 
@@ -1942,12 +1984,15 @@ msgstr "无效的用户名"
 msgid "Invalid email."
 msgstr ""
 
+#: Controller/Admin/UsersController.php:162
 msgid "An error occurred. Please try again."
 msgstr "发生一个错误。请重试。"
 
+#: Controller/Admin/UsersController.php:166
 msgid "An email has been sent with instructions for resetting your password."
 msgstr "一封重置密码说明的邮件已发送"
 
+#: Controller/Admin/UsersController.php:196
 msgid "Your password has been reset successfully."
 msgstr "您的密码已成功重置"
 
@@ -2010,6 +2055,7 @@ msgstr ""
 msgid "User '{0}' has been created"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:40
 msgid "Role"
 msgstr "角色"
 
@@ -2055,6 +2101,7 @@ msgstr "重置"
 msgid "Reset password: {0}"
 msgstr ""
 
+#: Template/Admin/Users/forgot.ctp:12
 msgid "Reset Password"
 msgstr "重置密码"
 
@@ -2092,10 +2139,12 @@ msgstr ""
 msgid "Sign out"
 msgstr "退出登陆"
 
+#: Controller/Admin/AssetsController.php:92
 #, fuzzy
 msgid "The {0} has been deleted."
 msgstr "{0} 已经被保存"
 
+#: Controller/Admin/AssetsController.php:94
 #, fuzzy
 msgid "The {0} could not be deleted. Please, try again."
 msgstr "术语无法删除。请重试。"
@@ -2103,10 +2152,85 @@ msgstr "术语无法删除。请重试。"
 msgid "Export"
 msgstr ""
 
+#: Template/Admin/Assets/index.ctp:44
 msgid "Download"
 msgstr ""
 
 msgid "Calendar"
+msgstr ""
+
+#: Controller/Admin/AppController.php:31;43
+#, fuzzy
+msgid "The {name} has been saved."
+msgstr "{0} 已经被保存"
+
+#: Controller/Admin/AppController.php:34;46
+#, fuzzy
+msgid "The {name} could not be saved. Please, try again."
+msgstr "{0} 不能被保存，请重试。"
+
+#: Controller/Admin/AppController.php:54
+#, fuzzy
+msgid "The {name} has been deleted."
+msgstr "{0} 已经被保存"
+
+#: Controller/Admin/AppController.php:57
+#, fuzzy
+msgid "The {name} could not be deleted. Please, try again."
+msgstr "术语无法删除。请重试。"
+
+#: Controller/Admin/UsersController.php:122
+#, fuzzy
+msgid "Username or password is incorrect"
+msgstr "用户名或密码错误"
+
+#: Controller/Admin/UsersController.php:156
+#, fuzzy
+msgid "Invalid username"
+msgstr "无效的用户名"
+
+#: Controller/Admin/UsersController.php:199
+#, fuzzy
+msgid "Your password could not be saved. Please, try again."
+msgstr "密码无法重设。请重试。"
+
+#: Template/Admin/Roles/index.ctp:24 Template/Admin/Roles/view.ctp:40
+#: Template/Admin/Users/index.ctp:27 Template/Admin/Users/view.ctp:52
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Users/change_password.ctp:13
+#: Template/Admin/Users/index.ctp:48
+#, fuzzy
+msgid "Change Password"
+msgstr "新密码"
+
+#: Template/Admin/Users/index.ctp:24
+#, fuzzy
+msgid "Role Id"
+msgstr "角色"
+
+#: Template/Admin/Users/login.ctp:14
+#, fuzzy
+msgid "Sign In"
+msgstr "退出登陆"
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "I forgot my password"
+msgstr "忘记密码？"
+
+#: Template/Admin/Users/view.ctp:36
+msgid "Token"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "Forgot your password?"
+msgstr "忘记密码？"
+
+#: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+msgid "Assets"
 msgstr ""
 
 #~ msgid "Plugin to process"

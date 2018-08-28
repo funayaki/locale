@@ -28,9 +28,13 @@ msgstr ""
 msgid "You need to specify token parameter and/or header"
 msgstr ""
 
+#: Controller/Admin/UsersController.php:70;97;224
+#: Controller/Admin/AssetsController.php:45;70
 msgid "The {0} has been saved."
 msgstr ""
 
+#: Controller/Admin/UsersController.php:74;101;228
+#: Controller/Admin/AssetsController.php:50;75
 msgid "The {0} could not be saved. Please, try again."
 msgstr ""
 
@@ -53,12 +57,18 @@ msgstr ""
 msgid "API"
 msgstr ""
 
+#: Template/Admin/Users/change_password.ctp:12 Template/Admin/Users/form.ctp:12
+#: Template/Admin/Users/index.ctp:10 Template/Admin/Users/view.ctp:13
 msgid "Users"
 msgstr "Użytkownicy"
 
+#: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
+#: Template/Admin/Assets/index.ctp:27
 msgid "Actions"
 msgstr "Akcje"
 
+#: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
+#: Template/Admin/Assets/form.ctp:17
 msgid "Add"
 msgstr ""
 
@@ -68,6 +78,7 @@ msgstr ""
 msgid "Parent"
 msgstr "Rodzic"
 
+#: Template/Admin/Roles/index.ctp:22 Template/Admin/Roles/view.ctp:28
 msgid "Alias"
 msgstr ""
 
@@ -86,6 +97,8 @@ msgstr ""
 msgid "Create new & remove orphaned actions"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:20 Template/Admin/Roles/view.ctp:32
+#: Template/Admin/Users/index.ctp:20 Template/Admin/Users/view.ctp:44
 msgid "Id"
 msgstr "Id"
 
@@ -152,6 +165,7 @@ msgstr ""
 msgid "Params"
 msgstr "Parametry"
 
+#: Template/Admin/Roles/index.ctp:21 Template/Admin/Roles/view.ctp:24
 msgid "Title"
 msgstr "Tytuł"
 
@@ -223,6 +237,8 @@ msgstr "Publikuj"
 msgid "Unpublish"
 msgstr "Nie publikuj"
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Delete"
 msgstr "Usuń"
 
@@ -288,9 +304,11 @@ msgstr[1] "Komentarz"
 msgid "Contact"
 msgstr "Kontakt"
 
+#: Template/Admin/Users/index.ctp:22 Template/Admin/Users/view.ctp:28
 msgid "Name"
 msgstr "Nazwa"
 
+#: Template/Admin/Users/index.ctp:23 Template/Admin/Users/view.ctp:32
 msgid "Email"
 msgstr "E-mail"
 
@@ -457,6 +475,8 @@ msgstr "Nieprzeczytana"
 msgid "Messages: Unread"
 msgstr "Wiadomości: Nieprzeczytane"
 
+#: Template/Admin/Roles/index.ctp:23 Template/Admin/Roles/view.ctp:36
+#: Template/Admin/Users/index.ctp:26 Template/Admin/Users/view.ctp:48
 msgid "Created"
 msgstr ""
 
@@ -484,9 +504,11 @@ msgstr ""
 msgid "Trackable Creator"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:57
 msgid "Yes"
 msgstr "Tak"
 
+#: Template/Admin/Users/view.ctp:57
 msgid "No"
 msgstr "Nie"
 
@@ -756,12 +778,17 @@ msgstr ""
 msgid "Command not recognized"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
+#: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
+#: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
 msgid "Edit"
 msgstr "Edycja"
 
 msgid "New {0}"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:30 Template/Admin/Users/change_password.ctp:23
+#: Template/Admin/Users/form.ctp:37 Template/Admin/Users/reset.ctp:10
 msgid "Save"
 msgstr "Zapisz"
 
@@ -836,6 +863,8 @@ msgstr "Nie można przesunąć w dół"
 msgid "Dashboards"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Are you sure you want to delete # {0}?"
 msgstr "Czy na pewno chcesz usunąć # {0}?"
 
@@ -1001,9 +1030,11 @@ msgstr "Nie możesz usunąć używanego szablonu."
 msgid "Theme deleted successfully."
 msgstr "Szablon został usunięty."
 
+#: Controller/Admin/UsersController.php:189
 msgid "An error occurred."
 msgstr "Wystąpił błąd."
 
+#: Template/Admin/Assets/form.ctp:32
 msgid "Upload"
 msgstr "Prześlij"
 
@@ -1019,6 +1050,7 @@ msgstr "Włącz"
 msgid "Description"
 msgstr "Opis"
 
+#: Template/Admin/Users/index.ctp:25 Template/Admin/Users/view.ctp:56
 msgid "Active"
 msgstr "Włączony"
 
@@ -1142,6 +1174,8 @@ msgstr "Otwórz"
 msgid "Rename"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:40 Template/Admin/Roles/view.ctp:9;14
+#: Template/Admin/Users/index.ctp:46 Template/Admin/Users/view.ctp:9;14
 msgid "View"
 msgstr ""
 
@@ -1157,6 +1191,7 @@ msgstr ""
 msgid "Create File"
 msgstr ""
 
+#: Controller/Admin/AssetsController.php:45;50;70;75;92;94
 msgid "File"
 msgstr ""
 
@@ -1214,6 +1249,7 @@ msgstr ""
 msgid "Login"
 msgstr "Logowanie"
 
+#: Template/Admin/Users/login.ctp:9 Template/Admin/Users/reset.ctp:8
 msgid "Password"
 msgstr "Hasło"
 
@@ -1223,9 +1259,12 @@ msgstr ""
 msgid "Port"
 msgstr ""
 
+#: Template/Admin/Users/forgot.ctp:7 Template/Admin/Users/index.ctp:21
+#: Template/Admin/Users/login.ctp:8 Template/Admin/Users/view.ctp:24
 msgid "Username"
 msgstr "Nazwa użytkownika"
 
+#: Template/Admin/Users/reset.ctp:9
 msgid "Verify Password"
 msgstr ""
 
@@ -1440,6 +1479,7 @@ msgstr "Usuń"
 msgid "Type"
 msgstr "Typ"
 
+#: Controller/Admin/UsersController.php:70;74;97;101;224;228
 msgid "User"
 msgstr "Użytkownik"
 
@@ -1912,6 +1952,8 @@ msgstr ""
 msgid "Original"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:12 Template/Admin/Roles/index.ctp:10
+#: Template/Admin/Roles/view.ctp:13
 msgid "Roles"
 msgstr "Grupy"
 
@@ -1943,13 +1985,16 @@ msgstr "Błędna nazwa użytkownika"
 msgid "Invalid email."
 msgstr ""
 
+#: Controller/Admin/UsersController.php:162
 msgid "An error occurred. Please try again."
 msgstr "Wystąpił błąd. Spróbuj ponownie."
 
+#: Controller/Admin/UsersController.php:166
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 "Na adres e-mail zostały wysłane dalsze instrukcje dotyczące zmiany hasła."
 
+#: Controller/Admin/UsersController.php:196
 msgid "Your password has been reset successfully."
 msgstr "Hasło zostało zmienione."
 
@@ -2014,6 +2059,7 @@ msgstr ""
 msgid "User '{0}' has been created"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:40
 msgid "Role"
 msgstr "Grupa"
 
@@ -2059,6 +2105,7 @@ msgstr ""
 msgid "Reset password: {0}"
 msgstr ""
 
+#: Template/Admin/Users/forgot.ctp:12
 msgid "Reset Password"
 msgstr "Zmiana hasła"
 
@@ -2095,10 +2142,12 @@ msgstr ""
 msgid "Sign out"
 msgstr ""
 
+#: Controller/Admin/AssetsController.php:92
 #, fuzzy
 msgid "The {0} has been deleted."
 msgstr "{0} - zapisano"
 
+#: Controller/Admin/AssetsController.php:94
 #, fuzzy
 msgid "The {0} could not be deleted. Please, try again."
 msgstr "{0} - błąd podczas zapisywania. Spróbuj ponownie."
@@ -2106,10 +2155,83 @@ msgstr "{0} - błąd podczas zapisywania. Spróbuj ponownie."
 msgid "Export"
 msgstr ""
 
+#: Template/Admin/Assets/index.ctp:44
 msgid "Download"
 msgstr ""
 
 msgid "Calendar"
+msgstr ""
+
+#: Controller/Admin/AppController.php:31;43
+#, fuzzy
+msgid "The {name} has been saved."
+msgstr "Język został zapisany"
+
+#: Controller/Admin/AppController.php:34;46
+#, fuzzy
+msgid "The {name} could not be saved. Please, try again."
+msgstr "Podczas zapisywania języka wystąpił błąd. Spróbuj ponownie."
+
+#: Controller/Admin/AppController.php:54
+#, fuzzy
+msgid "The {name} has been deleted."
+msgstr "{0} - zapisano"
+
+#: Controller/Admin/AppController.php:57
+#, fuzzy
+msgid "The {name} could not be deleted. Please, try again."
+msgstr "{0} - błąd podczas zapisywania. Spróbuj ponownie."
+
+#: Controller/Admin/UsersController.php:122
+msgid "Username or password is incorrect"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:156
+#, fuzzy
+msgid "Invalid username"
+msgstr "Błędna nazwa użytkownika"
+
+#: Controller/Admin/UsersController.php:199
+#, fuzzy
+msgid "Your password could not be saved. Please, try again."
+msgstr "Hasło nie zostało zresetowane. Spróbuj ponownie."
+
+#: Template/Admin/Roles/index.ctp:24 Template/Admin/Roles/view.ctp:40
+#: Template/Admin/Users/index.ctp:27 Template/Admin/Users/view.ctp:52
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Users/change_password.ctp:13
+#: Template/Admin/Users/index.ctp:48
+#, fuzzy
+msgid "Change Password"
+msgstr "Nowy hasło"
+
+#: Template/Admin/Users/index.ctp:24
+#, fuzzy
+msgid "Role Id"
+msgstr "Grupa"
+
+#: Template/Admin/Users/login.ctp:14
+msgid "Sign In"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "I forgot my password"
+msgstr "Nie pamiętasz hasła?"
+
+#: Template/Admin/Users/view.ctp:36
+msgid "Token"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "Forgot your password?"
+msgstr "Nie pamiętasz hasła?"
+
+#: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+msgid "Assets"
 msgstr ""
 
 #~ msgid "Add Action"
@@ -2339,12 +2461,6 @@ msgstr ""
 
 #~ msgid "Add Language"
 #~ msgstr "Dodaj Język"
-
-#~ msgid "The Language has been saved"
-#~ msgstr "Język został zapisany"
-
-#~ msgid "The Language could not be saved. Please, try again."
-#~ msgstr "Podczas zapisywania języka wystąpił błąd. Spróbuj ponownie."
 
 #~ msgid "Edit Language"
 #~ msgstr "Edytuj Język"

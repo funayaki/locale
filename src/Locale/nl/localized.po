@@ -30,9 +30,13 @@ msgstr ""
 msgid "You need to specify token parameter and/or header"
 msgstr ""
 
+#: Controller/Admin/UsersController.php:70;97;224
+#: Controller/Admin/AssetsController.php:45;70
 msgid "The {0} has been saved."
 msgstr "De {0} is opgeslagen"
 
+#: Controller/Admin/UsersController.php:74;101;228
+#: Controller/Admin/AssetsController.php:50;75
 msgid "The {0} could not be saved. Please, try again."
 msgstr "De {0} kon niet worden opgeslagen. Probeer opnieuw, alstublieft."
 
@@ -57,12 +61,18 @@ msgstr ""
 msgid "API"
 msgstr "API"
 
+#: Template/Admin/Users/change_password.ctp:12 Template/Admin/Users/form.ctp:12
+#: Template/Admin/Users/index.ctp:10 Template/Admin/Users/view.ctp:13
 msgid "Users"
 msgstr "Gebruikers"
 
+#: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
+#: Template/Admin/Assets/index.ctp:27
 msgid "Actions"
 msgstr "Acties"
 
+#: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
+#: Template/Admin/Assets/form.ctp:17
 msgid "Add"
 msgstr "Voeg toe"
 
@@ -72,6 +82,7 @@ msgstr "Actie"
 msgid "Parent"
 msgstr "Parent"
 
+#: Template/Admin/Roles/index.ctp:22 Template/Admin/Roles/view.ctp:28
 msgid "Alias"
 msgstr "Alias"
 
@@ -90,6 +101,8 @@ msgstr "Synchroniseer"
 msgid "Create new & remove orphaned actions"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:20 Template/Admin/Roles/view.ctp:32
+#: Template/Admin/Users/index.ctp:20 Template/Admin/Users/view.ctp:44
 msgid "Id"
 msgstr "Id"
 
@@ -156,6 +169,7 @@ msgstr "Zichtbaarheid"
 msgid "Params"
 msgstr "Parameters"
 
+#: Template/Admin/Roles/index.ctp:21 Template/Admin/Roles/view.ctp:24
 msgid "Title"
 msgstr "Titel"
 
@@ -225,6 +239,8 @@ msgstr "Publiceren"
 msgid "Unpublish"
 msgstr "Niet publiceren"
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Delete"
 msgstr "Verwijderen"
 
@@ -288,9 +304,11 @@ msgstr[1] "Commentaar"
 msgid "Contact"
 msgstr "Contact"
 
+#: Template/Admin/Users/index.ctp:22 Template/Admin/Users/view.ctp:28
 msgid "Name"
 msgstr "Naam"
 
+#: Template/Admin/Users/index.ctp:23 Template/Admin/Users/view.ctp:32
 msgid "Email"
 msgstr "Email"
 
@@ -456,6 +474,8 @@ msgstr "Ongelezen"
 msgid "Messages: Unread"
 msgstr "Berichten: Ongelezen"
 
+#: Template/Admin/Roles/index.ctp:23 Template/Admin/Roles/view.ctp:36
+#: Template/Admin/Users/index.ctp:26 Template/Admin/Users/view.ctp:48
 msgid "Created"
 msgstr "Aangemaakt"
 
@@ -483,9 +503,11 @@ msgstr ""
 msgid "Trackable Creator"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:57
 msgid "Yes"
 msgstr "Ja"
 
+#: Template/Admin/Users/view.ctp:57
 msgid "No"
 msgstr "Nee"
 
@@ -759,12 +781,17 @@ msgstr "Upgrade \"{0}\""
 msgid "Command not recognized"
 msgstr "Commando niet herkent"
 
+#: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
+#: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
+#: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
 msgid "Edit"
 msgstr "Bewerken"
 
 msgid "New {0}"
 msgstr "Nieuwe {0}"
 
+#: Template/Admin/Roles/form.ctp:30 Template/Admin/Users/change_password.ctp:23
+#: Template/Admin/Users/form.ctp:37 Template/Admin/Users/reset.ctp:10
 msgid "Save"
 msgstr "Opslaan"
 
@@ -839,6 +866,8 @@ msgstr "Kon niet omlaag verplaatsen"
 msgid "Dashboards"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Are you sure you want to delete # {0}?"
 msgstr "Weet u zeker dat u # {0} wilt verwijderen?"
 
@@ -1004,9 +1033,11 @@ msgstr "Je kan geen thema verwijderen dat momenteel actief is."
 msgid "Theme deleted successfully."
 msgstr "Thema succesvol verwijderd."
 
+#: Controller/Admin/UsersController.php:189
 msgid "An error occurred."
 msgstr "Er is een fout opgetreden"
 
+#: Template/Admin/Assets/form.ctp:32
 msgid "Upload"
 msgstr "Upload"
 
@@ -1022,6 +1053,7 @@ msgstr "Activeer"
 msgid "Description"
 msgstr "Omschrijving"
 
+#: Template/Admin/Users/index.ctp:25 Template/Admin/Users/view.ctp:56
 msgid "Active"
 msgstr ""
 
@@ -1145,6 +1177,8 @@ msgstr ""
 msgid "Rename"
 msgstr ""
 
+#: Template/Admin/Roles/index.ctp:40 Template/Admin/Roles/view.ctp:9;14
+#: Template/Admin/Users/index.ctp:46 Template/Admin/Users/view.ctp:9;14
 msgid "View"
 msgstr ""
 
@@ -1160,6 +1194,7 @@ msgstr ""
 msgid "Create File"
 msgstr ""
 
+#: Controller/Admin/AssetsController.php:45;50;70;75;92;94
 msgid "File"
 msgstr ""
 
@@ -1217,6 +1252,7 @@ msgstr ""
 msgid "Login"
 msgstr "Inloggen"
 
+#: Template/Admin/Users/login.ctp:9 Template/Admin/Users/reset.ctp:8
 msgid "Password"
 msgstr ""
 
@@ -1226,9 +1262,12 @@ msgstr ""
 msgid "Port"
 msgstr ""
 
+#: Template/Admin/Users/forgot.ctp:7 Template/Admin/Users/index.ctp:21
+#: Template/Admin/Users/login.ctp:8 Template/Admin/Users/view.ctp:24
 msgid "Username"
 msgstr ""
 
+#: Template/Admin/Users/reset.ctp:9
 msgid "Verify Password"
 msgstr ""
 
@@ -1442,6 +1481,7 @@ msgstr "Verwijderen"
 msgid "Type"
 msgstr "Type"
 
+#: Controller/Admin/UsersController.php:70;74;97;101;224;228
 msgid "User"
 msgstr ""
 
@@ -1912,6 +1952,8 @@ msgstr ""
 msgid "Original"
 msgstr ""
 
+#: Template/Admin/Roles/form.ctp:12 Template/Admin/Roles/index.ctp:10
+#: Template/Admin/Roles/view.ctp:13
 msgid "Roles"
 msgstr "Rollen"
 
@@ -1943,13 +1985,16 @@ msgstr "Ongeldige gebruikersnaam"
 msgid "Invalid email."
 msgstr ""
 
+#: Controller/Admin/UsersController.php:162
 msgid "An error occurred. Please try again."
 msgstr "Er is een fout opgetreden. Probeer nogmaals"
 
+#: Controller/Admin/UsersController.php:166
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 "Er is een email verzonden met instructies voor het resetten van je wachtwoord"
 
+#: Controller/Admin/UsersController.php:196
 msgid "Your password has been reset successfully."
 msgstr "Je wachtwoord is succesvol gereset"
 
@@ -2012,6 +2057,7 @@ msgstr ""
 msgid "User '{0}' has been created"
 msgstr ""
 
+#: Template/Admin/Users/view.ctp:40
 msgid "Role"
 msgstr "Rol"
 
@@ -2057,6 +2103,7 @@ msgstr "Reset"
 msgid "Reset password: {0}"
 msgstr ""
 
+#: Template/Admin/Users/forgot.ctp:12
 msgid "Reset Password"
 msgstr "Wachtwoord resetten"
 
@@ -2093,10 +2140,12 @@ msgstr ""
 msgid "Sign out"
 msgstr ""
 
+#: Controller/Admin/AssetsController.php:92
 #, fuzzy
 msgid "The {0} has been deleted."
 msgstr "De {0} is opgeslagen"
 
+#: Controller/Admin/AssetsController.php:94
 #, fuzzy
 msgid "The {0} could not be deleted. Please, try again."
 msgstr "De {0} kon niet worden opgeslagen. Probeer opnieuw, alstublieft."
@@ -2104,10 +2153,84 @@ msgstr "De {0} kon niet worden opgeslagen. Probeer opnieuw, alstublieft."
 msgid "Export"
 msgstr ""
 
+#: Template/Admin/Assets/index.ctp:44
 msgid "Download"
 msgstr ""
 
 msgid "Calendar"
+msgstr ""
+
+#: Controller/Admin/AppController.php:31;43
+#, fuzzy
+msgid "The {name} has been saved."
+msgstr "De {0} is opgeslagen"
+
+#: Controller/Admin/AppController.php:34;46
+#, fuzzy
+msgid "The {name} could not be saved. Please, try again."
+msgstr "De {0} kon niet worden opgeslagen. Probeer opnieuw, alstublieft."
+
+#: Controller/Admin/AppController.php:54
+#, fuzzy
+msgid "The {name} has been deleted."
+msgstr "De {0} is opgeslagen"
+
+#: Controller/Admin/AppController.php:57
+#, fuzzy
+msgid "The {name} could not be deleted. Please, try again."
+msgstr "De {0} kon niet worden opgeslagen. Probeer opnieuw, alstublieft."
+
+#: Controller/Admin/UsersController.php:122
+#, fuzzy
+msgid "Username or password is incorrect"
+msgstr "Incorrecte gebruikersnaam of wachtwoord"
+
+#: Controller/Admin/UsersController.php:156
+#, fuzzy
+msgid "Invalid username"
+msgstr "Ongeldige gebruikersnaam"
+
+#: Controller/Admin/UsersController.php:199
+#, fuzzy
+msgid "Your password could not be saved. Please, try again."
+msgstr "Wachtwoord kon niet worden gereset. Probeer nogmaals"
+
+#: Template/Admin/Roles/index.ctp:24 Template/Admin/Roles/view.ctp:40
+#: Template/Admin/Users/index.ctp:27 Template/Admin/Users/view.ctp:52
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Users/change_password.ctp:13
+#: Template/Admin/Users/index.ctp:48
+#, fuzzy
+msgid "Change Password"
+msgstr "Nieuw wachtwoord"
+
+#: Template/Admin/Users/index.ctp:24
+#, fuzzy
+msgid "Role Id"
+msgstr "Rol"
+
+#: Template/Admin/Users/login.ctp:14
+msgid "Sign In"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "I forgot my password"
+msgstr "Wachtwoord vergeten?"
+
+#: Template/Admin/Users/view.ctp:36
+msgid "Token"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "Forgot your password?"
+msgstr "Wachtwoord vergeten?"
+
+#: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+msgid "Assets"
 msgstr ""
 
 #~ msgid "Plugin to process"
