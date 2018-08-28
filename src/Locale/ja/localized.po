@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2017-11-27 12:15+0000\n"
-"PO-Revision-Date: 2018-08-28 16:32+0900\n"
+"PO-Revision-Date: 2018-08-28 17:08+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -792,7 +792,7 @@ msgid "Edit"
 msgstr "編集"
 
 msgid "New {0}"
-msgstr ""
+msgstr "新規{0}"
 
 #: Template/Admin/Roles/form.ctp:30 Template/Admin/Users/change_password.ctp:23
 #: Template/Admin/Users/form.ctp:37 Template/Admin/Users/reset.ctp:10
