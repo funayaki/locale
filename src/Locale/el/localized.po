@@ -33,10 +33,12 @@ msgid "You need to specify token parameter and/or header"
 msgstr ""
 
 #: Controller/Admin/UsersController.php:70;97;224
+#: Controller/Admin/AssetsController.php:45;70
 msgid "The {0} has been saved."
 msgstr "Το {0} αποθηκεύτηκε"
 
 #: Controller/Admin/UsersController.php:74;101;228
+#: Controller/Admin/AssetsController.php:50;75
 msgid "The {0} could not be saved. Please, try again."
 msgstr "Το {0} δεν μπόρεσε να αποθυκευτεί. Παρακαλώ, δοκιμάστε ξανά."
 
@@ -67,10 +69,12 @@ msgid "Users"
 msgstr "Χρήστες"
 
 #: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
+#: Template/Admin/Assets/index.ctp:27
 msgid "Actions"
 msgstr "Ενέργειες"
 
 #: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
+#: Template/Admin/Assets/form.ctp:17
 msgid "Add"
 msgstr "Προσθήκη"
 
@@ -240,6 +244,7 @@ msgid "Unpublish"
 msgstr "Κατάργηση δημοσίευσης"
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Delete"
 msgstr "Διαγραφή"
 
@@ -788,6 +793,7 @@ msgstr "Η εντολή δεν αναγνωρίσθηκε"
 
 #: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
 #: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
+#: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
 msgid "Edit"
 msgstr "Επεξεργασία"
 
@@ -871,6 +877,7 @@ msgid "Dashboards"
 msgstr ""
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Are you sure you want to delete # {0}?"
 msgstr "Είστε σίγουρος θέλετε να διαγράψετε το # {0};"
 
@@ -1041,6 +1048,7 @@ msgstr "Το θέμα διαγράφημε με επιτυχία"
 msgid "An error occurred."
 msgstr "Προέκυψε ένα σφάλμα"
 
+#: Template/Admin/Assets/form.ctp:32
 msgid "Upload"
 msgstr "Φόρτωση"
 
@@ -1197,6 +1205,7 @@ msgstr "Όνομα καταλόγου"
 msgid "Create File"
 msgstr "Δημιουργία αρχείου"
 
+#: Controller/Admin/AssetsController.php:45;50;70;75;92;94
 msgid "File"
 msgstr "Αρχείο"
 
@@ -2152,10 +2161,12 @@ msgstr ""
 msgid "Sign out"
 msgstr "Αποσύνδεση"
 
+#: Controller/Admin/AssetsController.php:92
 #, fuzzy
 msgid "The {0} has been deleted."
 msgstr "Το {0} αποθηκεύτηκε"
 
+#: Controller/Admin/AssetsController.php:94
 #, fuzzy
 msgid "The {0} could not be deleted. Please, try again."
 msgstr "Ο όρος δεν μπόρεσε να διαγραφεί."
@@ -2163,6 +2174,7 @@ msgstr "Ο όρος δεν μπόρεσε να διαγραφεί."
 msgid "Export"
 msgstr ""
 
+#: Template/Admin/Assets/index.ctp:44
 msgid "Download"
 msgstr ""
 
@@ -2232,6 +2244,15 @@ msgstr "Ξέχασα τον κωδικό"
 
 #: Template/Admin/Users/view.ctp:36
 msgid "Token"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "Forgot your password?"
+msgstr "Ξέχασα τον κωδικό"
+
+#: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+msgid "Assets"
 msgstr ""
 
 #~ msgid "Plugin to process"

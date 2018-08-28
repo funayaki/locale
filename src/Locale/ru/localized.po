@@ -31,10 +31,12 @@ msgid "You need to specify token parameter and/or header"
 msgstr ""
 
 #: Controller/Admin/UsersController.php:70;97;224
+#: Controller/Admin/AssetsController.php:45;70
 msgid "The {0} has been saved."
 msgstr ""
 
 #: Controller/Admin/UsersController.php:74;101;228
+#: Controller/Admin/AssetsController.php:50;75
 msgid "The {0} could not be saved. Please, try again."
 msgstr ""
 
@@ -63,10 +65,12 @@ msgid "Users"
 msgstr "Пользователи"
 
 #: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
+#: Template/Admin/Assets/index.ctp:27
 msgid "Actions"
 msgstr "Действия"
 
 #: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
+#: Template/Admin/Assets/form.ctp:17
 msgid "Add"
 msgstr "Добавление"
 
@@ -238,6 +242,7 @@ msgid "Unpublish"
 msgstr "Отменить публикацию"
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Delete"
 msgstr "Удалить"
 
@@ -787,6 +792,7 @@ msgstr ""
 
 #: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
 #: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
+#: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
 msgid "Edit"
 msgstr "Изменить"
 
@@ -875,6 +881,7 @@ msgid "Dashboards"
 msgstr ""
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Are you sure you want to delete # {0}?"
 msgstr "Вы уверены, что хотите удалить # {0}?"
 
@@ -1045,6 +1052,7 @@ msgstr "Тема удалена"
 msgid "An error occurred."
 msgstr "Произошла ошибка."
 
+#: Template/Admin/Assets/form.ctp:32
 msgid "Upload"
 msgstr "Загрузить"
 
@@ -1204,6 +1212,7 @@ msgstr ""
 msgid "Create File"
 msgstr ""
 
+#: Controller/Admin/AssetsController.php:45;50;70;75;92;94
 msgid "File"
 msgstr ""
 
@@ -2192,10 +2201,12 @@ msgstr ""
 msgid "Sign out"
 msgstr "Выход"
 
+#: Controller/Admin/AssetsController.php:92
 #, fuzzy
 msgid "The {0} has been deleted."
 msgstr "{0} было сохранено"
 
+#: Controller/Admin/AssetsController.php:94
 #, fuzzy
 msgid "The {0} could not be deleted. Please, try again."
 msgstr "{0} не может быть сохранено. Повторите попытку."
@@ -2203,6 +2214,7 @@ msgstr "{0} не может быть сохранено. Повторите по
 msgid "Export"
 msgstr ""
 
+#: Template/Admin/Assets/index.ctp:44
 msgid "Download"
 msgstr ""
 
@@ -2272,6 +2284,15 @@ msgstr "Забыли пароль?"
 
 #: Template/Admin/Users/view.ctp:36
 msgid "Token"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "Forgot your password?"
+msgstr "Забыли пароль?"
+
+#: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+msgid "Assets"
 msgstr ""
 
 #~ msgid "Add Action"

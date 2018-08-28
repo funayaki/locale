@@ -32,10 +32,12 @@ msgid "You need to specify token parameter and/or header"
 msgstr ""
 
 #: Controller/Admin/UsersController.php:70;97;224
+#: Controller/Admin/AssetsController.php:45;70
 msgid "The {0} has been saved."
 msgstr "{0} telah disimpan."
 
 #: Controller/Admin/UsersController.php:74;101;228
+#: Controller/Admin/AssetsController.php:50;75
 msgid "The {0} could not be saved. Please, try again."
 msgstr "{0} tidak dapat disimpan. Silahkan coba kembali."
 
@@ -66,10 +68,12 @@ msgid "Users"
 msgstr "Pengguna"
 
 #: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
+#: Template/Admin/Assets/index.ctp:27
 msgid "Actions"
 msgstr "Aksi"
 
 #: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
+#: Template/Admin/Assets/form.ctp:17
 msgid "Add"
 msgstr "Tambah"
 
@@ -238,6 +242,7 @@ msgid "Unpublish"
 msgstr "Tidak dipublikasikan"
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Delete"
 msgstr "Hapus"
 
@@ -785,6 +790,7 @@ msgstr "Perintah tidak dikenali"
 
 #: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
 #: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
+#: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
 msgid "Edit"
 msgstr "Ubah"
 
@@ -868,6 +874,7 @@ msgid "Dashboards"
 msgstr "Dasbor"
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46
 msgid "Are you sure you want to delete # {0}?"
 msgstr "Apakah Anda yakin ingin menghapus # {0}?"
 
@@ -1037,6 +1044,7 @@ msgstr "Tema berhasil dihapus."
 msgid "An error occurred."
 msgstr "Terjadi error."
 
+#: Template/Admin/Assets/form.ctp:32
 msgid "Upload"
 msgstr "Unggah"
 
@@ -1193,6 +1201,7 @@ msgstr "Nama direktori"
 msgid "Create File"
 msgstr "Buat Berkas"
 
+#: Controller/Admin/AssetsController.php:45;50;70;75;92;94
 msgid "File"
 msgstr "Berkas"
 
@@ -2149,10 +2158,12 @@ msgstr "Beranda"
 msgid "Sign out"
 msgstr ""
 
+#: Controller/Admin/AssetsController.php:92
 #, fuzzy
 msgid "The {0} has been deleted."
 msgstr "{0} telah disimpan."
 
+#: Controller/Admin/AssetsController.php:94
 #, fuzzy
 msgid "The {0} could not be deleted. Please, try again."
 msgstr "Istildah tidak dapat dihapus. Silahkan coba kembali."
@@ -2160,6 +2171,7 @@ msgstr "Istildah tidak dapat dihapus. Silahkan coba kembali."
 msgid "Export"
 msgstr ""
 
+#: Template/Admin/Assets/index.ctp:44
 msgid "Download"
 msgstr ""
 
@@ -2228,6 +2240,15 @@ msgstr "Lupa Kata Sandi?"
 
 #: Template/Admin/Users/view.ctp:36
 msgid "Token"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "Forgot your password?"
+msgstr "Lupa Kata Sandi?"
+
+#: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+msgid "Assets"
 msgstr ""
 
 #~ msgid "Plugin to process"
