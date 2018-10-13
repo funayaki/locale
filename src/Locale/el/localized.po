@@ -2277,6 +2277,9 @@ msgstr "Αρχείο"
 msgid "Insert"
 msgstr "Εισαγωγή"
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "Μονάδα προς επεξεργασία"
 

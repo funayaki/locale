@@ -2282,6 +2282,9 @@ msgstr "Fichier"
 msgid "Insert"
 msgstr "Insérer"
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "Extension à traiter"
 

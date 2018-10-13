@@ -2267,6 +2267,9 @@ msgstr "Arquivo"
 msgid "Insert"
 msgstr "Inserir"
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "Plugin para processar"
 

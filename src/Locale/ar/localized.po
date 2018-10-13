@@ -2255,6 +2255,9 @@ msgstr "ملف"
 msgid "Insert"
 msgstr "ادراج"
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Add Action"
 #~ msgstr "إضافة إجراء"
 

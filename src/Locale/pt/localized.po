@@ -2251,6 +2251,9 @@ msgstr ""
 msgid "Insert"
 msgstr "Inserir"
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Add Action"
 #~ msgstr "Incluir Ação"
 

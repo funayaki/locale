@@ -2269,6 +2269,9 @@ msgstr "Datei"
 msgid "Insert"
 msgstr "Einfügen"
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "Plugin, um zu verarbeiten"
 

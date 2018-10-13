@@ -2254,6 +2254,9 @@ msgstr ""
 msgid "Insert"
 msgstr "Invoegen"
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "Te verwerken plugin"
 

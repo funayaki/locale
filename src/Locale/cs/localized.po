@@ -2245,6 +2245,9 @@ msgstr ""
 msgid "Insert"
 msgstr ""
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Add Block"
 #~ msgstr "Přidat Blok"
 

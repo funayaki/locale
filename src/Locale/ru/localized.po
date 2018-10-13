@@ -2316,6 +2316,9 @@ msgstr ""
 msgid "Insert"
 msgstr "Вставить"
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Add Action"
 #~ msgstr "Добавить Action"
 

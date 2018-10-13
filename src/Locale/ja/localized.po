@@ -2232,3 +2232,6 @@ msgstr "ファイルサイズ"
 
 msgid "Insert"
 msgstr "挿入"
+
+msgid "Duplicate"
+msgstr ""

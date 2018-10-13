@@ -2265,3 +2265,6 @@ msgstr ""
 
 msgid "Insert"
 msgstr ""
+
+msgid "Duplicate"
+msgstr ""

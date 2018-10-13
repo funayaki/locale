@@ -2260,6 +2260,9 @@ msgstr "فایل"
 msgid "Insert"
 msgstr "وارد کردن"
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "افزونه پردازش"
 

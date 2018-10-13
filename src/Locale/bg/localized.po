@@ -2253,6 +2253,9 @@ msgstr ""
 msgid "Insert"
 msgstr "Вмъкване"
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Add Block"
 #~ msgstr "Добави блок"
 

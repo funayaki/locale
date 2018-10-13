@@ -2255,6 +2255,9 @@ msgstr "文件"
 msgid "Insert"
 msgstr "插入"
 
+msgid "Duplicate"
+msgstr ""
+
 #~ msgid "Plugin to process"
 #~ msgstr "插入到程序中"
 
