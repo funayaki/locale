@@ -569,7 +569,7 @@ msgid "Unpublished"
 msgstr "非公開"
 
 msgid "Preview"
-msgstr ""
+msgstr "プレビュー"
 
 msgid "Approved"
 msgstr ""
@@ -2234,4 +2234,4 @@ msgid "Insert"
 msgstr "挿入"
 
 msgid "Duplicate"
-msgstr ""
+msgstr "複製"
