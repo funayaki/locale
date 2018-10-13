@@ -65,12 +65,12 @@ msgid "Users"
 msgstr "Пользователи"
 
 #: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
-#: Template/Admin/Assets/index.ctp:27
+#: Template/Admin/Assets/index.ctp:27 Template/Admin/Assets/index.ctp:26
 msgid "Actions"
 msgstr "Действия"
 
 #: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
-#: Template/Admin/Assets/form.ctp:17
+#: Template/Admin/Assets/form.ctp:17 Template/Admin/Assets/form.ctp:19
 msgid "Add"
 msgstr "Добавление"
 
@@ -104,10 +104,12 @@ msgstr ""
 msgid "Id"
 msgstr "#"
 
-msgid "Move up"
+#, fuzzy
+msgid "Move Up"
 msgstr "Наверх"
 
-msgid "Move down"
+#, fuzzy
+msgid "Move Down"
 msgstr "Вниз"
 
 msgid "Edit this item"
@@ -242,7 +244,7 @@ msgid "Unpublish"
 msgstr "Отменить публикацию"
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
-#: Template/Admin/Assets/index.ctp:46
+#: Template/Admin/Assets/index.ctp:46 Template/Admin/Assets/index.ctp:42
 msgid "Delete"
 msgstr "Удалить"
 
@@ -793,6 +795,7 @@ msgstr ""
 #: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
 #: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
 #: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
+#: Template/Admin/Assets/form.ctp:15 Template/Admin/Assets/index.ctp:41
 msgid "Edit"
 msgstr "Изменить"
 
@@ -881,7 +884,7 @@ msgid "Dashboards"
 msgstr ""
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
-#: Template/Admin/Assets/index.ctp:46
+#: Template/Admin/Assets/index.ctp:46 Template/Admin/Assets/index.ctp:42
 msgid "Are you sure you want to delete # {0}?"
 msgstr "Вы уверены, что хотите удалить # {0}?"
 
@@ -1052,7 +1055,7 @@ msgstr "Тема удалена"
 msgid "An error occurred."
 msgstr "Произошла ошибка."
 
-#: Template/Admin/Assets/form.ctp:32
+#: Template/Admin/Assets/form.ctp:32 Template/Admin/Assets/form.ctp:34
 msgid "Upload"
 msgstr "Загрузить"
 
@@ -2214,7 +2217,7 @@ msgstr "{0} не может быть сохранено. Повторите по
 msgid "Export"
 msgstr ""
 
-#: Template/Admin/Assets/index.ctp:44
+#: Template/Admin/Assets/index.ctp:44 Template/Admin/Assets/index.ctp:40
 msgid "Download"
 msgstr ""
 
@@ -2292,8 +2295,26 @@ msgid "Forgot your password?"
 msgstr "Забыли пароль?"
 
 #: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+#: Template/Admin/Assets/form.ctp:9;12 Template/Admin/Assets/index.ctp:9;12
 msgid "Assets"
 msgstr ""
+
+#: Template/Admin/Assets/index.ctp:23
+#, fuzzy
+msgid "File Name"
+msgstr "Файловый менеджер"
+
+#: Template/Admin/Assets/index.ctp:24
+#, fuzzy
+msgid "File Type"
+msgstr "Новый тип"
+
+#: Template/Admin/Assets/index.ctp:25
+msgid "File Size"
+msgstr ""
+
+msgid "Insert"
+msgstr "Вставить"
 
 #~ msgid "Add Action"
 #~ msgstr "Добавить Action"
@@ -2458,9 +2479,6 @@ msgstr ""
 
 #~ msgid "New Attachment"
 #~ msgstr "Новое вложение"
-
-#~ msgid "Insert"
-#~ msgstr "Вставить"
 
 #~ msgid "Add Link"
 #~ msgstr "Новая ссылка"
@@ -2835,9 +2853,6 @@ msgstr ""
 
 #~ msgid "Format"
 #~ msgstr "Формат"
-
-#~ msgid "New Type"
-#~ msgstr "Новый тип"
 
 #~ msgid "Add User"
 #~ msgstr "Новый пользователь"

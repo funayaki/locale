@@ -146,10 +146,10 @@ msgstr ""
 msgid "Id"
 msgstr ""
 
-msgid "Move up"
+msgid "Move Up"
 msgstr ""
 
-msgid "Move down"
+msgid "Move Down"
 msgstr ""
 
 msgid "Edit this item"

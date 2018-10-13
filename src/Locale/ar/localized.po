@@ -31,10 +31,12 @@ msgid "You need to specify token parameter and/or header"
 msgstr ""
 
 #: Controller/Admin/UsersController.php:70;97;224
+#: Controller/Admin/AssetsController.php:45;70
 msgid "The {0} has been saved."
 msgstr ""
 
 #: Controller/Admin/UsersController.php:74;101;228
+#: Controller/Admin/AssetsController.php:50;75
 msgid "The {0} could not be saved. Please, try again."
 msgstr ""
 
@@ -63,10 +65,12 @@ msgid "Users"
 msgstr "المستخدمين"
 
 #: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
+#: Template/Admin/Assets/index.ctp:27 Template/Admin/Assets/index.ctp:26
 msgid "Actions"
 msgstr "الإجراءات"
 
 #: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
+#: Template/Admin/Assets/form.ctp:17 Template/Admin/Assets/form.ctp:19
 msgid "Add"
 msgstr "إضافة"
 
@@ -100,10 +104,12 @@ msgstr ""
 msgid "Id"
 msgstr "رمز التعريف"
 
-msgid "Move up"
+#, fuzzy
+msgid "Move Up"
 msgstr "نقل نحو الأعلى"
 
-msgid "Move down"
+#, fuzzy
+msgid "Move Down"
 msgstr "نقل نحو الأسفل"
 
 msgid "Edit this item"
@@ -235,6 +241,7 @@ msgid "Unpublish"
 msgstr "غير منشور"
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46 Template/Admin/Assets/index.ctp:42
 msgid "Delete"
 msgstr "حذف"
 
@@ -779,6 +786,8 @@ msgstr ""
 
 #: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
 #: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
+#: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
+#: Template/Admin/Assets/form.ctp:15 Template/Admin/Assets/index.ctp:41
 msgid "Edit"
 msgstr "تعديل"
 
@@ -862,6 +871,7 @@ msgid "Dashboards"
 msgstr ""
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
+#: Template/Admin/Assets/index.ctp:46 Template/Admin/Assets/index.ctp:42
 msgid "Are you sure you want to delete # {0}?"
 msgstr "هل تريد فعلا حذف  # {0} ؟"
 
@@ -1031,6 +1041,7 @@ msgstr ""
 msgid "An error occurred."
 msgstr "حدث خطأ"
 
+#: Template/Admin/Assets/form.ctp:32 Template/Admin/Assets/form.ctp:34
 msgid "Upload"
 msgstr "رفع"
 
@@ -1187,6 +1198,7 @@ msgstr ""
 msgid "Create File"
 msgstr "إنشاء ملف"
 
+#: Controller/Admin/AssetsController.php:45;50;70;75;92;94
 msgid "File"
 msgstr "ملف"
 
@@ -2131,10 +2143,12 @@ msgstr "الصفحة الرئيسية"
 msgid "Sign out"
 msgstr ""
 
+#: Controller/Admin/AssetsController.php:92
 #, fuzzy
 msgid "The {0} has been deleted."
 msgstr "تم حفظ {0}"
 
+#: Controller/Admin/AssetsController.php:94
 #, fuzzy
 msgid "The {0} could not be deleted. Please, try again."
 msgstr "لم يتم حفظ {0} ، المرجوا المحاولة من جديد"
@@ -2142,6 +2156,7 @@ msgstr "لم يتم حفظ {0} ، المرجوا المحاولة من جديد"
 msgid "Export"
 msgstr ""
 
+#: Template/Admin/Assets/index.ctp:44 Template/Admin/Assets/index.ctp:40
 msgid "Download"
 msgstr ""
 
@@ -2211,6 +2226,34 @@ msgstr "نسيت كلمة المرور"
 #: Template/Admin/Users/view.ctp:36
 msgid "Token"
 msgstr ""
+
+#: Template/Admin/Users/login.ctp:19
+#, fuzzy
+msgid "Forgot your password?"
+msgstr "نسيت كلمة المرور"
+
+#: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+#: Template/Admin/Assets/form.ctp:9;12 Template/Admin/Assets/index.ctp:9;12
+msgid "Assets"
+msgstr ""
+
+#: Template/Admin/Assets/index.ctp:23
+#, fuzzy
+msgid "File Name"
+msgstr "إسم الملف"
+
+#: Template/Admin/Assets/index.ctp:24
+#, fuzzy
+msgid "File Type"
+msgstr "تعديل النوع"
+
+#: Template/Admin/Assets/index.ctp:25
+#, fuzzy
+msgid "File Size"
+msgstr "ملف"
+
+msgid "Insert"
+msgstr "ادراج"
 
 #~ msgid "Add Action"
 #~ msgstr "إضافة إجراء"
@@ -2368,9 +2411,6 @@ msgstr ""
 
 #~ msgid "New Attachment"
 #~ msgstr "مرفق جديد"
-
-#~ msgid "Insert"
-#~ msgstr "ادراج"
 
 #~ msgid "You are here"
 #~ msgstr "أنت هنا"

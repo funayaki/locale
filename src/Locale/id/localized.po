@@ -68,12 +68,12 @@ msgid "Users"
 msgstr "Pengguna"
 
 #: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
-#: Template/Admin/Assets/index.ctp:27
+#: Template/Admin/Assets/index.ctp:27 Template/Admin/Assets/index.ctp:26
 msgid "Actions"
 msgstr "Aksi"
 
 #: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
-#: Template/Admin/Assets/form.ctp:17
+#: Template/Admin/Assets/form.ctp:17 Template/Admin/Assets/form.ctp:19
 msgid "Add"
 msgstr "Tambah"
 
@@ -107,10 +107,12 @@ msgstr "Buat baru dan hilangkan action yang berdiri sendiri"
 msgid "Id"
 msgstr "Id"
 
-msgid "Move up"
+#, fuzzy
+msgid "Move Up"
 msgstr "Geser keatas"
 
-msgid "Move down"
+#, fuzzy
+msgid "Move Down"
 msgstr "Geser kebawah"
 
 msgid "Edit this item"
@@ -242,7 +244,7 @@ msgid "Unpublish"
 msgstr "Tidak dipublikasikan"
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
-#: Template/Admin/Assets/index.ctp:46
+#: Template/Admin/Assets/index.ctp:46 Template/Admin/Assets/index.ctp:42
 msgid "Delete"
 msgstr "Hapus"
 
@@ -791,6 +793,7 @@ msgstr "Perintah tidak dikenali"
 #: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
 #: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
 #: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
+#: Template/Admin/Assets/form.ctp:15 Template/Admin/Assets/index.ctp:41
 msgid "Edit"
 msgstr "Ubah"
 
@@ -874,7 +877,7 @@ msgid "Dashboards"
 msgstr "Dasbor"
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
-#: Template/Admin/Assets/index.ctp:46
+#: Template/Admin/Assets/index.ctp:46 Template/Admin/Assets/index.ctp:42
 msgid "Are you sure you want to delete # {0}?"
 msgstr "Apakah Anda yakin ingin menghapus # {0}?"
 
@@ -1044,7 +1047,7 @@ msgstr "Tema berhasil dihapus."
 msgid "An error occurred."
 msgstr "Terjadi error."
 
-#: Template/Admin/Assets/form.ctp:32
+#: Template/Admin/Assets/form.ctp:32 Template/Admin/Assets/form.ctp:34
 msgid "Upload"
 msgstr "Unggah"
 
@@ -2171,7 +2174,7 @@ msgstr "Istildah tidak dapat dihapus. Silahkan coba kembali."
 msgid "Export"
 msgstr ""
 
-#: Template/Admin/Assets/index.ctp:44
+#: Template/Admin/Assets/index.ctp:44 Template/Admin/Assets/index.ctp:40
 msgid "Download"
 msgstr ""
 
@@ -2248,8 +2251,27 @@ msgid "Forgot your password?"
 msgstr "Lupa Kata Sandi?"
 
 #: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+#: Template/Admin/Assets/form.ctp:9;12 Template/Admin/Assets/index.ctp:9;12
 msgid "Assets"
 msgstr ""
+
+#: Template/Admin/Assets/index.ctp:23
+#, fuzzy
+msgid "File Name"
+msgstr "Nama berkas"
+
+#: Template/Admin/Assets/index.ctp:24
+#, fuzzy
+msgid "File Type"
+msgstr "Tipe Mime"
+
+#: Template/Admin/Assets/index.ctp:25
+#, fuzzy
+msgid "File Size"
+msgstr "Berkas"
+
+msgid "Insert"
+msgstr "Sisipkan"
 
 #~ msgid "Plugin to process"
 #~ msgstr "Plugin untuk diproses"
@@ -2585,9 +2607,6 @@ msgstr ""
 
 #~ msgid "New Attachment"
 #~ msgstr "Buat Lampiran Baru"
-
-#~ msgid "Insert"
-#~ msgstr "Sisipkan"
 
 #~ msgid "You are here"
 #~ msgstr "Anda berada disini"

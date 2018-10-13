@@ -65,12 +65,12 @@ msgid "Users"
 msgstr "Utilisateurs"
 
 #: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
-#: Template/Admin/Assets/index.ctp:27
+#: Template/Admin/Assets/index.ctp:27 Template/Admin/Assets/index.ctp:26
 msgid "Actions"
 msgstr "Actions"
 
 #: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
-#: Template/Admin/Assets/form.ctp:17
+#: Template/Admin/Assets/form.ctp:17 Template/Admin/Assets/form.ctp:19
 msgid "Add"
 msgstr "Ajouter"
 
@@ -104,10 +104,12 @@ msgstr "Créer de nouvelles actions et supprimer les orphelines"
 msgid "Id"
 msgstr "Id"
 
-msgid "Move up"
+#, fuzzy
+msgid "Move Up"
 msgstr "Déplacer vers le haut"
 
-msgid "Move down"
+#, fuzzy
+msgid "Move Down"
 msgstr "Déplacer vers le bas"
 
 msgid "Edit this item"
@@ -240,7 +242,7 @@ msgid "Unpublish"
 msgstr "Dépublier"
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
-#: Template/Admin/Assets/index.ctp:46
+#: Template/Admin/Assets/index.ctp:46 Template/Admin/Assets/index.ctp:42
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -789,6 +791,7 @@ msgstr "Commande non reconnue"
 #: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
 #: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
 #: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
+#: Template/Admin/Assets/form.ctp:15 Template/Admin/Assets/index.ctp:41
 msgid "Edit"
 msgstr "Editer"
 
@@ -872,7 +875,7 @@ msgid "Dashboards"
 msgstr ""
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
-#: Template/Admin/Assets/index.ctp:46
+#: Template/Admin/Assets/index.ctp:46 Template/Admin/Assets/index.ctp:42
 msgid "Are you sure you want to delete # {0}?"
 msgstr "Etes vous certain de vouloir supprimer # {0} ?"
 
@@ -1042,7 +1045,7 @@ msgstr "Le thème a été supprimé avec succès."
 msgid "An error occurred."
 msgstr "Une erreur est survenue"
 
-#: Template/Admin/Assets/form.ctp:32
+#: Template/Admin/Assets/form.ctp:32 Template/Admin/Assets/form.ctp:34
 msgid "Upload"
 msgstr "Charger"
 
@@ -2177,7 +2180,7 @@ msgstr "Le terme n'a pas pu être supprimé. Merci de bien vouloir réessayer."
 msgid "Export"
 msgstr ""
 
-#: Template/Admin/Assets/index.ctp:44
+#: Template/Admin/Assets/index.ctp:44 Template/Admin/Assets/index.ctp:40
 msgid "Download"
 msgstr ""
 
@@ -2257,8 +2260,27 @@ msgid "Forgot your password?"
 msgstr "Mot de passe oublié ?"
 
 #: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+#: Template/Admin/Assets/form.ctp:9;12 Template/Admin/Assets/index.ctp:9;12
 msgid "Assets"
 msgstr ""
+
+#: Template/Admin/Assets/index.ctp:23
+#, fuzzy
+msgid "File Name"
+msgstr "Nom du fichier"
+
+#: Template/Admin/Assets/index.ctp:24
+#, fuzzy
+msgid "File Type"
+msgstr "Type Mime"
+
+#: Template/Admin/Assets/index.ctp:25
+#, fuzzy
+msgid "File Size"
+msgstr "Fichier"
+
+msgid "Insert"
+msgstr "Insérer"
 
 #~ msgid "Plugin to process"
 #~ msgstr "Extension à traiter"
@@ -2611,9 +2633,6 @@ msgstr ""
 
 #~ msgid "New Attachment"
 #~ msgstr "Nouvelle pièce jointe"
-
-#~ msgid "Insert"
-#~ msgstr "Insérer"
 
 #~ msgid "You are here"
 #~ msgstr "Vous êtes ici"

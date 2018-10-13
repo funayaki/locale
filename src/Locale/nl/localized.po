@@ -67,12 +67,12 @@ msgid "Users"
 msgstr "Gebruikers"
 
 #: Template/Admin/Roles/index.ctp:25 Template/Admin/Users/index.ctp:28
-#: Template/Admin/Assets/index.ctp:27
+#: Template/Admin/Assets/index.ctp:27 Template/Admin/Assets/index.ctp:26
 msgid "Actions"
 msgstr "Acties"
 
 #: Template/Admin/Roles/form.ctp:19 Template/Admin/Users/form.ctp:19
-#: Template/Admin/Assets/form.ctp:17
+#: Template/Admin/Assets/form.ctp:17 Template/Admin/Assets/form.ctp:19
 msgid "Add"
 msgstr "Voeg toe"
 
@@ -106,10 +106,12 @@ msgstr ""
 msgid "Id"
 msgstr "Id"
 
-msgid "Move up"
+#, fuzzy
+msgid "Move Up"
 msgstr "Verplaats omhoog"
 
-msgid "Move down"
+#, fuzzy
+msgid "Move Down"
 msgstr "Verplaats omlaag"
 
 msgid "Edit this item"
@@ -240,7 +242,7 @@ msgid "Unpublish"
 msgstr "Niet publiceren"
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
-#: Template/Admin/Assets/index.ctp:46
+#: Template/Admin/Assets/index.ctp:46 Template/Admin/Assets/index.ctp:42
 msgid "Delete"
 msgstr "Verwijderen"
 
@@ -784,6 +786,7 @@ msgstr "Commando niet herkent"
 #: Template/Admin/Roles/form.ctp:15 Template/Admin/Roles/index.ctp:41
 #: Template/Admin/Users/form.ctp:15 Template/Admin/Users/index.ctp:47
 #: Template/Admin/Assets/form.ctp:13 Template/Admin/Assets/index.ctp:45
+#: Template/Admin/Assets/form.ctp:15 Template/Admin/Assets/index.ctp:41
 msgid "Edit"
 msgstr "Bewerken"
 
@@ -867,7 +870,7 @@ msgid "Dashboards"
 msgstr ""
 
 #: Template/Admin/Roles/index.ctp:42 Template/Admin/Users/index.ctp:49
-#: Template/Admin/Assets/index.ctp:46
+#: Template/Admin/Assets/index.ctp:46 Template/Admin/Assets/index.ctp:42
 msgid "Are you sure you want to delete # {0}?"
 msgstr "Weet u zeker dat u # {0} wilt verwijderen?"
 
@@ -1037,7 +1040,7 @@ msgstr "Thema succesvol verwijderd."
 msgid "An error occurred."
 msgstr "Er is een fout opgetreden"
 
-#: Template/Admin/Assets/form.ctp:32
+#: Template/Admin/Assets/form.ctp:32 Template/Admin/Assets/form.ctp:34
 msgid "Upload"
 msgstr "Upload"
 
@@ -2153,7 +2156,7 @@ msgstr "De {0} kon niet worden opgeslagen. Probeer opnieuw, alstublieft."
 msgid "Export"
 msgstr ""
 
-#: Template/Admin/Assets/index.ctp:44
+#: Template/Admin/Assets/index.ctp:44 Template/Admin/Assets/index.ctp:40
 msgid "Download"
 msgstr ""
 
@@ -2230,8 +2233,26 @@ msgid "Forgot your password?"
 msgstr "Wachtwoord vergeten?"
 
 #: Template/Admin/Assets/form.ctp:10 Template/Admin/Assets/index.ctp:10
+#: Template/Admin/Assets/form.ctp:9;12 Template/Admin/Assets/index.ctp:9;12
 msgid "Assets"
 msgstr ""
+
+#: Template/Admin/Assets/index.ctp:23
+#, fuzzy
+msgid "File Name"
+msgstr "Bestandsbeheer"
+
+#: Template/Admin/Assets/index.ctp:24
+#, fuzzy
+msgid "File Type"
+msgstr "Mime Type"
+
+#: Template/Admin/Assets/index.ctp:25
+msgid "File Size"
+msgstr ""
+
+msgid "Insert"
+msgstr "Invoegen"
 
 #~ msgid "Plugin to process"
 #~ msgstr "Te verwerken plugin"
@@ -2512,9 +2533,6 @@ msgstr ""
 
 #~ msgid "New Attachment"
 #~ msgstr "Nieuwe bijlage"
-
-#~ msgid "Insert"
-#~ msgstr "Invoegen"
 
 #~ msgid "Installation: Welcome"
 #~ msgstr "Installatie: Welkom"
